@@ -1,0 +1,344 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Mocha Tests</title>
+
+  <!-- dependencies -->
+  <link rel="stylesheet" type="text/css" href="../node_modules/grunt-mocha-phantomjs/node_modules/mocha-phantomjs/node_modules/mocha/mocha.css">
+  <script src="../sdk/lib/jquery/jquery-1.9.1.js"></script>
+  <script src="../sdk/lib/jquery.xpath/jquery.xpath.js"></script>
+  <script src="../sdk/lib/underscore/underscore.js"></script>
+  <script src="../sdk/lib/backbone/backbone.js"></script>
+  <!--<script src="lib/mocha/mocha.js"></script>-->
+  <script src="../node_modules/grunt-mocha-phantomjs/node_modules/mocha-phantomjs/node_modules/mocha/mocha.js"></script>
+  <script src="lib/chai/chai.js"></script>
+  <script src="lib/sinon/sinon-1.4.2.js"></script>
+
+  <!-- sdk -->
+  <script src="../ap_sdk.js"></script>
+
+  <!-- setup -->
+  <script>
+    AP.useMockServer = true;
+    AP.useOfflineCache = true;
+    CitiMobileChallengeSdk.init();
+    mocha.setup({
+      ui: 'bdd',
+      ignoreLeaks: true
+    });
+  </script>
+
+  <!-- collection tests -->
+  
+  
+  <script src="collections/capital_markets_activity_all.js"></script>
+  
+  <script src="collections/capital_markets_activity_exact_match.js"></script>
+  
+  <script src="collections/capital_markets_activity_count.js"></script>
+  
+  <script src="collections/capital_markets_activity_count_exact_match.js"></script>
+  
+  <script src="collections/capital_markets_activity_activities.js"></script>
+  
+  
+  
+  <script src="collections/capital_markets_contact_all.js"></script>
+  
+  <script src="collections/capital_markets_contact_exact_match.js"></script>
+  
+  <script src="collections/capital_markets_contact_count.js"></script>
+  
+  <script src="collections/capital_markets_contact_count_exact_match.js"></script>
+  
+  <script src="collections/capital_markets_contact_contacts.js"></script>
+  
+  
+  
+  <script src="collections/capital_markets_content_service_all.js"></script>
+  
+  <script src="collections/capital_markets_content_service_exact_match.js"></script>
+  
+  <script src="collections/capital_markets_content_service_count.js"></script>
+  
+  <script src="collections/capital_markets_content_service_count_exact_match.js"></script>
+  
+  <script src="collections/capital_markets_content_service_content_services.js"></script>
+  
+  
+  
+  <script src="collections/capital_markets_login_all.js"></script>
+  
+  <script src="collections/capital_markets_login_exact_match.js"></script>
+  
+  <script src="collections/capital_markets_login_count.js"></script>
+  
+  <script src="collections/capital_markets_login_count_exact_match.js"></script>
+  
+  
+  
+  <script src="collections/capital_markets_order_all.js"></script>
+  
+  <script src="collections/capital_markets_order_exact_match.js"></script>
+  
+  <script src="collections/capital_markets_order_count.js"></script>
+  
+  <script src="collections/capital_markets_order_count_exact_match.js"></script>
+  
+  
+  
+  <script src="collections/capital_markets_revenue_all.js"></script>
+  
+  <script src="collections/capital_markets_revenue_exact_match.js"></script>
+  
+  <script src="collections/capital_markets_revenue_count.js"></script>
+  
+  <script src="collections/capital_markets_revenue_count_exact_match.js"></script>
+  
+  <script src="collections/capital_markets_revenue_revenues.js"></script>
+  
+  
+  
+  <script src="collections/corporate_payments_account_all.js"></script>
+  
+  <script src="collections/corporate_payments_account_exact_match.js"></script>
+  
+  <script src="collections/corporate_payments_account_count.js"></script>
+  
+  <script src="collections/corporate_payments_account_count_exact_match.js"></script>
+  
+  
+  
+  <script src="collections/corporate_payments_beneficiary_all.js"></script>
+  
+  <script src="collections/corporate_payments_beneficiary_exact_match.js"></script>
+  
+  <script src="collections/corporate_payments_beneficiary_count.js"></script>
+  
+  <script src="collections/corporate_payments_beneficiary_count_exact_match.js"></script>
+  
+  
+  
+  <script src="collections/corporate_payments_cross_border_fx_booking_all.js"></script>
+  
+  <script src="collections/corporate_payments_cross_border_fx_booking_exact_match.js"></script>
+  
+  <script src="collections/corporate_payments_cross_border_fx_booking_count.js"></script>
+  
+  <script src="collections/corporate_payments_cross_border_fx_booking_count_exact_match.js"></script>
+  
+  
+  
+  <script src="collections/corporate_payments_cross_border_fx_payment_all.js"></script>
+  
+  <script src="collections/corporate_payments_cross_border_fx_payment_exact_match.js"></script>
+  
+  <script src="collections/corporate_payments_cross_border_fx_payment_count.js"></script>
+  
+  <script src="collections/corporate_payments_cross_border_fx_payment_count_exact_match.js"></script>
+  
+  <script src="collections/corporate_payments_cross_border_fx_payment_fx_payments.js"></script>
+  
+  
+  
+  <script src="collections/corporate_payments_cross_border_fx_quote_all.js"></script>
+  
+  <script src="collections/corporate_payments_cross_border_fx_quote_exact_match.js"></script>
+  
+  <script src="collections/corporate_payments_cross_border_fx_quote_count.js"></script>
+  
+  <script src="collections/corporate_payments_cross_border_fx_quote_count_exact_match.js"></script>
+  
+  
+  
+  <script src="collections/corporate_payments_login_all.js"></script>
+  
+  <script src="collections/corporate_payments_login_exact_match.js"></script>
+  
+  <script src="collections/corporate_payments_login_count.js"></script>
+  
+  <script src="collections/corporate_payments_login_count_exact_match.js"></script>
+  
+  
+  
+  <script src="collections/corporate_payments_payment_all.js"></script>
+  
+  <script src="collections/corporate_payments_payment_exact_match.js"></script>
+  
+  <script src="collections/corporate_payments_payment_count.js"></script>
+  
+  <script src="collections/corporate_payments_payment_count_exact_match.js"></script>
+  
+  
+  
+  <script src="collections/retail_banking_account_all.js"></script>
+  
+  <script src="collections/retail_banking_account_exact_match.js"></script>
+  
+  <script src="collections/retail_banking_account_count.js"></script>
+  
+  <script src="collections/retail_banking_account_count_exact_match.js"></script>
+  
+  
+  
+  <script src="collections/retail_banking_account_balance_all.js"></script>
+  
+  <script src="collections/retail_banking_account_balance_exact_match.js"></script>
+  
+  <script src="collections/retail_banking_account_balance_count.js"></script>
+  
+  <script src="collections/retail_banking_account_balance_count_exact_match.js"></script>
+  
+  
+  
+  <script src="collections/retail_banking_account_fund_transfer_all.js"></script>
+  
+  <script src="collections/retail_banking_account_fund_transfer_exact_match.js"></script>
+  
+  <script src="collections/retail_banking_account_fund_transfer_count.js"></script>
+  
+  <script src="collections/retail_banking_account_fund_transfer_count_exact_match.js"></script>
+  
+  
+  
+  <script src="collections/retail_banking_account_transaction_all.js"></script>
+  
+  <script src="collections/retail_banking_account_transaction_exact_match.js"></script>
+  
+  <script src="collections/retail_banking_account_transaction_count.js"></script>
+  
+  <script src="collections/retail_banking_account_transaction_count_exact_match.js"></script>
+  
+  
+  
+  <script src="collections/retail_banking_foreign_currency_all.js"></script>
+  
+  <script src="collections/retail_banking_foreign_currency_exact_match.js"></script>
+  
+  <script src="collections/retail_banking_foreign_currency_count.js"></script>
+  
+  <script src="collections/retail_banking_foreign_currency_count_exact_match.js"></script>
+  
+  <script src="collections/retail_banking_foreign_currency_foreign_currency.js"></script>
+  
+  
+  
+  <script src="collections/retail_banking_location_all.js"></script>
+  
+  <script src="collections/retail_banking_location_exact_match.js"></script>
+  
+  <script src="collections/retail_banking_location_count.js"></script>
+  
+  <script src="collections/retail_banking_location_count_exact_match.js"></script>
+  
+  <script src="collections/retail_banking_location_locations.js"></script>
+  
+  
+  
+  <script src="collections/retail_banking_login_all.js"></script>
+  
+  <script src="collections/retail_banking_login_exact_match.js"></script>
+  
+  <script src="collections/retail_banking_login_count.js"></script>
+  
+  <script src="collections/retail_banking_login_count_exact_match.js"></script>
+  
+  
+  
+  <script src="collections/retail_banking_payee_all.js"></script>
+  
+  <script src="collections/retail_banking_payee_exact_match.js"></script>
+  
+  <script src="collections/retail_banking_payee_count.js"></script>
+  
+  <script src="collections/retail_banking_payee_count_exact_match.js"></script>
+  
+  
+  
+  <script src="collections/retail_banking_payee_type_all.js"></script>
+  
+  <script src="collections/retail_banking_payee_type_exact_match.js"></script>
+  
+  <script src="collections/retail_banking_payee_type_count.js"></script>
+  
+  <script src="collections/retail_banking_payee_type_count_exact_match.js"></script>
+  
+  
+
+  <!-- model tests -->
+  
+  <script src="models/capital_markets_activity.js"></script>
+  
+  <script src="models/capital_markets_contact.js"></script>
+  
+  <script src="models/capital_markets_content_service.js"></script>
+  
+  <script src="models/capital_markets_login.js"></script>
+  
+  <script src="models/capital_markets_order.js"></script>
+  
+  <script src="models/capital_markets_revenue.js"></script>
+  
+  <script src="models/corporate_payments_account.js"></script>
+  
+  <script src="models/corporate_payments_beneficiary.js"></script>
+  
+  <script src="models/corporate_payments_cross_border_fx_booking.js"></script>
+  
+  <script src="models/corporate_payments_cross_border_fx_payment.js"></script>
+  
+  <script src="models/corporate_payments_cross_border_fx_quote.js"></script>
+  
+  <script src="models/corporate_payments_login.js"></script>
+  
+  <script src="models/corporate_payments_payment.js"></script>
+  
+  <script src="models/retail_banking_account.js"></script>
+  
+  <script src="models/retail_banking_account_balance.js"></script>
+  
+  <script src="models/retail_banking_account_fund_transfer.js"></script>
+  
+  <script src="models/retail_banking_account_transaction.js"></script>
+  
+  <script src="models/retail_banking_foreign_currency.js"></script>
+  
+  <script src="models/retail_banking_location.js"></script>
+  
+  <script src="models/retail_banking_login.js"></script>
+  
+  <script src="models/retail_banking_payee.js"></script>
+  
+  <script src="models/retail_banking_payee_type.js"></script>
+  
+
+  <!-- framework tests -->
+  <script src="ap.js"></script>
+  <script src="create_class.js"></script>
+  <script src="base64.js"></script>
+  <script src="cookie.js"></script>
+  <script src="validator.js"></script>
+  <script src="authentication.js"></script>
+  <script src="authorization.js"></script>
+  <script src="application.js"></script>
+  <script src="model.js"></script>
+  <script src="collection.js"></script>
+  <script src="scope_collection.js"></script>
+  <script src="relationship.js"></script>
+  <script src="http_adapter.js"></script>
+
+  <!-- run -->
+  <script>
+    $(function () {
+      if (window.mochaPhantomJS) {
+        mochaPhantomJS.run();
+      } else {
+        mocha.run();
+      }
+    });
+  </script>
+</head>
+<body>
+  <div id="mocha"></div>
+</body>
+</html>

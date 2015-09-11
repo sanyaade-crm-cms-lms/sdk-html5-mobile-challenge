@@ -1,0 +1,2225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>sdk/lib/large-local-storage/large-local-storage.js - CitiMobileChallenge</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/3.9.1/build/cssgrids/cssgrids-min.css">
+    <link rel="stylesheet" href="../assets/vendor/prettify/prettify-min.css">
+    <link rel="stylesheet" href="../assets/css/main.css" id="site_styles">
+    <link rel="shortcut icon" type="image/png" href="../assets/favicon.png">
+    <script src="http://yui.yahooapis.com/combo?3.9.1/build/yui/yui-min.js"></script>
+</head>
+<body class="yui3-skin-sam">
+
+<div id="doc">
+    <div id="hd" class="yui3-g header">
+        <div class="yui3-u-3-4">
+            
+                <h1><img src="../assets/css/logo.png" title="CitiMobileChallenge"></h1>
+            
+        </div>
+        <div class="yui3-u-1-4 version">
+            <em>API Docs for: 0.0.1</em>
+        </div>
+    </div>
+    <div id="bd" class="yui3-g">
+
+        <div class="yui3-u-1-4">
+            <div id="docs-sidebar" class="sidebar apidocs">
+                <div id="api-list">
+    <h2 class="off-left">APIs</h2>
+    <div id="api-tabview" class="tabview">
+        <ul class="tabs">
+            <li><a href="#api-classes">Classes</a></li>
+            <li><a href="#api-modules">Modules</a></li>
+        </ul>
+
+        <div id="api-tabview-filter">
+            <input type="search" id="api-filter" placeholder="Type to filter APIs">
+        </div>
+
+        <div id="api-tabview-panel">
+            <ul id="api-classes" class="apis classes">
+            
+                <li><a href="../classes/AggregateCollection.html">AggregateCollection</a></li>
+            
+                <li><a href="../classes/Application.html">Application</a></li>
+            
+                <li><a href="../classes/Authentication.html">Authentication</a></li>
+            
+                <li><a href="../classes/Authorization.html">Authorization</a></li>
+            
+                <li><a href="../classes/Base64.html">Base64</a></li>
+            
+                <li><a href="../classes/BelongsTo.html">BelongsTo</a></li>
+            
+                <li><a href="../classes/CapitalMarketsActivity.html">CapitalMarketsActivity</a></li>
+            
+                <li><a href="../classes/CapitalMarketsActivityActivities.html">CapitalMarketsActivityActivities</a></li>
+            
+                <li><a href="../classes/CapitalMarketsActivityAll.html">CapitalMarketsActivityAll</a></li>
+            
+                <li><a href="../classes/CapitalMarketsActivityCount.html">CapitalMarketsActivityCount</a></li>
+            
+                <li><a href="../classes/CapitalMarketsActivityCountExactMatch.html">CapitalMarketsActivityCountExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsActivityExactMatch.html">CapitalMarketsActivityExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContact.html">CapitalMarketsContact</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContactAll.html">CapitalMarketsContactAll</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContactContacts.html">CapitalMarketsContactContacts</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContactCount.html">CapitalMarketsContactCount</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContactCountExactMatch.html">CapitalMarketsContactCountExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContactExactMatch.html">CapitalMarketsContactExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContentService.html">CapitalMarketsContentService</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContentServiceAll.html">CapitalMarketsContentServiceAll</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContentServiceContentServices.html">CapitalMarketsContentServiceContentServices</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContentServiceCount.html">CapitalMarketsContentServiceCount</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContentServiceCountExactMatch.html">CapitalMarketsContentServiceCountExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContentServiceExactMatch.html">CapitalMarketsContentServiceExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsLogin.html">CapitalMarketsLogin</a></li>
+            
+                <li><a href="../classes/CapitalMarketsLoginAll.html">CapitalMarketsLoginAll</a></li>
+            
+                <li><a href="../classes/CapitalMarketsLoginCount.html">CapitalMarketsLoginCount</a></li>
+            
+                <li><a href="../classes/CapitalMarketsLoginCountExactMatch.html">CapitalMarketsLoginCountExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsLoginExactMatch.html">CapitalMarketsLoginExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsOrder.html">CapitalMarketsOrder</a></li>
+            
+                <li><a href="../classes/CapitalMarketsOrderAll.html">CapitalMarketsOrderAll</a></li>
+            
+                <li><a href="../classes/CapitalMarketsOrderCount.html">CapitalMarketsOrderCount</a></li>
+            
+                <li><a href="../classes/CapitalMarketsOrderCountExactMatch.html">CapitalMarketsOrderCountExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsOrderExactMatch.html">CapitalMarketsOrderExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsRevenue.html">CapitalMarketsRevenue</a></li>
+            
+                <li><a href="../classes/CapitalMarketsRevenueAll.html">CapitalMarketsRevenueAll</a></li>
+            
+                <li><a href="../classes/CapitalMarketsRevenueCount.html">CapitalMarketsRevenueCount</a></li>
+            
+                <li><a href="../classes/CapitalMarketsRevenueCountExactMatch.html">CapitalMarketsRevenueCountExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsRevenueExactMatch.html">CapitalMarketsRevenueExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsRevenueRevenues.html">CapitalMarketsRevenueRevenues</a></li>
+            
+                <li><a href="../classes/CapitalMarketsTrading.html">CapitalMarketsTrading</a></li>
+            
+                <li><a href="../classes/Class.html">Class</a></li>
+            
+                <li><a href="../classes/Collection.html">Collection</a></li>
+            
+                <li><a href="../classes/Collections.html">Collections</a></li>
+            
+                <li><a href="../classes/Cookie.html">Cookie</a></li>
+            
+                <li><a href="../classes/CorporatePayments.html">CorporatePayments</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsAccount.html">CorporatePaymentsAccount</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsAccountAll.html">CorporatePaymentsAccountAll</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsAccountCount.html">CorporatePaymentsAccountCount</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsAccountCountExactMatch.html">CorporatePaymentsAccountCountExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsAccountExactMatch.html">CorporatePaymentsAccountExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsBeneficiary.html">CorporatePaymentsBeneficiary</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsBeneficiaryAll.html">CorporatePaymentsBeneficiaryAll</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsBeneficiaryCount.html">CorporatePaymentsBeneficiaryCount</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsBeneficiaryCountExactMatch.html">CorporatePaymentsBeneficiaryCountExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsBeneficiaryExactMatch.html">CorporatePaymentsBeneficiaryExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxBooking.html">CorporatePaymentsCrossBorderFxBooking</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxBookingAll.html">CorporatePaymentsCrossBorderFxBookingAll</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxBookingCount.html">CorporatePaymentsCrossBorderFxBookingCount</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxBookingCountExactMatch.html">CorporatePaymentsCrossBorderFxBookingCountExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxBookingExactMatch.html">CorporatePaymentsCrossBorderFxBookingExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxPayment.html">CorporatePaymentsCrossBorderFxPayment</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxPaymentAll.html">CorporatePaymentsCrossBorderFxPaymentAll</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxPaymentCount.html">CorporatePaymentsCrossBorderFxPaymentCount</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxPaymentCountExactMatch.html">CorporatePaymentsCrossBorderFxPaymentCountExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxPaymentExactMatch.html">CorporatePaymentsCrossBorderFxPaymentExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxPaymentFxPayments.html">CorporatePaymentsCrossBorderFxPaymentFxPayments</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxQuote.html">CorporatePaymentsCrossBorderFxQuote</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxQuoteAll.html">CorporatePaymentsCrossBorderFxQuoteAll</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxQuoteCount.html">CorporatePaymentsCrossBorderFxQuoteCount</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxQuoteCountExactMatch.html">CorporatePaymentsCrossBorderFxQuoteCountExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxQuoteExactMatch.html">CorporatePaymentsCrossBorderFxQuoteExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsLogin.html">CorporatePaymentsLogin</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsLoginAll.html">CorporatePaymentsLoginAll</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsLoginCount.html">CorporatePaymentsLoginCount</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsLoginCountExactMatch.html">CorporatePaymentsLoginCountExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsLoginExactMatch.html">CorporatePaymentsLoginExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsPayment.html">CorporatePaymentsPayment</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsPaymentAll.html">CorporatePaymentsPaymentAll</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsPaymentCount.html">CorporatePaymentsPaymentCount</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsPaymentCountExactMatch.html">CorporatePaymentsPaymentCountExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsPaymentExactMatch.html">CorporatePaymentsPaymentExactMatch</a></li>
+            
+                <li><a href="../classes/DefaultAdapter.html">DefaultAdapter</a></li>
+            
+                <li><a href="../classes/Dispatcher.html">Dispatcher</a></li>
+            
+                <li><a href="../classes/HasMany.html">HasMany</a></li>
+            
+                <li><a href="../classes/HasOne.html">HasOne</a></li>
+            
+                <li><a href="../classes/HttpAdapter.html">HttpAdapter</a></li>
+            
+                <li><a href="../classes/JSON.html">JSON</a></li>
+            
+                <li><a href="../classes/LargeLocalStorage.html">LargeLocalStorage</a></li>
+            
+                <li><a href="../classes/MockServer.html">MockServer</a></li>
+            
+                <li><a href="../classes/Model.html">Model</a></li>
+            
+                <li><a href="../classes/Models.html">Models</a></li>
+            
+                <li><a href="../classes/Relationship.html">Relationship</a></li>
+            
+                <li><a href="../classes/RetailBanking.html">RetailBanking</a></li>
+            
+                <li><a href="../classes/RetailBankingAccount.html">RetailBankingAccount</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountAll.html">RetailBankingAccountAll</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountBalance.html">RetailBankingAccountBalance</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountBalanceAll.html">RetailBankingAccountBalanceAll</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountBalanceCount.html">RetailBankingAccountBalanceCount</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountBalanceCountExactMatch.html">RetailBankingAccountBalanceCountExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountBalanceExactMatch.html">RetailBankingAccountBalanceExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountCount.html">RetailBankingAccountCount</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountCountExactMatch.html">RetailBankingAccountCountExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountExactMatch.html">RetailBankingAccountExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountFundTransfer.html">RetailBankingAccountFundTransfer</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountFundTransferAll.html">RetailBankingAccountFundTransferAll</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountFundTransferCount.html">RetailBankingAccountFundTransferCount</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountFundTransferCountExactMatch.html">RetailBankingAccountFundTransferCountExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountFundTransferExactMatch.html">RetailBankingAccountFundTransferExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountTransaction.html">RetailBankingAccountTransaction</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountTransactionAll.html">RetailBankingAccountTransactionAll</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountTransactionCount.html">RetailBankingAccountTransactionCount</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountTransactionCountExactMatch.html">RetailBankingAccountTransactionCountExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountTransactionExactMatch.html">RetailBankingAccountTransactionExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingForeignCurrency.html">RetailBankingForeignCurrency</a></li>
+            
+                <li><a href="../classes/RetailBankingForeignCurrencyAll.html">RetailBankingForeignCurrencyAll</a></li>
+            
+                <li><a href="../classes/RetailBankingForeignCurrencyCount.html">RetailBankingForeignCurrencyCount</a></li>
+            
+                <li><a href="../classes/RetailBankingForeignCurrencyCountExactMatch.html">RetailBankingForeignCurrencyCountExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingForeignCurrencyExactMatch.html">RetailBankingForeignCurrencyExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingForeignCurrencyForeignCurrency.html">RetailBankingForeignCurrencyForeignCurrency</a></li>
+            
+                <li><a href="../classes/RetailBankingLocation.html">RetailBankingLocation</a></li>
+            
+                <li><a href="../classes/RetailBankingLocationAll.html">RetailBankingLocationAll</a></li>
+            
+                <li><a href="../classes/RetailBankingLocationCount.html">RetailBankingLocationCount</a></li>
+            
+                <li><a href="../classes/RetailBankingLocationCountExactMatch.html">RetailBankingLocationCountExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingLocationExactMatch.html">RetailBankingLocationExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingLocationLocations.html">RetailBankingLocationLocations</a></li>
+            
+                <li><a href="../classes/RetailBankingLogin.html">RetailBankingLogin</a></li>
+            
+                <li><a href="../classes/RetailBankingLoginAll.html">RetailBankingLoginAll</a></li>
+            
+                <li><a href="../classes/RetailBankingLoginCount.html">RetailBankingLoginCount</a></li>
+            
+                <li><a href="../classes/RetailBankingLoginCountExactMatch.html">RetailBankingLoginCountExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingLoginExactMatch.html">RetailBankingLoginExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingPayee.html">RetailBankingPayee</a></li>
+            
+                <li><a href="../classes/RetailBankingPayeeAll.html">RetailBankingPayeeAll</a></li>
+            
+                <li><a href="../classes/RetailBankingPayeeCount.html">RetailBankingPayeeCount</a></li>
+            
+                <li><a href="../classes/RetailBankingPayeeCountExactMatch.html">RetailBankingPayeeCountExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingPayeeExactMatch.html">RetailBankingPayeeExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingPayeeType.html">RetailBankingPayeeType</a></li>
+            
+                <li><a href="../classes/RetailBankingPayeeTypeAll.html">RetailBankingPayeeTypeAll</a></li>
+            
+                <li><a href="../classes/RetailBankingPayeeTypeCount.html">RetailBankingPayeeTypeCount</a></li>
+            
+                <li><a href="../classes/RetailBankingPayeeTypeCountExactMatch.html">RetailBankingPayeeTypeCountExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingPayeeTypeExactMatch.html">RetailBankingPayeeTypeExactMatch</a></li>
+            
+                <li><a href="../classes/ScopeCollection.html">ScopeCollection</a></li>
+            
+                <li><a href="../classes/Url.html">Url</a></li>
+            
+                <li><a href="../classes/Validator.html">Validator</a></li>
+            
+                <li><a href="../classes/XML.html">XML</a></li>
+            
+            </ul>
+
+            <ul id="api-modules" class="apis modules">
+            
+                <li><a href="../modules/adapter.html">adapter</a></li>
+            
+                <li><a href="../modules/adapters.html">adapters</a></li>
+            
+                <li><a href="../modules/AP.html">AP</a></li>
+            
+                <li><a href="../modules/auth.html">auth</a></li>
+            
+                <li><a href="../modules/CitiMobileChallengeSdk.html">CitiMobileChallengeSdk</a></li>
+            
+                <li><a href="../modules/collection.html">collection</a></li>
+            
+                <li><a href="../modules/collections.html">collections</a></li>
+            
+                <li><a href="../modules/MockServer.html">MockServer</a></li>
+            
+                <li><a href="../modules/model.html">model</a></li>
+            
+                <li><a href="../modules/models.html">models</a></li>
+            
+                <li><a href="../modules/relationship.html">relationship</a></li>
+            
+                <li><a href="../modules/utility.html">utility</a></li>
+            
+            </ul>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+        <div class="yui3-u-3-4">
+                <div id="api-options">
+        Show:
+        <label for="api-show-inherited">
+            <input type="checkbox" id="api-show-inherited" checked>
+            Inherited
+        </label>
+
+        <label for="api-show-protected">
+            <input type="checkbox" id="api-show-protected">
+            Protected
+        </label>
+
+        <label for="api-show-private">
+            <input type="checkbox" id="api-show-private">
+            Private
+        </label>
+        <label for="api-show-deprecated">
+            <input type="checkbox" id="api-show-deprecated">
+            Deprecated
+        </label>
+
+    </div>
+
+
+            <div class="apidocs">
+                <div id="docs-main">
+                    <div class="content">
+                        <h1 class="file-heading">File: sdk/lib/large-local-storage/large-local-storage.js</h1>
+
+<div class="file">
+    <pre class="code prettyprint linenums">
+(function(glob) {
+	var undefined = {}.a;
+
+	function definition(Q) {
+	
+
+/**
+@author Matt Crinklaw-Vogt
+*/
+function PipeContext(handlers, nextMehod, end) {
+	this._handlers = handlers;
+	this._next = nextMehod;
+	this._end = end;
+
+	this._i = 0;
+}
+
+PipeContext.prototype = {
+	next: function() {
+		// var args = Array.prototype.slice.call(arguments, 0);
+		// args.unshift(this);
+		this.__pipectx = this;
+		return this._next.apply(this, arguments);
+	},
+
+	_nextHandler: function() {
+		if (this._i &gt;= this._handlers.length) return this._end;
+
+		var handler = this._handlers[this._i].handler;
+		this._i += 1;
+		return handler;
+	},
+
+	length: function() {
+		return this._handlers.length;
+	}
+};
+
+function indexOfHandler(handlers, len, target) {
+	for (var i = 0; i &lt; len; ++i) {
+		var handler = handlers[i];
+		if (handler.name === target || handler.handler === target) {
+			return i;
+		}
+	}
+
+	return -1;
+}
+
+function forward(ctx) {
+	return ctx.next.apply(ctx, Array.prototype.slice.call(arguments, 1));
+}
+
+function coerce(methodNames, handler) {
+	methodNames.forEach(function(meth) {
+		if (!handler[meth])
+			handler[meth] = forward;
+	});
+}
+
+var abstractPipeline = {
+	addFirst: function(name, handler) {
+		coerce(this._pipedMethodNames, handler);
+		this._handlers.unshift({name: name, handler: handler});
+	},
+
+	addLast: function(name, handler) {
+		coerce(this._pipedMethodNames, handler);
+		this._handlers.push({name: name, handler: handler});
+	},
+
+ 	/**
+ 	Add the handler with the given name after the 
+ 	handler specified by target.  Target can be a handler
+ 	name or a handler instance.
+ 	*/
+	addAfter: function(target, name, handler) {
+		coerce(this._pipedMethodNames, handler);
+		var handlers = this._handlers;
+		var len = handlers.length;
+		var i = indexOfHandler(handlers, len, target);
+
+		if (i &gt;= 0) {
+			handlers.splice(i+1, 0, {name: name, handler: handler});
+		}
+	},
+
+	/**
+	Add the handler with the given name after the handler
+	specified by target.  Target can be a handler name or
+	a handler instance.
+	*/
+	addBefore: function(target, name, handler) {
+		coerce(this._pipedMethodNames, handler);
+		var handlers = this._handlers;
+		var len = handlers.length;
+		var i = indexOfHandler(handlers, len, target);
+
+		if (i &gt;= 0) {
+			handlers.splice(i, 0, {name: name, handler: handler});
+		}
+	},
+
+	/**
+	Replace the handler specified by target.
+	*/
+	replace: function(target, newName, handler) {
+		coerce(this._pipedMethodNames, handler);
+		var handlers = this._handlers;
+		var len = handlers.length;
+		var i = indexOfHandler(handlers, len, target);
+
+		if (i &gt;= 0) {
+			handlers.splice(i, 1, {name: newName, handler: handler});
+		}
+	},
+
+	removeFirst: function() {
+		return this._handlers.shift();
+	},
+
+	removeLast: function() {
+		return this._handlers.pop();
+	},
+
+	remove: function(target) {
+		var handlers = this._handlers;
+		var len = handlers.length;
+		var i = indexOfHandler(handlers, len, target);
+
+		if (i &gt;= 0)
+			handlers.splice(i, 1);
+	},
+
+	getHandler: function(name) {
+		var i = indexOfHandler(this._handlers, this._handlers.length, name);
+		if (i &gt;= 0)
+			return this._handlers[i].handler;
+		return null;
+	}
+};
+
+function createPipeline(pipedMethodNames) {
+	var end = {};
+	var endStubFunc = function() { return end; };
+	var nextMethods = {};
+
+	function Pipeline(pipedMethodNames) {
+		this.pipe = {
+			_handlers: [],
+			_contextCtor: PipeContext,
+			_nextMethods: nextMethods,
+			end: end,
+			_pipedMethodNames: pipedMethodNames
+		};
+	}
+
+	var pipeline = new Pipeline(pipedMethodNames);
+	for (var k in abstractPipeline) {
+		pipeline.pipe[k] = abstractPipeline[k];
+	}
+
+	pipedMethodNames.forEach(function(name) {
+		end[name] = endStubFunc;
+
+		nextMethods[name] = new Function(
+			&quot;var handler = this._nextHandler();&quot; +
+			&quot;handler.__pipectx = this.__pipectx;&quot; +
+			&quot;return handler.&quot; + name + &quot;.apply(handler, arguments);&quot;);
+
+		pipeline[name] = new Function(
+			&quot;var ctx = new this.pipe._contextCtor(this.pipe._handlers, this.pipe._nextMethods.&quot; + name + &quot;, this.pipe.end);&quot;
+			+ &quot;return ctx.next.apply(ctx, arguments);&quot;);
+	});
+
+	return pipeline;
+}
+
+createPipeline.isPipeline = function(obj) {
+	return obj instanceof Pipeline;
+}
+var utils = (function() {
+	return {
+		convertToBase64: function(blob, cb) {
+			var fr = new FileReader();
+			fr.onload = function(e) {
+				cb(e.target.result);
+			};
+			fr.onerror = function(e) {
+			};
+			fr.onabort = function(e) {
+			};
+			fr.readAsDataURL(blob);
+		},
+
+		dataURLToBlob: function(dataURL) {
+				var BASE64_MARKER = &#x27;;base64,&#x27;;
+				if (dataURL.indexOf(BASE64_MARKER) == -1) {
+					var parts = dataURL.split(&#x27;,&#x27;);
+					var contentType = parts[0].split(&#x27;:&#x27;)[1];
+					var raw = parts[1];
+
+					return new Blob([raw], {type: contentType});
+				}
+
+				var parts = dataURL.split(BASE64_MARKER);
+				var contentType = parts[0].split(&#x27;:&#x27;)[1];
+				var raw = window.atob(parts[1]);
+				var rawLength = raw.length;
+
+				var uInt8Array = new Uint8Array(rawLength);
+
+				for (var i = 0; i &lt; rawLength; ++i) {
+					uInt8Array[i] = raw.charCodeAt(i);
+				}
+
+				return new Blob([uInt8Array.buffer], {type: contentType});
+		},
+
+		splitAttachmentPath: function(path) {
+			var parts = path.split(&#x27;/&#x27;);
+			if (parts.length == 1) 
+				parts.unshift(&#x27;__nodoc__&#x27;);
+			return parts;
+		},
+
+		mapAsync: function(fn, promise) {
+			var deferred = Q.defer();
+			promise.then(function(data) {
+				_mapAsync(fn, data, [], deferred);
+			}, function(e) {
+				deferred.reject(e);
+			});
+
+			return deferred.promise;
+		},
+
+		countdown: function(n, cb) {
+		    var args = [];
+		    return function() {
+		      for (var i = 0; i &lt; arguments.length; ++i)
+		        args.push(arguments[i]);
+		      n -= 1;
+		      if (n == 0)
+		        cb.apply(this, args);
+		    }
+		}
+	};
+
+	function _mapAsync(fn, data, result, deferred) {
+		fn(data[result.length], function(v) {
+			result.push(v);
+			if (result.length == data.length)
+				deferred.resolve(result);
+			else
+				_mapAsync(fn, data, result, deferred);
+		}, function(err) {
+			deferred.reject(err);
+		})
+	}
+})();
+var FilesystemAPIProvider = (function(Q) {
+	function makeErrorHandler(deferred, finalDeferred) {
+		// TODO: normalize the error so
+		// we can handle it upstream
+		return function(e) {
+			if (e.code == 1) {
+				deferred.resolve(undefined);
+			} else {
+				if (finalDeferred)
+					finalDeferred.reject(e);
+				else
+					deferred.reject(e);
+			}
+		}
+	}
+
+	function getAttachmentPath(docKey, attachKey) {
+		docKey = docKey.replace(/\//g, &#x27;--&#x27;);
+		var attachmentsDir = docKey + &quot;-attachments&quot;;
+		return {
+			dir: attachmentsDir,
+			path: attachmentsDir + &quot;/&quot; + attachKey
+		};
+	}
+
+	function readDirEntries(reader, result) {
+		var deferred = Q.defer();
+
+		_readDirEntries(reader, result, deferred);
+
+		return deferred.promise;
+	}
+
+	function _readDirEntries(reader, result, deferred) {
+		reader.readEntries(function(entries) {
+			if (entries.length == 0) {
+				deferred.resolve(result);
+			} else {
+				result = result.concat(entries);
+				_readDirEntries(reader, result, deferred);
+			}
+		}, function(err) {
+			deferred.reject(err);
+		});
+	}
+
+	function entryToFile(entry, cb, eb) {
+		entry.file(cb, eb);
+	}
+
+	function entryToURL(entry) {
+		return entry.toURL();
+	}
+
+	function FSAPI(fs, numBytes, prefix) {
+		this._fs = fs;
+		this._capacity = numBytes;
+		this._prefix = prefix;
+		this.type = &quot;FilesystemAPI&quot;;
+	}
+
+	FSAPI.prototype = {
+		getContents: function(path, options) {
+			var deferred = Q.defer();
+			path = this._prefix + path;
+			this._fs.root.getFile(path, {}, function(fileEntry) {
+				fileEntry.file(function(file) {
+					var reader = new FileReader();
+
+					reader.onloadend = function(e) {
+						var data = e.target.result;
+						var err;
+						if (options &amp;&amp; options.json) {
+							try {
+								data = JSON.parse(data);
+							} catch(e) {
+								err = new Error(&#x27;unable to parse JSON for &#x27; + path);
+							}
+						}
+
+						if (err) {
+							deferred.reject(err);
+						} else {
+							deferred.resolve(data);
+						}
+					};
+
+					reader.readAsText(file);
+				}, makeErrorHandler(deferred));
+			}, makeErrorHandler(deferred));
+
+			return deferred.promise;
+		},
+
+		// create a file at path
+		// and write &#x60;data&#x60; to it
+		setContents: function(path, data, options) {
+			var deferred = Q.defer();
+
+			if (options &amp;&amp; options.json)
+				data = JSON.stringify(data);
+
+			path = this._prefix + path;
+			this._fs.root.getFile(path, {create:true}, function(fileEntry) {
+				fileEntry.createWriter(function(fileWriter) {
+					var blob;
+					fileWriter.onwriteend = function(e) {
+						fileWriter.onwriteend = function() {
+							deferred.resolve();
+						};
+						fileWriter.truncate(blob.size);
+					}
+
+					fileWriter.onerror = makeErrorHandler(deferred);
+
+					if (data instanceof Blob) {
+						blob = data;
+					} else {
+						blob = new Blob([data], {type: &#x27;text/plain&#x27;});
+					}
+
+					fileWriter.write(blob);
+				}, makeErrorHandler(deferred));
+			}, makeErrorHandler(deferred));
+
+			return deferred.promise;
+		},
+
+		ls: function(docKey) {
+			var isRoot = false;
+			if (!docKey) {docKey = this._prefix; isRoot = true;}
+			else docKey = this._prefix + docKey + &quot;-attachments&quot;;
+
+			var deferred = Q.defer();
+
+			this._fs.root.getDirectory(docKey, {create:false},
+			function(entry) {
+				var reader = entry.createReader();
+				readDirEntries(reader, []).then(function(entries) {
+					var listing = [];
+					entries.forEach(function(entry) {
+						if (!entry.isDirectory) {
+							listing.push(entry.name);
+						}
+					});
+					deferred.resolve(listing);
+				});
+			}, function(error) {
+				deferred.reject(error);
+			});
+
+			return deferred.promise;
+		},
+
+		clear: function() {
+			var deferred = Q.defer();
+			var failed = false;
+			var ecb = function(err) {
+				failed = true;
+				deferred.reject(err);
+			}
+
+			this._fs.root.getDirectory(this._prefix, {},
+			function(entry) {
+				var reader = entry.createReader();
+				reader.readEntries(function(entries) {
+					var latch = 
+					utils.countdown(entries.length, function() {
+						if (!failed)
+							deferred.resolve();
+					});
+
+					entries.forEach(function(entry) {
+						if (entry.isDirectory) {
+							entry.removeRecursively(latch, ecb);
+						} else {
+							entry.remove(latch, ecb);
+						}
+					});
+
+					if (entries.length == 0)
+						deferred.resolve();
+				}, ecb);
+			}, ecb);
+
+			return deferred.promise;
+		},
+
+		rm: function(path) {
+			var deferred = Q.defer();
+			var finalDeferred = Q.defer();
+
+			// remove attachments that go along with the path
+			path = this._prefix + path;
+			var attachmentsDir = path + &quot;-attachments&quot;;
+
+			this._fs.root.getFile(path, {create:false},
+				function(entry) {
+					entry.remove(function() {
+						deferred.promise.then(finalDeferred.resolve);
+					}, function(err) {
+						finalDeferred.reject(err);
+					});
+				},
+				makeErrorHandler(finalDeferred));
+
+			this._fs.root.getDirectory(attachmentsDir, {},
+				function(entry) {
+					entry.removeRecursively(function() {
+						deferred.resolve();
+					}, function(err) {
+						finalDeferred.reject(err);
+					});
+				},
+				makeErrorHandler(deferred, finalDeferred));
+
+			return finalDeferred.promise;
+		},
+
+		getAttachment: function(docKey, attachKey) {
+			var attachmentPath = this._prefix + getAttachmentPath(docKey, attachKey).path;
+
+			var deferred = Q.defer();
+			this._fs.root.getFile(attachmentPath, {}, function(fileEntry) {
+				fileEntry.file(function(file) {
+					if (file.size == 0)
+						deferred.resolve(undefined);
+					else
+						deferred.resolve(file);
+				}, makeErrorHandler(deferred));
+			}, function(err) {
+				if (err.code == 1) {
+					deferred.resolve(undefined);
+				} else {
+					deferred.reject(err);
+				}
+			});
+
+			return deferred.promise;
+		},
+
+		getAttachmentURL: function(docKey, attachKey) {
+			var attachmentPath = this._prefix + getAttachmentPath(docKey, attachKey).path;
+
+			var deferred = Q.defer();
+			var url = &#x27;filesystem:&#x27; + window.location.protocol + &#x27;//&#x27; + window.location.host + &#x27;/persistent/&#x27; + attachmentPath;
+			deferred.resolve(url);
+			// this._fs.root.getFile(attachmentPath, {}, function(fileEntry) {
+			// 	deferred.resolve(fileEntry.toURL());
+			// }, makeErrorHandler(deferred, &quot;getting attachment file entry&quot;));
+
+			return deferred.promise;
+		},
+
+		getAllAttachments: function(docKey) {
+			var deferred = Q.defer();
+			var attachmentsDir = this._prefix + docKey + &quot;-attachments&quot;;
+
+			this._fs.root.getDirectory(attachmentsDir, {},
+			function(entry) {
+				var reader = entry.createReader();
+				deferred.resolve(
+					utils.mapAsync(function(entry, cb, eb) {
+						entry.file(function(file) {
+							cb({
+								data: file,
+								docKey: docKey,
+								attachKey: entry.name
+							});
+						}, eb);
+					}, readDirEntries(reader, [])));
+			}, function(err) {
+				deferred.reject(err);
+			});
+
+			return deferred.promise;
+		},
+
+		getAllAttachmentURLs: function(docKey) {
+			var deferred = Q.defer();
+			var attachmentsDir = this._prefix + docKey + &quot;-attachments&quot;;
+
+			this._fs.root.getDirectory(attachmentsDir, {},
+			function(entry) {
+				var reader = entry.createReader();
+				readDirEntries(reader, []).then(function(entries) {
+					deferred.resolve(entries.map(
+					function(entry) {
+						return {
+							url: entry.toURL(),
+							docKey: docKey,
+							attachKey: entry.name
+						};
+					}));
+				});
+			}, function(err) {
+				deferred.reject(err);
+			});
+
+			return deferred.promise;
+		},
+
+		revokeAttachmentURL: function(url) {
+			// we return FS urls so this is a no-op
+			// unless someone is being silly and doing
+			// createObjectURL(getAttachment()) ......
+		},
+
+		// Create a folder at dirname(path)+&quot;-attachments&quot;
+		// add attachment under that folder as basename(path)
+		setAttachment: function(docKey, attachKey, data) {
+			var attachInfo = getAttachmentPath(docKey, attachKey);
+
+			var deferred = Q.defer();
+
+			var self = this;
+			this._fs.root.getDirectory(this._prefix + attachInfo.dir,
+			{create:true}, function(dirEntry) {
+				deferred.resolve(self.setContents(attachInfo.path, data));
+			}, makeErrorHandler(deferred));
+
+			return deferred.promise;
+		},
+
+		// rm the thing at dirname(path)+&quot;-attachments/&quot;+basename(path)
+		rmAttachment: function(docKey, attachKey) {
+			var attachmentPath = getAttachmentPath(docKey, attachKey).path;
+
+			var deferred = Q.defer();
+			this._fs.root.getFile(this._prefix + attachmentPath, {create:false},
+				function(entry) {
+					entry.remove(function() {
+						deferred.resolve();
+					}, makeErrorHandler(deferred));
+			}, makeErrorHandler(deferred));
+
+			return deferred.promise;
+		},
+
+		getCapacity: function() {
+			return this._capacity;
+		}
+	};
+
+	return {
+		init: function(config) {
+			var deferred = Q.defer();
+			window.requestFileSystem = window.requestFileSystem || window.webkitRequestFileSystem;
+			var persistentStorage = navigator.persistentStorage || navigator.webkitPersistentStorage;
+
+			if (!requestFileSystem) {
+				deferred.reject(&quot;No FS API&quot;);
+				return deferred.promise;
+			}
+
+			var prefix = config.name + &#x27;/&#x27;;
+
+			persistentStorage.requestQuota(config.size,
+			function(numBytes) {
+				requestFileSystem(window.PERSISTENT, numBytes,
+				function(fs) {
+					fs.root.getDirectory(config.name, {create: true},
+					function() {
+						deferred.resolve(new FSAPI(fs, numBytes, prefix));
+					}, function(err) {
+						console.error(err);
+						deferred.reject(err);
+					});
+				}, function(err) {
+					// TODO: implement various error messages.
+					console.error(err);
+					deferred.reject(err);
+				});
+			}, function(err) {
+				// TODO: implement various error messages.
+				console.error(err);
+				deferred.reject(err);
+			});
+
+			return deferred.promise;
+		}
+	}
+})(Q);
+var IndexedDBProvider = (function(Q) {
+	var URL = window.URL || window.webkitURL;
+
+	var convertToBase64 = utils.convertToBase64;
+	var dataURLToBlob = utils.dataURLToBlob;
+
+	function IDB(db) {
+		this._db = db;
+		this.type = &#x27;IndexedDB&#x27;;
+
+		var transaction = this._db.transaction([&#x27;attachments&#x27;], &#x27;readwrite&#x27;);
+		this._supportsBlobs = true;
+		try {
+			transaction.objectStore(&#x27;attachments&#x27;)
+			.put(Blob([&quot;sdf&quot;], {type: &quot;text/plain&quot;}), &quot;featurecheck&quot;);
+		} catch (e) {
+			this._supportsBlobs = false;
+		}
+	}
+
+	// TODO: normalize returns and errors.
+	IDB.prototype = {
+		getContents: function(docKey) {
+			var deferred = Q.defer();
+			var transaction = this._db.transaction([&#x27;files&#x27;], &#x27;readonly&#x27;);
+
+			var get = transaction.objectStore(&#x27;files&#x27;).get(docKey);
+			get.onsuccess = function(e) {
+				deferred.resolve(e.target.result);
+			};
+
+			get.onerror = function(e) {
+				deferred.reject(e);
+			};
+
+			return deferred.promise;
+		},
+
+		setContents: function(docKey, data) {
+			var deferred = Q.defer();
+			var transaction = this._db.transaction([&#x27;files&#x27;], &#x27;readwrite&#x27;);
+
+			var put = transaction.objectStore(&#x27;files&#x27;).put(data, docKey);
+			put.onsuccess = function(e) {
+				deferred.resolve(e);
+			};
+
+			put.onerror = function(e) {
+				deferred.reject(e);
+			};
+
+			return deferred.promise;
+		},
+
+		rm: function(docKey) {
+			var deferred = Q.defer();
+			var finalDeferred = Q.defer();
+
+			var transaction = this._db.transaction([&#x27;files&#x27;, &#x27;attachments&#x27;], &#x27;readwrite&#x27;);
+			
+			var del = transaction.objectStore(&#x27;files&#x27;).delete(docKey);
+
+			del.onsuccess = function(e) {
+				deferred.promise.then(function() {
+					finalDeferred.resolve();
+				});
+			};
+
+			del.onerror = function(e) {
+				deferred.promise.catch(function() {
+					finalDeferred.reject(e);
+				});
+			};
+
+			var attachmentsStore = transaction.objectStore(&#x27;attachments&#x27;);
+			var index = attachmentsStore.index(&#x27;fname&#x27;);
+			var cursor = index.openCursor(IDBKeyRange.only(docKey));
+			cursor.onsuccess = function(e) {
+				var cursor = e.target.result;
+				if (cursor) {
+					cursor.delete();
+					cursor.continue();
+				} else {
+					deferred.resolve();
+				}
+			};
+
+			cursor.onerror = function(e) {
+				deferred.reject(e);
+			}
+
+			return finalDeferred.promise;
+		},
+
+		getAttachment: function(docKey, attachKey) {
+			var deferred = Q.defer();
+
+			var transaction = this._db.transaction([&#x27;attachments&#x27;], &#x27;readonly&#x27;);
+			var get = transaction.objectStore(&#x27;attachments&#x27;).get(docKey + &#x27;/&#x27; + attachKey);
+
+			var self = this;
+			get.onsuccess = function(e) {
+				if (!e.target.result) {
+					deferred.resolve(undefined);
+					return;
+				}
+
+				var data = e.target.result.data;
+				if (!self._supportsBlobs) {
+					data = dataURLToBlob(data);
+				}
+				deferred.resolve(data);
+			};
+
+			get.onerror = function(e) {
+				deferred.reject(e);
+			};
+
+			return deferred.promise;
+		},
+
+		ls: function(docKey) {
+			var deferred = Q.defer();
+
+			if (!docKey) {
+				// list docs
+				var store = &#x27;files&#x27;;
+			} else {
+				// list attachments
+				var store = &#x27;attachments&#x27;;
+			}
+
+			var transaction = this._db.transaction([store], &#x27;readonly&#x27;);
+			var cursor = transaction.objectStore(store).openCursor();
+			var listing = [];
+
+			cursor.onsuccess = function(e) {
+				var cursor = e.target.result;
+				if (cursor) {
+					listing.push(!docKey ? cursor.key : cursor.key.split(&#x27;/&#x27;)[1]);
+					cursor.continue();
+				} else {
+					deferred.resolve(listing);
+				}
+			};
+
+			cursor.onerror = function(e) {
+				deferred.reject(e);
+			};
+
+			return deferred.promise;
+		},
+
+		clear: function() {
+			var deferred = Q.defer();
+			var finalDeferred = Q.defer();
+
+			var t = this._db.transaction([&#x27;attachments&#x27;, &#x27;files&#x27;], &#x27;readwrite&#x27;);
+
+
+			var req1 = t.objectStore(&#x27;attachments&#x27;).clear();
+			var req2 = t.objectStore(&#x27;files&#x27;).clear();
+
+			req1.onsuccess = function() {
+				deferred.promise.then(finalDeferred.resolve);
+			};
+
+			req2.onsuccess = function() {
+				deferred.resolve();
+			};
+
+			req1.onerror = function(err) {
+				finalDeferred.reject(err);
+			};
+
+			req2.onerror = function(err) {
+				finalDeferred.reject(err);
+			};
+
+			return finalDeferred.promise;
+		},
+
+		getAllAttachments: function(docKey) {
+			var deferred = Q.defer();
+			var self = this;
+
+			var transaction = this._db.transaction([&#x27;attachments&#x27;], &#x27;readonly&#x27;);
+			var index = transaction.objectStore(&#x27;attachments&#x27;).index(&#x27;fname&#x27;);
+
+			var cursor = index.openCursor(IDBKeyRange.only(docKey));
+			var values = [];
+			cursor.onsuccess = function(e) {
+				var cursor = e.target.result;
+				if (cursor) {
+					var data;
+					if (!self._supportsBlobs) {
+						data = dataURLToBlob(cursor.value.data)
+					} else {
+						data = cursor.value.data;
+					}
+					values.push({
+						data: data,
+						docKey: docKey,
+						attachKey: cursor.primaryKey.split(&#x27;/&#x27;)[1] // TODO
+					});
+					cursor.continue();
+				} else {
+					deferred.resolve(values);
+				}
+			};
+
+			cursor.onerror = function(e) {
+				deferred.reject(e);
+			};
+
+			return deferred.promise;
+		},
+
+		getAllAttachmentURLs: function(docKey) {
+			var deferred = Q.defer();
+			this.getAllAttachments(docKey).then(function(attachments) {
+				var urls = attachments.map(function(a) {
+					a.url = URL.createObjectURL(a.data);
+					delete a.data;
+					return a;
+				});
+
+				deferred.resolve(urls);
+			}, function(e) {
+				deferred.reject(e);
+			});
+
+			return deferred.promise;
+		},
+
+		getAttachmentURL: function(docKey, attachKey) {
+			var deferred = Q.defer();
+			this.getAttachment(docKey, attachKey).then(function(attachment) {
+				deferred.resolve(URL.createObjectURL(attachment));
+			}, function(e) {
+				deferred.reject(e);
+			});
+
+			return deferred.promise;
+		},
+
+		revokeAttachmentURL: function(url) {
+			URL.revokeObjectURL(url);
+		},
+
+		setAttachment: function(docKey, attachKey, data) {
+			var deferred = Q.defer();
+
+			if (data instanceof Blob &amp;&amp; !this._supportsBlobs) {
+				var self = this;
+				convertToBase64(data, function(data) {
+					continuation.call(self, data);
+				});
+			} else {
+				continuation.call(this, data);
+			}
+
+			function continuation(data) {
+				var obj = {
+					path: docKey + &#x27;/&#x27; + attachKey,
+					fname: docKey,
+					data: data
+				};
+				var transaction = this._db.transaction([&#x27;attachments&#x27;], &#x27;readwrite&#x27;);
+				var put = transaction.objectStore(&#x27;attachments&#x27;).put(obj);
+
+				put.onsuccess = function(e) {
+					deferred.resolve(e);
+				};
+
+				put.onerror = function(e) {
+					deferred.reject(e);
+				};
+			}
+
+			return deferred.promise;
+		},
+
+		rmAttachment: function(docKey, attachKey) {
+			var deferred = Q.defer();
+			var transaction = this._db.transaction([&#x27;attachments&#x27;], &#x27;readwrite&#x27;);
+			var del = transaction.objectStore(&#x27;attachments&#x27;).delete(docKey + &#x27;/&#x27; + attachKey);
+
+			del.onsuccess = function(e) {
+				deferred.resolve(e);
+			};
+
+			del.onerror = function(e) {
+				deferred.reject(e);
+			};
+
+			return deferred.promise;
+		}
+	};
+
+	return {
+		init: function(config) {
+			var deferred = Q.defer();
+
+			var indexedDB = window.indexedDB || window.webkitIndexedDB || window.mozIndexedDB || window.OIndexedDB || window.msIndexedDB,
+			IDBTransaction = window.IDBTransaction || window.webkitIDBTransaction || window.OIDBTransaction || window.msIDBTransaction,
+			dbVersion = 2;
+
+			if (!indexedDB || !IDBTransaction) {
+				deferred.reject(&quot;No IndexedDB&quot;);
+				return deferred.promise;
+			}
+
+			var request = indexedDB.open(config.name, dbVersion);
+
+			function createObjectStore(db) {
+				db.createObjectStore(&quot;files&quot;);
+				var attachStore = db.createObjectStore(&quot;attachments&quot;, {keyPath: &#x27;path&#x27;});
+				attachStore.createIndex(&#x27;fname&#x27;, &#x27;fname&#x27;, {unique: false})
+			}
+
+			// TODO: normalize errors
+			request.onerror = function (event) {
+				deferred.reject(event);
+			};
+		 
+			request.onsuccess = function (event) {
+				var db = request.result;
+		 
+				db.onerror = function (event) {
+					console.log(event);
+				};
+				
+				// Chrome workaround
+				if (db.setVersion) {
+					if (db.version != dbVersion) {
+						var setVersion = db.setVersion(dbVersion);
+						setVersion.onsuccess = function () {
+							createObjectStore(db);
+							deferred.resolve();
+						};
+					}
+					else {
+						deferred.resolve(new IDB(db));
+					}
+				} else {
+					deferred.resolve(new IDB(db));
+				}
+			}
+			
+			request.onupgradeneeded = function (event) {
+				createObjectStore(event.target.result);
+			};
+
+			return deferred.promise;
+		}
+	}
+})(Q);
+var LocalStorageProvider = (function(Q) {
+	return {
+		init: function() {
+			return Q({type: &#x27;LocalStorage&#x27;});
+		}
+	}
+})(Q);
+var WebSQLProvider = (function(Q) {
+	var URL = window.URL || window.webkitURL;
+	var convertToBase64 = utils.convertToBase64;
+	var dataURLToBlob = utils.dataURLToBlob;
+
+	function WSQL(db) {
+		this._db = db;
+		this.type = &#x27;WebSQL&#x27;;
+	}
+
+	WSQL.prototype = {
+		getContents: function(docKey, options) {
+			var deferred = Q.defer();
+			this._db.transaction(function(tx) {
+				tx.executeSql(&#x27;SELECT value FROM files WHERE fname = ?&#x27;, [docKey],
+				function(tx, res) {
+					if (res.rows.length == 0) {
+						deferred.resolve(undefined);
+					} else {
+						var data = res.rows.item(0).value;
+						if (options &amp;&amp; options.json)
+							data = JSON.parse(data);
+						deferred.resolve(data);
+					}
+				});
+			}, function(err) {
+				consol.log(err);
+				deferred.reject(err);
+			});
+
+			return deferred.promise;
+		},
+
+		setContents: function(docKey, data, options) {
+			var deferred = Q.defer();
+			if (options &amp;&amp; options.json)
+				data = JSON.stringify(data);
+
+			this._db.transaction(function(tx) {
+				tx.executeSql(
+				&#x27;INSERT OR REPLACE INTO files (fname, value) VALUES(?, ?)&#x27;, [docKey, data]);
+			}, function(err) {
+				console.log(err);
+				deferred.reject(err);
+			}, function() {
+				deferred.resolve();
+			});
+
+			return deferred.promise;
+		},
+
+		rm: function(docKey) {
+			var deferred = Q.defer();
+
+			this._db.transaction(function(tx) {
+				tx.executeSql(&#x27;DELETE FROM files WHERE fname = ?&#x27;, [docKey]);
+				tx.executeSql(&#x27;DELETE FROM attachments WHERE fname = ?&#x27;, [docKey]);
+			}, function(err) {
+				console.log(err);
+				deferred.reject(err);
+			}, function() {
+				deferred.resolve();
+			});
+
+			return deferred.promise;
+		},
+
+		getAttachment: function(fname, akey) {
+			var deferred = Q.defer();
+
+			this._db.transaction(function(tx){ 
+				tx.executeSql(&#x27;SELECT value FROM attachments WHERE fname = ? AND akey = ?&#x27;,
+				[fname, akey],
+				function(tx, res) {
+					if (res.rows.length == 0) {
+						deferred.resolve(undefined);
+					} else {
+						deferred.resolve(dataURLToBlob(res.rows.item(0).value));
+					}
+				});
+			}, function(err) {
+				deferred.reject(err);
+			});
+
+			return deferred.promise;
+		},
+
+		getAttachmentURL: function(docKey, attachKey) {
+			var deferred = Q.defer();
+			this.getAttachment(docKey, attachKey).then(function(blob) {
+				deferred.resolve(URL.createObjectURL(blob));
+			}, function() {
+				deferred.reject();
+			});
+
+			return deferred.promise;
+		},
+
+		ls: function(docKey) {
+			var deferred = Q.defer();
+
+			var select;
+			var field;
+			if (!docKey) {
+				select = &#x27;SELECT fname FROM files&#x27;;
+				field = &#x27;fname&#x27;;
+			} else {
+				select = &#x27;SELECT akey FROM attachments WHERE fname = ?&#x27;;
+				field = &#x27;akey&#x27;;
+			}
+
+			this._db.transaction(function(tx) {
+				tx.executeSql(select, docKey ? [docKey] : [],
+				function(tx, res) {
+					var listing = [];
+					for (var i = 0; i &lt; res.rows.length; ++i) {
+						listing.push(res.rows.item(i)[field]);
+					}
+
+					deferred.resolve(listing);
+				}, function(err) {
+					deferred.reject(err);
+				});
+			});
+
+			return deferred.promise;
+		},
+
+		clear: function() {
+			var deffered1 = Q.defer();
+			var deffered2 = Q.defer();
+
+			this._db.transaction(function(tx) {
+				tx.executeSql(&#x27;DELETE FROM files&#x27;, function() {
+					deffered1.resolve();
+				});
+				tx.executeSql(&#x27;DELETE FROM attachments&#x27;, function() {
+					deffered2.resolve();
+				});
+			}, function(err) {
+				deffered1.reject(err);
+				deffered2.reject(err);
+			});
+
+			return Q.all([deffered1, deffered2]);
+		},
+
+		getAllAttachments: function(fname) {
+			var deferred = Q.defer();
+
+			this._db.transaction(function(tx) {
+				tx.executeSql(&#x27;SELECT value, akey FROM attachments WHERE fname = ?&#x27;,
+				[fname],
+				function(tx, res) {
+					// TODO: ship this work off to a webworker
+					// since there could be many of these conversions?
+					var result = [];
+					for (var i = 0; i &lt; res.rows.length; ++i) {
+						var item = res.rows.item(i);
+						result.push({
+							docKey: fname,
+							attachKey: item.akey,
+							data: dataURLToBlob(item.value)
+						});
+					}
+
+					deferred.resolve(result);
+				});
+			}, function(err) {
+				deferred.reject(err);
+			});
+
+			return deferred.promise;
+		},
+
+		getAllAttachmentURLs: function(fname) {
+			var deferred = Q.defer();
+			this.getAllAttachments(fname).then(function(attachments) {
+				var urls = attachments.map(function(a) {
+					a.url = URL.createObjectURL(a.data);
+					delete a.data;
+					return a;
+				});
+
+				deferred.resolve(urls);
+			}, function(e) {
+				deferred.reject(e);
+			});
+
+			return deferred.promise;
+		},
+
+		revokeAttachmentURL: function(url) {
+			URL.revokeObjectURL(url);
+		},
+
+		setAttachment: function(fname, akey, data) {
+			var deferred = Q.defer();
+
+			var self = this;
+			convertToBase64(data, function(data) {
+				self._db.transaction(function(tx) {
+					tx.executeSql(
+					&#x27;INSERT OR REPLACE INTO attachments (fname, akey, value) VALUES(?, ?, ?)&#x27;,
+					[fname, akey, data]);
+				}, function(err) {
+					deferred.reject(err);
+				}, function() {
+					deferred.resolve();
+				});
+			});
+
+			return deferred.promise;
+		},
+
+		rmAttachment: function(fname, akey) {
+			var deferred = Q.defer();
+			this._db.transaction(function(tx) {
+				tx.executeSql(&#x27;DELETE FROM attachments WHERE fname = ? AND akey = ?&#x27;,
+				[fname, akey]);
+			}, function(err) {
+				deferred.reject(err);
+			}, function() {
+				deferred.resolve();
+			});
+
+			return deferred.promise;
+		}
+	};
+
+	return {
+		init: function(config) {
+			var openDb = window.openDatabase;
+			var deferred = Q.defer();
+			if (!openDb) {
+				deferred.reject(&quot;No WebSQL&quot;);
+				return deferred.promise;
+			}
+
+			var db = openDb(config.name, &#x27;1.0&#x27;, &#x27;large local storage&#x27;, config.size);
+
+			db.transaction(function(tx) {
+				tx.executeSql(&#x27;CREATE TABLE IF NOT EXISTS files (fname unique, value)&#x27;);
+				tx.executeSql(&#x27;CREATE TABLE IF NOT EXISTS attachments (fname, akey, value)&#x27;);
+				tx.executeSql(&#x27;CREATE INDEX IF NOT EXISTS fname_index ON attachments (fname)&#x27;);
+				tx.executeSql(&#x27;CREATE INDEX IF NOT EXISTS akey_index ON attachments (akey)&#x27;);
+				tx.executeSql(&#x27;CREATE UNIQUE INDEX IF NOT EXISTS uniq_attach ON attachments (fname, akey)&#x27;)
+			}, function(err) {
+				deferred.reject(err);
+			}, function() {
+				deferred.resolve(new WSQL(db));
+			});
+
+			return deferred.promise;
+		}
+	}
+})(Q);
+var LargeLocalStorage = (function(Q) {
+	var sessionMeta = localStorage.getItem(&#x27;LargeLocalStorage-meta&#x27;);
+	if (sessionMeta)
+		sessionMeta = JSON.parse(sessionMeta);
+	else
+		sessionMeta = {};
+
+	function defaults(options, defaultOptions) {
+		for (var k in defaultOptions) {
+			if (options[k] === undefined)
+				options[k] = defaultOptions[k];
+		}
+
+		return options;
+	}
+
+	function getImpl(type) {
+		switch(type) {
+			case &#x27;FileSystemAPI&#x27;:
+				return FilesystemAPIProvider.init();
+			case &#x27;IndexedDB&#x27;:
+				return IndexedDBProvider.init();
+			case &#x27;WebSQL&#x27;:
+				return WebSQLProvider.init();
+			case &#x27;LocalStorage&#x27;:
+				return LocalStorageProvider.init();
+		}
+	}
+
+	var providers = {
+		FileSystemAPI: FilesystemAPIProvider,
+		IndexedDB: IndexedDBProvider,
+		WebSQL: WebSQLProvider,
+		LocalStorage: LocalStorageProvider
+	}
+
+	var defaultConfig = {
+		size: 10 * 1024 * 1024,
+		name: &#x27;lls&#x27;
+	};
+
+	function selectImplementation(config) {
+		if (!config) config = {};
+		config = defaults(config, defaultConfig);
+
+		if (config.forceProvider) {
+			return providers[config.forceProvider].init(config);
+		}
+
+		return FilesystemAPIProvider.init(config).then(function(impl) {
+			return Q(impl);
+		}, function() {
+			return IndexedDBProvider.init(config);
+		}).then(function(impl) {
+			return Q(impl);
+		}, function() {
+			return WebSQLProvider.init(config);
+		}).then(function(impl) {
+			return Q(impl);
+		}, function() {
+			console.error(&#x27;Unable to create any storage implementations.  Using LocalStorage&#x27;);
+			return LocalStorageProvider.init(config);
+		});
+	}
+
+	function copyOldData(from, to) {
+		// from = getImpl(from);
+		console.log(&#x27;Underlying implementation change.&#x27;);
+	}
+
+	/**
+	 * 
+	 * LargeLocalStorage (or LLS) gives you a large capacity 
+	 * (up to several gig with permission from the user)
+	 * key-value store in the browser.
+	 *
+	 * For storage, LLS uses the [FilesystemAPI](https://developer.mozilla.org/en-US/docs/WebGuide/API/File_System)
+	 * when running in Chrome and Opera, 
+	 * [IndexedDB](https://developer.mozilla.org/en-US/docs/IndexedDB) in Firefox and IE
+	 * and [WebSQL](http://www.w3.org/TR/webdatabase/) in Safari.
+	 *
+	 * When IndexedDB becomes available in Safari, LLS will
+	 * update to take advantage of that storage implementation.
+	 *
+	 *
+	 * Upon construction a LargeLocalStorage (LLS) object will be 
+	 * immediately returned but not necessarily immediately ready for use.
+	 *
+	 * A LLS object has an &#x60;initialized&#x60; property which is a promise
+	 * that is resolved when the LLS object is ready for us.
+	 *
+	 * Usage of LLS would typically be:
+	 * &#x60;&#x60;&#x60;
+	 * var storage = new LargeLocalStorage({size: 75*1024*1024});
+	 * storage.initialized.then(function(grantedCapacity) {
+	 *   // storage ready to be used.
+	 * });
+	 * &#x60;&#x60;&#x60;
+	 *
+	 * The reason that LLS may not be immediately ready for
+	 * use is that some browsers require confirmation from the
+	 * user before a storage area may be created.  Also,
+	 * the browser&#x27;s native storage APIs are asynchronous.
+	 *
+	 * If an LLS instance is used before the storage
+	 * area is ready then any
+	 * calls to it will throw an exception with code: &quot;NO_IMPLEMENTATION&quot;
+	 *
+	 * This behavior is useful when you want the application
+	 * to continue to function--regardless of whether or
+	 * not the user has allowed it to store data--and would
+	 * like to know when your storage calls fail at the point
+	 * of those calls.
+	 *
+	 * LLS-contrib has utilities to queue storage calls until
+	 * the implementation is ready.  If an implementation
+	 * is never ready this could obviously lead to memory issues
+	 * which is why it is not the default behavior.
+	 *
+	 * @example
+	 *	var desiredCapacity = 50 * 1024 * 1024; // 50MB
+	 *	var storage = new LargeLocalStorage({
+	 *		// desired capacity, in bytes.
+	 *		size: desiredCapacity,
+	 *
+	 * 		// optional name for your LLS database. Defaults to lls.
+	 *		// This is the name given to the underlying
+	 *		// IndexedDB or WebSQL DB or FSAPI Folder.
+	 *		// LLS&#x27;s with different names are independent.
+	 *		name: &#x27;myStorage&#x27;
+	 *
+	 *		// the following is an optional param 
+	 *		// that is useful for debugging.
+	 *		// force LLS to use a specific storage implementation
+	 *		// forceProvider: &#x27;IndexedDB&#x27; or &#x27;WebSQL&#x27; or &#x27;FilesystemAPI&#x27;
+	 *	});
+	 *	storage.initialized.then(function(capacity) {
+	 *		if (capacity != -1 &amp;&amp; capacity != desiredCapacity) {
+	 *			// the user didn&#x27;t authorize your storage request
+	 *			// so instead you have some limitation on your storage
+	 *		}
+	 *	})
+	 *
+	 * @class LargeLocalStorage
+	 * @constructor
+	 * @param {object} config {size: sizeInByes, [forceProvider: force a specific implementation]}
+	 * @return {LargeLocalStorage}
+	 */
+	function LargeLocalStorage(config) {
+		var self = this;
+		var deferred = Q.defer();
+		selectImplementation(config).then(function(impl) {
+			console.log(&#x27;Selected: &#x27; + impl.type);
+			self._impl = impl;
+			if (sessionMeta.lastStorageImpl != self._impl.type) {
+				copyOldData(sessionMeta.lastStorageImpl, self._impl);
+			}
+			sessionMeta.lastStorageImpl = impl.type;
+			deferred.resolve(self);
+		}).catch(function(e) {
+			// This should be impossible
+			console.log(e);
+			deferred.reject(&#x27;No storage provider found&#x27;);
+		});
+
+		/**
+		* @property {promise} initialized
+		*/
+		this.initialized = deferred.promise;
+
+		var piped = createPipeline([
+			&#x27;ready&#x27;,
+			&#x27;ls&#x27;,
+			&#x27;rm&#x27;,
+			&#x27;clear&#x27;,
+			&#x27;getContents&#x27;,
+			&#x27;setContents&#x27;,
+			&#x27;getAttachment&#x27;,
+			&#x27;setAttachment&#x27;,
+			&#x27;getAttachmentURL&#x27;,
+			&#x27;getAllAttachments&#x27;,
+			&#x27;getAllAttachmentURLs&#x27;,
+			&#x27;revokeAttachmentURL&#x27;,
+			&#x27;rmAttachment&#x27;,
+			&#x27;getCapacity&#x27;,
+			&#x27;initialized&#x27;]);
+
+		piped.pipe.addLast(&#x27;lls&#x27;, this);
+		piped.initialized = this.initialized;
+		return piped;
+	}
+
+	LargeLocalStorage.prototype = {
+		/**
+		* Whether or not LLS is ready to store data.
+		* The &#x60;initialized&#x60; property can be used to
+		* await initialization.
+		* @example
+		*	// may or may not be true
+		*	storage.ready();
+		*	
+		*	storage.initialized.then(function() {
+		*		// always true
+		*		storage.ready();
+		*	})
+		* @method ready
+		*/
+		ready: function() {
+			return this._impl != null;
+		},
+
+		/**
+		* List all attachments under a given key.
+		*
+		* List all documents if no key is provided.
+		*
+		* Returns a promise that is fulfilled with
+		* the listing.
+		*
+		* @example
+		*	storage.ls().then(function(docKeys) {
+		*		console.log(docKeys);
+		*	})
+		*
+		* @method ls
+		* @param {string} [docKey]
+		* @returns {promise} resolved with the listing, rejected if the listing fails.
+		*/
+		ls: function(docKey) {
+			this._checkAvailability();
+			return this._impl.ls(docKey);
+		},
+
+		/**
+		* Remove the specified document and all
+		* of its attachments.
+		*
+		* Returns a promise that is fulfilled when the
+		* removal completes.
+		*
+		* If no docKey is specified, this throws an error.
+		*
+		* To remove all files in LargeLocalStorage call
+		* &#x60;lls.clear();&#x60;
+		*
+		* To remove all attachments that were written without
+		* a docKey, call &#x60;lls.rm(&#x27;__emptydoc__&#x27;);&#x60;
+		*
+		* rm works this way to ensure you don&#x27;t lose
+		* data due to an accidently undefined variable.
+		*
+		* @example
+		* 	stoarge.rm(&#x27;exampleDoc&#x27;).then(function() {
+		*		alert(&#x27;doc and all attachments were removed&#x27;);
+		* 	})
+		*
+		* @method rm
+		* @param {string} docKey
+		* @returns {promise} resolved when removal completes, rejected if the removal fails.
+		*/
+		rm: function(docKey) {
+			this._checkAvailability();
+			return this._impl.rm(docKey);
+		},
+
+		/**
+		* An explicit way to remove all documents and
+		* attachments from LargeLocalStorage.
+		*
+		* @example
+		*	storage.clear().then(function() {
+		*		alert(&#x27;all data has been removed&#x27;);
+		*	});
+		* 
+		* @returns {promise} resolve when clear completes, rejected if clear fails.
+		*/
+		clear: function() {
+			this._checkAvailability();
+			return this._impl.clear();
+		},
+
+		/**
+		* Get the contents of a document identified by &#x60;docKey&#x60;
+		* TODO: normalize all implementations to allow storage
+		* and retrieval of JS objects?
+		*
+		* @example
+		* 	storage.getContents(&#x27;exampleDoc&#x27;).then(function(contents) {
+		* 		alert(contents);
+		* 	});
+		*
+		* @method getContents
+		* @param {string} docKey
+		* @returns {promise} resolved with the contents when the get completes
+		*/
+		getContents: function(docKey, options) {
+			this._checkAvailability();
+			return this._impl.getContents(docKey, options);
+		},
+
+		/**
+		* Set the contents identified by &#x60;docKey&#x60; to &#x60;data&#x60;.
+		* The document will be created if it does not exist.
+		*
+		* @example
+		* 	storage.setContents(&#x27;exampleDoc&#x27;, &#x27;some data...&#x27;).then(function() {
+		*		alert(&#x27;doc written&#x27;);
+		* 	});
+		*
+		* @method setContents
+		* @param {string} docKey
+		* @param {any} data
+		* @returns {promise} fulfilled when set completes
+		*/
+		setContents: function(docKey, data, options) {
+			this._checkAvailability();
+			return this._impl.setContents(docKey, data, options);
+		},
+
+		/**
+		* Get the attachment identified by &#x60;docKey&#x60; and &#x60;attachKey&#x60;
+		*
+		* @example
+		* 	storage.getAttachment(&#x27;exampleDoc&#x27;, &#x27;examplePic&#x27;).then(function(attachment) {
+		*    	var url = URL.createObjectURL(attachment);
+		*    	var image = new Image(url);
+		*    	document.body.appendChild(image);
+		*    	URL.revokeObjectURL(url);
+		* 	})
+		*
+		* @method getAttachment
+		* @param {string} [docKey] Defaults to &#x60;__emptydoc__&#x60;
+		* @param {string} attachKey key of the attachment
+		* @returns {promise} fulfilled with the attachment or
+		* rejected if it could not be found.  code: 1
+		*/
+		getAttachment: function(docKey, attachKey) {
+			if (!docKey) docKey = &#x27;__emptydoc__&#x27;;
+			this._checkAvailability();
+			return this._impl.getAttachment(docKey, attachKey);
+		},
+
+		/**
+		* Set an attachment for a given document.  Identified
+		* by &#x60;docKey&#x60; and &#x60;attachKey&#x60;.
+		*
+		* @example
+		* 	storage.setAttachment(&#x27;myDoc&#x27;, &#x27;myPic&#x27;, blob).then(function() {
+		*    	alert(&#x27;Attachment written&#x27;);
+		* 	})
+		*
+		* @method setAttachment
+		* @param {string} [docKey] Defaults to &#x60;__emptydoc__&#x60;
+		* @param {string} attachKey key for the attachment
+		* @param {any} attachment data
+		* @returns {promise} resolved when the write completes.  Rejected
+		* if an error occurs.
+		*/
+		setAttachment: function(docKey, attachKey, data) {
+			if (!docKey) docKey = &#x27;__emptydoc__&#x27;;
+			this._checkAvailability();
+			return this._impl.setAttachment(docKey, attachKey, data);
+		},
+
+		/**
+		* Get the URL for a given attachment.
+		*
+		* @example
+		* 	storage.getAttachmentURL(&#x27;myDoc&#x27;, &#x27;myPic&#x27;).then(function(url) {
+	 	*   	var image = new Image();
+	 	*   	image.src = url;
+	 	*   	document.body.appendChild(image);
+	 	*   	storage.revokeAttachmentURL(url);
+		* 	})
+		*
+		* This is preferrable to getting the attachment and then getting the
+		* URL via &#x60;createObjectURL&#x60; (on some systems) as LLS can take advantage of 
+		* lower level details to improve performance.
+		*
+		* @method getAttachmentURL
+		* @param {string} [docKey] Identifies the document.  Defaults to &#x60;__emptydoc__&#x60;
+		* @param {string} attachKey Identifies the attachment.
+		* @returns {promose} promise that is resolved with the attachment url.
+		*/
+		getAttachmentURL: function(docKey, attachKey) {
+			if (!docKey) docKey = &#x27;__emptydoc__&#x27;;
+			this._checkAvailability();
+			return this._impl.getAttachmentURL(docKey, attachKey);
+		},
+
+		/**
+		* Gets all of the attachments for a document.
+		*
+		* @example
+		* 	storage.getAllAttachments(&#x27;exampleDoc&#x27;).then(function(attachEntries) {
+		* 		attachEntries.map(function(entry) {
+		*			var a = entry.data;
+		*			// do something with it...
+		* 			if (a.type.indexOf(&#x27;image&#x27;) == 0) {
+		*				// show image...
+		*			} else if (a.type.indexOf(&#x27;audio&#x27;) == 0) {
+		*				// play audio...
+		*			} else ...
+		*		})
+		* 	})
+		*
+		* @method getAllAttachments
+		* @param {string} [docKey] Identifies the document.  Defaults to &#x60;__emptydoc__&#x60;
+		* @returns {promise} Promise that is resolved with all of the attachments for
+		* the given document.
+		*/
+		getAllAttachments: function(docKey) {
+			if (!docKey) docKey = &#x27;__emptydoc__&#x27;;
+			this._checkAvailability();
+			return this._impl.getAllAttachments(docKey);
+		},
+
+		/**
+		* Gets all attachments URLs for a document.
+		*
+		* @example
+		* 	storage.getAllAttachmentURLs(&#x27;exampleDoc&#x27;).then(function(urlEntries) {
+		*		urlEntries.map(function(entry) {
+		*			var url = entry.url;
+		* 			// do something with the url...
+		* 		})
+		* 	})
+		*
+		* @method getAllAttachmentURLs
+		* @param {string} [docKey] Identifies the document.  Defaults to the &#x60;__emptydoc__&#x60; document.
+		* @returns {promise} Promise that is resolved with all of the attachment
+		* urls for the given doc.
+		*/
+		getAllAttachmentURLs: function(docKey) {
+			if (!docKey) docKey = &#x27;__emptydoc__&#x27;;
+			this._checkAvailability();
+			return this._impl.getAllAttachmentURLs(docKey);
+		},
+
+		/**
+		* Revoke the attachment URL as required by the underlying
+		* storage system.
+		*
+		* This is akin to &#x60;URL.revokeObjectURL(url)&#x60;
+		* URLs that come from &#x60;getAttachmentURL&#x60; or &#x60;getAllAttachmentURLs&#x60; 
+		* should be revoked by LLS and not &#x60;URL.revokeObjectURL&#x60;
+		*
+		* @example
+		* 	storage.getAttachmentURL(&#x27;doc&#x27;, &#x27;attach&#x27;).then(function(url) {
+		*		// do something with the URL
+		*		storage.revokeAttachmentURL(url);
+		* 	})
+		*
+		* @method revokeAttachmentURL
+		* @param {string} url The URL as returned by &#x60;getAttachmentURL&#x60; or &#x60;getAttachmentURLs&#x60;
+		* @returns {void}
+		*/
+		revokeAttachmentURL: function(url) {
+			this._checkAvailability();
+			return this._impl.revokeAttachmentURL(url);
+		},
+
+		/**
+		* Remove an attachment from a document.
+		*
+		* @example
+		* 	storage.rmAttachment(&#x27;exampleDoc&#x27;, &#x27;someAttachment&#x27;).then(function() {
+		* 		alert(&#x27;exampleDoc/someAttachment removed&#x27;);
+		* 	}).catch(function(e) {
+		*		alert(&#x27;Attachment removal failed: &#x27; + e);
+		* 	});
+		*
+		* @method rmAttachment
+		* @param {string} docKey
+		* @param {string} attachKey
+		* @returns {promise} Promise that is resolved once the remove completes
+		*/
+		rmAttachment: function(docKey, attachKey) {
+			if (!docKey) docKey = &#x27;__emptydoc__&#x27;;
+			this._checkAvailability();
+			return this._impl.rmAttachment(docKey, attachKey);
+		},
+
+		/**
+		* Returns the actual capacity of the storage or -1
+		* if it is unknown.  If the user denies your request for
+		* storage you&#x27;ll get back some smaller amount of storage than what you
+		* actually requested.
+		*
+		* TODO: return an estimated capacity if actual capacity is unknown?
+		* -Firefox is 50MB until authorized to go above,
+		* -Chrome is some % of available disk space,
+		* -Safari unlimited as long as the user keeps authorizing size increases
+		* -Opera same as safari?
+		*
+		* @example
+		*	// the initialized property will call you back with the capacity
+		* 	storage.initialized.then(function(capacity) {
+		*		console.log(&#x27;Authorized to store: &#x27; + capacity + &#x27; bytes&#x27;);
+		* 	});
+		*	// or if you know your storage is already available
+		*	// you can call getCapacity directly
+		*	storage.getCapacity()
+		*
+		* @method getCapacity
+		* @returns {number} Capacity, in bytes, of the storage.  -1 if unknown.
+		*/
+		getCapacity: function() {
+			this._checkAvailability();
+			if (this._impl.getCapacity)
+				return this._impl.getCapacity();
+			else
+				return -1;
+		},
+
+		_checkAvailability: function() {
+			if (!this._impl) {
+				throw {
+					msg: &quot;No storage implementation is available yet.  The user most likely has not granted you app access to FileSystemAPI or IndexedDB&quot;,
+					code: &quot;NO_IMPLEMENTATION&quot;
+				};
+			}
+		}
+	};
+
+	LargeLocalStorage.contrib = {};
+
+	return LargeLocalStorage;
+})(Q);
+
+	return LargeLocalStorage;
+}
+
+if (typeof define === &#x27;function&#x27; &amp;&amp; define.amd) {
+	define([&#x27;Q&#x27;], definition);
+} else {
+	glob.LargeLocalStorage = definition.call(glob, Q);
+}
+
+}).call(this, this);
+    </pre>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../assets/vendor/prettify/prettify-min.js"></script>
+<script>prettyPrint();</script>
+<script src="../assets/js/yui-prettify.js"></script>
+<script src="../assets/../api.js"></script>
+<script src="../assets/js/api-filter.js"></script>
+<script src="../assets/js/api-list.js"></script>
+<script src="../assets/js/api-search.js"></script>
+<script src="../assets/js/apidocs.js"></script>
+</body>
+</html>

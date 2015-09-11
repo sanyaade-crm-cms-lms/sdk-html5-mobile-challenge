@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>sdk/relationship/has_many_relationship.js - CitiMobileChallenge</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/3.9.1/build/cssgrids/cssgrids-min.css">
+    <link rel="stylesheet" href="../assets/vendor/prettify/prettify-min.css">
+    <link rel="stylesheet" href="../assets/css/main.css" id="site_styles">
+    <link rel="shortcut icon" type="image/png" href="../assets/favicon.png">
+    <script src="http://yui.yahooapis.com/combo?3.9.1/build/yui/yui-min.js"></script>
+</head>
+<body class="yui3-skin-sam">
+
+<div id="doc">
+    <div id="hd" class="yui3-g header">
+        <div class="yui3-u-3-4">
+            
+                <h1><img src="../assets/css/logo.png" title="CitiMobileChallenge"></h1>
+            
+        </div>
+        <div class="yui3-u-1-4 version">
+            <em>API Docs for: 0.0.1</em>
+        </div>
+    </div>
+    <div id="bd" class="yui3-g">
+
+        <div class="yui3-u-1-4">
+            <div id="docs-sidebar" class="sidebar apidocs">
+                <div id="api-list">
+    <h2 class="off-left">APIs</h2>
+    <div id="api-tabview" class="tabview">
+        <ul class="tabs">
+            <li><a href="#api-classes">Classes</a></li>
+            <li><a href="#api-modules">Modules</a></li>
+        </ul>
+
+        <div id="api-tabview-filter">
+            <input type="search" id="api-filter" placeholder="Type to filter APIs">
+        </div>
+
+        <div id="api-tabview-panel">
+            <ul id="api-classes" class="apis classes">
+            
+                <li><a href="../classes/AggregateCollection.html">AggregateCollection</a></li>
+            
+                <li><a href="../classes/Application.html">Application</a></li>
+            
+                <li><a href="../classes/Authentication.html">Authentication</a></li>
+            
+                <li><a href="../classes/Authorization.html">Authorization</a></li>
+            
+                <li><a href="../classes/Base64.html">Base64</a></li>
+            
+                <li><a href="../classes/BelongsTo.html">BelongsTo</a></li>
+            
+                <li><a href="../classes/CapitalMarketsActivity.html">CapitalMarketsActivity</a></li>
+            
+                <li><a href="../classes/CapitalMarketsActivityActivities.html">CapitalMarketsActivityActivities</a></li>
+            
+                <li><a href="../classes/CapitalMarketsActivityAll.html">CapitalMarketsActivityAll</a></li>
+            
+                <li><a href="../classes/CapitalMarketsActivityCount.html">CapitalMarketsActivityCount</a></li>
+            
+                <li><a href="../classes/CapitalMarketsActivityCountExactMatch.html">CapitalMarketsActivityCountExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsActivityExactMatch.html">CapitalMarketsActivityExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContact.html">CapitalMarketsContact</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContactAll.html">CapitalMarketsContactAll</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContactContacts.html">CapitalMarketsContactContacts</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContactCount.html">CapitalMarketsContactCount</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContactCountExactMatch.html">CapitalMarketsContactCountExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContactExactMatch.html">CapitalMarketsContactExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContentService.html">CapitalMarketsContentService</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContentServiceAll.html">CapitalMarketsContentServiceAll</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContentServiceContentServices.html">CapitalMarketsContentServiceContentServices</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContentServiceCount.html">CapitalMarketsContentServiceCount</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContentServiceCountExactMatch.html">CapitalMarketsContentServiceCountExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContentServiceExactMatch.html">CapitalMarketsContentServiceExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsLogin.html">CapitalMarketsLogin</a></li>
+            
+                <li><a href="../classes/CapitalMarketsLoginAll.html">CapitalMarketsLoginAll</a></li>
+            
+                <li><a href="../classes/CapitalMarketsLoginCount.html">CapitalMarketsLoginCount</a></li>
+            
+                <li><a href="../classes/CapitalMarketsLoginCountExactMatch.html">CapitalMarketsLoginCountExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsLoginExactMatch.html">CapitalMarketsLoginExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsOrder.html">CapitalMarketsOrder</a></li>
+            
+                <li><a href="../classes/CapitalMarketsOrderAll.html">CapitalMarketsOrderAll</a></li>
+            
+                <li><a href="../classes/CapitalMarketsOrderCount.html">CapitalMarketsOrderCount</a></li>
+            
+                <li><a href="../classes/CapitalMarketsOrderCountExactMatch.html">CapitalMarketsOrderCountExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsOrderExactMatch.html">CapitalMarketsOrderExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsRevenue.html">CapitalMarketsRevenue</a></li>
+            
+                <li><a href="../classes/CapitalMarketsRevenueAll.html">CapitalMarketsRevenueAll</a></li>
+            
+                <li><a href="../classes/CapitalMarketsRevenueCount.html">CapitalMarketsRevenueCount</a></li>
+            
+                <li><a href="../classes/CapitalMarketsRevenueCountExactMatch.html">CapitalMarketsRevenueCountExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsRevenueExactMatch.html">CapitalMarketsRevenueExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsRevenueRevenues.html">CapitalMarketsRevenueRevenues</a></li>
+            
+                <li><a href="../classes/CapitalMarketsTrading.html">CapitalMarketsTrading</a></li>
+            
+                <li><a href="../classes/Class.html">Class</a></li>
+            
+                <li><a href="../classes/Collection.html">Collection</a></li>
+            
+                <li><a href="../classes/Collections.html">Collections</a></li>
+            
+                <li><a href="../classes/Cookie.html">Cookie</a></li>
+            
+                <li><a href="../classes/CorporatePayments.html">CorporatePayments</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsAccount.html">CorporatePaymentsAccount</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsAccountAll.html">CorporatePaymentsAccountAll</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsAccountCount.html">CorporatePaymentsAccountCount</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsAccountCountExactMatch.html">CorporatePaymentsAccountCountExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsAccountExactMatch.html">CorporatePaymentsAccountExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsBeneficiary.html">CorporatePaymentsBeneficiary</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsBeneficiaryAll.html">CorporatePaymentsBeneficiaryAll</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsBeneficiaryCount.html">CorporatePaymentsBeneficiaryCount</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsBeneficiaryCountExactMatch.html">CorporatePaymentsBeneficiaryCountExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsBeneficiaryExactMatch.html">CorporatePaymentsBeneficiaryExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxBooking.html">CorporatePaymentsCrossBorderFxBooking</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxBookingAll.html">CorporatePaymentsCrossBorderFxBookingAll</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxBookingCount.html">CorporatePaymentsCrossBorderFxBookingCount</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxBookingCountExactMatch.html">CorporatePaymentsCrossBorderFxBookingCountExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxBookingExactMatch.html">CorporatePaymentsCrossBorderFxBookingExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxPayment.html">CorporatePaymentsCrossBorderFxPayment</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxPaymentAll.html">CorporatePaymentsCrossBorderFxPaymentAll</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxPaymentCount.html">CorporatePaymentsCrossBorderFxPaymentCount</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxPaymentCountExactMatch.html">CorporatePaymentsCrossBorderFxPaymentCountExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxPaymentExactMatch.html">CorporatePaymentsCrossBorderFxPaymentExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxPaymentFxPayments.html">CorporatePaymentsCrossBorderFxPaymentFxPayments</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxQuote.html">CorporatePaymentsCrossBorderFxQuote</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxQuoteAll.html">CorporatePaymentsCrossBorderFxQuoteAll</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxQuoteCount.html">CorporatePaymentsCrossBorderFxQuoteCount</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxQuoteCountExactMatch.html">CorporatePaymentsCrossBorderFxQuoteCountExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxQuoteExactMatch.html">CorporatePaymentsCrossBorderFxQuoteExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsLogin.html">CorporatePaymentsLogin</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsLoginAll.html">CorporatePaymentsLoginAll</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsLoginCount.html">CorporatePaymentsLoginCount</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsLoginCountExactMatch.html">CorporatePaymentsLoginCountExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsLoginExactMatch.html">CorporatePaymentsLoginExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsPayment.html">CorporatePaymentsPayment</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsPaymentAll.html">CorporatePaymentsPaymentAll</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsPaymentCount.html">CorporatePaymentsPaymentCount</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsPaymentCountExactMatch.html">CorporatePaymentsPaymentCountExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsPaymentExactMatch.html">CorporatePaymentsPaymentExactMatch</a></li>
+            
+                <li><a href="../classes/DefaultAdapter.html">DefaultAdapter</a></li>
+            
+                <li><a href="../classes/Dispatcher.html">Dispatcher</a></li>
+            
+                <li><a href="../classes/HasMany.html">HasMany</a></li>
+            
+                <li><a href="../classes/HasOne.html">HasOne</a></li>
+            
+                <li><a href="../classes/HttpAdapter.html">HttpAdapter</a></li>
+            
+                <li><a href="../classes/JSON.html">JSON</a></li>
+            
+                <li><a href="../classes/LargeLocalStorage.html">LargeLocalStorage</a></li>
+            
+                <li><a href="../classes/MockServer.html">MockServer</a></li>
+            
+                <li><a href="../classes/Model.html">Model</a></li>
+            
+                <li><a href="../classes/Models.html">Models</a></li>
+            
+                <li><a href="../classes/Relationship.html">Relationship</a></li>
+            
+                <li><a href="../classes/RetailBanking.html">RetailBanking</a></li>
+            
+                <li><a href="../classes/RetailBankingAccount.html">RetailBankingAccount</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountAll.html">RetailBankingAccountAll</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountBalance.html">RetailBankingAccountBalance</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountBalanceAll.html">RetailBankingAccountBalanceAll</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountBalanceCount.html">RetailBankingAccountBalanceCount</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountBalanceCountExactMatch.html">RetailBankingAccountBalanceCountExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountBalanceExactMatch.html">RetailBankingAccountBalanceExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountCount.html">RetailBankingAccountCount</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountCountExactMatch.html">RetailBankingAccountCountExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountExactMatch.html">RetailBankingAccountExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountFundTransfer.html">RetailBankingAccountFundTransfer</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountFundTransferAll.html">RetailBankingAccountFundTransferAll</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountFundTransferCount.html">RetailBankingAccountFundTransferCount</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountFundTransferCountExactMatch.html">RetailBankingAccountFundTransferCountExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountFundTransferExactMatch.html">RetailBankingAccountFundTransferExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountTransaction.html">RetailBankingAccountTransaction</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountTransactionAll.html">RetailBankingAccountTransactionAll</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountTransactionCount.html">RetailBankingAccountTransactionCount</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountTransactionCountExactMatch.html">RetailBankingAccountTransactionCountExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountTransactionExactMatch.html">RetailBankingAccountTransactionExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingForeignCurrency.html">RetailBankingForeignCurrency</a></li>
+            
+                <li><a href="../classes/RetailBankingForeignCurrencyAll.html">RetailBankingForeignCurrencyAll</a></li>
+            
+                <li><a href="../classes/RetailBankingForeignCurrencyCount.html">RetailBankingForeignCurrencyCount</a></li>
+            
+                <li><a href="../classes/RetailBankingForeignCurrencyCountExactMatch.html">RetailBankingForeignCurrencyCountExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingForeignCurrencyExactMatch.html">RetailBankingForeignCurrencyExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingForeignCurrencyForeignCurrency.html">RetailBankingForeignCurrencyForeignCurrency</a></li>
+            
+                <li><a href="../classes/RetailBankingLocation.html">RetailBankingLocation</a></li>
+            
+                <li><a href="../classes/RetailBankingLocationAll.html">RetailBankingLocationAll</a></li>
+            
+                <li><a href="../classes/RetailBankingLocationCount.html">RetailBankingLocationCount</a></li>
+            
+                <li><a href="../classes/RetailBankingLocationCountExactMatch.html">RetailBankingLocationCountExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingLocationExactMatch.html">RetailBankingLocationExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingLocationLocations.html">RetailBankingLocationLocations</a></li>
+            
+                <li><a href="../classes/RetailBankingLogin.html">RetailBankingLogin</a></li>
+            
+                <li><a href="../classes/RetailBankingLoginAll.html">RetailBankingLoginAll</a></li>
+            
+                <li><a href="../classes/RetailBankingLoginCount.html">RetailBankingLoginCount</a></li>
+            
+                <li><a href="../classes/RetailBankingLoginCountExactMatch.html">RetailBankingLoginCountExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingLoginExactMatch.html">RetailBankingLoginExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingPayee.html">RetailBankingPayee</a></li>
+            
+                <li><a href="../classes/RetailBankingPayeeAll.html">RetailBankingPayeeAll</a></li>
+            
+                <li><a href="../classes/RetailBankingPayeeCount.html">RetailBankingPayeeCount</a></li>
+            
+                <li><a href="../classes/RetailBankingPayeeCountExactMatch.html">RetailBankingPayeeCountExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingPayeeExactMatch.html">RetailBankingPayeeExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingPayeeType.html">RetailBankingPayeeType</a></li>
+            
+                <li><a href="../classes/RetailBankingPayeeTypeAll.html">RetailBankingPayeeTypeAll</a></li>
+            
+                <li><a href="../classes/RetailBankingPayeeTypeCount.html">RetailBankingPayeeTypeCount</a></li>
+            
+                <li><a href="../classes/RetailBankingPayeeTypeCountExactMatch.html">RetailBankingPayeeTypeCountExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingPayeeTypeExactMatch.html">RetailBankingPayeeTypeExactMatch</a></li>
+            
+                <li><a href="../classes/ScopeCollection.html">ScopeCollection</a></li>
+            
+                <li><a href="../classes/Url.html">Url</a></li>
+            
+                <li><a href="../classes/Validator.html">Validator</a></li>
+            
+                <li><a href="../classes/XML.html">XML</a></li>
+            
+            </ul>
+
+            <ul id="api-modules" class="apis modules">
+            
+                <li><a href="../modules/adapter.html">adapter</a></li>
+            
+                <li><a href="../modules/adapters.html">adapters</a></li>
+            
+                <li><a href="../modules/AP.html">AP</a></li>
+            
+                <li><a href="../modules/auth.html">auth</a></li>
+            
+                <li><a href="../modules/CitiMobileChallengeSdk.html">CitiMobileChallengeSdk</a></li>
+            
+                <li><a href="../modules/collection.html">collection</a></li>
+            
+                <li><a href="../modules/collections.html">collections</a></li>
+            
+                <li><a href="../modules/MockServer.html">MockServer</a></li>
+            
+                <li><a href="../modules/model.html">model</a></li>
+            
+                <li><a href="../modules/models.html">models</a></li>
+            
+                <li><a href="../modules/relationship.html">relationship</a></li>
+            
+                <li><a href="../modules/utility.html">utility</a></li>
+            
+            </ul>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+        <div class="yui3-u-3-4">
+                <div id="api-options">
+        Show:
+        <label for="api-show-inherited">
+            <input type="checkbox" id="api-show-inherited" checked>
+            Inherited
+        </label>
+
+        <label for="api-show-protected">
+            <input type="checkbox" id="api-show-protected">
+            Protected
+        </label>
+
+        <label for="api-show-private">
+            <input type="checkbox" id="api-show-private">
+            Private
+        </label>
+        <label for="api-show-deprecated">
+            <input type="checkbox" id="api-show-deprecated">
+            Deprecated
+        </label>
+
+    </div>
+
+
+            <div class="apidocs">
+                <div id="docs-main">
+                    <div class="content">
+                        <h1 class="file-heading">File: sdk/relationship/has_many_relationship.js</h1>
+
+<div class="file">
+    <pre class="code prettyprint linenums">
+/**
+A has-many relationship is one where the owner model instance is related to
+any number of related instances.  In this scheme, the relationship
+information is stored in a foreign key on the related instance(s).  The related
+instances are stored in the {@link #collection} on a generated field
+{@link #name} once fetched.
+
+Relationships should not be instantiated directly.  Please see
+{@link AP.model.Model#relationshipDefinitions} for more information on
+declaring relationships.
+
+@module AP
+@submodule relationship
+@class HasMany
+@extends AP.relationship.Relationship
+ */
+AP.relationship.HasMany = (function($class, _Relationship) {
+  
+  var hasMany = $class({
+    extends: _Relationship,
+    
+    _constructor: function HasMany() {
+      AP.relationship.HasMany._super.constructor.apply(this, arguments);
+    },
+    
+    initialize: function() {
+      AP.relationship.HasMany._super.initialize.apply(this, arguments);
+      this.listenTo(this.collection, &quot;reset&quot;, this.onCollectionReset);
+      return this.listenTo(this.collection, &quot;change:&quot; + this.foreignKey, this.onRelatedInstanceForeignKeyChange);
+    },
+
+    /**
+    Sets the {@link #foreignKey} of the related instance to the ID of the owner
+    instance when added to the collection.  Triggers a change event on the
+    generated relationship field {@link #name}.
+    @method onCollectionAdd
+    @param {Object} record the added model instance
+     */
+    onCollectionAdd: function(record) {
+      record.set(this.foreignKey, this.owner.get(this.owner.idAttribute));
+      return this.owner.trigger(&quot;change:&quot; + this.name);
+    },
+
+    /**
+    Unset the {@link #foreignKey} of the related instance when removed from
+    the collection.  Triggers a change event on the generated relationship
+    field {@link #name}.
+    @method onCollectionRemove
+    @param {Object} record the removed model instance
+     */
+    onCollectionRemove: function(record) {
+      if (record.get(this.foreignKey) === this.owner.get(this.owner.idAttribute)) {
+        record.set(this.foreignKey, null);
+      }
+      return this.owner.trigger(&quot;change:&quot; + this.name);
+    },
+
+    /**
+    Triggers a change event on the generated relationship field {@link #name} when
+    the collection is reset.  See {@link #filterCollection}.
+    @method onCollectionReset
+     */
+    onCollectionReset: function() {
+      return this.owner.trigger(&quot;change:&quot; + this.name);
+    },
+
+    /**
+    Calls {@link #filterCollection} whenever the foreign key field of a related
+    instance is changed.
+    @method onRelatedInstanceForeignKeyChange
+     */
+    onRelatedInstanceForeignKeyChange: function() {
+      return this.filterCollection();
+    },
+
+    /**
+    Removes any stale related instances from the collection.  Stale instances are
+    instances with foreign keys that no longer refer to the owner instance.
+    See {@link #onCollectionReset}.
+    @method filterCollection
+     */
+    filterCollection: function() {
+      var filtered, whereClause;
+      whereClause = {};
+      whereClause[this.foreignKey] = this.owner.get(this.owner.idAttribute);
+      filtered = this.collection.where(whereClause);
+      return this.collection.reset(filtered, {
+        reset: true
+      });
+    },
+
+    /**
+    Returns the default value of the generated field {@link #name}.  For many-to-
+    many relationships, the value is always the {@link #collection} instance.
+    @method getDefault
+    @return {AP.collection.Collection} the collection instance declared
+    by {@link #collection}.
+     */
+    getDefault: function() {
+      return this.collection;
+    },
+
+    /**
+    Returns a query used to obtain the related instances from the server.
+    @method getQuery
+    @return {Object} parameters used to query server for the related instances
+     */
+    getQuery: function() {
+      var query;
+      query = AP.relationship.HasMany._super.getQuery.apply(this, arguments);
+      query[this.foreignKey] = this.owner.get(this.owner.idAttribute);
+      return query;
+    },
+
+    /**
+    Querys the server for related instances.
+    @method fetch
+    @param {Function} callback function executed upon query success; called with
+    one argument:  the collection of related instances
+     */
+    fetch: function(callback) {
+      return this.collection.query(this.getQuery(), {
+        reset: true,
+        success: (function(_this) {
+          return function() {
+            if (_.isFunction(callback)) {
+              return callback(_this.owner, _this.collection);
+            }
+          };
+        })(this)
+      });
+    },
+    
+  });
+  
+  return hasMany;
+  
+})(AP.utility.createClass, AP.relationship.Relationship);
+
+    </pre>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../assets/vendor/prettify/prettify-min.js"></script>
+<script>prettyPrint();</script>
+<script src="../assets/js/yui-prettify.js"></script>
+<script src="../assets/../api.js"></script>
+<script src="../assets/js/api-filter.js"></script>
+<script src="../assets/js/api-list.js"></script>
+<script src="../assets/js/api-search.js"></script>
+<script src="../assets/js/apidocs.js"></script>
+</body>
+</html>

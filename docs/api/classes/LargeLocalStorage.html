@@ -1,0 +1,2462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>LargeLocalStorage - CitiMobileChallenge</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/3.9.1/build/cssgrids/cssgrids-min.css">
+    <link rel="stylesheet" href="../assets/vendor/prettify/prettify-min.css">
+    <link rel="stylesheet" href="../assets/css/main.css" id="site_styles">
+    <link rel="shortcut icon" type="image/png" href="../assets/favicon.png">
+    <script src="http://yui.yahooapis.com/combo?3.9.1/build/yui/yui-min.js"></script>
+</head>
+<body class="yui3-skin-sam">
+
+<div id="doc">
+    <div id="hd" class="yui3-g header">
+        <div class="yui3-u-3-4">
+            
+                <h1><img src="../assets/css/logo.png" title="CitiMobileChallenge"></h1>
+            
+        </div>
+        <div class="yui3-u-1-4 version">
+            <em>API Docs for: 0.0.1</em>
+        </div>
+    </div>
+    <div id="bd" class="yui3-g">
+
+        <div class="yui3-u-1-4">
+            <div id="docs-sidebar" class="sidebar apidocs">
+                <div id="api-list">
+    <h2 class="off-left">APIs</h2>
+    <div id="api-tabview" class="tabview">
+        <ul class="tabs">
+            <li><a href="#api-classes">Classes</a></li>
+            <li><a href="#api-modules">Modules</a></li>
+        </ul>
+
+        <div id="api-tabview-filter">
+            <input type="search" id="api-filter" placeholder="Type to filter APIs">
+        </div>
+
+        <div id="api-tabview-panel">
+            <ul id="api-classes" class="apis classes">
+            
+                <li><a href="../classes/AggregateCollection.html">AggregateCollection</a></li>
+            
+                <li><a href="../classes/Application.html">Application</a></li>
+            
+                <li><a href="../classes/Authentication.html">Authentication</a></li>
+            
+                <li><a href="../classes/Authorization.html">Authorization</a></li>
+            
+                <li><a href="../classes/Base64.html">Base64</a></li>
+            
+                <li><a href="../classes/BelongsTo.html">BelongsTo</a></li>
+            
+                <li><a href="../classes/CapitalMarketsActivity.html">CapitalMarketsActivity</a></li>
+            
+                <li><a href="../classes/CapitalMarketsActivityActivities.html">CapitalMarketsActivityActivities</a></li>
+            
+                <li><a href="../classes/CapitalMarketsActivityAll.html">CapitalMarketsActivityAll</a></li>
+            
+                <li><a href="../classes/CapitalMarketsActivityCount.html">CapitalMarketsActivityCount</a></li>
+            
+                <li><a href="../classes/CapitalMarketsActivityCountExactMatch.html">CapitalMarketsActivityCountExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsActivityExactMatch.html">CapitalMarketsActivityExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContact.html">CapitalMarketsContact</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContactAll.html">CapitalMarketsContactAll</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContactContacts.html">CapitalMarketsContactContacts</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContactCount.html">CapitalMarketsContactCount</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContactCountExactMatch.html">CapitalMarketsContactCountExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContactExactMatch.html">CapitalMarketsContactExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContentService.html">CapitalMarketsContentService</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContentServiceAll.html">CapitalMarketsContentServiceAll</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContentServiceContentServices.html">CapitalMarketsContentServiceContentServices</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContentServiceCount.html">CapitalMarketsContentServiceCount</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContentServiceCountExactMatch.html">CapitalMarketsContentServiceCountExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContentServiceExactMatch.html">CapitalMarketsContentServiceExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsLogin.html">CapitalMarketsLogin</a></li>
+            
+                <li><a href="../classes/CapitalMarketsLoginAll.html">CapitalMarketsLoginAll</a></li>
+            
+                <li><a href="../classes/CapitalMarketsLoginCount.html">CapitalMarketsLoginCount</a></li>
+            
+                <li><a href="../classes/CapitalMarketsLoginCountExactMatch.html">CapitalMarketsLoginCountExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsLoginExactMatch.html">CapitalMarketsLoginExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsOrder.html">CapitalMarketsOrder</a></li>
+            
+                <li><a href="../classes/CapitalMarketsOrderAll.html">CapitalMarketsOrderAll</a></li>
+            
+                <li><a href="../classes/CapitalMarketsOrderCount.html">CapitalMarketsOrderCount</a></li>
+            
+                <li><a href="../classes/CapitalMarketsOrderCountExactMatch.html">CapitalMarketsOrderCountExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsOrderExactMatch.html">CapitalMarketsOrderExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsRevenue.html">CapitalMarketsRevenue</a></li>
+            
+                <li><a href="../classes/CapitalMarketsRevenueAll.html">CapitalMarketsRevenueAll</a></li>
+            
+                <li><a href="../classes/CapitalMarketsRevenueCount.html">CapitalMarketsRevenueCount</a></li>
+            
+                <li><a href="../classes/CapitalMarketsRevenueCountExactMatch.html">CapitalMarketsRevenueCountExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsRevenueExactMatch.html">CapitalMarketsRevenueExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsRevenueRevenues.html">CapitalMarketsRevenueRevenues</a></li>
+            
+                <li><a href="../classes/CapitalMarketsTrading.html">CapitalMarketsTrading</a></li>
+            
+                <li><a href="../classes/Class.html">Class</a></li>
+            
+                <li><a href="../classes/Collection.html">Collection</a></li>
+            
+                <li><a href="../classes/Collections.html">Collections</a></li>
+            
+                <li><a href="../classes/Cookie.html">Cookie</a></li>
+            
+                <li><a href="../classes/CorporatePayments.html">CorporatePayments</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsAccount.html">CorporatePaymentsAccount</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsAccountAll.html">CorporatePaymentsAccountAll</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsAccountCount.html">CorporatePaymentsAccountCount</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsAccountCountExactMatch.html">CorporatePaymentsAccountCountExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsAccountExactMatch.html">CorporatePaymentsAccountExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsBeneficiary.html">CorporatePaymentsBeneficiary</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsBeneficiaryAll.html">CorporatePaymentsBeneficiaryAll</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsBeneficiaryCount.html">CorporatePaymentsBeneficiaryCount</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsBeneficiaryCountExactMatch.html">CorporatePaymentsBeneficiaryCountExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsBeneficiaryExactMatch.html">CorporatePaymentsBeneficiaryExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxBooking.html">CorporatePaymentsCrossBorderFxBooking</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxBookingAll.html">CorporatePaymentsCrossBorderFxBookingAll</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxBookingCount.html">CorporatePaymentsCrossBorderFxBookingCount</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxBookingCountExactMatch.html">CorporatePaymentsCrossBorderFxBookingCountExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxBookingExactMatch.html">CorporatePaymentsCrossBorderFxBookingExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxPayment.html">CorporatePaymentsCrossBorderFxPayment</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxPaymentAll.html">CorporatePaymentsCrossBorderFxPaymentAll</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxPaymentCount.html">CorporatePaymentsCrossBorderFxPaymentCount</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxPaymentCountExactMatch.html">CorporatePaymentsCrossBorderFxPaymentCountExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxPaymentExactMatch.html">CorporatePaymentsCrossBorderFxPaymentExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxPaymentFxPayments.html">CorporatePaymentsCrossBorderFxPaymentFxPayments</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxQuote.html">CorporatePaymentsCrossBorderFxQuote</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxQuoteAll.html">CorporatePaymentsCrossBorderFxQuoteAll</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxQuoteCount.html">CorporatePaymentsCrossBorderFxQuoteCount</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxQuoteCountExactMatch.html">CorporatePaymentsCrossBorderFxQuoteCountExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxQuoteExactMatch.html">CorporatePaymentsCrossBorderFxQuoteExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsLogin.html">CorporatePaymentsLogin</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsLoginAll.html">CorporatePaymentsLoginAll</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsLoginCount.html">CorporatePaymentsLoginCount</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsLoginCountExactMatch.html">CorporatePaymentsLoginCountExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsLoginExactMatch.html">CorporatePaymentsLoginExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsPayment.html">CorporatePaymentsPayment</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsPaymentAll.html">CorporatePaymentsPaymentAll</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsPaymentCount.html">CorporatePaymentsPaymentCount</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsPaymentCountExactMatch.html">CorporatePaymentsPaymentCountExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsPaymentExactMatch.html">CorporatePaymentsPaymentExactMatch</a></li>
+            
+                <li><a href="../classes/DefaultAdapter.html">DefaultAdapter</a></li>
+            
+                <li><a href="../classes/Dispatcher.html">Dispatcher</a></li>
+            
+                <li><a href="../classes/HasMany.html">HasMany</a></li>
+            
+                <li><a href="../classes/HasOne.html">HasOne</a></li>
+            
+                <li><a href="../classes/HttpAdapter.html">HttpAdapter</a></li>
+            
+                <li><a href="../classes/JSON.html">JSON</a></li>
+            
+                <li><a href="../classes/LargeLocalStorage.html">LargeLocalStorage</a></li>
+            
+                <li><a href="../classes/MockServer.html">MockServer</a></li>
+            
+                <li><a href="../classes/Model.html">Model</a></li>
+            
+                <li><a href="../classes/Models.html">Models</a></li>
+            
+                <li><a href="../classes/Relationship.html">Relationship</a></li>
+            
+                <li><a href="../classes/RetailBanking.html">RetailBanking</a></li>
+            
+                <li><a href="../classes/RetailBankingAccount.html">RetailBankingAccount</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountAll.html">RetailBankingAccountAll</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountBalance.html">RetailBankingAccountBalance</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountBalanceAll.html">RetailBankingAccountBalanceAll</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountBalanceCount.html">RetailBankingAccountBalanceCount</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountBalanceCountExactMatch.html">RetailBankingAccountBalanceCountExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountBalanceExactMatch.html">RetailBankingAccountBalanceExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountCount.html">RetailBankingAccountCount</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountCountExactMatch.html">RetailBankingAccountCountExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountExactMatch.html">RetailBankingAccountExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountFundTransfer.html">RetailBankingAccountFundTransfer</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountFundTransferAll.html">RetailBankingAccountFundTransferAll</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountFundTransferCount.html">RetailBankingAccountFundTransferCount</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountFundTransferCountExactMatch.html">RetailBankingAccountFundTransferCountExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountFundTransferExactMatch.html">RetailBankingAccountFundTransferExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountTransaction.html">RetailBankingAccountTransaction</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountTransactionAll.html">RetailBankingAccountTransactionAll</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountTransactionCount.html">RetailBankingAccountTransactionCount</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountTransactionCountExactMatch.html">RetailBankingAccountTransactionCountExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountTransactionExactMatch.html">RetailBankingAccountTransactionExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingForeignCurrency.html">RetailBankingForeignCurrency</a></li>
+            
+                <li><a href="../classes/RetailBankingForeignCurrencyAll.html">RetailBankingForeignCurrencyAll</a></li>
+            
+                <li><a href="../classes/RetailBankingForeignCurrencyCount.html">RetailBankingForeignCurrencyCount</a></li>
+            
+                <li><a href="../classes/RetailBankingForeignCurrencyCountExactMatch.html">RetailBankingForeignCurrencyCountExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingForeignCurrencyExactMatch.html">RetailBankingForeignCurrencyExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingForeignCurrencyForeignCurrency.html">RetailBankingForeignCurrencyForeignCurrency</a></li>
+            
+                <li><a href="../classes/RetailBankingLocation.html">RetailBankingLocation</a></li>
+            
+                <li><a href="../classes/RetailBankingLocationAll.html">RetailBankingLocationAll</a></li>
+            
+                <li><a href="../classes/RetailBankingLocationCount.html">RetailBankingLocationCount</a></li>
+            
+                <li><a href="../classes/RetailBankingLocationCountExactMatch.html">RetailBankingLocationCountExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingLocationExactMatch.html">RetailBankingLocationExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingLocationLocations.html">RetailBankingLocationLocations</a></li>
+            
+                <li><a href="../classes/RetailBankingLogin.html">RetailBankingLogin</a></li>
+            
+                <li><a href="../classes/RetailBankingLoginAll.html">RetailBankingLoginAll</a></li>
+            
+                <li><a href="../classes/RetailBankingLoginCount.html">RetailBankingLoginCount</a></li>
+            
+                <li><a href="../classes/RetailBankingLoginCountExactMatch.html">RetailBankingLoginCountExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingLoginExactMatch.html">RetailBankingLoginExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingPayee.html">RetailBankingPayee</a></li>
+            
+                <li><a href="../classes/RetailBankingPayeeAll.html">RetailBankingPayeeAll</a></li>
+            
+                <li><a href="../classes/RetailBankingPayeeCount.html">RetailBankingPayeeCount</a></li>
+            
+                <li><a href="../classes/RetailBankingPayeeCountExactMatch.html">RetailBankingPayeeCountExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingPayeeExactMatch.html">RetailBankingPayeeExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingPayeeType.html">RetailBankingPayeeType</a></li>
+            
+                <li><a href="../classes/RetailBankingPayeeTypeAll.html">RetailBankingPayeeTypeAll</a></li>
+            
+                <li><a href="../classes/RetailBankingPayeeTypeCount.html">RetailBankingPayeeTypeCount</a></li>
+            
+                <li><a href="../classes/RetailBankingPayeeTypeCountExactMatch.html">RetailBankingPayeeTypeCountExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingPayeeTypeExactMatch.html">RetailBankingPayeeTypeExactMatch</a></li>
+            
+                <li><a href="../classes/ScopeCollection.html">ScopeCollection</a></li>
+            
+                <li><a href="../classes/Url.html">Url</a></li>
+            
+                <li><a href="../classes/Validator.html">Validator</a></li>
+            
+                <li><a href="../classes/XML.html">XML</a></li>
+            
+            </ul>
+
+            <ul id="api-modules" class="apis modules">
+            
+                <li><a href="../modules/adapter.html">adapter</a></li>
+            
+                <li><a href="../modules/adapters.html">adapters</a></li>
+            
+                <li><a href="../modules/AP.html">AP</a></li>
+            
+                <li><a href="../modules/auth.html">auth</a></li>
+            
+                <li><a href="../modules/CitiMobileChallengeSdk.html">CitiMobileChallengeSdk</a></li>
+            
+                <li><a href="../modules/collection.html">collection</a></li>
+            
+                <li><a href="../modules/collections.html">collections</a></li>
+            
+                <li><a href="../modules/MockServer.html">MockServer</a></li>
+            
+                <li><a href="../modules/model.html">model</a></li>
+            
+                <li><a href="../modules/models.html">models</a></li>
+            
+                <li><a href="../modules/relationship.html">relationship</a></li>
+            
+                <li><a href="../modules/utility.html">utility</a></li>
+            
+            </ul>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+        <div class="yui3-u-3-4">
+                <div id="api-options">
+        Show:
+        <label for="api-show-inherited">
+            <input type="checkbox" id="api-show-inherited" checked>
+            Inherited
+        </label>
+
+        <label for="api-show-protected">
+            <input type="checkbox" id="api-show-protected">
+            Protected
+        </label>
+
+        <label for="api-show-private">
+            <input type="checkbox" id="api-show-private">
+            Private
+        </label>
+        <label for="api-show-deprecated">
+            <input type="checkbox" id="api-show-deprecated">
+            Deprecated
+        </label>
+
+    </div>
+
+
+            <div class="apidocs">
+                <div id="docs-main">
+                    <div class="content">
+                        <h1>LargeLocalStorage Class</h1>
+<div class="box meta">
+    
+
+    
+
+    
+        <div class="foundat">
+            Defined in: <a href="../files/sdk_lib_large-local-storage_large-local-storage.js.html#l1337"><code>sdk&#x2F;lib&#x2F;large-local-storage&#x2F;large-local-storage.js:1337</code></a>
+        </div>
+    
+
+    
+        
+            Module: <a href="../modules/CitiMobileChallengeSdk.html">CitiMobileChallengeSdk</a>
+        
+    
+
+    
+</div>
+
+
+
+<div class="box intro">
+    <p>LargeLocalStorage (or LLS) gives you a large capacity 
+ (up to several gig with permission from the user)
+ key-value store in the browser.</p>
+<p> For storage, LLS uses the <a href="https://developer.mozilla.org/en-US/docs/WebGuide/API/File_System">FilesystemAPI</a>
+ when running in Chrome and Opera, 
+ <a href="https://developer.mozilla.org/en-US/docs/IndexedDB">IndexedDB</a> in Firefox and IE
+ and <a href="http://www.w3.org/TR/webdatabase/">WebSQL</a> in Safari.</p>
+<p> When IndexedDB becomes available in Safari, LLS will
+ update to take advantage of that storage implementation.</p>
+<p> Upon construction a LargeLocalStorage (LLS) object will be 
+ immediately returned but not necessarily immediately ready for use.</p>
+<p> A LLS object has an <code>initialized</code> property which is a promise
+ that is resolved when the LLS object is ready for us.</p>
+<p> Usage of LLS would typically be:</p>
+<pre class="code prettyprint"><code> var storage = new LargeLocalStorage({size: 75*1024*1024});
+ storage.initialized.then(function(grantedCapacity) {
+   // storage ready to be used.
+ });</code></pre>
+<p> The reason that LLS may not be immediately ready for
+ use is that some browsers require confirmation from the
+ user before a storage area may be created.  Also,
+ the browser&#39;s native storage APIs are asynchronous.</p>
+<p> If an LLS instance is used before the storage
+ area is ready then any
+ calls to it will throw an exception with code: &quot;NO_IMPLEMENTATION&quot;</p>
+<p> This behavior is useful when you want the application
+ to continue to function--regardless of whether or
+ not the user has allowed it to store data--and would
+ like to know when your storage calls fail at the point
+ of those calls.</p>
+<p> LLS-contrib has utilities to queue storage calls until
+ the implementation is ready.  If an implementation
+ is never ready this could obviously lead to memory issues
+ which is why it is not the default behavior.</p>
+
+</div>
+
+
+    <div class="constructor">
+        <h2>Constructor</h2>
+        <div id="method_LargeLocalStorage" class="method item">
+    <h3 class="name"><code>LargeLocalStorage</code></h3>
+
+    
+        <div class="args">
+            <span class="paren">(</span><ul class="args-list inline commas">
+            
+                <li class="arg">
+                    
+                        <code>config</code>
+                    
+                </li>
+            
+            </ul><span class="paren">)</span>
+        </div>
+    
+
+    
+        <span class="returns-inline">
+            <span class="type"><a href="../classes/LargeLocalStorage.html" class="crosslink">LargeLocalStorage</a></span>
+        </span>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="../files/sdk_lib_large-local-storage_large-local-storage.js.html#l1337"><code>sdk&#x2F;lib&#x2F;large-local-storage&#x2F;large-local-storage.js:1337</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        
+    </div>
+
+    
+        <div class="params">
+            <h4>Parameters:</h4>
+
+            <ul class="params-list">
+            
+                <li class="param">
+                    
+                        <code class="param-name">config</code>
+                        <span class="type">Object</span>
+                    
+
+                    
+
+                    <div class="param-description">
+                        <p>{size: sizeInByes, [forceProvider: force a specific implementation]}</p>
+
+                    </div>
+
+                    
+                </li>
+            
+            </ul>
+        </div>
+    
+
+    
+        <div class="returns">
+            <h4>Returns:</h4>
+
+            <div class="returns-description">
+                
+                    
+                        <span class="type"><a href="../classes/LargeLocalStorage.html" class="crosslink">LargeLocalStorage</a></span>:
+                    
+                
+            </div>
+        </div>
+    
+
+    
+        <div class="example">
+            <h4>Example:</h4>
+
+            <div class="example-content">
+                <pre class="code prettyprint"><code>var desiredCapacity = 50 * 1024 * 1024; // 50MB
+var storage = new LargeLocalStorage({
+    // desired capacity, in bytes.
+    size: desiredCapacity,
+
+     // optional name for your LLS database. Defaults to lls.
+    // This is the name given to the underlying
+    // IndexedDB or WebSQL DB or FSAPI Folder.
+    // LLS&#39;s with different names are independent.
+    name: &#39;myStorage&#39;
+
+    // the following is an optional param 
+    // that is useful for debugging.
+    // force LLS to use a specific storage implementation
+    // forceProvider: &#39;IndexedDB&#39; or &#39;WebSQL&#39; or &#39;FilesystemAPI&#39;
+});
+storage.initialized.then(function(capacity) {
+    if (capacity != -1 &amp;&amp; capacity != desiredCapacity) {
+        // the user didn&#39;t authorize your storage request
+        // so instead you have some limitation on your storage
+    }
+})</code></pre>
+
+            </div>
+        </div>
+    
+</div>
+
+    </div>
+
+
+<div id="classdocs" class="tabview">
+    <ul class="api-class-tabs">
+        <li class="api-class-tab index"><a href="#index">Index</a></li>
+
+        
+            <li class="api-class-tab methods"><a href="#methods">Methods</a></li>
+        
+        
+            <li class="api-class-tab properties"><a href="#properties">Properties</a></li>
+        
+        
+        
+    </ul>
+
+    <div>
+        <div id="index" class="api-class-tabpanel index">
+            <h2 class="off-left">Item Index</h2>
+
+            
+                <div class="index-section methods">
+                    <h3>Methods</h3>
+
+                    <ul class="index-list methods">
+                        
+                            <li class="index-item method">
+                                <a href="#method_getAllAttachments">getAllAttachments</a>
+
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_getAllAttachmentURLs">getAllAttachmentURLs</a>
+
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_getAttachment">getAttachment</a>
+
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_getAttachmentURL">getAttachmentURL</a>
+
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_getCapacity">getCapacity</a>
+
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_getContents">getContents</a>
+
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_ls">ls</a>
+
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_ready">ready</a>
+
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_revokeAttachmentURL">revokeAttachmentURL</a>
+
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_rm">rm</a>
+
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_rmAttachment">rmAttachment</a>
+
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_setAttachment">setAttachment</a>
+
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_setContents">setContents</a>
+
+                                
+                                
+                            </li>
+                        
+                    </ul>
+                </div>
+            
+
+            
+                <div class="index-section properties">
+                    <h3>Properties</h3>
+
+                    <ul class="index-list properties">
+                        
+                            <li class="index-item property">
+                                <a href="#property_initialized">initialized</a>
+
+                                
+                                
+                            </li>
+                        
+                    </ul>
+                </div>
+            
+
+            
+
+            
+        </div>
+
+        
+            <div id="methods" class="api-class-tabpanel">
+                <h2 class="off-left">Methods</h2>
+
+                
+                    <div id="method_getAllAttachments" class="method item">
+    <h3 class="name"><code>getAllAttachments</code></h3>
+
+    
+        <div class="args">
+            <span class="paren">(</span><ul class="args-list inline commas">
+            
+                <li class="arg">
+                    
+                        <code class="optional">[docKey]</code>
+                    
+                </li>
+            
+            </ul><span class="paren">)</span>
+        </div>
+    
+
+    
+        <span class="returns-inline">
+            <span class="type">Promise</span>
+        </span>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="../files/sdk_lib_large-local-storage_large-local-storage.js.html#l1657"><code>sdk&#x2F;lib&#x2F;large-local-storage&#x2F;large-local-storage.js:1657</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Gets all of the attachments for a document.</p>
+
+    </div>
+
+    
+        <div class="params">
+            <h4>Parameters:</h4>
+
+            <ul class="params-list">
+            
+                <li class="param">
+                    
+                        <code class="param-name optional">[docKey]</code>
+                        <span class="type">String</span>
+                        <span class="flag optional" title="This parameter is optional.">optional</span>
+                    
+
+                    
+
+                    <div class="param-description">
+                        <p>Identifies the document.  Defaults to <code>__emptydoc__</code></p>
+
+                    </div>
+
+                    
+                </li>
+            
+            </ul>
+        </div>
+    
+
+    
+        <div class="returns">
+            <h4>Returns:</h4>
+
+            <div class="returns-description">
+                
+                    
+                        <span class="type">Promise</span>:
+                    
+                    <p>Promise that is resolved with all of the attachments for
+the given document.</p>
+
+                
+            </div>
+        </div>
+    
+
+    
+        <div class="example">
+            <h4>Example:</h4>
+
+            <div class="example-content">
+                <pre class="code prettyprint"><code>storage.getAllAttachments(&#39;exampleDoc&#39;).then(function(attachEntries) {
+    attachEntries.map(function(entry) {
+        var a = entry.data;
+        // do something with it...
+        if (a.type.indexOf(&#39;image&#39;) == 0) {
+            // show image...
+        } else if (a.type.indexOf(&#39;audio&#39;) == 0) {
+            // play audio...
+        } else ...
+    })
+})</code></pre>
+
+            </div>
+        </div>
+    
+</div>
+
+                
+                    <div id="method_getAllAttachmentURLs" class="method item">
+    <h3 class="name"><code>getAllAttachmentURLs</code></h3>
+
+    
+        <div class="args">
+            <span class="paren">(</span><ul class="args-list inline commas">
+            
+                <li class="arg">
+                    
+                        <code class="optional">[docKey]</code>
+                    
+                </li>
+            
+            </ul><span class="paren">)</span>
+        </div>
+    
+
+    
+        <span class="returns-inline">
+            <span class="type">Promise</span>
+        </span>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="../files/sdk_lib_large-local-storage_large-local-storage.js.html#l1684"><code>sdk&#x2F;lib&#x2F;large-local-storage&#x2F;large-local-storage.js:1684</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Gets all attachments URLs for a document.</p>
+
+    </div>
+
+    
+        <div class="params">
+            <h4>Parameters:</h4>
+
+            <ul class="params-list">
+            
+                <li class="param">
+                    
+                        <code class="param-name optional">[docKey]</code>
+                        <span class="type">String</span>
+                        <span class="flag optional" title="This parameter is optional.">optional</span>
+                    
+
+                    
+
+                    <div class="param-description">
+                        <p>Identifies the document.  Defaults to the <code>__emptydoc__</code> document.</p>
+
+                    </div>
+
+                    
+                </li>
+            
+            </ul>
+        </div>
+    
+
+    
+        <div class="returns">
+            <h4>Returns:</h4>
+
+            <div class="returns-description">
+                
+                    
+                        <span class="type">Promise</span>:
+                    
+                    <p>Promise that is resolved with all of the attachment
+urls for the given doc.</p>
+
+                
+            </div>
+        </div>
+    
+
+    
+        <div class="example">
+            <h4>Example:</h4>
+
+            <div class="example-content">
+                <pre class="code prettyprint"><code>storage.getAllAttachmentURLs(&#39;exampleDoc&#39;).then(function(urlEntries) {
+    urlEntries.map(function(entry) {
+        var url = entry.url;
+        // do something with the url...
+    })
+})</code></pre>
+
+            </div>
+        </div>
+    
+</div>
+
+                
+                    <div id="method_getAttachment" class="method item">
+    <h3 class="name"><code>getAttachment</code></h3>
+
+    
+        <div class="args">
+            <span class="paren">(</span><ul class="args-list inline commas">
+            
+                <li class="arg">
+                    
+                        <code class="optional">[docKey]</code>
+                    
+                </li>
+            
+                <li class="arg">
+                    
+                        <code>attachKey</code>
+                    
+                </li>
+            
+            </ul><span class="paren">)</span>
+        </div>
+    
+
+    
+        <span class="returns-inline">
+            <span class="type">Promise</span>
+        </span>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="../files/sdk_lib_large-local-storage_large-local-storage.js.html#l1586"><code>sdk&#x2F;lib&#x2F;large-local-storage&#x2F;large-local-storage.js:1586</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Get the attachment identified by <code>docKey</code> and <code>attachKey</code></p>
+
+    </div>
+
+    
+        <div class="params">
+            <h4>Parameters:</h4>
+
+            <ul class="params-list">
+            
+                <li class="param">
+                    
+                        <code class="param-name optional">[docKey]</code>
+                        <span class="type">String</span>
+                        <span class="flag optional" title="This parameter is optional.">optional</span>
+                    
+
+                    
+
+                    <div class="param-description">
+                        <p>Defaults to <code>__emptydoc__</code></p>
+
+                    </div>
+
+                    
+                </li>
+            
+                <li class="param">
+                    
+                        <code class="param-name">attachKey</code>
+                        <span class="type">String</span>
+                    
+
+                    
+
+                    <div class="param-description">
+                        <p>key of the attachment</p>
+
+                    </div>
+
+                    
+                </li>
+            
+            </ul>
+        </div>
+    
+
+    
+        <div class="returns">
+            <h4>Returns:</h4>
+
+            <div class="returns-description">
+                
+                    
+                        <span class="type">Promise</span>:
+                    
+                    <p>fulfilled with the attachment or
+rejected if it could not be found.  code: 1</p>
+
+                
+            </div>
+        </div>
+    
+
+    
+        <div class="example">
+            <h4>Example:</h4>
+
+            <div class="example-content">
+                <pre class="code prettyprint"><code>storage.getAttachment(&#39;exampleDoc&#39;, &#39;examplePic&#39;).then(function(attachment) {
+   var url = URL.createObjectURL(attachment);
+   var image = new Image(url);
+   document.body.appendChild(image);
+   URL.revokeObjectURL(url);
+})</code></pre>
+
+            </div>
+        </div>
+    
+</div>
+
+                
+                    <div id="method_getAttachmentURL" class="method item">
+    <h3 class="name"><code>getAttachmentURL</code></h3>
+
+    
+        <div class="args">
+            <span class="paren">(</span><ul class="args-list inline commas">
+            
+                <li class="arg">
+                    
+                        <code class="optional">[docKey]</code>
+                    
+                </li>
+            
+                <li class="arg">
+                    
+                        <code>attachKey</code>
+                    
+                </li>
+            
+            </ul><span class="paren">)</span>
+        </div>
+    
+
+    
+        <span class="returns-inline">
+            <span class="type">Promose</span>
+        </span>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="../files/sdk_lib_large-local-storage_large-local-storage.js.html#l1631"><code>sdk&#x2F;lib&#x2F;large-local-storage&#x2F;large-local-storage.js:1631</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Get the URL for a given attachment.</p>
+
+    </div>
+
+    
+        <div class="params">
+            <h4>Parameters:</h4>
+
+            <ul class="params-list">
+            
+                <li class="param">
+                    
+                        <code class="param-name optional">[docKey]</code>
+                        <span class="type">String</span>
+                        <span class="flag optional" title="This parameter is optional.">optional</span>
+                    
+
+                    
+
+                    <div class="param-description">
+                        <p>Identifies the document.  Defaults to <code>__emptydoc__</code></p>
+
+                    </div>
+
+                    
+                </li>
+            
+                <li class="param">
+                    
+                        <code class="param-name">attachKey</code>
+                        <span class="type">String</span>
+                    
+
+                    
+
+                    <div class="param-description">
+                        <p>Identifies the attachment.</p>
+
+                    </div>
+
+                    
+                </li>
+            
+            </ul>
+        </div>
+    
+
+    
+        <div class="returns">
+            <h4>Returns:</h4>
+
+            <div class="returns-description">
+                
+                    
+                        <span class="type">Promose</span>:
+                    
+                    <p>promise that is resolved with the attachment url.</p>
+
+                
+            </div>
+        </div>
+    
+
+    
+        <div class="example">
+            <h4>Example:</h4>
+
+            <div class="example-content">
+                <pre class="code prettyprint"><code>storage.getAttachmentURL(&#39;myDoc&#39;, &#39;myPic&#39;).then(function(url) {
+  var image = new Image();
+  image.src = url;
+  document.body.appendChild(image);
+  storage.revokeAttachmentURL(url);
+})</code></pre>
+<p>This is preferrable to getting the attachment and then getting the
+URL via <code>createObjectURL</code> (on some systems) as LLS can take advantage of 
+lower level details to improve performance.</p>
+
+            </div>
+        </div>
+    
+</div>
+
+                
+                    <div id="method_getCapacity" class="method item">
+    <h3 class="name"><code>getCapacity</code></h3>
+
+    
+        <span class="paren">()</span>
+    
+
+    
+        <span class="returns-inline">
+            <span class="type">Number</span>
+        </span>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="../files/sdk_lib_large-local-storage_large-local-storage.js.html#l1750"><code>sdk&#x2F;lib&#x2F;large-local-storage&#x2F;large-local-storage.js:1750</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Returns the actual capacity of the storage or -1
+if it is unknown.  If the user denies your request for
+storage you&#39;ll get back some smaller amount of storage than what you
+actually requested.</p>
+<p>TODO: return an estimated capacity if actual capacity is unknown?
+-Firefox is 50MB until authorized to go above,
+-Chrome is some % of available disk space,
+-Safari unlimited as long as the user keeps authorizing size increases
+-Opera same as safari?</p>
+
+    </div>
+
+    
+
+    
+        <div class="returns">
+            <h4>Returns:</h4>
+
+            <div class="returns-description">
+                
+                    
+                        <span class="type">Number</span>:
+                    
+                    <p>Capacity, in bytes, of the storage.  -1 if unknown.</p>
+
+                
+            </div>
+        </div>
+    
+
+    
+        <div class="example">
+            <h4>Example:</h4>
+
+            <div class="example-content">
+                <pre class="code prettyprint"><code>// the initialized property will call you back with the capacity
+storage.initialized.then(function(capacity) {
+    console.log(&#39;Authorized to store: &#39; + capacity + &#39; bytes&#39;);
+});
+// or if you know your storage is already available
+// you can call getCapacity directly
+storage.getCapacity()</code></pre>
+
+            </div>
+        </div>
+    
+</div>
+
+                
+                    <div id="method_getContents" class="method item">
+    <h3 class="name"><code>getContents</code></h3>
+
+    
+        <div class="args">
+            <span class="paren">(</span><ul class="args-list inline commas">
+            
+                <li class="arg">
+                    
+                        <code>docKey</code>
+                    
+                </li>
+            
+            </ul><span class="paren">)</span>
+        </div>
+    
+
+    
+        <span class="returns-inline">
+            <span class="type">Promise</span>
+        </span>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="../files/sdk_lib_large-local-storage_large-local-storage.js.html#l1548"><code>sdk&#x2F;lib&#x2F;large-local-storage&#x2F;large-local-storage.js:1548</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Get the contents of a document identified by <code>docKey</code>
+TODO: normalize all implementations to allow storage
+and retrieval of JS objects?</p>
+
+    </div>
+
+    
+        <div class="params">
+            <h4>Parameters:</h4>
+
+            <ul class="params-list">
+            
+                <li class="param">
+                    
+                        <code class="param-name">docKey</code>
+                        <span class="type">String</span>
+                    
+
+                    
+
+                    <div class="param-description">
+                         
+                    </div>
+
+                    
+                </li>
+            
+            </ul>
+        </div>
+    
+
+    
+        <div class="returns">
+            <h4>Returns:</h4>
+
+            <div class="returns-description">
+                
+                    
+                        <span class="type">Promise</span>:
+                    
+                    <p>resolved with the contents when the get completes</p>
+
+                
+            </div>
+        </div>
+    
+
+    
+        <div class="example">
+            <h4>Example:</h4>
+
+            <div class="example-content">
+                <pre class="code prettyprint"><code>storage.getContents(&#39;exampleDoc&#39;).then(function(contents) {
+    alert(contents);
+});</code></pre>
+
+            </div>
+        </div>
+    
+</div>
+
+                
+                    <div id="method_ls" class="method item">
+    <h3 class="name"><code>ls</code></h3>
+
+    
+        <div class="args">
+            <span class="paren">(</span><ul class="args-list inline commas">
+            
+                <li class="arg">
+                    
+                        <code class="optional">[docKey]</code>
+                    
+                </li>
+            
+            </ul><span class="paren">)</span>
+        </div>
+    
+
+    
+        <span class="returns-inline">
+            <span class="type">Promise</span>
+        </span>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="../files/sdk_lib_large-local-storage_large-local-storage.js.html#l1478"><code>sdk&#x2F;lib&#x2F;large-local-storage&#x2F;large-local-storage.js:1478</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>List all attachments under a given key.</p>
+<p>List all documents if no key is provided.</p>
+<p>Returns a promise that is fulfilled with
+the listing.</p>
+
+    </div>
+
+    
+        <div class="params">
+            <h4>Parameters:</h4>
+
+            <ul class="params-list">
+            
+                <li class="param">
+                    
+                        <code class="param-name optional">[docKey]</code>
+                        <span class="type">String</span>
+                        <span class="flag optional" title="This parameter is optional.">optional</span>
+                    
+
+                    
+
+                    <div class="param-description">
+                         
+                    </div>
+
+                    
+                </li>
+            
+            </ul>
+        </div>
+    
+
+    
+        <div class="returns">
+            <h4>Returns:</h4>
+
+            <div class="returns-description">
+                
+                    
+                        <span class="type">Promise</span>:
+                    
+                    <p>resolved with the listing, rejected if the listing fails.</p>
+
+                
+            </div>
+        </div>
+    
+
+    
+        <div class="example">
+            <h4>Example:</h4>
+
+            <div class="example-content">
+                <pre class="code prettyprint"><code>storage.ls().then(function(docKeys) {
+    console.log(docKeys);
+})</code></pre>
+
+            </div>
+        </div>
+    
+</div>
+
+                
+                    <div id="method_ready" class="method item">
+    <h3 class="name"><code>ready</code></h3>
+
+    
+        <span class="paren">()</span>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="../files/sdk_lib_large-local-storage_large-local-storage.js.html#l1460"><code>sdk&#x2F;lib&#x2F;large-local-storage&#x2F;large-local-storage.js:1460</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Whether or not LLS is ready to store data.
+The <code>initialized</code> property can be used to
+await initialization.</p>
+
+    </div>
+
+    
+
+    
+
+    
+        <div class="example">
+            <h4>Example:</h4>
+
+            <div class="example-content">
+                <pre class="code prettyprint"><code>// may or may not be true
+storage.ready();
+
+storage.initialized.then(function() {
+    // always true
+    storage.ready();
+})</code></pre>
+
+            </div>
+        </div>
+    
+</div>
+
+                
+                    <div id="method_revokeAttachmentURL" class="method item">
+    <h3 class="name"><code>revokeAttachmentURL</code></h3>
+
+    
+        <div class="args">
+            <span class="paren">(</span><ul class="args-list inline commas">
+            
+                <li class="arg">
+                    
+                        <code>url</code>
+                    
+                </li>
+            
+            </ul><span class="paren">)</span>
+        </div>
+    
+
+    
+        <span class="returns-inline">
+            <span class="type">Void</span>
+        </span>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="../files/sdk_lib_large-local-storage_large-local-storage.js.html#l1706"><code>sdk&#x2F;lib&#x2F;large-local-storage&#x2F;large-local-storage.js:1706</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Revoke the attachment URL as required by the underlying
+storage system.</p>
+<p>This is akin to <code>URL.revokeObjectURL(url)</code>
+URLs that come from <code>getAttachmentURL</code> or <code>getAllAttachmentURLs</code> 
+should be revoked by LLS and not <code>URL.revokeObjectURL</code></p>
+
+    </div>
+
+    
+        <div class="params">
+            <h4>Parameters:</h4>
+
+            <ul class="params-list">
+            
+                <li class="param">
+                    
+                        <code class="param-name">url</code>
+                        <span class="type">String</span>
+                    
+
+                    
+
+                    <div class="param-description">
+                        <p>The URL as returned by <code>getAttachmentURL</code> or <code>getAttachmentURLs</code></p>
+
+                    </div>
+
+                    
+                </li>
+            
+            </ul>
+        </div>
+    
+
+    
+        <div class="returns">
+            <h4>Returns:</h4>
+
+            <div class="returns-description">
+                
+                    
+                        <span class="type">Void</span>:
+                    
+                
+            </div>
+        </div>
+    
+
+    
+        <div class="example">
+            <h4>Example:</h4>
+
+            <div class="example-content">
+                <pre class="code prettyprint"><code>storage.getAttachmentURL(&#39;doc&#39;, &#39;attach&#39;).then(function(url) {
+    // do something with the URL
+    storage.revokeAttachmentURL(url);
+})</code></pre>
+
+            </div>
+        </div>
+    
+</div>
+
+                
+                    <div id="method_rm" class="method item">
+    <h3 class="name"><code>rm</code></h3>
+
+    
+        <div class="args">
+            <span class="paren">(</span><ul class="args-list inline commas">
+            
+                <li class="arg">
+                    
+                        <code>docKey</code>
+                    
+                </li>
+            
+            </ul><span class="paren">)</span>
+        </div>
+    
+
+    
+        <span class="returns-inline">
+            <span class="type">Promise</span>
+        </span>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="../files/sdk_lib_large-local-storage_large-local-storage.js.html#l1500"><code>sdk&#x2F;lib&#x2F;large-local-storage&#x2F;large-local-storage.js:1500</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Remove the specified document and all
+of its attachments.</p>
+<p>Returns a promise that is fulfilled when the
+removal completes.</p>
+<p>If no docKey is specified, this throws an error.</p>
+<p>To remove all files in LargeLocalStorage call
+<code>lls.clear();</code></p>
+<p>To remove all attachments that were written without
+a docKey, call <code>lls.rm(&#39;__emptydoc__&#39;);</code></p>
+<p>rm works this way to ensure you don&#39;t lose
+data due to an accidently undefined variable.</p>
+
+    </div>
+
+    
+        <div class="params">
+            <h4>Parameters:</h4>
+
+            <ul class="params-list">
+            
+                <li class="param">
+                    
+                        <code class="param-name">docKey</code>
+                        <span class="type">String</span>
+                    
+
+                    
+
+                    <div class="param-description">
+                         
+                    </div>
+
+                    
+                </li>
+            
+            </ul>
+        </div>
+    
+
+    
+        <div class="returns">
+            <h4>Returns:</h4>
+
+            <div class="returns-description">
+                
+                    
+                        <span class="type">Promise</span>:
+                    
+                    <p>resolved when removal completes, rejected if the removal fails.</p>
+
+                
+            </div>
+        </div>
+    
+
+    
+        <div class="example">
+            <h4>Example:</h4>
+
+            <div class="example-content">
+                <pre class="code prettyprint"><code>stoarge.rm(&#39;exampleDoc&#39;).then(function() {
+    alert(&#39;doc and all attachments were removed&#39;);
+})</code></pre>
+
+            </div>
+        </div>
+    
+</div>
+
+                
+                    <div id="method_rmAttachment" class="method item">
+    <h3 class="name"><code>rmAttachment</code></h3>
+
+    
+        <div class="args">
+            <span class="paren">(</span><ul class="args-list inline commas">
+            
+                <li class="arg">
+                    
+                        <code>docKey</code>
+                    
+                </li>
+            
+                <li class="arg">
+                    
+                        <code>attachKey</code>
+                    
+                </li>
+            
+            </ul><span class="paren">)</span>
+        </div>
+    
+
+    
+        <span class="returns-inline">
+            <span class="type">Promise</span>
+        </span>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="../files/sdk_lib_large-local-storage_large-local-storage.js.html#l1729"><code>sdk&#x2F;lib&#x2F;large-local-storage&#x2F;large-local-storage.js:1729</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Remove an attachment from a document.</p>
+
+    </div>
+
+    
+        <div class="params">
+            <h4>Parameters:</h4>
+
+            <ul class="params-list">
+            
+                <li class="param">
+                    
+                        <code class="param-name">docKey</code>
+                        <span class="type">String</span>
+                    
+
+                    
+
+                    <div class="param-description">
+                         
+                    </div>
+
+                    
+                </li>
+            
+                <li class="param">
+                    
+                        <code class="param-name">attachKey</code>
+                        <span class="type">String</span>
+                    
+
+                    
+
+                    <div class="param-description">
+                         
+                    </div>
+
+                    
+                </li>
+            
+            </ul>
+        </div>
+    
+
+    
+        <div class="returns">
+            <h4>Returns:</h4>
+
+            <div class="returns-description">
+                
+                    
+                        <span class="type">Promise</span>:
+                    
+                    <p>Promise that is resolved once the remove completes</p>
+
+                
+            </div>
+        </div>
+    
+
+    
+        <div class="example">
+            <h4>Example:</h4>
+
+            <div class="example-content">
+                <pre class="code prettyprint"><code>storage.rmAttachment(&#39;exampleDoc&#39;, &#39;someAttachment&#39;).then(function() {
+    alert(&#39;exampleDoc/someAttachment removed&#39;);
+}).catch(function(e) {
+    alert(&#39;Attachment removal failed: &#39; + e);
+});</code></pre>
+
+            </div>
+        </div>
+    
+</div>
+
+                
+                    <div id="method_setAttachment" class="method item">
+    <h3 class="name"><code>setAttachment</code></h3>
+
+    
+        <div class="args">
+            <span class="paren">(</span><ul class="args-list inline commas">
+            
+                <li class="arg">
+                    
+                        <code class="optional">[docKey]</code>
+                    
+                </li>
+            
+                <li class="arg">
+                    
+                        <code>attachKey</code>
+                    
+                </li>
+            
+                <li class="arg">
+                    
+                        <code>attachment</code>
+                    
+                </li>
+            
+            </ul><span class="paren">)</span>
+        </div>
+    
+
+    
+        <span class="returns-inline">
+            <span class="type">Promise</span>
+        </span>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="../files/sdk_lib_large-local-storage_large-local-storage.js.html#l1609"><code>sdk&#x2F;lib&#x2F;large-local-storage&#x2F;large-local-storage.js:1609</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Set an attachment for a given document.  Identified
+by <code>docKey</code> and <code>attachKey</code>.</p>
+
+    </div>
+
+    
+        <div class="params">
+            <h4>Parameters:</h4>
+
+            <ul class="params-list">
+            
+                <li class="param">
+                    
+                        <code class="param-name optional">[docKey]</code>
+                        <span class="type">String</span>
+                        <span class="flag optional" title="This parameter is optional.">optional</span>
+                    
+
+                    
+
+                    <div class="param-description">
+                        <p>Defaults to <code>__emptydoc__</code></p>
+
+                    </div>
+
+                    
+                </li>
+            
+                <li class="param">
+                    
+                        <code class="param-name">attachKey</code>
+                        <span class="type">String</span>
+                    
+
+                    
+
+                    <div class="param-description">
+                        <p>key for the attachment</p>
+
+                    </div>
+
+                    
+                </li>
+            
+                <li class="param">
+                    
+                        <code class="param-name">attachment</code>
+                        <span class="type">Any</span>
+                    
+
+                    
+
+                    <div class="param-description">
+                        <p>data</p>
+
+                    </div>
+
+                    
+                </li>
+            
+            </ul>
+        </div>
+    
+
+    
+        <div class="returns">
+            <h4>Returns:</h4>
+
+            <div class="returns-description">
+                
+                    
+                        <span class="type">Promise</span>:
+                    
+                    <p>resolved when the write completes.  Rejected
+if an error occurs.</p>
+
+                
+            </div>
+        </div>
+    
+
+    
+        <div class="example">
+            <h4>Example:</h4>
+
+            <div class="example-content">
+                <pre class="code prettyprint"><code>storage.setAttachment(&#39;myDoc&#39;, &#39;myPic&#39;, blob).then(function() {
+   alert(&#39;Attachment written&#39;);
+})</code></pre>
+
+            </div>
+        </div>
+    
+</div>
+
+                
+                    <div id="method_setContents" class="method item">
+    <h3 class="name"><code>setContents</code></h3>
+
+    
+        <div class="args">
+            <span class="paren">(</span><ul class="args-list inline commas">
+            
+                <li class="arg">
+                    
+                        <code>docKey</code>
+                    
+                </li>
+            
+                <li class="arg">
+                    
+                        <code>data</code>
+                    
+                </li>
+            
+            </ul><span class="paren">)</span>
+        </div>
+    
+
+    
+        <span class="returns-inline">
+            <span class="type">Promise</span>
+        </span>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="../files/sdk_lib_large-local-storage_large-local-storage.js.html#l1567"><code>sdk&#x2F;lib&#x2F;large-local-storage&#x2F;large-local-storage.js:1567</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Set the contents identified by <code>docKey</code> to <code>data</code>.
+The document will be created if it does not exist.</p>
+
+    </div>
+
+    
+        <div class="params">
+            <h4>Parameters:</h4>
+
+            <ul class="params-list">
+            
+                <li class="param">
+                    
+                        <code class="param-name">docKey</code>
+                        <span class="type">String</span>
+                    
+
+                    
+
+                    <div class="param-description">
+                         
+                    </div>
+
+                    
+                </li>
+            
+                <li class="param">
+                    
+                        <code class="param-name">data</code>
+                        <span class="type">Any</span>
+                    
+
+                    
+
+                    <div class="param-description">
+                         
+                    </div>
+
+                    
+                </li>
+            
+            </ul>
+        </div>
+    
+
+    
+        <div class="returns">
+            <h4>Returns:</h4>
+
+            <div class="returns-description">
+                
+                    
+                        <span class="type">Promise</span>:
+                    
+                    <p>fulfilled when set completes</p>
+
+                
+            </div>
+        </div>
+    
+
+    
+        <div class="example">
+            <h4>Example:</h4>
+
+            <div class="example-content">
+                <pre class="code prettyprint"><code>storage.setContents(&#39;exampleDoc&#39;, &#39;some data...&#39;).then(function() {
+    alert(&#39;doc written&#39;);
+});</code></pre>
+
+            </div>
+        </div>
+    
+</div>
+
+                
+            </div>
+        
+
+        
+            <div id="properties" class="api-class-tabpanel">
+                <h2 class="off-left">Properties</h2>
+
+                
+                    <div id="property_initialized" class="property item">
+    <h3 class="name"><code>initialized</code></h3>
+    <span class="type">Promise</span>
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="../files/sdk_lib_large-local-storage_large-local-storage.js.html#l1432"><code>sdk&#x2F;lib&#x2F;large-local-storage&#x2F;large-local-storage.js:1432</code></a>
+        
+        </p>
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        
+    </div>
+
+    
+
+    
+
+    
+</div>
+
+                
+            </div>
+        
+
+        
+
+        
+    </div>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../assets/vendor/prettify/prettify-min.js"></script>
+<script>prettyPrint();</script>
+<script src="../assets/js/yui-prettify.js"></script>
+<script src="../assets/../api.js"></script>
+<script src="../assets/js/api-filter.js"></script>
+<script src="../assets/js/api-list.js"></script>
+<script src="../assets/js/api-search.js"></script>
+<script src="../assets/js/apidocs.js"></script>
+</body>
+</html>

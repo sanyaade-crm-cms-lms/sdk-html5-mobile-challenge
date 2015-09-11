@@ -1,0 +1,175 @@
+/**
+CorporatePaymentsAccountAllis a scope collection for application `CitiMobileChallengeSdk`.  See
+`AP.collection.ScopeCollection` for more information about scopes.
+
+@module CitiMobileChallengeSdk
+@submodule collections
+@class CorporatePaymentsAccountAll
+@extends AP.collection.ScopeCollection
+ */
+CitiMobileChallengeSdk.collections.CorporatePaymentsAccountAll = (function($class, _ScopeCollection) {
+
+	var CorporatePaymentsAccountAll = $class({
+
+		extends: _ScopeCollection,
+
+        _constructor: function CorporatePaymentsAccountAll() {
+            CitiMobileChallengeSdk.collections.CorporatePaymentsAccountAll._super.constructor.apply(this, arguments);
+        },
+
+        static: {
+          /**
+          The collection ID may be used to look-up a collection from an
+          application class.
+          @property collectionId
+          @type String
+          @static
+           */
+          collectionId: ""
+        },
+
+        /**
+        The model associated with this collection.  Results returned by server
+        requests for this collection are converted into instances of this model.
+        @property model
+        @type AP.model.Model
+         */
+        model: CitiMobileChallengeSdk.models.CorporatePaymentsAccount,
+
+        /**
+        Server requests for this collection use this URL.
+        @property apiEndpoint
+        @type String
+         */
+        apiEndpoint: "/api/v2/corporate_payments_accounts.json",
+
+        /**
+        Name/value pairs included with every server request.  Extra parameters are
+        converted to URL parameters at request-time.
+        @property extraParams
+        @type Object
+         */
+        extraParams: {
+          scope: "all"
+        },
+
+        /**
+        Array of query field configurations.  Query fields map model field names onto
+        URL parameter names.  See `AP.collection.ScopeCollection` to learn more
+        about query fields.
+        @property queryFields
+        @type Array
+         */
+        queryFields: [
+          
+        ],
+
+				/**
+		    Name of the interface to use. Can be an HttpAdapter or the default connection
+		    to an Anypresence API.
+		    @property storage_interface
+		    @type String
+		    */
+		    storage_interface: "CorporatePayments",
+
+				
+				/**
+		    Adapter configurations for this query scope.
+		    Only required for query scopes whose adapter interface is an HttpAdapter.
+		    @property adapter_configuration
+		    @type Object
+		    */
+				adapter_configuration: {
+					request_field_level_mappings: [
+	          
+	        ],
+	        response_field_level_mappings: [
+	          
+	            {
+	              type: "ResponseFieldLevelMapping",
+	              remote_field_name: "name",
+	              field_definition: {
+	                name: "name"
+	              }
+	            },
+	          
+	            {
+	              type: "ResponseFieldLevelMapping",
+	              remote_field_name: "status",
+	              field_definition: {
+	                name: "status"
+	              }
+	            },
+	          
+	            {
+	              type: "ResponseFieldLevelMapping",
+	              remote_field_name: "base_currency_balances",
+	              field_definition: {
+	                name: "base_currency_balances"
+	              }
+	            },
+	          
+	            {
+	              type: "ResponseFieldLevelMapping",
+	              remote_field_name: "local_currency_iso_code",
+	              field_definition: {
+	                name: "local_currency_iso_code"
+	              }
+	            },
+	          
+	            {
+	              type: "ResponseFieldLevelMapping",
+	              remote_field_name: "country_iso_code",
+	              field_definition: {
+	                name: "country_iso_code"
+	              }
+	            },
+	          
+	            {
+	              type: "ResponseFieldLevelMapping",
+	              remote_field_name: "account_name",
+	              field_definition: {
+	                name: "account_name"
+	              }
+	            },
+	          
+	            {
+	              type: "ResponseFieldLevelMapping",
+	              remote_field_name: "branch_name",
+	              field_definition: {
+	                name: "branch_name"
+	              }
+	            },
+	          
+	            {
+	              type: "ResponseFieldLevelMapping",
+	              remote_field_name: "id",
+	              field_definition: {
+	                name: "id"
+	              }
+	            },
+	          
+	        ],
+	        http_verb: "GET",
+	        path_selector : "$.*",
+	        incremental_path : "/accounts",
+	        body_format : "json",
+	        object_name_mapping : "",
+	        body_payload_template : "",
+	        action : "all",
+					limit : "",
+          offset : "",
+	        incremental_headers: [
+	          
+	        ],
+	        incremental_url_parameters: [
+	          
+	        ]
+				}
+				
+
+	});
+
+	return CorporatePaymentsAccountAll;
+
+})(AP.utility.createClass, AP.collection.ScopeCollection);

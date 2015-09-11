@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>sdk/utility/validator.js - CitiMobileChallenge</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/3.9.1/build/cssgrids/cssgrids-min.css">
+    <link rel="stylesheet" href="../assets/vendor/prettify/prettify-min.css">
+    <link rel="stylesheet" href="../assets/css/main.css" id="site_styles">
+    <link rel="shortcut icon" type="image/png" href="../assets/favicon.png">
+    <script src="http://yui.yahooapis.com/combo?3.9.1/build/yui/yui-min.js"></script>
+</head>
+<body class="yui3-skin-sam">
+
+<div id="doc">
+    <div id="hd" class="yui3-g header">
+        <div class="yui3-u-3-4">
+            
+                <h1><img src="../assets/css/logo.png" title="CitiMobileChallenge"></h1>
+            
+        </div>
+        <div class="yui3-u-1-4 version">
+            <em>API Docs for: 0.0.1</em>
+        </div>
+    </div>
+    <div id="bd" class="yui3-g">
+
+        <div class="yui3-u-1-4">
+            <div id="docs-sidebar" class="sidebar apidocs">
+                <div id="api-list">
+    <h2 class="off-left">APIs</h2>
+    <div id="api-tabview" class="tabview">
+        <ul class="tabs">
+            <li><a href="#api-classes">Classes</a></li>
+            <li><a href="#api-modules">Modules</a></li>
+        </ul>
+
+        <div id="api-tabview-filter">
+            <input type="search" id="api-filter" placeholder="Type to filter APIs">
+        </div>
+
+        <div id="api-tabview-panel">
+            <ul id="api-classes" class="apis classes">
+            
+                <li><a href="../classes/AggregateCollection.html">AggregateCollection</a></li>
+            
+                <li><a href="../classes/Application.html">Application</a></li>
+            
+                <li><a href="../classes/Authentication.html">Authentication</a></li>
+            
+                <li><a href="../classes/Authorization.html">Authorization</a></li>
+            
+                <li><a href="../classes/Base64.html">Base64</a></li>
+            
+                <li><a href="../classes/BelongsTo.html">BelongsTo</a></li>
+            
+                <li><a href="../classes/CapitalMarketsActivity.html">CapitalMarketsActivity</a></li>
+            
+                <li><a href="../classes/CapitalMarketsActivityActivities.html">CapitalMarketsActivityActivities</a></li>
+            
+                <li><a href="../classes/CapitalMarketsActivityAll.html">CapitalMarketsActivityAll</a></li>
+            
+                <li><a href="../classes/CapitalMarketsActivityCount.html">CapitalMarketsActivityCount</a></li>
+            
+                <li><a href="../classes/CapitalMarketsActivityCountExactMatch.html">CapitalMarketsActivityCountExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsActivityExactMatch.html">CapitalMarketsActivityExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContact.html">CapitalMarketsContact</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContactAll.html">CapitalMarketsContactAll</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContactContacts.html">CapitalMarketsContactContacts</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContactCount.html">CapitalMarketsContactCount</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContactCountExactMatch.html">CapitalMarketsContactCountExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContactExactMatch.html">CapitalMarketsContactExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContentService.html">CapitalMarketsContentService</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContentServiceAll.html">CapitalMarketsContentServiceAll</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContentServiceContentServices.html">CapitalMarketsContentServiceContentServices</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContentServiceCount.html">CapitalMarketsContentServiceCount</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContentServiceCountExactMatch.html">CapitalMarketsContentServiceCountExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContentServiceExactMatch.html">CapitalMarketsContentServiceExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsLogin.html">CapitalMarketsLogin</a></li>
+            
+                <li><a href="../classes/CapitalMarketsLoginAll.html">CapitalMarketsLoginAll</a></li>
+            
+                <li><a href="../classes/CapitalMarketsLoginCount.html">CapitalMarketsLoginCount</a></li>
+            
+                <li><a href="../classes/CapitalMarketsLoginCountExactMatch.html">CapitalMarketsLoginCountExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsLoginExactMatch.html">CapitalMarketsLoginExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsOrder.html">CapitalMarketsOrder</a></li>
+            
+                <li><a href="../classes/CapitalMarketsOrderAll.html">CapitalMarketsOrderAll</a></li>
+            
+                <li><a href="../classes/CapitalMarketsOrderCount.html">CapitalMarketsOrderCount</a></li>
+            
+                <li><a href="../classes/CapitalMarketsOrderCountExactMatch.html">CapitalMarketsOrderCountExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsOrderExactMatch.html">CapitalMarketsOrderExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsRevenue.html">CapitalMarketsRevenue</a></li>
+            
+                <li><a href="../classes/CapitalMarketsRevenueAll.html">CapitalMarketsRevenueAll</a></li>
+            
+                <li><a href="../classes/CapitalMarketsRevenueCount.html">CapitalMarketsRevenueCount</a></li>
+            
+                <li><a href="../classes/CapitalMarketsRevenueCountExactMatch.html">CapitalMarketsRevenueCountExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsRevenueExactMatch.html">CapitalMarketsRevenueExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsRevenueRevenues.html">CapitalMarketsRevenueRevenues</a></li>
+            
+                <li><a href="../classes/CapitalMarketsTrading.html">CapitalMarketsTrading</a></li>
+            
+                <li><a href="../classes/Class.html">Class</a></li>
+            
+                <li><a href="../classes/Collection.html">Collection</a></li>
+            
+                <li><a href="../classes/Collections.html">Collections</a></li>
+            
+                <li><a href="../classes/Cookie.html">Cookie</a></li>
+            
+                <li><a href="../classes/CorporatePayments.html">CorporatePayments</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsAccount.html">CorporatePaymentsAccount</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsAccountAll.html">CorporatePaymentsAccountAll</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsAccountCount.html">CorporatePaymentsAccountCount</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsAccountCountExactMatch.html">CorporatePaymentsAccountCountExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsAccountExactMatch.html">CorporatePaymentsAccountExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsBeneficiary.html">CorporatePaymentsBeneficiary</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsBeneficiaryAll.html">CorporatePaymentsBeneficiaryAll</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsBeneficiaryCount.html">CorporatePaymentsBeneficiaryCount</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsBeneficiaryCountExactMatch.html">CorporatePaymentsBeneficiaryCountExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsBeneficiaryExactMatch.html">CorporatePaymentsBeneficiaryExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxBooking.html">CorporatePaymentsCrossBorderFxBooking</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxBookingAll.html">CorporatePaymentsCrossBorderFxBookingAll</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxBookingCount.html">CorporatePaymentsCrossBorderFxBookingCount</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxBookingCountExactMatch.html">CorporatePaymentsCrossBorderFxBookingCountExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxBookingExactMatch.html">CorporatePaymentsCrossBorderFxBookingExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxPayment.html">CorporatePaymentsCrossBorderFxPayment</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxPaymentAll.html">CorporatePaymentsCrossBorderFxPaymentAll</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxPaymentCount.html">CorporatePaymentsCrossBorderFxPaymentCount</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxPaymentCountExactMatch.html">CorporatePaymentsCrossBorderFxPaymentCountExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxPaymentExactMatch.html">CorporatePaymentsCrossBorderFxPaymentExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxPaymentFxPayments.html">CorporatePaymentsCrossBorderFxPaymentFxPayments</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxQuote.html">CorporatePaymentsCrossBorderFxQuote</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxQuoteAll.html">CorporatePaymentsCrossBorderFxQuoteAll</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxQuoteCount.html">CorporatePaymentsCrossBorderFxQuoteCount</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxQuoteCountExactMatch.html">CorporatePaymentsCrossBorderFxQuoteCountExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxQuoteExactMatch.html">CorporatePaymentsCrossBorderFxQuoteExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsLogin.html">CorporatePaymentsLogin</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsLoginAll.html">CorporatePaymentsLoginAll</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsLoginCount.html">CorporatePaymentsLoginCount</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsLoginCountExactMatch.html">CorporatePaymentsLoginCountExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsLoginExactMatch.html">CorporatePaymentsLoginExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsPayment.html">CorporatePaymentsPayment</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsPaymentAll.html">CorporatePaymentsPaymentAll</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsPaymentCount.html">CorporatePaymentsPaymentCount</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsPaymentCountExactMatch.html">CorporatePaymentsPaymentCountExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsPaymentExactMatch.html">CorporatePaymentsPaymentExactMatch</a></li>
+            
+                <li><a href="../classes/DefaultAdapter.html">DefaultAdapter</a></li>
+            
+                <li><a href="../classes/Dispatcher.html">Dispatcher</a></li>
+            
+                <li><a href="../classes/HasMany.html">HasMany</a></li>
+            
+                <li><a href="../classes/HasOne.html">HasOne</a></li>
+            
+                <li><a href="../classes/HttpAdapter.html">HttpAdapter</a></li>
+            
+                <li><a href="../classes/JSON.html">JSON</a></li>
+            
+                <li><a href="../classes/LargeLocalStorage.html">LargeLocalStorage</a></li>
+            
+                <li><a href="../classes/MockServer.html">MockServer</a></li>
+            
+                <li><a href="../classes/Model.html">Model</a></li>
+            
+                <li><a href="../classes/Models.html">Models</a></li>
+            
+                <li><a href="../classes/Relationship.html">Relationship</a></li>
+            
+                <li><a href="../classes/RetailBanking.html">RetailBanking</a></li>
+            
+                <li><a href="../classes/RetailBankingAccount.html">RetailBankingAccount</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountAll.html">RetailBankingAccountAll</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountBalance.html">RetailBankingAccountBalance</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountBalanceAll.html">RetailBankingAccountBalanceAll</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountBalanceCount.html">RetailBankingAccountBalanceCount</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountBalanceCountExactMatch.html">RetailBankingAccountBalanceCountExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountBalanceExactMatch.html">RetailBankingAccountBalanceExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountCount.html">RetailBankingAccountCount</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountCountExactMatch.html">RetailBankingAccountCountExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountExactMatch.html">RetailBankingAccountExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountFundTransfer.html">RetailBankingAccountFundTransfer</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountFundTransferAll.html">RetailBankingAccountFundTransferAll</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountFundTransferCount.html">RetailBankingAccountFundTransferCount</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountFundTransferCountExactMatch.html">RetailBankingAccountFundTransferCountExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountFundTransferExactMatch.html">RetailBankingAccountFundTransferExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountTransaction.html">RetailBankingAccountTransaction</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountTransactionAll.html">RetailBankingAccountTransactionAll</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountTransactionCount.html">RetailBankingAccountTransactionCount</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountTransactionCountExactMatch.html">RetailBankingAccountTransactionCountExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountTransactionExactMatch.html">RetailBankingAccountTransactionExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingForeignCurrency.html">RetailBankingForeignCurrency</a></li>
+            
+                <li><a href="../classes/RetailBankingForeignCurrencyAll.html">RetailBankingForeignCurrencyAll</a></li>
+            
+                <li><a href="../classes/RetailBankingForeignCurrencyCount.html">RetailBankingForeignCurrencyCount</a></li>
+            
+                <li><a href="../classes/RetailBankingForeignCurrencyCountExactMatch.html">RetailBankingForeignCurrencyCountExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingForeignCurrencyExactMatch.html">RetailBankingForeignCurrencyExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingForeignCurrencyForeignCurrency.html">RetailBankingForeignCurrencyForeignCurrency</a></li>
+            
+                <li><a href="../classes/RetailBankingLocation.html">RetailBankingLocation</a></li>
+            
+                <li><a href="../classes/RetailBankingLocationAll.html">RetailBankingLocationAll</a></li>
+            
+                <li><a href="../classes/RetailBankingLocationCount.html">RetailBankingLocationCount</a></li>
+            
+                <li><a href="../classes/RetailBankingLocationCountExactMatch.html">RetailBankingLocationCountExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingLocationExactMatch.html">RetailBankingLocationExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingLocationLocations.html">RetailBankingLocationLocations</a></li>
+            
+                <li><a href="../classes/RetailBankingLogin.html">RetailBankingLogin</a></li>
+            
+                <li><a href="../classes/RetailBankingLoginAll.html">RetailBankingLoginAll</a></li>
+            
+                <li><a href="../classes/RetailBankingLoginCount.html">RetailBankingLoginCount</a></li>
+            
+                <li><a href="../classes/RetailBankingLoginCountExactMatch.html">RetailBankingLoginCountExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingLoginExactMatch.html">RetailBankingLoginExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingPayee.html">RetailBankingPayee</a></li>
+            
+                <li><a href="../classes/RetailBankingPayeeAll.html">RetailBankingPayeeAll</a></li>
+            
+                <li><a href="../classes/RetailBankingPayeeCount.html">RetailBankingPayeeCount</a></li>
+            
+                <li><a href="../classes/RetailBankingPayeeCountExactMatch.html">RetailBankingPayeeCountExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingPayeeExactMatch.html">RetailBankingPayeeExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingPayeeType.html">RetailBankingPayeeType</a></li>
+            
+                <li><a href="../classes/RetailBankingPayeeTypeAll.html">RetailBankingPayeeTypeAll</a></li>
+            
+                <li><a href="../classes/RetailBankingPayeeTypeCount.html">RetailBankingPayeeTypeCount</a></li>
+            
+                <li><a href="../classes/RetailBankingPayeeTypeCountExactMatch.html">RetailBankingPayeeTypeCountExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingPayeeTypeExactMatch.html">RetailBankingPayeeTypeExactMatch</a></li>
+            
+                <li><a href="../classes/ScopeCollection.html">ScopeCollection</a></li>
+            
+                <li><a href="../classes/Url.html">Url</a></li>
+            
+                <li><a href="../classes/Validator.html">Validator</a></li>
+            
+                <li><a href="../classes/XML.html">XML</a></li>
+            
+            </ul>
+
+            <ul id="api-modules" class="apis modules">
+            
+                <li><a href="../modules/adapter.html">adapter</a></li>
+            
+                <li><a href="../modules/adapters.html">adapters</a></li>
+            
+                <li><a href="../modules/AP.html">AP</a></li>
+            
+                <li><a href="../modules/auth.html">auth</a></li>
+            
+                <li><a href="../modules/CitiMobileChallengeSdk.html">CitiMobileChallengeSdk</a></li>
+            
+                <li><a href="../modules/collection.html">collection</a></li>
+            
+                <li><a href="../modules/collections.html">collections</a></li>
+            
+                <li><a href="../modules/MockServer.html">MockServer</a></li>
+            
+                <li><a href="../modules/model.html">model</a></li>
+            
+                <li><a href="../modules/models.html">models</a></li>
+            
+                <li><a href="../modules/relationship.html">relationship</a></li>
+            
+                <li><a href="../modules/utility.html">utility</a></li>
+            
+            </ul>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+        <div class="yui3-u-3-4">
+                <div id="api-options">
+        Show:
+        <label for="api-show-inherited">
+            <input type="checkbox" id="api-show-inherited" checked>
+            Inherited
+        </label>
+
+        <label for="api-show-protected">
+            <input type="checkbox" id="api-show-protected">
+            Protected
+        </label>
+
+        <label for="api-show-private">
+            <input type="checkbox" id="api-show-private">
+            Private
+        </label>
+        <label for="api-show-deprecated">
+            <input type="checkbox" id="api-show-deprecated">
+            Deprecated
+        </label>
+
+    </div>
+
+
+            <div class="apidocs">
+                <div id="docs-main">
+                    <div class="content">
+                        <h1 class="file-heading">File: sdk/utility/validator.js</h1>
+
+<div class="file">
+    <pre class="code prettyprint linenums">
+/**
+Provides an extensible facility for validating arbitrary data.  While validator
+is used primarily by {@link AP.model.Model}, it may be used to
+validate any data object.
+
+Subclass validator to implement additional validation types.  Built-in
+validation types include:
+
+- &#x60;required&#x60;:  field must have a non-null value
+- &#x60;type&#x60;:  field type is consistent with the type specified in &#x60;is&#x60;
+
+Example usage:
+@example
+    validator = new AP.utility.Validator();
+    validator.data = {
+      name: &#x27;John Doe&#x27;,
+      age: 46
+    };
+    validator.validations = [{
+      field: &#x27;name&#x27;,
+      validate: &#x27;required&#x27;
+    }, {
+      field: &#x27;age&#x27;,
+      validate: &#x27;type&#x27;,
+      is: &#x27;integer&#x27;
+    }];
+
+    validator.validate();
+    // true
+    validator.data.age = null;
+    validator.validate();
+    // true
+    // age is not required:  although &quot;null&quot; is not an integer, it is valid
+    // because the type validator ignores null values.
+    
+    validator.data.name = &#x27;&#x27;;
+    validator.validate();
+    // false
+
+@module AP
+@submodule utility
+@class Validator
+ */
+AP.utility.Validator = (function($class) {
+  
+  var validator = $class({
+    
+    _constructor: function Validator(data, validations) {
+      this.data = data;
+      this.validations = validations;
+      this._errors = [];
+      this.data = _.clone(this.data);
+      this.validations = _.clone(this.validations);
+    },
+    
+    /**
+    Internal errors array.  If the errors array contains any errors then the
+    validator is considered to be in an invalid state.
+    @private
+    @property _errors
+    @type Object[]
+     */
+    _errors: [],
+
+    /**
+    Internal hash of error messages.  Each key is an error type where its value
+    is an error message string.
+    @private
+    @property _errorMessages
+    @type Object
+     */
+    _errorMessages: {
+      required: &#x27;this field is required&#x27;,
+      numericality: &#x27;this field must resemble a number&#x27;,
+      booleanType: &#x27;this field must be a boolean&#x27;,
+      stringType: &#x27;this field must be a string&#x27;,
+      numberType: &#x27;this field must be a number&#x27;,
+      integer: &#x27;this field must be an integer&#x27;,
+      float: &#x27;this field must be a float&#x27;,
+      missingType: &#x27;this field cannot be validated as type {0}&#x27;
+    },
+
+    /**
+    The data object to validate.
+    @property data
+    @type Object
+     */
+    data: {},
+
+    /**
+    A list of validations to apply.  Validations is an array of validation
+    configuration objects.  Validation configuration objects must contain at least
+    the following members:
+    
+    - &#x60;field&#x60;:  a key in the {@link #data} object
+    - &#x60;validate&#x60;:  a string reprenting the validation type
+    
+    Certain validations may require additional information.  For example, the
+    &#x60;type&#x60; validation requires an &#x60;is&#x60; member, the data type.
+    
+    For example:
+    @example
+        [
+          field: &#x27;name&#x27;
+          validate: &#x27;required&#x27;
+        ,
+          field: &#x27;amount&#x27;
+          validate: &#x27;numericality&#x27;
+        ,
+          field: &#x27;age&#x27;
+          validate: &#x27;type&#x27;
+          is: &#x27;integer&#x27;
+        ]
+    
+    @property validations
+    @type Object[]
+     */
+    validations: [],
+
+    /**
+    Returns true if the validator has no errors.  **Note**:  {@link #validate}
+    should be executed before calling &#x60;isValid&#x60;.  Always returns &#x60;true&#x60; if
+    executed before &#x60;validate&#x60;.
+    @method isValid
+    @return {Boolean} &#x60;true&#x60; if there
+     */
+    isValid: function() {
+      return !this.errors().length;
+    },
+
+    /**
+    Applies the validations specified in {@link #validations} to {@link #data},
+    clearing any existing errors first.
+    @method validate
+    @return {Boolean} the return value of {@link #isValid}.
+     */
+    validate: function() {
+      var j, len, ref, validation;
+      this._errors = [];
+      ref = this.validations;
+      for (j = 0, len = ref.length; j &lt; len; j++) {
+        validation = ref[j];
+        if (this[validation.validate]) {
+          this[validation.validate](this.data[validation.field], validation);
+        }
+      }
+      return this.isValid();
+    },
+
+    /**
+    Adds an error of &#x60;type&#x60; for field &#x60;fieldName&#x60; to the validator where &#x60;type&#x60; is
+    a key in the internal {@link #_errorMessages error messages hash}.  Additional
+    data may be passed as an array via &#x60;extra&#x60; which is interpolated into the
+    error message.
+    @method addError
+    @param {String} fieldName the field to which the error applies
+    @param {String} type the error type, corresponding to a key in the internal
+    error messages hash.
+    @param {String[]} [extra] optional array of strings to be interpolated into
+    the error message
+     */
+    addError: function(fieldName, type, extra) {
+      var i, j, len, message, value;
+      message = this._errorMessages[type] || &#x27;is invalid&#x27;;
+      if (extra) {
+        for (i = j = 0, len = extra.length; j &lt; len; i = ++j) {
+          value = extra[i];
+          message = message.replace(&quot;{&quot; + i + &quot;}&quot;, value);
+        }
+      }
+      return this._errors.push({
+        field: fieldName,
+        message: message
+      });
+    },
+
+    /**
+    Returns the internal errors array.
+    @method errors
+    @return {String[]} the internal errors array.
+     */
+    errors: function() {
+      return this._errors;
+    },
+
+    /**
+    Validates that the value is non-null.  If null or undefined, adds an error.
+    @method required
+    @param value the value to validate
+    @param {Object} options a validation configuration object, for example:
+        {field: &#x27;title&#x27;, validate: &#x27;required&#x27;}
+     */
+    required: function(value, options) {
+      if (value === null || value === void 0) {
+        return this.addError(options.field, &#x27;required&#x27;);
+      }
+    },
+
+    /**
+    Validates that the value looks like a number.  The value is allowed to be
+    either a strict string or number type, as long as it looks like a number.
+    @method numericality
+    @param value the value to valiate as numerical
+    @param {Object} options a validation configuration object, for example:
+        {field: &#x27;amount&#x27;, validate: &#x27;numericality&#x27;}
+     */
+    numericality: function(value, options) {
+      if ((value != null) &amp;&amp; !value.toString().match(/^[-+]?[0-9]*\.?[0-9]+([eE][-+]?[0-9]+)?$/)) {
+        return this.addError(options.field, &#x27;numericality&#x27;);
+      }
+    },
+
+    /**
+    Validates that the value is of a specified type.  Adds an error if the value
+    is not of the specified type.
+    @method type
+    @param value the value to validate
+    @param {Object} options a validation configuration object with an extra &#x60;is&#x60;
+    member to specify type, for example:
+        {field: &#x27;title&#x27;, validate: &#x27;type&#x27;, is: &#x27;string&#x27;}
+     */
+    type: function(value, options) {
+      var type;
+      type = options.is.toLowerCase();
+      if (this[type + &quot;Type&quot;]) {
+        return this[type + &quot;Type&quot;](value, options);
+      } else {
+        return this.addError(options.field, &#x27;missingType&#x27;, [type]);
+      }
+    },
+
+    /**
+    Validates that &#x60;value&#x60; is a boolean.  Adds an error if &#x60;value&#x60; is present but
+    not of type boolean.
+    @method booleanType
+    @param value the value to validate
+    @param {Object} options a validation configuration object with an extra &#x60;is&#x60;
+    member to specify type, for example:
+        {field: &#x27;title&#x27;, validate: &#x27;type&#x27;, is: &#x27;boolean&#x27;}
+     */
+    booleanType: function(value, options) {
+      if (((typeof value) !== &#x27;boolean&#x27;) &amp;&amp; (value !== null &amp;&amp; value !== void 0)) {
+        return this.addError(options.field, &#x27;booleanType&#x27;);
+      }
+    },
+
+    /**
+    Validates that &#x60;value&#x60; is a string.  Adds an error if &#x60;value&#x60; is present but
+    not of type string.
+    @method stringType
+    @param value the value to validate
+    @param {Object} options a validation configuration object with an extra &#x60;is&#x60;
+    member to specify type, for example:
+        {field: &#x27;title&#x27;, validate: &#x27;type&#x27;, is: &#x27;string&#x27;}
+     */
+    stringType: function(value, options) {
+      if (((typeof value) !== &#x27;string&#x27;) &amp;&amp; (value !== null &amp;&amp; value !== void 0)) {
+        return this.addError(options.field, &#x27;stringType&#x27;);
+      }
+    },
+
+    /**
+    Validates that &#x60;value&#x60; is a number.  Adds an error if &#x60;value&#x60; is present but
+    not of type number.
+    @method numberType
+    @param value the value to validate
+    @param {Object} options a validation configuration object with an extra &#x60;is&#x60;
+    member to specify type, for example:
+        {field: &#x27;title&#x27;, validate: &#x27;type&#x27;, is: &#x27;number&#x27;}
+     */
+    numberType: function(value, options) {
+      if (((typeof value) !== &#x27;number&#x27;) &amp;&amp; (value !== null &amp;&amp; value !== void 0)) {
+        return this.addError(options.field, &#x27;numberType&#x27;);
+      }
+    },
+
+    /**
+    Validates that &#x60;value&#x60; is a number.  Adds an error if &#x60;value&#x60; is present but
+    not of type number.
+    @method floatType
+    @param value the value to validate
+    @param {Object} options a validation configuration object with an extra &#x60;is&#x60;
+    member to specify type, for example:
+        {field: &#x27;title&#x27;, validate: &#x27;type&#x27;, is: &#x27;float&#x27;}
+     */
+    floatType: function(value, options) {
+      if (((typeof value) !== &#x27;number&#x27;) &amp;&amp; (value !== null &amp;&amp; value !== void 0)) {
+        return this.addError(options.field, &#x27;floatType&#x27;);
+      }
+    },
+
+    /**
+    Validates that &#x60;value&#x60; is a whole number.  Adds an error if &#x60;value&#x60; is present
+    but not of a whole number.
+    @method integerType
+    @param value the value to validate
+    @param {Object} options a validation configuration object with an extra &#x60;is&#x60;
+    member to specify type, for example:
+        {field: &#x27;title&#x27;, validate: &#x27;type&#x27;, is: &#x27;integer&#x27;}
+     */
+    integerType: function(value, options) {
+      if (value !== null &amp;&amp; value !== void 0) {
+        if (!(((typeof value) === &#x27;number&#x27;) &amp;&amp; (value.toString().indexOf(&#x27;.&#x27;) === -1))) {
+          return this.addError(options.field, &#x27;integerType&#x27;);
+        }
+      }
+    },
+
+    /**
+    **UNIMPLEMENTED***
+    Validates that &#x60;value&#x60; is a data.
+    @method dateType
+    @beta
+    @param value the value to validate
+    @param {Object} options a validation configuration object with an extra &#x60;is&#x60;
+    member to specify type, for example:
+        {field: &#x27;title&#x27;, validate: &#x27;type&#x27;, is: &#x27;date&#x27;}
+     */
+    dateType: function(value, options) {},
+
+    /**
+    **UNIMPLEMENTED***
+    Validates that &#x60;value&#x60; is a time.
+    @method timeType
+    @beta
+    @param value the value to validate
+    @param {Object} options a validation configuration object with an extra &#x60;is&#x60;
+    member to specify type, for example:
+        {field: &#x27;title&#x27;, validate: &#x27;type&#x27;, is: &#x27;time&#x27;}
+     */
+    timeType: function(value, options) {}
+    
+  });
+  
+  return validator;
+  
+})(AP.utility.createClass);
+
+    </pre>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../assets/vendor/prettify/prettify-min.js"></script>
+<script>prettyPrint();</script>
+<script src="../assets/js/yui-prettify.js"></script>
+<script src="../assets/../api.js"></script>
+<script src="../assets/js/api-filter.js"></script>
+<script src="../assets/js/api-list.js"></script>
+<script src="../assets/js/api-search.js"></script>
+<script src="../assets/js/apidocs.js"></script>
+</body>
+</html>

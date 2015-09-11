@@ -1,0 +1,2187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Authentication - CitiMobileChallenge</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/3.9.1/build/cssgrids/cssgrids-min.css">
+    <link rel="stylesheet" href="../assets/vendor/prettify/prettify-min.css">
+    <link rel="stylesheet" href="../assets/css/main.css" id="site_styles">
+    <link rel="shortcut icon" type="image/png" href="../assets/favicon.png">
+    <script src="http://yui.yahooapis.com/combo?3.9.1/build/yui/yui-min.js"></script>
+</head>
+<body class="yui3-skin-sam">
+
+<div id="doc">
+    <div id="hd" class="yui3-g header">
+        <div class="yui3-u-3-4">
+            
+                <h1><img src="../assets/css/logo.png" title="CitiMobileChallenge"></h1>
+            
+        </div>
+        <div class="yui3-u-1-4 version">
+            <em>API Docs for: 0.0.1</em>
+        </div>
+    </div>
+    <div id="bd" class="yui3-g">
+
+        <div class="yui3-u-1-4">
+            <div id="docs-sidebar" class="sidebar apidocs">
+                <div id="api-list">
+    <h2 class="off-left">APIs</h2>
+    <div id="api-tabview" class="tabview">
+        <ul class="tabs">
+            <li><a href="#api-classes">Classes</a></li>
+            <li><a href="#api-modules">Modules</a></li>
+        </ul>
+
+        <div id="api-tabview-filter">
+            <input type="search" id="api-filter" placeholder="Type to filter APIs">
+        </div>
+
+        <div id="api-tabview-panel">
+            <ul id="api-classes" class="apis classes">
+            
+                <li><a href="../classes/AggregateCollection.html">AggregateCollection</a></li>
+            
+                <li><a href="../classes/Application.html">Application</a></li>
+            
+                <li><a href="../classes/Authentication.html">Authentication</a></li>
+            
+                <li><a href="../classes/Authorization.html">Authorization</a></li>
+            
+                <li><a href="../classes/Base64.html">Base64</a></li>
+            
+                <li><a href="../classes/BelongsTo.html">BelongsTo</a></li>
+            
+                <li><a href="../classes/CapitalMarketsActivity.html">CapitalMarketsActivity</a></li>
+            
+                <li><a href="../classes/CapitalMarketsActivityActivities.html">CapitalMarketsActivityActivities</a></li>
+            
+                <li><a href="../classes/CapitalMarketsActivityAll.html">CapitalMarketsActivityAll</a></li>
+            
+                <li><a href="../classes/CapitalMarketsActivityCount.html">CapitalMarketsActivityCount</a></li>
+            
+                <li><a href="../classes/CapitalMarketsActivityCountExactMatch.html">CapitalMarketsActivityCountExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsActivityExactMatch.html">CapitalMarketsActivityExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContact.html">CapitalMarketsContact</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContactAll.html">CapitalMarketsContactAll</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContactContacts.html">CapitalMarketsContactContacts</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContactCount.html">CapitalMarketsContactCount</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContactCountExactMatch.html">CapitalMarketsContactCountExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContactExactMatch.html">CapitalMarketsContactExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContentService.html">CapitalMarketsContentService</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContentServiceAll.html">CapitalMarketsContentServiceAll</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContentServiceContentServices.html">CapitalMarketsContentServiceContentServices</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContentServiceCount.html">CapitalMarketsContentServiceCount</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContentServiceCountExactMatch.html">CapitalMarketsContentServiceCountExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsContentServiceExactMatch.html">CapitalMarketsContentServiceExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsLogin.html">CapitalMarketsLogin</a></li>
+            
+                <li><a href="../classes/CapitalMarketsLoginAll.html">CapitalMarketsLoginAll</a></li>
+            
+                <li><a href="../classes/CapitalMarketsLoginCount.html">CapitalMarketsLoginCount</a></li>
+            
+                <li><a href="../classes/CapitalMarketsLoginCountExactMatch.html">CapitalMarketsLoginCountExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsLoginExactMatch.html">CapitalMarketsLoginExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsOrder.html">CapitalMarketsOrder</a></li>
+            
+                <li><a href="../classes/CapitalMarketsOrderAll.html">CapitalMarketsOrderAll</a></li>
+            
+                <li><a href="../classes/CapitalMarketsOrderCount.html">CapitalMarketsOrderCount</a></li>
+            
+                <li><a href="../classes/CapitalMarketsOrderCountExactMatch.html">CapitalMarketsOrderCountExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsOrderExactMatch.html">CapitalMarketsOrderExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsRevenue.html">CapitalMarketsRevenue</a></li>
+            
+                <li><a href="../classes/CapitalMarketsRevenueAll.html">CapitalMarketsRevenueAll</a></li>
+            
+                <li><a href="../classes/CapitalMarketsRevenueCount.html">CapitalMarketsRevenueCount</a></li>
+            
+                <li><a href="../classes/CapitalMarketsRevenueCountExactMatch.html">CapitalMarketsRevenueCountExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsRevenueExactMatch.html">CapitalMarketsRevenueExactMatch</a></li>
+            
+                <li><a href="../classes/CapitalMarketsRevenueRevenues.html">CapitalMarketsRevenueRevenues</a></li>
+            
+                <li><a href="../classes/CapitalMarketsTrading.html">CapitalMarketsTrading</a></li>
+            
+                <li><a href="../classes/Class.html">Class</a></li>
+            
+                <li><a href="../classes/Collection.html">Collection</a></li>
+            
+                <li><a href="../classes/Collections.html">Collections</a></li>
+            
+                <li><a href="../classes/Cookie.html">Cookie</a></li>
+            
+                <li><a href="../classes/CorporatePayments.html">CorporatePayments</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsAccount.html">CorporatePaymentsAccount</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsAccountAll.html">CorporatePaymentsAccountAll</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsAccountCount.html">CorporatePaymentsAccountCount</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsAccountCountExactMatch.html">CorporatePaymentsAccountCountExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsAccountExactMatch.html">CorporatePaymentsAccountExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsBeneficiary.html">CorporatePaymentsBeneficiary</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsBeneficiaryAll.html">CorporatePaymentsBeneficiaryAll</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsBeneficiaryCount.html">CorporatePaymentsBeneficiaryCount</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsBeneficiaryCountExactMatch.html">CorporatePaymentsBeneficiaryCountExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsBeneficiaryExactMatch.html">CorporatePaymentsBeneficiaryExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxBooking.html">CorporatePaymentsCrossBorderFxBooking</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxBookingAll.html">CorporatePaymentsCrossBorderFxBookingAll</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxBookingCount.html">CorporatePaymentsCrossBorderFxBookingCount</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxBookingCountExactMatch.html">CorporatePaymentsCrossBorderFxBookingCountExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxBookingExactMatch.html">CorporatePaymentsCrossBorderFxBookingExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxPayment.html">CorporatePaymentsCrossBorderFxPayment</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxPaymentAll.html">CorporatePaymentsCrossBorderFxPaymentAll</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxPaymentCount.html">CorporatePaymentsCrossBorderFxPaymentCount</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxPaymentCountExactMatch.html">CorporatePaymentsCrossBorderFxPaymentCountExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxPaymentExactMatch.html">CorporatePaymentsCrossBorderFxPaymentExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxPaymentFxPayments.html">CorporatePaymentsCrossBorderFxPaymentFxPayments</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxQuote.html">CorporatePaymentsCrossBorderFxQuote</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxQuoteAll.html">CorporatePaymentsCrossBorderFxQuoteAll</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxQuoteCount.html">CorporatePaymentsCrossBorderFxQuoteCount</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxQuoteCountExactMatch.html">CorporatePaymentsCrossBorderFxQuoteCountExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsCrossBorderFxQuoteExactMatch.html">CorporatePaymentsCrossBorderFxQuoteExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsLogin.html">CorporatePaymentsLogin</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsLoginAll.html">CorporatePaymentsLoginAll</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsLoginCount.html">CorporatePaymentsLoginCount</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsLoginCountExactMatch.html">CorporatePaymentsLoginCountExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsLoginExactMatch.html">CorporatePaymentsLoginExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsPayment.html">CorporatePaymentsPayment</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsPaymentAll.html">CorporatePaymentsPaymentAll</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsPaymentCount.html">CorporatePaymentsPaymentCount</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsPaymentCountExactMatch.html">CorporatePaymentsPaymentCountExactMatch</a></li>
+            
+                <li><a href="../classes/CorporatePaymentsPaymentExactMatch.html">CorporatePaymentsPaymentExactMatch</a></li>
+            
+                <li><a href="../classes/DefaultAdapter.html">DefaultAdapter</a></li>
+            
+                <li><a href="../classes/Dispatcher.html">Dispatcher</a></li>
+            
+                <li><a href="../classes/HasMany.html">HasMany</a></li>
+            
+                <li><a href="../classes/HasOne.html">HasOne</a></li>
+            
+                <li><a href="../classes/HttpAdapter.html">HttpAdapter</a></li>
+            
+                <li><a href="../classes/JSON.html">JSON</a></li>
+            
+                <li><a href="../classes/LargeLocalStorage.html">LargeLocalStorage</a></li>
+            
+                <li><a href="../classes/MockServer.html">MockServer</a></li>
+            
+                <li><a href="../classes/Model.html">Model</a></li>
+            
+                <li><a href="../classes/Models.html">Models</a></li>
+            
+                <li><a href="../classes/Relationship.html">Relationship</a></li>
+            
+                <li><a href="../classes/RetailBanking.html">RetailBanking</a></li>
+            
+                <li><a href="../classes/RetailBankingAccount.html">RetailBankingAccount</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountAll.html">RetailBankingAccountAll</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountBalance.html">RetailBankingAccountBalance</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountBalanceAll.html">RetailBankingAccountBalanceAll</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountBalanceCount.html">RetailBankingAccountBalanceCount</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountBalanceCountExactMatch.html">RetailBankingAccountBalanceCountExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountBalanceExactMatch.html">RetailBankingAccountBalanceExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountCount.html">RetailBankingAccountCount</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountCountExactMatch.html">RetailBankingAccountCountExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountExactMatch.html">RetailBankingAccountExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountFundTransfer.html">RetailBankingAccountFundTransfer</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountFundTransferAll.html">RetailBankingAccountFundTransferAll</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountFundTransferCount.html">RetailBankingAccountFundTransferCount</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountFundTransferCountExactMatch.html">RetailBankingAccountFundTransferCountExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountFundTransferExactMatch.html">RetailBankingAccountFundTransferExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountTransaction.html">RetailBankingAccountTransaction</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountTransactionAll.html">RetailBankingAccountTransactionAll</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountTransactionCount.html">RetailBankingAccountTransactionCount</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountTransactionCountExactMatch.html">RetailBankingAccountTransactionCountExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingAccountTransactionExactMatch.html">RetailBankingAccountTransactionExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingForeignCurrency.html">RetailBankingForeignCurrency</a></li>
+            
+                <li><a href="../classes/RetailBankingForeignCurrencyAll.html">RetailBankingForeignCurrencyAll</a></li>
+            
+                <li><a href="../classes/RetailBankingForeignCurrencyCount.html">RetailBankingForeignCurrencyCount</a></li>
+            
+                <li><a href="../classes/RetailBankingForeignCurrencyCountExactMatch.html">RetailBankingForeignCurrencyCountExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingForeignCurrencyExactMatch.html">RetailBankingForeignCurrencyExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingForeignCurrencyForeignCurrency.html">RetailBankingForeignCurrencyForeignCurrency</a></li>
+            
+                <li><a href="../classes/RetailBankingLocation.html">RetailBankingLocation</a></li>
+            
+                <li><a href="../classes/RetailBankingLocationAll.html">RetailBankingLocationAll</a></li>
+            
+                <li><a href="../classes/RetailBankingLocationCount.html">RetailBankingLocationCount</a></li>
+            
+                <li><a href="../classes/RetailBankingLocationCountExactMatch.html">RetailBankingLocationCountExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingLocationExactMatch.html">RetailBankingLocationExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingLocationLocations.html">RetailBankingLocationLocations</a></li>
+            
+                <li><a href="../classes/RetailBankingLogin.html">RetailBankingLogin</a></li>
+            
+                <li><a href="../classes/RetailBankingLoginAll.html">RetailBankingLoginAll</a></li>
+            
+                <li><a href="../classes/RetailBankingLoginCount.html">RetailBankingLoginCount</a></li>
+            
+                <li><a href="../classes/RetailBankingLoginCountExactMatch.html">RetailBankingLoginCountExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingLoginExactMatch.html">RetailBankingLoginExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingPayee.html">RetailBankingPayee</a></li>
+            
+                <li><a href="../classes/RetailBankingPayeeAll.html">RetailBankingPayeeAll</a></li>
+            
+                <li><a href="../classes/RetailBankingPayeeCount.html">RetailBankingPayeeCount</a></li>
+            
+                <li><a href="../classes/RetailBankingPayeeCountExactMatch.html">RetailBankingPayeeCountExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingPayeeExactMatch.html">RetailBankingPayeeExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingPayeeType.html">RetailBankingPayeeType</a></li>
+            
+                <li><a href="../classes/RetailBankingPayeeTypeAll.html">RetailBankingPayeeTypeAll</a></li>
+            
+                <li><a href="../classes/RetailBankingPayeeTypeCount.html">RetailBankingPayeeTypeCount</a></li>
+            
+                <li><a href="../classes/RetailBankingPayeeTypeCountExactMatch.html">RetailBankingPayeeTypeCountExactMatch</a></li>
+            
+                <li><a href="../classes/RetailBankingPayeeTypeExactMatch.html">RetailBankingPayeeTypeExactMatch</a></li>
+            
+                <li><a href="../classes/ScopeCollection.html">ScopeCollection</a></li>
+            
+                <li><a href="../classes/Url.html">Url</a></li>
+            
+                <li><a href="../classes/Validator.html">Validator</a></li>
+            
+                <li><a href="../classes/XML.html">XML</a></li>
+            
+            </ul>
+
+            <ul id="api-modules" class="apis modules">
+            
+                <li><a href="../modules/adapter.html">adapter</a></li>
+            
+                <li><a href="../modules/adapters.html">adapters</a></li>
+            
+                <li><a href="../modules/AP.html">AP</a></li>
+            
+                <li><a href="../modules/auth.html">auth</a></li>
+            
+                <li><a href="../modules/CitiMobileChallengeSdk.html">CitiMobileChallengeSdk</a></li>
+            
+                <li><a href="../modules/collection.html">collection</a></li>
+            
+                <li><a href="../modules/collections.html">collections</a></li>
+            
+                <li><a href="../modules/MockServer.html">MockServer</a></li>
+            
+                <li><a href="../modules/model.html">model</a></li>
+            
+                <li><a href="../modules/models.html">models</a></li>
+            
+                <li><a href="../modules/relationship.html">relationship</a></li>
+            
+                <li><a href="../modules/utility.html">utility</a></li>
+            
+            </ul>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+        <div class="yui3-u-3-4">
+                <div id="api-options">
+        Show:
+        <label for="api-show-inherited">
+            <input type="checkbox" id="api-show-inherited" checked>
+            Inherited
+        </label>
+
+        <label for="api-show-protected">
+            <input type="checkbox" id="api-show-protected">
+            Protected
+        </label>
+
+        <label for="api-show-private">
+            <input type="checkbox" id="api-show-private">
+            Private
+        </label>
+        <label for="api-show-deprecated">
+            <input type="checkbox" id="api-show-deprecated">
+            Deprecated
+        </label>
+
+    </div>
+
+
+            <div class="apidocs">
+                <div id="docs-main">
+                    <div class="content">
+                        <h1>Authentication Class</h1>
+<div class="box meta">
+    
+
+    
+
+    
+        <div class="foundat">
+            Defined in: <a href="../files/sdk_auth_authentication.js.html#l2"><code>sdk&#x2F;auth&#x2F;authentication.js:2</code></a>
+        </div>
+    
+
+    
+        
+            Module: <a href="../modules/auth.html">auth</a><br>
+            Parent Module: <a href="../modules/AP.html">AP</a>
+        
+    
+
+    
+</div>
+
+
+
+<div class="box intro">
+    <p>Provides methods for user authentication and deauthentication.</p>
+<p>To login:</p>
+
+</div>
+
+
+
+<div id="classdocs" class="tabview">
+    <ul class="api-class-tabs">
+        <li class="api-class-tab index"><a href="#index">Index</a></li>
+
+        
+            <li class="api-class-tab methods"><a href="#methods">Methods</a></li>
+        
+        
+            <li class="api-class-tab properties"><a href="#properties">Properties</a></li>
+        
+        
+        
+            <li class="api-class-tab events"><a href="#events">Events</a></li>
+        
+    </ul>
+
+    <div>
+        <div id="index" class="api-class-tabpanel index">
+            <h2 class="off-left">Item Index</h2>
+
+            
+                <div class="index-section methods">
+                    <h3>Methods</h3>
+
+                    <ul class="index-list methods">
+                        
+                            <li class="index-item method">
+                                <a href="#method_authenticate">authenticate</a>
+
+                                
+                                    <span class="flag static">static</span>
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_deauthenticate">deauthenticate</a>
+
+                                
+                                    <span class="flag static">static</span>
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method private">
+                                <a href="#method_destroySession">destroySession</a>
+
+                                
+                                    <span class="flag static">static</span>
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method private">
+                                <a href="#method_getAuthenticatableObject">getAuthenticatableObject</a>
+
+                                
+                                    <span class="flag static">static</span>
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method private">
+                                <a href="#method_getAuthenticationSettings">getAuthenticationSettings</a>
+
+                                
+                                    <span class="flag static">static</span>
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_getAuthSessionData">getAuthSessionData</a>
+
+                                
+                                    <span class="flag static">static</span>
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method private">
+                                <a href="#method_getAuthSessionDataKey">getAuthSessionDataKey</a>
+
+                                
+                                    <span class="flag static">static</span>
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method private">
+                                <a href="#method_getAuthSessionId">getAuthSessionId</a>
+
+                                
+                                    <span class="flag static">static</span>
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_getAuthSessionIdHeaderName">getAuthSessionIdHeaderName</a>
+
+                                
+                                    <span class="flag static">static</span>
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method private">
+                                <a href="#method_getAuthSessionIdKey">getAuthSessionIdKey</a>
+
+                                
+                                    <span class="flag static">static</span>
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_isAuthenticatable">isAuthenticatable</a>
+
+                                
+                                    <span class="flag static">static</span>
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_isAuthenticated">isAuthenticated</a>
+
+                                
+                                    <span class="flag static">static</span>
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_login">login</a>
+
+                                
+                                    <span class="flag static">static</span>
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_logout">logout</a>
+
+                                
+                                    <span class="flag static">static</span>
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method private">
+                                <a href="#method_makeHTTPBasicAuthHeader">makeHTTPBasicAuthHeader</a>
+
+                                
+                                    <span class="flag static">static</span>
+                                
+                                
+                            </li>
+                        
+                    </ul>
+                </div>
+            
+
+            
+                <div class="index-section properties">
+                    <h3>Properties</h3>
+
+                    <ul class="index-list properties">
+                        
+                            <li class="index-item property private">
+                                <a href="#property__authSessionIdHeaderName">_authSessionIdHeaderName</a>
+
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item property">
+                                <a href="#property_description">description</a>
+
+                                
+                                    <span class="flag static">static</span>
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item property">
+                                <a href="#property_name">name</a>
+
+                                
+                                    <span class="flag static">static</span>
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item property private">
+                                <a href="#property_store">store</a>
+
+                                
+                                
+                            </li>
+                        
+                    </ul>
+                </div>
+            
+
+            
+
+            
+                <div class="index-section events">
+                    <h3>Events</h3>
+
+                    <ul class="index-list events">
+                        
+                            <li class="index-item event">
+                                <a href="#event_&#x27;auth:authenticated&#x27;
+An authenticated event is triggered after a successful login.">&#x27;auth:authenticated&#x27;
+An authenticated event is triggered after a successful login.</a>
+
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item event">
+                                <a href="#event_&#x27;auth:error&#x27;
+An auth error event is triggered if a login or logout fails for
+any reason.">&#x27;auth:error&#x27;
+An auth error event is triggered if a login or logout fails for
+any reason.</a>
+
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item event">
+                                <a href="#event_auth:deauthenticated
+A deauthenticated event is triggered after the session is destroyed.">auth:deauthenticated
+A deauthenticated event is triggered after the session is destroyed.</a>
+
+                                
+                                
+                            </li>
+                        
+                    </ul>
+                </div>
+            
+        </div>
+
+        
+            <div id="methods" class="api-class-tabpanel">
+                <h2 class="off-left">Methods</h2>
+
+                
+                    <div id="method_authenticate" class="method item">
+    <h3 class="name"><code>authenticate</code></h3>
+
+    
+        <div class="args">
+            <span class="paren">(</span><ul class="args-list inline commas">
+            
+                <li class="arg">
+                    
+                        <code>credentials</code>
+                    
+                </li>
+            
+            </ul><span class="paren">)</span>
+        </div>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+        <span class="flag static">static</span>
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="../files/sdk_auth_authentication.js.html#l101"><code>sdk&#x2F;auth&#x2F;authentication.js:101</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Performs authentication request with HTTP basic auth.  Upon a successful
+login the user object returned by the API is stored for later use.</p>
+
+    </div>
+
+    
+        <div class="params">
+            <h4>Parameters:</h4>
+
+            <ul class="params-list">
+            
+                <li class="param">
+                    
+                        <code class="param-name">credentials</code>
+                        <span class="type">Object</span>
+                    
+
+                    
+
+                    <div class="param-description">
+                        <p>user credentials object, for example:
+<code>{&quot;username&quot;: &quot;johndoe&quot;, &quot;password&quot;: &quot;doe123&quot;}</code>.</p>
+
+                    </div>
+
+                    
+                </li>
+            
+            </ul>
+        </div>
+    
+
+    
+
+    
+</div>
+
+                
+                    <div id="method_deauthenticate" class="method item">
+    <h3 class="name"><code>deauthenticate</code></h3>
+
+    
+        <span class="paren">()</span>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+        <span class="flag static">static</span>
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="../files/sdk_auth_authentication.js.html#l178"><code>sdk&#x2F;auth&#x2F;authentication.js:178</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Performs deauthentication request.  Upon a successful logout, stored user data
+is removed.</p>
+
+    </div>
+
+    
+
+    
+
+    
+</div>
+
+                
+                    <div id="method_destroySession" class="method item private">
+    <h3 class="name"><code>destroySession</code></h3>
+
+    
+        <span class="paren">()</span>
+    
+
+    
+
+    
+
+    
+        <span class="flag private">private</span>
+    
+
+    
+
+    
+        <span class="flag static">static</span>
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="../files/sdk_auth_authentication.js.html#l226"><code>sdk&#x2F;auth&#x2F;authentication.js:226</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Destroys session by deleting data in auth store.</p>
+
+    </div>
+
+    
+
+    
+
+    
+</div>
+
+                
+                    <div id="method_getAuthenticatableObject" class="method item private">
+    <h3 class="name"><code>getAuthenticatableObject</code></h3>
+
+    
+        <span class="paren">()</span>
+    
+
+    
+        <span class="returns-inline">
+            <span class="type">Object/null</span>
+        </span>
+    
+
+    
+
+    
+        <span class="flag private">private</span>
+    
+
+    
+
+    
+        <span class="flag static">static</span>
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="../files/sdk_auth_authentication.js.html#l345"><code>sdk&#x2F;auth&#x2F;authentication.js:345</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        
+    </div>
+
+    
+
+    
+        <div class="returns">
+            <h4>Returns:</h4>
+
+            <div class="returns-description">
+                
+                    
+                        <span class="type">Object/null</span>:
+                    
+                    <p>the model specified as the authenticatable object if one
+is specified.  Otherwise null.</p>
+
+                
+            </div>
+        </div>
+    
+
+    
+</div>
+
+                
+                    <div id="method_getAuthenticationSettings" class="method item private">
+    <h3 class="name"><code>getAuthenticationSettings</code></h3>
+
+    
+        <span class="paren">()</span>
+    
+
+    
+        <span class="returns-inline">
+            <span class="type">Object/null</span>
+        </span>
+    
+
+    
+
+    
+        <span class="flag private">private</span>
+    
+
+    
+
+    
+        <span class="flag static">static</span>
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="../files/sdk_auth_authentication.js.html#l334"><code>sdk&#x2F;auth&#x2F;authentication.js:334</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        
+    </div>
+
+    
+
+    
+        <div class="returns">
+            <h4>Returns:</h4>
+
+            <div class="returns-description">
+                
+                    
+                        <span class="type">Object/null</span>:
+                    
+                    <p>the authenticatable object if one is specified.
+Otherwise null.</p>
+
+                
+            </div>
+        </div>
+    
+
+    
+</div>
+
+                
+                    <div id="method_getAuthSessionData" class="method item">
+    <h3 class="name"><code>getAuthSessionData</code></h3>
+
+    
+        <span class="paren">()</span>
+    
+
+    
+        <span class="returns-inline">
+            <span class="type">Object/null</span>
+        </span>
+    
+
+    
+
+    
+
+    
+
+    
+        <span class="flag static">static</span>
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="../files/sdk_auth_authentication.js.html#l285"><code>sdk&#x2F;auth&#x2F;authentication.js:285</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Returns the auth session data (a user) from auth store if logged in.</p>
+
+    </div>
+
+    
+
+    
+        <div class="returns">
+            <h4>Returns:</h4>
+
+            <div class="returns-description">
+                
+                    
+                        <span class="type">Object/null</span>:
+                    
+                    <p>the authenticated user object</p>
+
+                
+            </div>
+        </div>
+    
+
+    
+</div>
+
+                
+                    <div id="method_getAuthSessionDataKey" class="method item private">
+    <h3 class="name"><code>getAuthSessionDataKey</code></h3>
+
+    
+        <span class="paren">()</span>
+    
+
+    
+        <span class="returns-inline">
+            <span class="type">String</span>
+        </span>
+    
+
+    
+
+    
+        <span class="flag private">private</span>
+    
+
+    
+
+    
+        <span class="flag static">static</span>
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="../files/sdk_auth_authentication.js.html#l252"><code>sdk&#x2F;auth&#x2F;authentication.js:252</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Builds a base-URL-specific auth key.  Since multiple apps may
+sometimes be served from the same domain, auth keys must include the name
+of the base URL (API server) in the key name for uniqueness.</p>
+
+    </div>
+
+    
+
+    
+        <div class="returns">
+            <h4>Returns:</h4>
+
+            <div class="returns-description">
+                
+                    
+                        <span class="type">String</span>:
+                    
+                    <p>auth store key, unique by base URL</p>
+
+                
+            </div>
+        </div>
+    
+
+    
+</div>
+
+                
+                    <div id="method_getAuthSessionId" class="method item private">
+    <h3 class="name"><code>getAuthSessionId</code></h3>
+
+    
+        <span class="paren">()</span>
+    
+
+    
+        <span class="returns-inline">
+            <span class="type">String/null</span>
+        </span>
+    
+
+    
+
+    
+        <span class="flag private">private</span>
+    
+
+    
+
+    
+        <span class="flag static">static</span>
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="../files/sdk_auth_authentication.js.html#l323"><code>sdk&#x2F;auth&#x2F;authentication.js:323</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Returns the auth ID from auth store.</p>
+
+    </div>
+
+    
+
+    
+        <div class="returns">
+            <h4>Returns:</h4>
+
+            <div class="returns-description">
+                
+                    
+                        <span class="type">String/null</span>:
+                    
+                    <p>the current session ID</p>
+
+                
+            </div>
+        </div>
+    
+
+    
+</div>
+
+                
+                    <div id="method_getAuthSessionIdHeaderName" class="method item">
+    <h3 class="name"><code>getAuthSessionIdHeaderName</code></h3>
+
+    
+        <span class="paren">()</span>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+        <span class="flag static">static</span>
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="../files/sdk_auth_authentication.js.html#l243"><code>sdk&#x2F;auth&#x2F;authentication.js:243</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Returns the name of the custom session ID header.</p>
+
+    </div>
+
+    
+
+    
+
+    
+</div>
+
+                
+                    <div id="method_getAuthSessionIdKey" class="method item private">
+    <h3 class="name"><code>getAuthSessionIdKey</code></h3>
+
+    
+        <span class="paren">()</span>
+    
+
+    
+        <span class="returns-inline">
+            <span class="type">String</span>
+        </span>
+    
+
+    
+
+    
+        <span class="flag private">private</span>
+    
+
+    
+
+    
+        <span class="flag static">static</span>
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="../files/sdk_auth_authentication.js.html#l274"><code>sdk&#x2F;auth&#x2F;authentication.js:274</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Builds a key name from <code>getAuthSessionDataKey</code> with <code>-session-id</code> appended.</p>
+
+    </div>
+
+    
+
+    
+        <div class="returns">
+            <h4>Returns:</h4>
+
+            <div class="returns-description">
+                
+                    
+                        <span class="type">String</span>:
+                    
+                    <p>auth session ID key name</p>
+
+                
+            </div>
+        </div>
+    
+
+    
+</div>
+
+                
+                    <div id="method_isAuthenticatable" class="method item">
+    <h3 class="name"><code>isAuthenticatable</code></h3>
+
+    
+        <span class="paren">()</span>
+    
+
+    
+        <span class="returns-inline">
+            <span class="type">Boolean</span>
+        </span>
+    
+
+    
+
+    
+
+    
+
+    
+        <span class="flag static">static</span>
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="../files/sdk_auth_authentication.js.html#l83"><code>sdk&#x2F;auth&#x2F;authentication.js:83</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        
+    </div>
+
+    
+
+    
+        <div class="returns">
+            <h4>Returns:</h4>
+
+            <div class="returns-description">
+                
+                    
+                        <span class="type">Boolean</span>:
+                    
+                    <p><code>true</code> if authentication is enabled</p>
+
+                
+            </div>
+        </div>
+    
+
+    
+</div>
+
+                
+                    <div id="method_isAuthenticated" class="method item">
+    <h3 class="name"><code>isAuthenticated</code></h3>
+
+    
+        <span class="paren">()</span>
+    
+
+    
+        <span class="returns-inline">
+            <span class="type">Boolean</span>
+        </span>
+    
+
+    
+
+    
+
+    
+
+    
+        <span class="flag static">static</span>
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="../files/sdk_auth_authentication.js.html#l92"><code>sdk&#x2F;auth&#x2F;authentication.js:92</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        
+    </div>
+
+    
+
+    
+        <div class="returns">
+            <h4>Returns:</h4>
+
+            <div class="returns-description">
+                
+                    
+                        <span class="type">Boolean</span>:
+                    
+                    <p><code>true</code> if a user is logged-in</p>
+
+                
+            </div>
+        </div>
+    
+
+    
+</div>
+
+                
+                    <div id="method_login" class="method item">
+    <h3 class="name"><code>login</code></h3>
+
+    
+        <div class="args">
+            <span class="paren">(</span><ul class="args-list inline commas">
+            
+                <li class="arg">
+                    
+                        <code>credentials</code>
+                    
+                </li>
+            
+            </ul><span class="paren">)</span>
+        </div>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+        <span class="flag static">static</span>
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="../files/sdk_auth_authentication.js.html#l60"><code>sdk&#x2F;auth&#x2F;authentication.js:60</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Executes login request with passed <code>credentials</code>.</p>
+
+    </div>
+
+    
+        <div class="params">
+            <h4>Parameters:</h4>
+
+            <ul class="params-list">
+            
+                <li class="param">
+                    
+                        <code class="param-name">credentials</code>
+                        <span class="type">Object</span>
+                    
+
+                    
+
+                    <div class="param-description">
+                        <p>the user credentials</p>
+
+                    </div>
+
+                    
+                </li>
+            
+            </ul>
+        </div>
+    
+
+    
+
+    
+</div>
+
+                
+                    <div id="method_logout" class="method item">
+    <h3 class="name"><code>logout</code></h3>
+
+    
+        <span class="paren">()</span>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+        <span class="flag static">static</span>
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="../files/sdk_auth_authentication.js.html#l72"><code>sdk&#x2F;auth&#x2F;authentication.js:72</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Executes logout request.</p>
+
+    </div>
+
+    
+
+    
+
+    
+</div>
+
+                
+                    <div id="method_makeHTTPBasicAuthHeader" class="method item private">
+    <h3 class="name"><code>makeHTTPBasicAuthHeader</code></h3>
+
+    
+        <div class="args">
+            <span class="paren">(</span><ul class="args-list inline commas">
+            
+                <li class="arg">
+                    
+                        <code>credentials</code>
+                    
+                </li>
+            
+            </ul><span class="paren">)</span>
+        </div>
+    
+
+    
+        <span class="returns-inline">
+            <span class="type">String</span>
+        </span>
+    
+
+    
+
+    
+        <span class="flag private">private</span>
+    
+
+    
+
+    
+        <span class="flag static">static</span>
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="../files/sdk_auth_authentication.js.html#l358"><code>sdk&#x2F;auth&#x2F;authentication.js:358</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Builds a Base64-encoded HTTP basic auth header for use in an
+authentication request.</p>
+
+    </div>
+
+    
+        <div class="params">
+            <h4>Parameters:</h4>
+
+            <ul class="params-list">
+            
+                <li class="param">
+                    
+                        <code class="param-name">credentials</code>
+                        <span class="type">Object</span>
+                    
+
+                    
+
+                    <div class="param-description">
+                        <p>the user credentials</p>
+
+                    </div>
+
+                    
+                </li>
+            
+            </ul>
+        </div>
+    
+
+    
+        <div class="returns">
+            <h4>Returns:</h4>
+
+            <div class="returns-description">
+                
+                    
+                        <span class="type">String</span>:
+                    
+                    <p>Base-64 encoded HTTP basic auth header with user credentials</p>
+
+                
+            </div>
+        </div>
+    
+
+    
+</div>
+
+                
+            </div>
+        
+
+        
+            <div id="properties" class="api-class-tabpanel">
+                <h2 class="off-left">Properties</h2>
+
+                
+                    <div id="property__authSessionIdHeaderName" class="property item private">
+    <h3 class="name"><code>_authSessionIdHeaderName</code></h3>
+    <span class="type">String</span>
+
+    
+
+    
+        <span class="flag private">private</span>
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="../files/sdk_auth_authentication.js.html#l38"><code>sdk&#x2F;auth&#x2F;authentication.js:38</code></a>
+        
+        </p>
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Custom header to send/retrieve the session ID when using CORS.</p>
+
+    </div>
+
+    
+
+    
+
+    
+</div>
+
+                
+                    <div id="property_description" class="property item">
+    <h3 class="name"><code>description</code></h3>
+    <span class="type">String</span>
+
+    
+
+    
+
+    
+
+    
+        <span class="flag static">static</span>
+    
+
+    <div class="meta">
+        
+            
+                
+                    <p>Provided by the <a href="../modules/AP.html">AP</a> module.</p>
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="../files/sdk_application_definition.js.html#l37"><code>sdk&#x2F;application&#x2F;definition.js:37</code></a>
+        
+        </p>
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Application description.</p>
+
+    </div>
+
+    
+
+    
+
+    
+</div>
+
+                
+                    <div id="property_name" class="property item">
+    <h3 class="name"><code>name</code></h3>
+    <span class="type">String</span>
+
+    
+
+    
+
+    
+
+    
+        <span class="flag static">static</span>
+    
+
+    <div class="meta">
+        
+            
+                
+                    <p>Provided by the <a href="../modules/AP.html">AP</a> module.</p>
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="../files/sdk_application_definition.js.html#l29"><code>sdk&#x2F;application&#x2F;definition.js:29</code></a>
+        
+        </p>
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Application name.</p>
+
+    </div>
+
+    
+
+    
+
+    
+</div>
+
+                
+                    <div id="property_store" class="property item private">
+    <h3 class="name"><code>store</code></h3>
+    <span class="type">AP.utility.TransientStore</span>
+
+    
+
+    
+        <span class="flag private">private</span>
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="../files/sdk_auth_authentication.js.html#l46"><code>sdk&#x2F;auth&#x2F;authentication.js:46</code></a>
+        
+        </p>
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Transient storage instance for persisting session data.</p>
+
+    </div>
+
+    
+
+    
+
+    
+</div>
+
+                
+            </div>
+        
+
+        
+
+        
+            <div id="events" class="api-class-tabpanel">
+                <h2 class="off-left">Events</h2>
+
+                
+                    <div id="event_&#x27;auth:authenticated&#x27;
+An authenticated event is triggered after a successful login." class="events item">
+    <h3 class="name"><code>&#x27;auth:authenticated&#x27;
+An authenticated event is triggered after a successful login.</code></h3>
+    <span class="type"></span>
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="../files/sdk_auth_authentication.js.html#l157"><code>sdk&#x2F;auth&#x2F;authentication.js:157</code></a>
+        
+        </p>
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        
+    </div>
+
+    
+
+
+    
+</div>
+
+                
+                    <div id="event_&#x27;auth:error&#x27;
+An auth error event is triggered if a login or logout fails for
+any reason." class="events item">
+    <h3 class="name"><code>&#x27;auth:error&#x27;
+An auth error event is triggered if a login or logout fails for
+any reason.</code></h3>
+    <span class="type"></span>
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="../files/sdk_auth_authentication.js.html#l168"><code>sdk&#x2F;auth&#x2F;authentication.js:168</code></a>
+        
+        </p>
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        
+    </div>
+
+    
+
+
+    
+</div>
+
+                
+                    <div id="event_auth:deauthenticated
+A deauthenticated event is triggered after the session is destroyed." class="events item">
+    <h3 class="name"><code>auth:deauthenticated
+A deauthenticated event is triggered after the session is destroyed.</code></h3>
+    <span class="type"></span>
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="../files/sdk_auth_authentication.js.html#l236"><code>sdk&#x2F;auth&#x2F;authentication.js:236</code></a>
+        
+        </p>
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        
+    </div>
+
+    
+
+
+    
+</div>
+
+                
+            </div>
+        
+    </div>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../assets/vendor/prettify/prettify-min.js"></script>
+<script>prettyPrint();</script>
+<script src="../assets/js/yui-prettify.js"></script>
+<script src="../assets/../api.js"></script>
+<script src="../assets/js/api-filter.js"></script>
+<script src="../assets/js/api-list.js"></script>
+<script src="../assets/js/api-search.js"></script>
+<script src="../assets/js/apidocs.js"></script>
+</body>
+</html>
