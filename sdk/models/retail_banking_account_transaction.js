@@ -46,7 +46,7 @@ CitiMobileChallengeSdk.models.RetailBankingAccountTransaction = (function($class
     @property urlRoot
     @type String'
      */
-    urlRoot: "/api/v2/retail_banking_account_transactions",
+    urlRoot: "/api/v5/retail_banking_account_transactions",
 
     /**
     Default values for this model.

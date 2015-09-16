@@ -41,7 +41,7 @@ CitiMobileChallengeSdk.collections.RetailBankingAccountFundTransferAll = (functi
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/retail_banking_account_fund_transfers.json",
+        apiEndpoint: "/api/v5/retail_banking_account_fund_transfers.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are

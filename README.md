@@ -14,611 +14,140 @@ This is the JQuery SDK library for CitiMobileChallenge. This SDK is based on **J
 	- [Adding the SDK to your Application](#adding-the-sdk-to-your-application)
 		- [Dependencies](#dependencies)
 	- [Setup](#setup)
-	- [Authentication:  Login & Logout](#authentication-login-logout)
 	- [Using local caching](#using-local-caching)
 	- [Models](#models)
-  
-    
-		- [CapitalMarketsActivity](#capitalmarketsactivity)
-			- [Create](#create)
-			- [Update](#update)
-			- [Read](#read)
-			- [Delete](#delete)
-			- [Query Scopes](#query-scopes)
-	    
-	      
-				- [CapitalMarketsActivityAll](#capitalmarketsactivityall)
-	    
-	      
-				- [CapitalMarketsActivityExactMatch](#capitalmarketsactivityexactmatch)
-	    
-	      
-				- [CapitalMarketsActivityCount](#capitalmarketsactivitycount)
-	    
-	      
-				- [CapitalMarketsActivityCountExactMatch](#capitalmarketsactivitycountexactmatch)
-	    
-	      
-				- [CapitalMarketsActivityActivities](#capitalmarketsactivityactivities)
-	    
-	    
-	    
-	    
-			- [Value interpolation](#value-interpolation)
-	   
-   
-    
-		- [CapitalMarketsContact](#capitalmarketscontact)
-			- [Create](#create-1)
-			- [Update](#update-1)
-			- [Read](#read-1)
-			- [Delete](#delete-1)
-			- [Query Scopes](#query-scopes-1)
-	    
-	      
-				- [CapitalMarketsContactAll](#capitalmarketscontactall)
-	    
-	      
-				- [CapitalMarketsContactExactMatch](#capitalmarketscontactexactmatch)
-	    
-	      
-				- [CapitalMarketsContactCount](#capitalmarketscontactcount)
-	    
-	      
-				- [CapitalMarketsContactCountExactMatch](#capitalmarketscontactcountexactmatch)
-	    
-	      
-				- [CapitalMarketsContactContacts](#capitalmarketscontactcontacts)
-	    
-	    
-	    
-	    
-			- [Value interpolation](#value-interpolation-1)
-	   
-   
-    
-		- [CapitalMarketsContentService](#capitalmarketscontentservice)
-			- [Create](#create-2)
-			- [Update](#update-2)
-			- [Read](#read-2)
-			- [Delete](#delete-2)
-			- [Query Scopes](#query-scopes-2)
-	    
-	      
-				- [CapitalMarketsContentServiceAll](#capitalmarketscontentserviceall)
-	    
-	      
-				- [CapitalMarketsContentServiceExactMatch](#capitalmarketscontentserviceexactmatch)
-	    
-	      
-				- [CapitalMarketsContentServiceCount](#capitalmarketscontentservicecount)
-	    
-	      
-				- [CapitalMarketsContentServiceCountExactMatch](#capitalmarketscontentservicecountexactmatch)
-	    
-	      
-				- [CapitalMarketsContentServiceContentServices](#capitalmarketscontentservicecontentservices)
-	    
-	    
-	    
-	    
-			- [Value interpolation](#value-interpolation-2)
-	   
-   
-    
-		- [CapitalMarketsLogin](#capitalmarketslogin)
-			- [Create](#create-3)
-			- [Update](#update-3)
-			- [Read](#read-3)
-			- [Delete](#delete-3)
-			- [Query Scopes](#query-scopes-3)
-	    
-	      
-				- [CapitalMarketsLoginAll](#capitalmarketsloginall)
-	    
-	      
-				- [CapitalMarketsLoginExactMatch](#capitalmarketsloginexactmatch)
-	    
-	      
-				- [CapitalMarketsLoginCount](#capitalmarketslogincount)
-	    
-	      
-				- [CapitalMarketsLoginCountExactMatch](#capitalmarketslogincountexactmatch)
-	    
-	    
-	    
-	    
-			- [Value interpolation](#value-interpolation-3)
-	   
-   
-    
-		- [CapitalMarketsOrder](#capitalmarketsorder)
-			- [Create](#create-4)
-			- [Update](#update-4)
-			- [Read](#read-4)
-			- [Delete](#delete-4)
-			- [Query Scopes](#query-scopes-4)
-	    
-	      
-				- [CapitalMarketsOrderAll](#capitalmarketsorderall)
-	    
-	      
-				- [CapitalMarketsOrderExactMatch](#capitalmarketsorderexactmatch)
-	    
-	      
-				- [CapitalMarketsOrderCount](#capitalmarketsordercount)
-	    
-	      
-				- [CapitalMarketsOrderCountExactMatch](#capitalmarketsordercountexactmatch)
-	    
-	    
-	    
-	    
-			- [Value interpolation](#value-interpolation-4)
-	   
-   
-    
-		- [CapitalMarketsRevenue](#capitalmarketsrevenue)
-			- [Create](#create-5)
-			- [Update](#update-5)
-			- [Read](#read-5)
-			- [Delete](#delete-5)
-			- [Query Scopes](#query-scopes-5)
-	    
-	      
-				- [CapitalMarketsRevenueAll](#capitalmarketsrevenueall)
-	    
-	      
-				- [CapitalMarketsRevenueExactMatch](#capitalmarketsrevenueexactmatch)
-	    
-	      
-				- [CapitalMarketsRevenueCount](#capitalmarketsrevenuecount)
-	    
-	      
-				- [CapitalMarketsRevenueCountExactMatch](#capitalmarketsrevenuecountexactmatch)
-	    
-	      
-				- [CapitalMarketsRevenueRevenues](#capitalmarketsrevenuerevenues)
-	    
-	    
-	    
-	    
-			- [Value interpolation](#value-interpolation-5)
-	   
-   
-    
+	
+		- [RetailBankingLogin](#retailbankinglogin)
+			- [Create](#create-19)
+			- [Value interpolation](#value-interpolation-19)
+
+		- [RetailBankingAccount](#retailbankingaccount)
+			- [Query Scopes](#query-scopes-13)
+				- [RetailBankingAccountAll](#retailbankingaccountall)
+			- [Read](#read-13)
+			- [Value interpolation](#value-interpolation-13)
+
+		- [RetailBankingAccountBalance](#retailbankingaccountbalance)
+			- [Query Scopes](#query-scopes-14)
+				- [RetailBankingAccountBalanceAll](#retailbankingaccountbalanceall)
+			- [Value interpolation](#value-interpolation-14)
+
+		- [RetailBankingAccountTransaction](#retailbankingaccounttransaction)
+			- [Query Scopes](#query-scopes-16)
+				- [RetailBankingAccountTransactionAll](#retailbankingaccounttransactionall)
+			- [Value interpolation](#value-interpolation-16)
+
+		- [RetailBankingPayeeType](#retailbankingpayeetype)
+			- [Query Scopes](#query-scopes-21)
+				- [RetailBankingPayeeTypeAll](#retailbankingpayeetypeall)
+			- [Value interpolation](#value-interpolation-21)
+
+		- [RetailBankingPayee](#retailbankingpayee)
+			- [Query Scopes](#query-scopes-20)
+				- [RetailBankingPayeeAll](#retailbankingpayeeall)
+			- [Value interpolation](#value-interpolation-20)
+
+		- [RetailBankingAccountFundTransfer](#retailbankingaccountfundtransfer)
+			- [Create](#create-15)
+			- [Value interpolation](#value-interpolation-15)
+
+		- [RetailBankingForeignCurrency](#retailbankingforeigncurrency)
+			- [Query Scopes](#query-scopes-17)
+				- [RetailBankingForeignCurrencyForeignCurrency](#retailbankingforeigncurrencyforeigncurrency)
+			- [Value interpolation](#value-interpolation-17)
+
+		- [RetailBankingRewardsCatalog](#retailbankingrewardscatalog)
+			- [Query Scopes](#query-scopes-22)
+				- [RetailBankingRewardsCatalogRewardsCatalog](#retailbankingrewardscatalogrewardscatalog)
+			- [Value interpolation](#value-interpolation-22)
+
+		- [RetailBankingRewardsRedemption](#retailbankingrewardsredemption)
+			- [Create](#create-23)
+			- [Value interpolation](#value-interpolation-23)
+
+		- [RetailBankingLocation](#retailbankinglocation)
+			- [Query Scopes](#query-scopes-18)
+				- [RetailBankingLocationLocations](#retailbankinglocationlocations)
+			- [Value interpolation](#value-interpolation-18)
+
+		- [CorporatePaymentsLogin](#corporatepaymentslogin)
+			- [Create](#create-11)
+			- [Value interpolation](#value-interpolation-11)
+
 		- [CorporatePaymentsAccount](#corporatepaymentsaccount)
 			- [Create](#create-6)
-			- [Update](#update-6)
-			- [Read](#read-6)
-			- [Delete](#delete-6)
 			- [Query Scopes](#query-scopes-6)
-	    
-	      
-				- [CorporatePaymentsAccountAll](#corporatepaymentsaccountall)
-	    
-	      
-				- [CorporatePaymentsAccountExactMatch](#corporatepaymentsaccountexactmatch)
-	    
-	      
-				- [CorporatePaymentsAccountCount](#corporatepaymentsaccountcount)
-	    
-	      
-				- [CorporatePaymentsAccountCountExactMatch](#corporatepaymentsaccountcountexactmatch)
-	    
-	    
-	    
-	    
+	    	- [CorporatePaymentsAccountAll](#corporatepaymentsaccountall)
+	    - [Update](#update-6)
+			- [Read](#read-6)
 			- [Value interpolation](#value-interpolation-6)
-	   
-   
-    
+
+		- [CorporatePaymentsPayment](#corporatepaymentspayment)
+			- [Create](#create-12)
+			- [Query Scopes](#query-scopes-12)
+				- [CorporatePaymentsPaymentAll](#corporatepaymentspaymentall)
+			- [Read](#read-12)
+			- [Value interpolation](#value-interpolation-12)
+
 		- [CorporatePaymentsBeneficiary](#corporatepaymentsbeneficiary)
 			- [Create](#create-7)
 			- [Update](#update-7)
 			- [Read](#read-7)
-			- [Delete](#delete-7)
-			- [Query Scopes](#query-scopes-7)
-	    
-	      
-				- [CorporatePaymentsBeneficiaryAll](#corporatepaymentsbeneficiaryall)
-	    
-	      
-				- [CorporatePaymentsBeneficiaryExactMatch](#corporatepaymentsbeneficiaryexactmatch)
-	    
-	      
-				- [CorporatePaymentsBeneficiaryCount](#corporatepaymentsbeneficiarycount)
-	    
-	      
-				- [CorporatePaymentsBeneficiaryCountExactMatch](#corporatepaymentsbeneficiarycountexactmatch)
-	    
-	    
-	    
-	    
 			- [Value interpolation](#value-interpolation-7)
-	   
-   
-    
-		- [CorporatePaymentsCrossBorderFxBooking](#corporatepaymentscrossborderfxbooking)
-			- [Create](#create-8)
-			- [Update](#update-8)
-			- [Read](#read-8)
-			- [Delete](#delete-8)
-			- [Query Scopes](#query-scopes-8)
-	    
-	      
-				- [CorporatePaymentsCrossBorderFxBookingAll](#corporatepaymentscrossborderfxbookingall)
-	    
-	      
-				- [CorporatePaymentsCrossBorderFxBookingExactMatch](#corporatepaymentscrossborderfxbookingexactmatch)
-	    
-	      
-				- [CorporatePaymentsCrossBorderFxBookingCount](#corporatepaymentscrossborderfxbookingcount)
-	    
-	      
-				- [CorporatePaymentsCrossBorderFxBookingCountExactMatch](#corporatepaymentscrossborderfxbookingcountexactmatch)
-	    
-	    
-	    
-	    
-			- [Value interpolation](#value-interpolation-8)
-	   
-   
-    
-		- [CorporatePaymentsCrossBorderFxPayment](#corporatepaymentscrossborderfxpayment)
-			- [Create](#create-9)
-			- [Update](#update-9)
-			- [Read](#read-9)
-			- [Delete](#delete-9)
-			- [Query Scopes](#query-scopes-9)
-	    
-	      
-				- [CorporatePaymentsCrossBorderFxPaymentAll](#corporatepaymentscrossborderfxpaymentall)
-	    
-	      
-				- [CorporatePaymentsCrossBorderFxPaymentExactMatch](#corporatepaymentscrossborderfxpaymentexactmatch)
-	    
-	      
-				- [CorporatePaymentsCrossBorderFxPaymentCount](#corporatepaymentscrossborderfxpaymentcount)
-	    
-	      
-				- [CorporatePaymentsCrossBorderFxPaymentCountExactMatch](#corporatepaymentscrossborderfxpaymentcountexactmatch)
-	    
-	      
-				- [CorporatePaymentsCrossBorderFxPaymentFxPayments](#corporatepaymentscrossborderfxpaymentfxpayments)
-	    
-	    
-	    
-	    
-			- [Value interpolation](#value-interpolation-9)
-	   
-   
-    
+
 		- [CorporatePaymentsCrossBorderFxQuote](#corporatepaymentscrossborderfxquote)
 			- [Create](#create-10)
-			- [Update](#update-10)
-			- [Read](#read-10)
-			- [Delete](#delete-10)
-			- [Query Scopes](#query-scopes-10)
-	    
-	      
-				- [CorporatePaymentsCrossBorderFxQuoteAll](#corporatepaymentscrossborderfxquoteall)
-	    
-	      
-				- [CorporatePaymentsCrossBorderFxQuoteExactMatch](#corporatepaymentscrossborderfxquoteexactmatch)
-	    
-	      
-				- [CorporatePaymentsCrossBorderFxQuoteCount](#corporatepaymentscrossborderfxquotecount)
-	    
-	      
-				- [CorporatePaymentsCrossBorderFxQuoteCountExactMatch](#corporatepaymentscrossborderfxquotecountexactmatch)
-	    
-	    
-	    
-	    
 			- [Value interpolation](#value-interpolation-10)
-	   
-   
-    
-		- [CorporatePaymentsLogin](#corporatepaymentslogin)
-			- [Create](#create-11)
-			- [Update](#update-11)
-			- [Read](#read-11)
-			- [Delete](#delete-11)
-			- [Query Scopes](#query-scopes-11)
-	    
-	      
-				- [CorporatePaymentsLoginAll](#corporatepaymentsloginall)
-	    
-	      
-				- [CorporatePaymentsLoginExactMatch](#corporatepaymentsloginexactmatch)
-	    
-	      
-				- [CorporatePaymentsLoginCount](#corporatepaymentslogincount)
-	    
-	      
-				- [CorporatePaymentsLoginCountExactMatch](#corporatepaymentslogincountexactmatch)
-	    
-	    
-	    
-	    
-			- [Value interpolation](#value-interpolation-11)
-	   
-   
-    
-		- [CorporatePaymentsPayment](#corporatepaymentspayment)
-			- [Create](#create-12)
-			- [Update](#update-12)
-			- [Read](#read-12)
-			- [Delete](#delete-12)
-			- [Query Scopes](#query-scopes-12)
-	    
-	      
-				- [CorporatePaymentsPaymentAll](#corporatepaymentspaymentall)
-	    
-	      
-				- [CorporatePaymentsPaymentExactMatch](#corporatepaymentspaymentexactmatch)
-	    
-	      
-				- [CorporatePaymentsPaymentCount](#corporatepaymentspaymentcount)
-	    
-	      
-				- [CorporatePaymentsPaymentCountExactMatch](#corporatepaymentspaymentcountexactmatch)
-	    
-	    
-	    
-	    
-			- [Value interpolation](#value-interpolation-12)
-	   
-   
-    
-		- [RetailBankingAccount](#retailbankingaccount)
-			- [Create](#create-13)
-			- [Update](#update-13)
-			- [Read](#read-13)
-			- [Delete](#delete-13)
-			- [Query Scopes](#query-scopes-13)
-	    
-	      
-				- [RetailBankingAccountAll](#retailbankingaccountall)
-	    
-	      
-				- [RetailBankingAccountExactMatch](#retailbankingaccountexactmatch)
-	    
-	      
-				- [RetailBankingAccountCount](#retailbankingaccountcount)
-	    
-	      
-				- [RetailBankingAccountCountExactMatch](#retailbankingaccountcountexactmatch)
-	    
-	    
-	    
-	    
-			- [Value interpolation](#value-interpolation-13)
-	   
-   
-    
-		- [RetailBankingAccountBalance](#retailbankingaccountbalance)
-			- [Create](#create-14)
-			- [Update](#update-14)
-			- [Read](#read-14)
-			- [Delete](#delete-14)
-			- [Query Scopes](#query-scopes-14)
-	    
-	      
-				- [RetailBankingAccountBalanceAll](#retailbankingaccountbalanceall)
-	    
-	      
-				- [RetailBankingAccountBalanceExactMatch](#retailbankingaccountbalanceexactmatch)
-	    
-	      
-				- [RetailBankingAccountBalanceCount](#retailbankingaccountbalancecount)
-	    
-	      
-				- [RetailBankingAccountBalanceCountExactMatch](#retailbankingaccountbalancecountexactmatch)
-	    
-	    
-	    
-	    
-			- [Value interpolation](#value-interpolation-14)
-	   
-   
-    
-		- [RetailBankingAccountFundTransfer](#retailbankingaccountfundtransfer)
-			- [Create](#create-15)
-			- [Update](#update-15)
-			- [Read](#read-15)
-			- [Delete](#delete-15)
-			- [Query Scopes](#query-scopes-15)
-	    
-	      
-				- [RetailBankingAccountFundTransferAll](#retailbankingaccountfundtransferall)
-	    
-	      
-				- [RetailBankingAccountFundTransferExactMatch](#retailbankingaccountfundtransferexactmatch)
-	    
-	      
-				- [RetailBankingAccountFundTransferCount](#retailbankingaccountfundtransfercount)
-	    
-	      
-				- [RetailBankingAccountFundTransferCountExactMatch](#retailbankingaccountfundtransfercountexactmatch)
-	    
-	    
-	    
-	    
-			- [Value interpolation](#value-interpolation-15)
-	   
-   
-    
-		- [RetailBankingAccountTransaction](#retailbankingaccounttransaction)
-			- [Create](#create-16)
-			- [Update](#update-16)
-			- [Read](#read-16)
-			- [Delete](#delete-16)
-			- [Query Scopes](#query-scopes-16)
-	    
-	      
-				- [RetailBankingAccountTransactionAll](#retailbankingaccounttransactionall)
-	    
-	      
-				- [RetailBankingAccountTransactionExactMatch](#retailbankingaccounttransactionexactmatch)
-	    
-	      
-				- [RetailBankingAccountTransactionCount](#retailbankingaccounttransactioncount)
-	    
-	      
-				- [RetailBankingAccountTransactionCountExactMatch](#retailbankingaccounttransactioncountexactmatch)
-	    
-	    
-	    
-	    
-			- [Value interpolation](#value-interpolation-16)
-	   
-   
-    
-		- [RetailBankingForeignCurrency](#retailbankingforeigncurrency)
-			- [Create](#create-17)
-			- [Update](#update-17)
-			- [Read](#read-17)
-			- [Delete](#delete-17)
-			- [Query Scopes](#query-scopes-17)
-	    
-	      
-				- [RetailBankingForeignCurrencyAll](#retailbankingforeigncurrencyall)
-	    
-	      
-				- [RetailBankingForeignCurrencyExactMatch](#retailbankingforeigncurrencyexactmatch)
-	    
-	      
-				- [RetailBankingForeignCurrencyCount](#retailbankingforeigncurrencycount)
-	    
-	      
-				- [RetailBankingForeignCurrencyCountExactMatch](#retailbankingforeigncurrencycountexactmatch)
-	    
-	      
-				- [RetailBankingForeignCurrencyForeignCurrency](#retailbankingforeigncurrencyforeigncurrency)
-	    
-	    
-	    
-	    
-			- [Value interpolation](#value-interpolation-17)
-	   
-   
-    
-		- [RetailBankingLocation](#retailbankinglocation)
-			- [Create](#create-18)
-			- [Update](#update-18)
-			- [Read](#read-18)
-			- [Delete](#delete-18)
-			- [Query Scopes](#query-scopes-18)
-	    
-	      
-				- [RetailBankingLocationAll](#retailbankinglocationall)
-	    
-	      
-				- [RetailBankingLocationExactMatch](#retailbankinglocationexactmatch)
-	    
-	      
-				- [RetailBankingLocationCount](#retailbankinglocationcount)
-	    
-	      
-				- [RetailBankingLocationCountExactMatch](#retailbankinglocationcountexactmatch)
-	    
-	      
-				- [RetailBankingLocationLocations](#retailbankinglocationlocations)
-	    
-	    
-	    
-	    
-			- [Value interpolation](#value-interpolation-18)
-	   
-   
-    
-		- [RetailBankingLogin](#retailbankinglogin)
-			- [Create](#create-19)
-			- [Update](#update-19)
-			- [Read](#read-19)
-			- [Delete](#delete-19)
-			- [Query Scopes](#query-scopes-19)
-	    
-	      
-				- [RetailBankingLoginAll](#retailbankingloginall)
-	    
-	      
-				- [RetailBankingLoginExactMatch](#retailbankingloginexactmatch)
-	    
-	      
-				- [RetailBankingLoginCount](#retailbankinglogincount)
-	    
-	      
-				- [RetailBankingLoginCountExactMatch](#retailbankinglogincountexactmatch)
-	    
-	    
-	    
-	    
-			- [Value interpolation](#value-interpolation-19)
-	   
-   
-    
-		- [RetailBankingPayee](#retailbankingpayee)
-			- [Create](#create-20)
-			- [Update](#update-20)
-			- [Read](#read-20)
-			- [Delete](#delete-20)
-			- [Query Scopes](#query-scopes-20)
-	    
-	      
-				- [RetailBankingPayeeAll](#retailbankingpayeeall)
-	    
-	      
-				- [RetailBankingPayeeExactMatch](#retailbankingpayeeexactmatch)
-	    
-	      
-				- [RetailBankingPayeeCount](#retailbankingpayeecount)
-	    
-	      
-				- [RetailBankingPayeeCountExactMatch](#retailbankingpayeecountexactmatch)
-	    
-	    
-	    
-	    
-			- [Value interpolation](#value-interpolation-20)
-	   
-   
-    
-		- [RetailBankingPayeeType](#retailbankingpayeetype)
-			- [Create](#create-21)
-			- [Update](#update-21)
-			- [Read](#read-21)
-			- [Delete](#delete-21)
-			- [Query Scopes](#query-scopes-21)
-	    
-	      
-				- [RetailBankingPayeeTypeAll](#retailbankingpayeetypeall)
-	    
-	      
-				- [RetailBankingPayeeTypeExactMatch](#retailbankingpayeetypeexactmatch)
-	    
-	      
-				- [RetailBankingPayeeTypeCount](#retailbankingpayeetypecount)
-	    
-	      
-				- [RetailBankingPayeeTypeCountExactMatch](#retailbankingpayeetypecountexactmatch)
-	    
-	    
-	    
-	    
-			- [Value interpolation](#value-interpolation-21)
-	   
-   
-	 - [Development](#development)
-	 	- [Developing with Grunt](#developing-with-grunt)
-	 		- [Prerequisites](#prerequisites)
-	 		- [Install NodeJS Modules](#install-nodejs-modules)
-	 		- [Build for Production](#build-for-production)
-	 		- [Development](#development)
-	 		- [Automatic Compilation & Testing](#automatic-compilation-testing)
-	 		- [Running Tests](#running-tests)
+
+		- [CorporatePaymentsCrossBorderFxBooking](#corporatepaymentscrossborderfxbooking)
+			- [Create](#create-8)
+			- [Value interpolation](#value-interpolation-8)
+
+		- [CorporatePaymentsCrossBorderFxPayment](#corporatepaymentscrossborderfxpayment)
+			- [Create](#create-9)
+			- [Query Scopes](#query-scopes-9)
+	    	- [CorporatePaymentsCrossBorderFxPaymentFxPayments](#corporatepaymentscrossborderfxpaymentfxpayments)
+	    - [Read](#read-9)
+			- [Value interpolation](#value-interpolation-9)
+
+		- [CapitalMarketsLogin](#capitalmarketslogin)
+			- [Create](#create-3)
+			- [Value interpolation](#value-interpolation-3)
+
+		- [CapitalMarketsOrder](#capitalmarketsorder)
+ 		 	- [Create](#create-4)
+ 		 	- [Read](#read-4)
+ 		 	- [Delete](#delete-4)
+ 		 	- [Value interpolation](#value-interpolation-4)
+
+		- [CapitalMarketsRevenue](#capitalmarketsrevenue)
+			- [Query Scopes](#query-scopes-5)
+	    	- [CapitalMarketsRevenueRevenues](#capitalmarketsrevenuerevenues)
+	  	- [Value interpolation](#value-interpolation-5)
+
+		- [CapitalMarketsActivity](#capitalmarketsactivity)
+			- [Query Scopes](#query-scopes)
+    		- [CapitalMarketsActivityActivities](#capitalmarketsactivityactivities)
+    	- [Value interpolation](#value-interpolation)
+
+		- [CapitalMarketsContact](#capitalmarketscontact)
+			- [Query Scopes](#query-scopes-1)
+    		- [CapitalMarketsContactContacts](#capitalmarketscontactcontacts)
+    	- [Value interpolation](#value-interpolation-1)
+
+		- [CapitalMarketsContentService](#capitalmarketscontentservice)
+			- [Query Scopes](#query-scopes-2)
+    		- [CapitalMarketsContentServiceContentServices](#capitalmarketscontentservicecontentservices)
+    	- [Value interpolation](#value-interpolation-2)
+
+		- [Development](#development)
+		 	- [Developing with Grunt](#developing-with-grunt)
+		 		- [Prerequisites](#prerequisites)
+		 		- [Install NodeJS Modules](#install-nodejs-modules)
+		 		- [Build for Production](#build-for-production)
+		 		- [Development](#development)
+		 		- [Automatic Compilation & Testing](#automatic-compilation-testing)
+		 		- [Running Tests](#running-tests)
 <!-- /TOC -->
 
 ##Project Structure
@@ -667,16 +196,6 @@ CitiMobileChallengeSdk.init();
 
 If your application is *DirectToSource* then you can skip the base URL setup.
 
-## Authentication:  Login & Logout
-```javascript
-AP.auth.Authentication.login({
-  username: 'test',
-  password: 'password'
-});
-
-AP.auth.Authentication.logout();
-```
-
 ##Using local caching
 
 Local caching can be toggled easily by setting the value of the Application variable `useOfflineCache` **before** initializing the SDK.
@@ -720,6 +239,8 @@ Available Model objects:
 * RetailBankingLogin
 * RetailBankingPayee
 * RetailBankingPayeeType
+* RetailBankingRewardsCatalog
+* RetailBankingRewardsRedemption
 
 ###CapitalMarketsActivity
 
@@ -884,7 +405,7 @@ var CapitalMarketsActivityAll = new CitiMobileChallengeSdk.collections.CapitalMa
 
 // using the query method
 CapitalMarketsActivityAll.query({
-  
+
 }, {
   data: {
     limit: 10,
@@ -897,7 +418,7 @@ CapitalMarketsActivityAll.query({
 // using the fetch method
 CapitalMarketsActivityAll.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   data: {
     limit: 10,
@@ -916,7 +437,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CapitalMarketsActivityAll.query({
-  
+
 }, {
   async: false,
   data: {
@@ -939,7 +460,7 @@ var CapitalMarketsActivityExactMatch = new CitiMobileChallengeSdk.collections.Ca
 
 // using the query method
 CapitalMarketsActivityExactMatch.query({
-  
+
 }, {
   data: {
     limit: 10,
@@ -952,7 +473,7 @@ CapitalMarketsActivityExactMatch.query({
 // using the fetch method
 CapitalMarketsActivityExactMatch.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   data: {
     limit: 10,
@@ -971,7 +492,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CapitalMarketsActivityExactMatch.query({
-  
+
 }, {
   async: false,
   data: {
@@ -994,7 +515,7 @@ var CapitalMarketsActivityCount = new CitiMobileChallengeSdk.collections.Capital
 
 // using the query method
 CapitalMarketsActivityCount.query({
-  
+
 }, {
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -1003,7 +524,7 @@ CapitalMarketsActivityCount.query({
 // using the fetch method
 CapitalMarketsActivityCount.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -1019,7 +540,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CapitalMarketsActivityCount.query({
-  
+
 }, {
   async: false,
   success: function(collection, response, options) {...},
@@ -1039,7 +560,7 @@ var CapitalMarketsActivityCountExactMatch = new CitiMobileChallengeSdk.collectio
 
 // using the query method
 CapitalMarketsActivityCountExactMatch.query({
-  
+
 }, {
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -1048,7 +569,7 @@ CapitalMarketsActivityCountExactMatch.query({
 // using the fetch method
 CapitalMarketsActivityCountExactMatch.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -1064,7 +585,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CapitalMarketsActivityCountExactMatch.query({
-  
+
 }, {
   async: false,
   success: function(collection, response, options) {...},
@@ -1084,9 +605,9 @@ var CapitalMarketsActivityActivities = new CitiMobileChallengeSdk.collections.Ca
 
 // using the query method
 CapitalMarketsActivityActivities.query({
-  
+
   "year": "foo",
-  
+
 }, {
   data: {
     limit: 10,
@@ -1099,9 +620,9 @@ CapitalMarketsActivityActivities.query({
 // using the fetch method
 CapitalMarketsActivityActivities.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
     "year": "foo",
-    
+
   },
   data: {
     limit: 10,
@@ -1120,9 +641,9 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CapitalMarketsActivityActivities.query({
-  
+
   "year": "foo",
-  
+
 }, {
   async: false,
   data: {
@@ -1137,64 +658,68 @@ CapitalMarketsActivityActivities.query({
 Refer to [Backbone's Collection fetch method](http://backbonejs.org/#Collection-fetch) documentation for more information.
 
 
-  
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ####Value interpolation
 
@@ -1393,7 +918,7 @@ var CapitalMarketsContactAll = new CitiMobileChallengeSdk.collections.CapitalMar
 
 // using the query method
 CapitalMarketsContactAll.query({
-  
+
 }, {
   data: {
     limit: 10,
@@ -1406,7 +931,7 @@ CapitalMarketsContactAll.query({
 // using the fetch method
 CapitalMarketsContactAll.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   data: {
     limit: 10,
@@ -1425,7 +950,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CapitalMarketsContactAll.query({
-  
+
 }, {
   async: false,
   data: {
@@ -1448,7 +973,7 @@ var CapitalMarketsContactExactMatch = new CitiMobileChallengeSdk.collections.Cap
 
 // using the query method
 CapitalMarketsContactExactMatch.query({
-  
+
 }, {
   data: {
     limit: 10,
@@ -1461,7 +986,7 @@ CapitalMarketsContactExactMatch.query({
 // using the fetch method
 CapitalMarketsContactExactMatch.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   data: {
     limit: 10,
@@ -1480,7 +1005,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CapitalMarketsContactExactMatch.query({
-  
+
 }, {
   async: false,
   data: {
@@ -1503,7 +1028,7 @@ var CapitalMarketsContactCount = new CitiMobileChallengeSdk.collections.CapitalM
 
 // using the query method
 CapitalMarketsContactCount.query({
-  
+
 }, {
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -1512,7 +1037,7 @@ CapitalMarketsContactCount.query({
 // using the fetch method
 CapitalMarketsContactCount.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -1528,7 +1053,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CapitalMarketsContactCount.query({
-  
+
 }, {
   async: false,
   success: function(collection, response, options) {...},
@@ -1548,7 +1073,7 @@ var CapitalMarketsContactCountExactMatch = new CitiMobileChallengeSdk.collection
 
 // using the query method
 CapitalMarketsContactCountExactMatch.query({
-  
+
 }, {
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -1557,7 +1082,7 @@ CapitalMarketsContactCountExactMatch.query({
 // using the fetch method
 CapitalMarketsContactCountExactMatch.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -1573,7 +1098,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CapitalMarketsContactCountExactMatch.query({
-  
+
 }, {
   async: false,
   success: function(collection, response, options) {...},
@@ -1593,11 +1118,11 @@ var CapitalMarketsContactContacts = new CitiMobileChallengeSdk.collections.Capit
 
 // using the query method
 CapitalMarketsContactContacts.query({
-  
+
   "client_name": "foo",
-  
+
   "year": "foo",
-  
+
 }, {
   data: {
     limit: 10,
@@ -1610,11 +1135,11 @@ CapitalMarketsContactContacts.query({
 // using the fetch method
 CapitalMarketsContactContacts.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
     "client_name": "foo",
-    
+
     "year": "foo",
-    
+
   },
   data: {
     limit: 10,
@@ -1633,11 +1158,11 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CapitalMarketsContactContacts.query({
-  
+
   "client_name": "foo",
-  
+
   "year": "foo",
-  
+
 }, {
   async: false,
   data: {
@@ -1652,64 +1177,68 @@ CapitalMarketsContactContacts.query({
 Refer to [Backbone's Collection fetch method](http://backbonejs.org/#Collection-fetch) documentation for more information.
 
 
-  
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ####Value interpolation
 
@@ -1908,7 +1437,7 @@ var CapitalMarketsContentServiceAll = new CitiMobileChallengeSdk.collections.Cap
 
 // using the query method
 CapitalMarketsContentServiceAll.query({
-  
+
 }, {
   data: {
     limit: 10,
@@ -1921,7 +1450,7 @@ CapitalMarketsContentServiceAll.query({
 // using the fetch method
 CapitalMarketsContentServiceAll.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   data: {
     limit: 10,
@@ -1940,7 +1469,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CapitalMarketsContentServiceAll.query({
-  
+
 }, {
   async: false,
   data: {
@@ -1963,7 +1492,7 @@ var CapitalMarketsContentServiceExactMatch = new CitiMobileChallengeSdk.collecti
 
 // using the query method
 CapitalMarketsContentServiceExactMatch.query({
-  
+
 }, {
   data: {
     limit: 10,
@@ -1976,7 +1505,7 @@ CapitalMarketsContentServiceExactMatch.query({
 // using the fetch method
 CapitalMarketsContentServiceExactMatch.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   data: {
     limit: 10,
@@ -1995,7 +1524,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CapitalMarketsContentServiceExactMatch.query({
-  
+
 }, {
   async: false,
   data: {
@@ -2018,7 +1547,7 @@ var CapitalMarketsContentServiceCount = new CitiMobileChallengeSdk.collections.C
 
 // using the query method
 CapitalMarketsContentServiceCount.query({
-  
+
 }, {
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -2027,7 +1556,7 @@ CapitalMarketsContentServiceCount.query({
 // using the fetch method
 CapitalMarketsContentServiceCount.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -2043,7 +1572,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CapitalMarketsContentServiceCount.query({
-  
+
 }, {
   async: false,
   success: function(collection, response, options) {...},
@@ -2063,7 +1592,7 @@ var CapitalMarketsContentServiceCountExactMatch = new CitiMobileChallengeSdk.col
 
 // using the query method
 CapitalMarketsContentServiceCountExactMatch.query({
-  
+
 }, {
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -2072,7 +1601,7 @@ CapitalMarketsContentServiceCountExactMatch.query({
 // using the fetch method
 CapitalMarketsContentServiceCountExactMatch.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -2088,7 +1617,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CapitalMarketsContentServiceCountExactMatch.query({
-  
+
 }, {
   async: false,
   success: function(collection, response, options) {...},
@@ -2108,9 +1637,9 @@ var CapitalMarketsContentServiceContentServices = new CitiMobileChallengeSdk.col
 
 // using the query method
 CapitalMarketsContentServiceContentServices.query({
-  
+
   "type": "foo",
-  
+
 }, {
   data: {
     limit: 10,
@@ -2123,9 +1652,9 @@ CapitalMarketsContentServiceContentServices.query({
 // using the fetch method
 CapitalMarketsContentServiceContentServices.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
     "type": "foo",
-    
+
   },
   data: {
     limit: 10,
@@ -2144,9 +1673,9 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CapitalMarketsContentServiceContentServices.query({
-  
+
   "type": "foo",
-  
+
 }, {
   async: false,
   data: {
@@ -2161,64 +1690,68 @@ CapitalMarketsContentServiceContentServices.query({
 Refer to [Backbone's Collection fetch method](http://backbonejs.org/#Collection-fetch) documentation for more information.
 
 
-  
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ####Value interpolation
 
@@ -2416,7 +1949,7 @@ var CapitalMarketsLoginAll = new CitiMobileChallengeSdk.collections.CapitalMarke
 
 // using the query method
 CapitalMarketsLoginAll.query({
-  
+
 }, {
   data: {
     limit: 10,
@@ -2429,7 +1962,7 @@ CapitalMarketsLoginAll.query({
 // using the fetch method
 CapitalMarketsLoginAll.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   data: {
     limit: 10,
@@ -2448,7 +1981,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CapitalMarketsLoginAll.query({
-  
+
 }, {
   async: false,
   data: {
@@ -2471,7 +2004,7 @@ var CapitalMarketsLoginExactMatch = new CitiMobileChallengeSdk.collections.Capit
 
 // using the query method
 CapitalMarketsLoginExactMatch.query({
-  
+
 }, {
   data: {
     limit: 10,
@@ -2484,7 +2017,7 @@ CapitalMarketsLoginExactMatch.query({
 // using the fetch method
 CapitalMarketsLoginExactMatch.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   data: {
     limit: 10,
@@ -2503,7 +2036,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CapitalMarketsLoginExactMatch.query({
-  
+
 }, {
   async: false,
   data: {
@@ -2526,7 +2059,7 @@ var CapitalMarketsLoginCount = new CitiMobileChallengeSdk.collections.CapitalMar
 
 // using the query method
 CapitalMarketsLoginCount.query({
-  
+
 }, {
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -2535,7 +2068,7 @@ CapitalMarketsLoginCount.query({
 // using the fetch method
 CapitalMarketsLoginCount.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -2551,7 +2084,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CapitalMarketsLoginCount.query({
-  
+
 }, {
   async: false,
   success: function(collection, response, options) {...},
@@ -2571,7 +2104,7 @@ var CapitalMarketsLoginCountExactMatch = new CitiMobileChallengeSdk.collections.
 
 // using the query method
 CapitalMarketsLoginCountExactMatch.query({
-  
+
 }, {
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -2580,7 +2113,7 @@ CapitalMarketsLoginCountExactMatch.query({
 // using the fetch method
 CapitalMarketsLoginCountExactMatch.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -2596,7 +2129,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CapitalMarketsLoginCountExactMatch.query({
-  
+
 }, {
   async: false,
   success: function(collection, response, options) {...},
@@ -2608,64 +2141,68 @@ var amount = CapitalMarketsLoginCountExactMatch.valueOf();
 
 Refer to [Backbone's Collection fetch method](http://backbonejs.org/#Collection-fetch) documentation for more information.
 
-  
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ####Value interpolation
 
@@ -2863,7 +2400,7 @@ var CapitalMarketsOrderAll = new CitiMobileChallengeSdk.collections.CapitalMarke
 
 // using the query method
 CapitalMarketsOrderAll.query({
-  
+
 }, {
   data: {
     limit: 10,
@@ -2876,7 +2413,7 @@ CapitalMarketsOrderAll.query({
 // using the fetch method
 CapitalMarketsOrderAll.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   data: {
     limit: 10,
@@ -2895,7 +2432,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CapitalMarketsOrderAll.query({
-  
+
 }, {
   async: false,
   data: {
@@ -2918,7 +2455,7 @@ var CapitalMarketsOrderExactMatch = new CitiMobileChallengeSdk.collections.Capit
 
 // using the query method
 CapitalMarketsOrderExactMatch.query({
-  
+
 }, {
   data: {
     limit: 10,
@@ -2931,7 +2468,7 @@ CapitalMarketsOrderExactMatch.query({
 // using the fetch method
 CapitalMarketsOrderExactMatch.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   data: {
     limit: 10,
@@ -2950,7 +2487,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CapitalMarketsOrderExactMatch.query({
-  
+
 }, {
   async: false,
   data: {
@@ -2973,7 +2510,7 @@ var CapitalMarketsOrderCount = new CitiMobileChallengeSdk.collections.CapitalMar
 
 // using the query method
 CapitalMarketsOrderCount.query({
-  
+
 }, {
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -2982,7 +2519,7 @@ CapitalMarketsOrderCount.query({
 // using the fetch method
 CapitalMarketsOrderCount.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -2998,7 +2535,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CapitalMarketsOrderCount.query({
-  
+
 }, {
   async: false,
   success: function(collection, response, options) {...},
@@ -3018,7 +2555,7 @@ var CapitalMarketsOrderCountExactMatch = new CitiMobileChallengeSdk.collections.
 
 // using the query method
 CapitalMarketsOrderCountExactMatch.query({
-  
+
 }, {
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -3027,7 +2564,7 @@ CapitalMarketsOrderCountExactMatch.query({
 // using the fetch method
 CapitalMarketsOrderCountExactMatch.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -3043,7 +2580,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CapitalMarketsOrderCountExactMatch.query({
-  
+
 }, {
   async: false,
   success: function(collection, response, options) {...},
@@ -3055,64 +2592,68 @@ var amount = CapitalMarketsOrderCountExactMatch.valueOf();
 
 Refer to [Backbone's Collection fetch method](http://backbonejs.org/#Collection-fetch) documentation for more information.
 
-  
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ####Value interpolation
 
@@ -3311,7 +2852,7 @@ var CapitalMarketsRevenueAll = new CitiMobileChallengeSdk.collections.CapitalMar
 
 // using the query method
 CapitalMarketsRevenueAll.query({
-  
+
 }, {
   data: {
     limit: 10,
@@ -3324,7 +2865,7 @@ CapitalMarketsRevenueAll.query({
 // using the fetch method
 CapitalMarketsRevenueAll.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   data: {
     limit: 10,
@@ -3343,7 +2884,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CapitalMarketsRevenueAll.query({
-  
+
 }, {
   async: false,
   data: {
@@ -3366,7 +2907,7 @@ var CapitalMarketsRevenueExactMatch = new CitiMobileChallengeSdk.collections.Cap
 
 // using the query method
 CapitalMarketsRevenueExactMatch.query({
-  
+
 }, {
   data: {
     limit: 10,
@@ -3379,7 +2920,7 @@ CapitalMarketsRevenueExactMatch.query({
 // using the fetch method
 CapitalMarketsRevenueExactMatch.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   data: {
     limit: 10,
@@ -3398,7 +2939,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CapitalMarketsRevenueExactMatch.query({
-  
+
 }, {
   async: false,
   data: {
@@ -3421,7 +2962,7 @@ var CapitalMarketsRevenueCount = new CitiMobileChallengeSdk.collections.CapitalM
 
 // using the query method
 CapitalMarketsRevenueCount.query({
-  
+
 }, {
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -3430,7 +2971,7 @@ CapitalMarketsRevenueCount.query({
 // using the fetch method
 CapitalMarketsRevenueCount.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -3446,7 +2987,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CapitalMarketsRevenueCount.query({
-  
+
 }, {
   async: false,
   success: function(collection, response, options) {...},
@@ -3466,7 +3007,7 @@ var CapitalMarketsRevenueCountExactMatch = new CitiMobileChallengeSdk.collection
 
 // using the query method
 CapitalMarketsRevenueCountExactMatch.query({
-  
+
 }, {
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -3475,7 +3016,7 @@ CapitalMarketsRevenueCountExactMatch.query({
 // using the fetch method
 CapitalMarketsRevenueCountExactMatch.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -3491,7 +3032,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CapitalMarketsRevenueCountExactMatch.query({
-  
+
 }, {
   async: false,
   success: function(collection, response, options) {...},
@@ -3511,11 +3052,11 @@ var CapitalMarketsRevenueRevenues = new CitiMobileChallengeSdk.collections.Capit
 
 // using the query method
 CapitalMarketsRevenueRevenues.query({
-  
+
   "region": "foo",
-  
+
   "year": "foo",
-  
+
 }, {
   data: {
     limit: 10,
@@ -3528,11 +3069,11 @@ CapitalMarketsRevenueRevenues.query({
 // using the fetch method
 CapitalMarketsRevenueRevenues.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
     "region": "foo",
-    
+
     "year": "foo",
-    
+
   },
   data: {
     limit: 10,
@@ -3551,11 +3092,11 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CapitalMarketsRevenueRevenues.query({
-  
+
   "region": "foo",
-  
+
   "year": "foo",
-  
+
 }, {
   async: false,
   data: {
@@ -3570,64 +3111,68 @@ CapitalMarketsRevenueRevenues.query({
 Refer to [Backbone's Collection fetch method](http://backbonejs.org/#Collection-fetch) documentation for more information.
 
 
-  
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ####Value interpolation
 
@@ -3825,7 +3370,7 @@ var CorporatePaymentsAccountAll = new CitiMobileChallengeSdk.collections.Corpora
 
 // using the query method
 CorporatePaymentsAccountAll.query({
-  
+
 }, {
   data: {
     limit: 10,
@@ -3838,7 +3383,7 @@ CorporatePaymentsAccountAll.query({
 // using the fetch method
 CorporatePaymentsAccountAll.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   data: {
     limit: 10,
@@ -3857,7 +3402,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CorporatePaymentsAccountAll.query({
-  
+
 }, {
   async: false,
   data: {
@@ -3880,7 +3425,7 @@ var CorporatePaymentsAccountExactMatch = new CitiMobileChallengeSdk.collections.
 
 // using the query method
 CorporatePaymentsAccountExactMatch.query({
-  
+
 }, {
   data: {
     limit: 10,
@@ -3893,7 +3438,7 @@ CorporatePaymentsAccountExactMatch.query({
 // using the fetch method
 CorporatePaymentsAccountExactMatch.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   data: {
     limit: 10,
@@ -3912,7 +3457,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CorporatePaymentsAccountExactMatch.query({
-  
+
 }, {
   async: false,
   data: {
@@ -3935,7 +3480,7 @@ var CorporatePaymentsAccountCount = new CitiMobileChallengeSdk.collections.Corpo
 
 // using the query method
 CorporatePaymentsAccountCount.query({
-  
+
 }, {
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -3944,7 +3489,7 @@ CorporatePaymentsAccountCount.query({
 // using the fetch method
 CorporatePaymentsAccountCount.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -3960,7 +3505,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CorporatePaymentsAccountCount.query({
-  
+
 }, {
   async: false,
   success: function(collection, response, options) {...},
@@ -3980,7 +3525,7 @@ var CorporatePaymentsAccountCountExactMatch = new CitiMobileChallengeSdk.collect
 
 // using the query method
 CorporatePaymentsAccountCountExactMatch.query({
-  
+
 }, {
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -3989,7 +3534,7 @@ CorporatePaymentsAccountCountExactMatch.query({
 // using the fetch method
 CorporatePaymentsAccountCountExactMatch.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -4005,7 +3550,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CorporatePaymentsAccountCountExactMatch.query({
-  
+
 }, {
   async: false,
   success: function(collection, response, options) {...},
@@ -4017,66 +3562,70 @@ var amount = CorporatePaymentsAccountCountExactMatch.valueOf();
 
 Refer to [Backbone's Collection fetch method](http://backbonejs.org/#Collection-fetch) documentation for more information.
 
-  
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ####Value interpolation
 
@@ -4274,7 +3823,7 @@ var CorporatePaymentsBeneficiaryAll = new CitiMobileChallengeSdk.collections.Cor
 
 // using the query method
 CorporatePaymentsBeneficiaryAll.query({
-  
+
 }, {
   data: {
     limit: 10,
@@ -4287,7 +3836,7 @@ CorporatePaymentsBeneficiaryAll.query({
 // using the fetch method
 CorporatePaymentsBeneficiaryAll.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   data: {
     limit: 10,
@@ -4306,7 +3855,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CorporatePaymentsBeneficiaryAll.query({
-  
+
 }, {
   async: false,
   data: {
@@ -4329,7 +3878,7 @@ var CorporatePaymentsBeneficiaryExactMatch = new CitiMobileChallengeSdk.collecti
 
 // using the query method
 CorporatePaymentsBeneficiaryExactMatch.query({
-  
+
 }, {
   data: {
     limit: 10,
@@ -4342,7 +3891,7 @@ CorporatePaymentsBeneficiaryExactMatch.query({
 // using the fetch method
 CorporatePaymentsBeneficiaryExactMatch.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   data: {
     limit: 10,
@@ -4361,7 +3910,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CorporatePaymentsBeneficiaryExactMatch.query({
-  
+
 }, {
   async: false,
   data: {
@@ -4384,7 +3933,7 @@ var CorporatePaymentsBeneficiaryCount = new CitiMobileChallengeSdk.collections.C
 
 // using the query method
 CorporatePaymentsBeneficiaryCount.query({
-  
+
 }, {
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -4393,7 +3942,7 @@ CorporatePaymentsBeneficiaryCount.query({
 // using the fetch method
 CorporatePaymentsBeneficiaryCount.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -4409,7 +3958,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CorporatePaymentsBeneficiaryCount.query({
-  
+
 }, {
   async: false,
   success: function(collection, response, options) {...},
@@ -4429,7 +3978,7 @@ var CorporatePaymentsBeneficiaryCountExactMatch = new CitiMobileChallengeSdk.col
 
 // using the query method
 CorporatePaymentsBeneficiaryCountExactMatch.query({
-  
+
 }, {
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -4438,7 +3987,7 @@ CorporatePaymentsBeneficiaryCountExactMatch.query({
 // using the fetch method
 CorporatePaymentsBeneficiaryCountExactMatch.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -4454,7 +4003,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CorporatePaymentsBeneficiaryCountExactMatch.query({
-  
+
 }, {
   async: false,
   success: function(collection, response, options) {...},
@@ -4466,66 +4015,70 @@ var amount = CorporatePaymentsBeneficiaryCountExactMatch.valueOf();
 
 Refer to [Backbone's Collection fetch method](http://backbonejs.org/#Collection-fetch) documentation for more information.
 
-  
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ####Value interpolation
 
@@ -4723,7 +4276,7 @@ var CorporatePaymentsCrossBorderFxBookingAll = new CitiMobileChallengeSdk.collec
 
 // using the query method
 CorporatePaymentsCrossBorderFxBookingAll.query({
-  
+
 }, {
   data: {
     limit: 10,
@@ -4736,7 +4289,7 @@ CorporatePaymentsCrossBorderFxBookingAll.query({
 // using the fetch method
 CorporatePaymentsCrossBorderFxBookingAll.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   data: {
     limit: 10,
@@ -4755,7 +4308,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CorporatePaymentsCrossBorderFxBookingAll.query({
-  
+
 }, {
   async: false,
   data: {
@@ -4778,7 +4331,7 @@ var CorporatePaymentsCrossBorderFxBookingExactMatch = new CitiMobileChallengeSdk
 
 // using the query method
 CorporatePaymentsCrossBorderFxBookingExactMatch.query({
-  
+
 }, {
   data: {
     limit: 10,
@@ -4791,7 +4344,7 @@ CorporatePaymentsCrossBorderFxBookingExactMatch.query({
 // using the fetch method
 CorporatePaymentsCrossBorderFxBookingExactMatch.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   data: {
     limit: 10,
@@ -4810,7 +4363,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CorporatePaymentsCrossBorderFxBookingExactMatch.query({
-  
+
 }, {
   async: false,
   data: {
@@ -4833,7 +4386,7 @@ var CorporatePaymentsCrossBorderFxBookingCount = new CitiMobileChallengeSdk.coll
 
 // using the query method
 CorporatePaymentsCrossBorderFxBookingCount.query({
-  
+
 }, {
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -4842,7 +4395,7 @@ CorporatePaymentsCrossBorderFxBookingCount.query({
 // using the fetch method
 CorporatePaymentsCrossBorderFxBookingCount.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -4858,7 +4411,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CorporatePaymentsCrossBorderFxBookingCount.query({
-  
+
 }, {
   async: false,
   success: function(collection, response, options) {...},
@@ -4878,7 +4431,7 @@ var CorporatePaymentsCrossBorderFxBookingCountExactMatch = new CitiMobileChallen
 
 // using the query method
 CorporatePaymentsCrossBorderFxBookingCountExactMatch.query({
-  
+
 }, {
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -4887,7 +4440,7 @@ CorporatePaymentsCrossBorderFxBookingCountExactMatch.query({
 // using the fetch method
 CorporatePaymentsCrossBorderFxBookingCountExactMatch.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -4903,7 +4456,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CorporatePaymentsCrossBorderFxBookingCountExactMatch.query({
-  
+
 }, {
   async: false,
   success: function(collection, response, options) {...},
@@ -4915,66 +4468,70 @@ var amount = CorporatePaymentsCrossBorderFxBookingCountExactMatch.valueOf();
 
 Refer to [Backbone's Collection fetch method](http://backbonejs.org/#Collection-fetch) documentation for more information.
 
-  
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ####Value interpolation
 
@@ -5173,7 +4730,7 @@ var CorporatePaymentsCrossBorderFxPaymentAll = new CitiMobileChallengeSdk.collec
 
 // using the query method
 CorporatePaymentsCrossBorderFxPaymentAll.query({
-  
+
 }, {
   data: {
     limit: 10,
@@ -5186,7 +4743,7 @@ CorporatePaymentsCrossBorderFxPaymentAll.query({
 // using the fetch method
 CorporatePaymentsCrossBorderFxPaymentAll.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   data: {
     limit: 10,
@@ -5205,7 +4762,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CorporatePaymentsCrossBorderFxPaymentAll.query({
-  
+
 }, {
   async: false,
   data: {
@@ -5228,7 +4785,7 @@ var CorporatePaymentsCrossBorderFxPaymentExactMatch = new CitiMobileChallengeSdk
 
 // using the query method
 CorporatePaymentsCrossBorderFxPaymentExactMatch.query({
-  
+
 }, {
   data: {
     limit: 10,
@@ -5241,7 +4798,7 @@ CorporatePaymentsCrossBorderFxPaymentExactMatch.query({
 // using the fetch method
 CorporatePaymentsCrossBorderFxPaymentExactMatch.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   data: {
     limit: 10,
@@ -5260,7 +4817,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CorporatePaymentsCrossBorderFxPaymentExactMatch.query({
-  
+
 }, {
   async: false,
   data: {
@@ -5283,7 +4840,7 @@ var CorporatePaymentsCrossBorderFxPaymentCount = new CitiMobileChallengeSdk.coll
 
 // using the query method
 CorporatePaymentsCrossBorderFxPaymentCount.query({
-  
+
 }, {
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -5292,7 +4849,7 @@ CorporatePaymentsCrossBorderFxPaymentCount.query({
 // using the fetch method
 CorporatePaymentsCrossBorderFxPaymentCount.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -5308,7 +4865,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CorporatePaymentsCrossBorderFxPaymentCount.query({
-  
+
 }, {
   async: false,
   success: function(collection, response, options) {...},
@@ -5328,7 +4885,7 @@ var CorporatePaymentsCrossBorderFxPaymentCountExactMatch = new CitiMobileChallen
 
 // using the query method
 CorporatePaymentsCrossBorderFxPaymentCountExactMatch.query({
-  
+
 }, {
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -5337,7 +4894,7 @@ CorporatePaymentsCrossBorderFxPaymentCountExactMatch.query({
 // using the fetch method
 CorporatePaymentsCrossBorderFxPaymentCountExactMatch.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -5353,7 +4910,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CorporatePaymentsCrossBorderFxPaymentCountExactMatch.query({
-  
+
 }, {
   async: false,
   success: function(collection, response, options) {...},
@@ -5373,17 +4930,17 @@ var CorporatePaymentsCrossBorderFxPaymentFxPayments = new CitiMobileChallengeSdk
 
 // using the query method
 CorporatePaymentsCrossBorderFxPaymentFxPayments.query({
-  
+
   "citi_ref": "foo",
-  
+
   "customer_txn_ref": "foo",
-  
+
   "to_currency": "foo",
-  
+
   "beneficiary_name": "foo",
-  
+
   "value_date": "foo",
-  
+
 }, {
   data: {
     limit: 10,
@@ -5396,17 +4953,17 @@ CorporatePaymentsCrossBorderFxPaymentFxPayments.query({
 // using the fetch method
 CorporatePaymentsCrossBorderFxPaymentFxPayments.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
     "citi_ref": "foo",
-    
+
     "customer_txn_ref": "foo",
-    
+
     "to_currency": "foo",
-    
+
     "beneficiary_name": "foo",
-    
+
     "value_date": "foo",
-    
+
   },
   data: {
     limit: 10,
@@ -5425,17 +4982,17 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CorporatePaymentsCrossBorderFxPaymentFxPayments.query({
-  
+
   "citi_ref": "foo",
-  
+
   "customer_txn_ref": "foo",
-  
+
   "to_currency": "foo",
-  
+
   "beneficiary_name": "foo",
-  
+
   "value_date": "foo",
-  
+
 }, {
   async: false,
   data: {
@@ -5450,66 +5007,70 @@ CorporatePaymentsCrossBorderFxPaymentFxPayments.query({
 Refer to [Backbone's Collection fetch method](http://backbonejs.org/#Collection-fetch) documentation for more information.
 
 
-  
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ####Value interpolation
 
@@ -5707,7 +5268,7 @@ var CorporatePaymentsCrossBorderFxQuoteAll = new CitiMobileChallengeSdk.collecti
 
 // using the query method
 CorporatePaymentsCrossBorderFxQuoteAll.query({
-  
+
 }, {
   data: {
     limit: 10,
@@ -5720,7 +5281,7 @@ CorporatePaymentsCrossBorderFxQuoteAll.query({
 // using the fetch method
 CorporatePaymentsCrossBorderFxQuoteAll.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   data: {
     limit: 10,
@@ -5739,7 +5300,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CorporatePaymentsCrossBorderFxQuoteAll.query({
-  
+
 }, {
   async: false,
   data: {
@@ -5762,7 +5323,7 @@ var CorporatePaymentsCrossBorderFxQuoteExactMatch = new CitiMobileChallengeSdk.c
 
 // using the query method
 CorporatePaymentsCrossBorderFxQuoteExactMatch.query({
-  
+
 }, {
   data: {
     limit: 10,
@@ -5775,7 +5336,7 @@ CorporatePaymentsCrossBorderFxQuoteExactMatch.query({
 // using the fetch method
 CorporatePaymentsCrossBorderFxQuoteExactMatch.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   data: {
     limit: 10,
@@ -5794,7 +5355,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CorporatePaymentsCrossBorderFxQuoteExactMatch.query({
-  
+
 }, {
   async: false,
   data: {
@@ -5817,7 +5378,7 @@ var CorporatePaymentsCrossBorderFxQuoteCount = new CitiMobileChallengeSdk.collec
 
 // using the query method
 CorporatePaymentsCrossBorderFxQuoteCount.query({
-  
+
 }, {
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -5826,7 +5387,7 @@ CorporatePaymentsCrossBorderFxQuoteCount.query({
 // using the fetch method
 CorporatePaymentsCrossBorderFxQuoteCount.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -5842,7 +5403,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CorporatePaymentsCrossBorderFxQuoteCount.query({
-  
+
 }, {
   async: false,
   success: function(collection, response, options) {...},
@@ -5862,7 +5423,7 @@ var CorporatePaymentsCrossBorderFxQuoteCountExactMatch = new CitiMobileChallenge
 
 // using the query method
 CorporatePaymentsCrossBorderFxQuoteCountExactMatch.query({
-  
+
 }, {
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -5871,7 +5432,7 @@ CorporatePaymentsCrossBorderFxQuoteCountExactMatch.query({
 // using the fetch method
 CorporatePaymentsCrossBorderFxQuoteCountExactMatch.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -5887,7 +5448,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CorporatePaymentsCrossBorderFxQuoteCountExactMatch.query({
-  
+
 }, {
   async: false,
   success: function(collection, response, options) {...},
@@ -5899,66 +5460,70 @@ var amount = CorporatePaymentsCrossBorderFxQuoteCountExactMatch.valueOf();
 
 Refer to [Backbone's Collection fetch method](http://backbonejs.org/#Collection-fetch) documentation for more information.
 
-  
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ####Value interpolation
 
@@ -6156,7 +5721,7 @@ var CorporatePaymentsLoginAll = new CitiMobileChallengeSdk.collections.Corporate
 
 // using the query method
 CorporatePaymentsLoginAll.query({
-  
+
 }, {
   data: {
     limit: 10,
@@ -6169,7 +5734,7 @@ CorporatePaymentsLoginAll.query({
 // using the fetch method
 CorporatePaymentsLoginAll.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   data: {
     limit: 10,
@@ -6188,7 +5753,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CorporatePaymentsLoginAll.query({
-  
+
 }, {
   async: false,
   data: {
@@ -6211,7 +5776,7 @@ var CorporatePaymentsLoginExactMatch = new CitiMobileChallengeSdk.collections.Co
 
 // using the query method
 CorporatePaymentsLoginExactMatch.query({
-  
+
 }, {
   data: {
     limit: 10,
@@ -6224,7 +5789,7 @@ CorporatePaymentsLoginExactMatch.query({
 // using the fetch method
 CorporatePaymentsLoginExactMatch.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   data: {
     limit: 10,
@@ -6243,7 +5808,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CorporatePaymentsLoginExactMatch.query({
-  
+
 }, {
   async: false,
   data: {
@@ -6266,7 +5831,7 @@ var CorporatePaymentsLoginCount = new CitiMobileChallengeSdk.collections.Corpora
 
 // using the query method
 CorporatePaymentsLoginCount.query({
-  
+
 }, {
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -6275,7 +5840,7 @@ CorporatePaymentsLoginCount.query({
 // using the fetch method
 CorporatePaymentsLoginCount.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -6291,7 +5856,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CorporatePaymentsLoginCount.query({
-  
+
 }, {
   async: false,
   success: function(collection, response, options) {...},
@@ -6311,7 +5876,7 @@ var CorporatePaymentsLoginCountExactMatch = new CitiMobileChallengeSdk.collectio
 
 // using the query method
 CorporatePaymentsLoginCountExactMatch.query({
-  
+
 }, {
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -6320,7 +5885,7 @@ CorporatePaymentsLoginCountExactMatch.query({
 // using the fetch method
 CorporatePaymentsLoginCountExactMatch.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -6336,7 +5901,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CorporatePaymentsLoginCountExactMatch.query({
-  
+
 }, {
   async: false,
   success: function(collection, response, options) {...},
@@ -6348,66 +5913,70 @@ var amount = CorporatePaymentsLoginCountExactMatch.valueOf();
 
 Refer to [Backbone's Collection fetch method](http://backbonejs.org/#Collection-fetch) documentation for more information.
 
-  
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ####Value interpolation
 
@@ -6605,7 +6174,7 @@ var CorporatePaymentsPaymentAll = new CitiMobileChallengeSdk.collections.Corpora
 
 // using the query method
 CorporatePaymentsPaymentAll.query({
-  
+
 }, {
   data: {
     limit: 10,
@@ -6618,7 +6187,7 @@ CorporatePaymentsPaymentAll.query({
 // using the fetch method
 CorporatePaymentsPaymentAll.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   data: {
     limit: 10,
@@ -6637,7 +6206,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CorporatePaymentsPaymentAll.query({
-  
+
 }, {
   async: false,
   data: {
@@ -6660,7 +6229,7 @@ var CorporatePaymentsPaymentExactMatch = new CitiMobileChallengeSdk.collections.
 
 // using the query method
 CorporatePaymentsPaymentExactMatch.query({
-  
+
 }, {
   data: {
     limit: 10,
@@ -6673,7 +6242,7 @@ CorporatePaymentsPaymentExactMatch.query({
 // using the fetch method
 CorporatePaymentsPaymentExactMatch.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   data: {
     limit: 10,
@@ -6692,7 +6261,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CorporatePaymentsPaymentExactMatch.query({
-  
+
 }, {
   async: false,
   data: {
@@ -6715,7 +6284,7 @@ var CorporatePaymentsPaymentCount = new CitiMobileChallengeSdk.collections.Corpo
 
 // using the query method
 CorporatePaymentsPaymentCount.query({
-  
+
 }, {
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -6724,7 +6293,7 @@ CorporatePaymentsPaymentCount.query({
 // using the fetch method
 CorporatePaymentsPaymentCount.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -6740,7 +6309,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CorporatePaymentsPaymentCount.query({
-  
+
 }, {
   async: false,
   success: function(collection, response, options) {...},
@@ -6760,7 +6329,7 @@ var CorporatePaymentsPaymentCountExactMatch = new CitiMobileChallengeSdk.collect
 
 // using the query method
 CorporatePaymentsPaymentCountExactMatch.query({
-  
+
 }, {
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -6769,7 +6338,7 @@ CorporatePaymentsPaymentCountExactMatch.query({
 // using the fetch method
 CorporatePaymentsPaymentCountExactMatch.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -6785,7 +6354,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 CorporatePaymentsPaymentCountExactMatch.query({
-  
+
 }, {
   async: false,
   success: function(collection, response, options) {...},
@@ -6797,66 +6366,70 @@ var amount = CorporatePaymentsPaymentCountExactMatch.valueOf();
 
 Refer to [Backbone's Collection fetch method](http://backbonejs.org/#Collection-fetch) documentation for more information.
 
-  
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ####Value interpolation
 
@@ -7054,7 +6627,7 @@ var RetailBankingAccountAll = new CitiMobileChallengeSdk.collections.RetailBanki
 
 // using the query method
 RetailBankingAccountAll.query({
-  
+
 }, {
   data: {
     limit: 10,
@@ -7067,7 +6640,7 @@ RetailBankingAccountAll.query({
 // using the fetch method
 RetailBankingAccountAll.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   data: {
     limit: 10,
@@ -7086,7 +6659,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 RetailBankingAccountAll.query({
-  
+
 }, {
   async: false,
   data: {
@@ -7109,7 +6682,7 @@ var RetailBankingAccountExactMatch = new CitiMobileChallengeSdk.collections.Reta
 
 // using the query method
 RetailBankingAccountExactMatch.query({
-  
+
 }, {
   data: {
     limit: 10,
@@ -7122,7 +6695,7 @@ RetailBankingAccountExactMatch.query({
 // using the fetch method
 RetailBankingAccountExactMatch.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   data: {
     limit: 10,
@@ -7141,7 +6714,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 RetailBankingAccountExactMatch.query({
-  
+
 }, {
   async: false,
   data: {
@@ -7164,7 +6737,7 @@ var RetailBankingAccountCount = new CitiMobileChallengeSdk.collections.RetailBan
 
 // using the query method
 RetailBankingAccountCount.query({
-  
+
 }, {
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -7173,7 +6746,7 @@ RetailBankingAccountCount.query({
 // using the fetch method
 RetailBankingAccountCount.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -7189,7 +6762,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 RetailBankingAccountCount.query({
-  
+
 }, {
   async: false,
   success: function(collection, response, options) {...},
@@ -7209,7 +6782,7 @@ var RetailBankingAccountCountExactMatch = new CitiMobileChallengeSdk.collections
 
 // using the query method
 RetailBankingAccountCountExactMatch.query({
-  
+
 }, {
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -7218,7 +6791,7 @@ RetailBankingAccountCountExactMatch.query({
 // using the fetch method
 RetailBankingAccountCountExactMatch.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -7234,7 +6807,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 RetailBankingAccountCountExactMatch.query({
-  
+
 }, {
   async: false,
   success: function(collection, response, options) {...},
@@ -7246,70 +6819,78 @@ var amount = RetailBankingAccountCountExactMatch.valueOf();
 
 Refer to [Backbone's Collection fetch method](http://backbonejs.org/#Collection-fetch) documentation for more information.
 
-  
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ####Value interpolation
 
@@ -7507,7 +7088,7 @@ var RetailBankingAccountBalanceAll = new CitiMobileChallengeSdk.collections.Reta
 
 // using the query method
 RetailBankingAccountBalanceAll.query({
-  
+
 }, {
   data: {
     limit: 10,
@@ -7520,7 +7101,7 @@ RetailBankingAccountBalanceAll.query({
 // using the fetch method
 RetailBankingAccountBalanceAll.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   data: {
     limit: 10,
@@ -7539,7 +7120,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 RetailBankingAccountBalanceAll.query({
-  
+
 }, {
   async: false,
   data: {
@@ -7562,7 +7143,7 @@ var RetailBankingAccountBalanceExactMatch = new CitiMobileChallengeSdk.collectio
 
 // using the query method
 RetailBankingAccountBalanceExactMatch.query({
-  
+
 }, {
   data: {
     limit: 10,
@@ -7575,7 +7156,7 @@ RetailBankingAccountBalanceExactMatch.query({
 // using the fetch method
 RetailBankingAccountBalanceExactMatch.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   data: {
     limit: 10,
@@ -7594,7 +7175,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 RetailBankingAccountBalanceExactMatch.query({
-  
+
 }, {
   async: false,
   data: {
@@ -7617,7 +7198,7 @@ var RetailBankingAccountBalanceCount = new CitiMobileChallengeSdk.collections.Re
 
 // using the query method
 RetailBankingAccountBalanceCount.query({
-  
+
 }, {
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -7626,7 +7207,7 @@ RetailBankingAccountBalanceCount.query({
 // using the fetch method
 RetailBankingAccountBalanceCount.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -7642,7 +7223,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 RetailBankingAccountBalanceCount.query({
-  
+
 }, {
   async: false,
   success: function(collection, response, options) {...},
@@ -7662,7 +7243,7 @@ var RetailBankingAccountBalanceCountExactMatch = new CitiMobileChallengeSdk.coll
 
 // using the query method
 RetailBankingAccountBalanceCountExactMatch.query({
-  
+
 }, {
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -7671,7 +7252,7 @@ RetailBankingAccountBalanceCountExactMatch.query({
 // using the fetch method
 RetailBankingAccountBalanceCountExactMatch.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -7687,7 +7268,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 RetailBankingAccountBalanceCountExactMatch.query({
-  
+
 }, {
   async: false,
   success: function(collection, response, options) {...},
@@ -7699,70 +7280,78 @@ var amount = RetailBankingAccountBalanceCountExactMatch.valueOf();
 
 Refer to [Backbone's Collection fetch method](http://backbonejs.org/#Collection-fetch) documentation for more information.
 
-  
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ####Value interpolation
 
@@ -7960,7 +7549,7 @@ var RetailBankingAccountFundTransferAll = new CitiMobileChallengeSdk.collections
 
 // using the query method
 RetailBankingAccountFundTransferAll.query({
-  
+
 }, {
   data: {
     limit: 10,
@@ -7973,7 +7562,7 @@ RetailBankingAccountFundTransferAll.query({
 // using the fetch method
 RetailBankingAccountFundTransferAll.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   data: {
     limit: 10,
@@ -7992,7 +7581,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 RetailBankingAccountFundTransferAll.query({
-  
+
 }, {
   async: false,
   data: {
@@ -8015,7 +7604,7 @@ var RetailBankingAccountFundTransferExactMatch = new CitiMobileChallengeSdk.coll
 
 // using the query method
 RetailBankingAccountFundTransferExactMatch.query({
-  
+
 }, {
   data: {
     limit: 10,
@@ -8028,7 +7617,7 @@ RetailBankingAccountFundTransferExactMatch.query({
 // using the fetch method
 RetailBankingAccountFundTransferExactMatch.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   data: {
     limit: 10,
@@ -8047,7 +7636,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 RetailBankingAccountFundTransferExactMatch.query({
-  
+
 }, {
   async: false,
   data: {
@@ -8070,7 +7659,7 @@ var RetailBankingAccountFundTransferCount = new CitiMobileChallengeSdk.collectio
 
 // using the query method
 RetailBankingAccountFundTransferCount.query({
-  
+
 }, {
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -8079,7 +7668,7 @@ RetailBankingAccountFundTransferCount.query({
 // using the fetch method
 RetailBankingAccountFundTransferCount.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -8095,7 +7684,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 RetailBankingAccountFundTransferCount.query({
-  
+
 }, {
   async: false,
   success: function(collection, response, options) {...},
@@ -8115,7 +7704,7 @@ var RetailBankingAccountFundTransferCountExactMatch = new CitiMobileChallengeSdk
 
 // using the query method
 RetailBankingAccountFundTransferCountExactMatch.query({
-  
+
 }, {
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -8124,7 +7713,7 @@ RetailBankingAccountFundTransferCountExactMatch.query({
 // using the fetch method
 RetailBankingAccountFundTransferCountExactMatch.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -8140,7 +7729,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 RetailBankingAccountFundTransferCountExactMatch.query({
-  
+
 }, {
   async: false,
   success: function(collection, response, options) {...},
@@ -8152,70 +7741,78 @@ var amount = RetailBankingAccountFundTransferCountExactMatch.valueOf();
 
 Refer to [Backbone's Collection fetch method](http://backbonejs.org/#Collection-fetch) documentation for more information.
 
-  
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ####Value interpolation
 
@@ -8413,7 +8010,7 @@ var RetailBankingAccountTransactionAll = new CitiMobileChallengeSdk.collections.
 
 // using the query method
 RetailBankingAccountTransactionAll.query({
-  
+
 }, {
   data: {
     limit: 10,
@@ -8426,7 +8023,7 @@ RetailBankingAccountTransactionAll.query({
 // using the fetch method
 RetailBankingAccountTransactionAll.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   data: {
     limit: 10,
@@ -8445,7 +8042,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 RetailBankingAccountTransactionAll.query({
-  
+
 }, {
   async: false,
   data: {
@@ -8468,7 +8065,7 @@ var RetailBankingAccountTransactionExactMatch = new CitiMobileChallengeSdk.colle
 
 // using the query method
 RetailBankingAccountTransactionExactMatch.query({
-  
+
 }, {
   data: {
     limit: 10,
@@ -8481,7 +8078,7 @@ RetailBankingAccountTransactionExactMatch.query({
 // using the fetch method
 RetailBankingAccountTransactionExactMatch.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   data: {
     limit: 10,
@@ -8500,7 +8097,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 RetailBankingAccountTransactionExactMatch.query({
-  
+
 }, {
   async: false,
   data: {
@@ -8523,7 +8120,7 @@ var RetailBankingAccountTransactionCount = new CitiMobileChallengeSdk.collection
 
 // using the query method
 RetailBankingAccountTransactionCount.query({
-  
+
 }, {
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -8532,7 +8129,7 @@ RetailBankingAccountTransactionCount.query({
 // using the fetch method
 RetailBankingAccountTransactionCount.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -8548,7 +8145,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 RetailBankingAccountTransactionCount.query({
-  
+
 }, {
   async: false,
   success: function(collection, response, options) {...},
@@ -8568,7 +8165,7 @@ var RetailBankingAccountTransactionCountExactMatch = new CitiMobileChallengeSdk.
 
 // using the query method
 RetailBankingAccountTransactionCountExactMatch.query({
-  
+
 }, {
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -8577,7 +8174,7 @@ RetailBankingAccountTransactionCountExactMatch.query({
 // using the fetch method
 RetailBankingAccountTransactionCountExactMatch.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -8593,7 +8190,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 RetailBankingAccountTransactionCountExactMatch.query({
-  
+
 }, {
   async: false,
   success: function(collection, response, options) {...},
@@ -8605,70 +8202,78 @@ var amount = RetailBankingAccountTransactionCountExactMatch.valueOf();
 
 Refer to [Backbone's Collection fetch method](http://backbonejs.org/#Collection-fetch) documentation for more information.
 
-  
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ####Value interpolation
 
@@ -8867,7 +8472,7 @@ var RetailBankingForeignCurrencyAll = new CitiMobileChallengeSdk.collections.Ret
 
 // using the query method
 RetailBankingForeignCurrencyAll.query({
-  
+
 }, {
   data: {
     limit: 10,
@@ -8880,7 +8485,7 @@ RetailBankingForeignCurrencyAll.query({
 // using the fetch method
 RetailBankingForeignCurrencyAll.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   data: {
     limit: 10,
@@ -8899,7 +8504,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 RetailBankingForeignCurrencyAll.query({
-  
+
 }, {
   async: false,
   data: {
@@ -8922,7 +8527,7 @@ var RetailBankingForeignCurrencyExactMatch = new CitiMobileChallengeSdk.collecti
 
 // using the query method
 RetailBankingForeignCurrencyExactMatch.query({
-  
+
 }, {
   data: {
     limit: 10,
@@ -8935,7 +8540,7 @@ RetailBankingForeignCurrencyExactMatch.query({
 // using the fetch method
 RetailBankingForeignCurrencyExactMatch.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   data: {
     limit: 10,
@@ -8954,7 +8559,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 RetailBankingForeignCurrencyExactMatch.query({
-  
+
 }, {
   async: false,
   data: {
@@ -8977,7 +8582,7 @@ var RetailBankingForeignCurrencyCount = new CitiMobileChallengeSdk.collections.R
 
 // using the query method
 RetailBankingForeignCurrencyCount.query({
-  
+
 }, {
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -8986,7 +8591,7 @@ RetailBankingForeignCurrencyCount.query({
 // using the fetch method
 RetailBankingForeignCurrencyCount.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -9002,7 +8607,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 RetailBankingForeignCurrencyCount.query({
-  
+
 }, {
   async: false,
   success: function(collection, response, options) {...},
@@ -9022,7 +8627,7 @@ var RetailBankingForeignCurrencyCountExactMatch = new CitiMobileChallengeSdk.col
 
 // using the query method
 RetailBankingForeignCurrencyCountExactMatch.query({
-  
+
 }, {
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -9031,7 +8636,7 @@ RetailBankingForeignCurrencyCountExactMatch.query({
 // using the fetch method
 RetailBankingForeignCurrencyCountExactMatch.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -9047,7 +8652,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 RetailBankingForeignCurrencyCountExactMatch.query({
-  
+
 }, {
   async: false,
   success: function(collection, response, options) {...},
@@ -9067,11 +8672,11 @@ var RetailBankingForeignCurrencyForeignCurrency = new CitiMobileChallengeSdk.col
 
 // using the query method
 RetailBankingForeignCurrencyForeignCurrency.query({
-  
+
   "from_currency": "foo",
-  
+
   "to_currency": "foo",
-  
+
 }, {
   data: {
     limit: 10,
@@ -9084,11 +8689,11 @@ RetailBankingForeignCurrencyForeignCurrency.query({
 // using the fetch method
 RetailBankingForeignCurrencyForeignCurrency.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
     "from_currency": "foo",
-    
+
     "to_currency": "foo",
-    
+
   },
   data: {
     limit: 10,
@@ -9107,11 +8712,11 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 RetailBankingForeignCurrencyForeignCurrency.query({
-  
+
   "from_currency": "foo",
-  
+
   "to_currency": "foo",
-  
+
 }, {
   async: false,
   data: {
@@ -9126,70 +8731,78 @@ RetailBankingForeignCurrencyForeignCurrency.query({
 Refer to [Backbone's Collection fetch method](http://backbonejs.org/#Collection-fetch) documentation for more information.
 
 
-  
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ####Value interpolation
 
@@ -9388,7 +9001,7 @@ var RetailBankingLocationAll = new CitiMobileChallengeSdk.collections.RetailBank
 
 // using the query method
 RetailBankingLocationAll.query({
-  
+
 }, {
   data: {
     limit: 10,
@@ -9401,7 +9014,7 @@ RetailBankingLocationAll.query({
 // using the fetch method
 RetailBankingLocationAll.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   data: {
     limit: 10,
@@ -9420,7 +9033,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 RetailBankingLocationAll.query({
-  
+
 }, {
   async: false,
   data: {
@@ -9443,7 +9056,7 @@ var RetailBankingLocationExactMatch = new CitiMobileChallengeSdk.collections.Ret
 
 // using the query method
 RetailBankingLocationExactMatch.query({
-  
+
 }, {
   data: {
     limit: 10,
@@ -9456,7 +9069,7 @@ RetailBankingLocationExactMatch.query({
 // using the fetch method
 RetailBankingLocationExactMatch.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   data: {
     limit: 10,
@@ -9475,7 +9088,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 RetailBankingLocationExactMatch.query({
-  
+
 }, {
   async: false,
   data: {
@@ -9498,7 +9111,7 @@ var RetailBankingLocationCount = new CitiMobileChallengeSdk.collections.RetailBa
 
 // using the query method
 RetailBankingLocationCount.query({
-  
+
 }, {
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -9507,7 +9120,7 @@ RetailBankingLocationCount.query({
 // using the fetch method
 RetailBankingLocationCount.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -9523,7 +9136,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 RetailBankingLocationCount.query({
-  
+
 }, {
   async: false,
   success: function(collection, response, options) {...},
@@ -9543,7 +9156,7 @@ var RetailBankingLocationCountExactMatch = new CitiMobileChallengeSdk.collection
 
 // using the query method
 RetailBankingLocationCountExactMatch.query({
-  
+
 }, {
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -9552,7 +9165,7 @@ RetailBankingLocationCountExactMatch.query({
 // using the fetch method
 RetailBankingLocationCountExactMatch.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -9568,7 +9181,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 RetailBankingLocationCountExactMatch.query({
-  
+
 }, {
   async: false,
   success: function(collection, response, options) {...},
@@ -9588,25 +9201,25 @@ var RetailBankingLocationLocations = new CitiMobileChallengeSdk.collections.Reta
 
 // using the query method
 RetailBankingLocationLocations.query({
-  
+
   "latitude": "foo",
-  
+
   "longitude": "foo",
-  
+
   "radius": "foo",
-  
+
   "radius_uom": "foo",
-  
+
   "location_type": "foo",
-  
+
   "address": "foo",
-  
+
   "city": "foo",
-  
+
   "state": "foo",
-  
+
   "postal_code": "foo",
-  
+
 }, {
   data: {
     limit: 10,
@@ -9619,25 +9232,25 @@ RetailBankingLocationLocations.query({
 // using the fetch method
 RetailBankingLocationLocations.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
     "latitude": "foo",
-    
+
     "longitude": "foo",
-    
+
     "radius": "foo",
-    
+
     "radius_uom": "foo",
-    
+
     "location_type": "foo",
-    
+
     "address": "foo",
-    
+
     "city": "foo",
-    
+
     "state": "foo",
-    
+
     "postal_code": "foo",
-    
+
   },
   data: {
     limit: 10,
@@ -9656,25 +9269,25 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 RetailBankingLocationLocations.query({
-  
+
   "latitude": "foo",
-  
+
   "longitude": "foo",
-  
+
   "radius": "foo",
-  
+
   "radius_uom": "foo",
-  
+
   "location_type": "foo",
-  
+
   "address": "foo",
-  
+
   "city": "foo",
-  
+
   "state": "foo",
-  
+
   "postal_code": "foo",
-  
+
 }, {
   async: false,
   data: {
@@ -9689,70 +9302,78 @@ RetailBankingLocationLocations.query({
 Refer to [Backbone's Collection fetch method](http://backbonejs.org/#Collection-fetch) documentation for more information.
 
 
-  
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ####Value interpolation
 
@@ -9950,7 +9571,7 @@ var RetailBankingLoginAll = new CitiMobileChallengeSdk.collections.RetailBanking
 
 // using the query method
 RetailBankingLoginAll.query({
-  
+
 }, {
   data: {
     limit: 10,
@@ -9963,7 +9584,7 @@ RetailBankingLoginAll.query({
 // using the fetch method
 RetailBankingLoginAll.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   data: {
     limit: 10,
@@ -9982,7 +9603,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 RetailBankingLoginAll.query({
-  
+
 }, {
   async: false,
   data: {
@@ -10005,7 +9626,7 @@ var RetailBankingLoginExactMatch = new CitiMobileChallengeSdk.collections.Retail
 
 // using the query method
 RetailBankingLoginExactMatch.query({
-  
+
 }, {
   data: {
     limit: 10,
@@ -10018,7 +9639,7 @@ RetailBankingLoginExactMatch.query({
 // using the fetch method
 RetailBankingLoginExactMatch.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   data: {
     limit: 10,
@@ -10037,7 +9658,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 RetailBankingLoginExactMatch.query({
-  
+
 }, {
   async: false,
   data: {
@@ -10060,7 +9681,7 @@ var RetailBankingLoginCount = new CitiMobileChallengeSdk.collections.RetailBanki
 
 // using the query method
 RetailBankingLoginCount.query({
-  
+
 }, {
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -10069,7 +9690,7 @@ RetailBankingLoginCount.query({
 // using the fetch method
 RetailBankingLoginCount.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -10085,7 +9706,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 RetailBankingLoginCount.query({
-  
+
 }, {
   async: false,
   success: function(collection, response, options) {...},
@@ -10105,7 +9726,7 @@ var RetailBankingLoginCountExactMatch = new CitiMobileChallengeSdk.collections.R
 
 // using the query method
 RetailBankingLoginCountExactMatch.query({
-  
+
 }, {
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -10114,7 +9735,7 @@ RetailBankingLoginCountExactMatch.query({
 // using the fetch method
 RetailBankingLoginCountExactMatch.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -10130,7 +9751,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 RetailBankingLoginCountExactMatch.query({
-  
+
 }, {
   async: false,
   success: function(collection, response, options) {...},
@@ -10142,70 +9763,78 @@ var amount = RetailBankingLoginCountExactMatch.valueOf();
 
 Refer to [Backbone's Collection fetch method](http://backbonejs.org/#Collection-fetch) documentation for more information.
 
-  
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ####Value interpolation
 
@@ -10403,7 +10032,7 @@ var RetailBankingPayeeAll = new CitiMobileChallengeSdk.collections.RetailBanking
 
 // using the query method
 RetailBankingPayeeAll.query({
-  
+
 }, {
   data: {
     limit: 10,
@@ -10416,7 +10045,7 @@ RetailBankingPayeeAll.query({
 // using the fetch method
 RetailBankingPayeeAll.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   data: {
     limit: 10,
@@ -10435,7 +10064,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 RetailBankingPayeeAll.query({
-  
+
 }, {
   async: false,
   data: {
@@ -10458,7 +10087,7 @@ var RetailBankingPayeeExactMatch = new CitiMobileChallengeSdk.collections.Retail
 
 // using the query method
 RetailBankingPayeeExactMatch.query({
-  
+
 }, {
   data: {
     limit: 10,
@@ -10471,7 +10100,7 @@ RetailBankingPayeeExactMatch.query({
 // using the fetch method
 RetailBankingPayeeExactMatch.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   data: {
     limit: 10,
@@ -10490,7 +10119,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 RetailBankingPayeeExactMatch.query({
-  
+
 }, {
   async: false,
   data: {
@@ -10513,7 +10142,7 @@ var RetailBankingPayeeCount = new CitiMobileChallengeSdk.collections.RetailBanki
 
 // using the query method
 RetailBankingPayeeCount.query({
-  
+
 }, {
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -10522,7 +10151,7 @@ RetailBankingPayeeCount.query({
 // using the fetch method
 RetailBankingPayeeCount.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -10538,7 +10167,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 RetailBankingPayeeCount.query({
-  
+
 }, {
   async: false,
   success: function(collection, response, options) {...},
@@ -10558,7 +10187,7 @@ var RetailBankingPayeeCountExactMatch = new CitiMobileChallengeSdk.collections.R
 
 // using the query method
 RetailBankingPayeeCountExactMatch.query({
-  
+
 }, {
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -10567,7 +10196,7 @@ RetailBankingPayeeCountExactMatch.query({
 // using the fetch method
 RetailBankingPayeeCountExactMatch.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -10583,7 +10212,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 RetailBankingPayeeCountExactMatch.query({
-  
+
 }, {
   async: false,
   success: function(collection, response, options) {...},
@@ -10595,70 +10224,78 @@ var amount = RetailBankingPayeeCountExactMatch.valueOf();
 
 Refer to [Backbone's Collection fetch method](http://backbonejs.org/#Collection-fetch) documentation for more information.
 
-  
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ####Value interpolation
 
@@ -10856,7 +10493,7 @@ var RetailBankingPayeeTypeAll = new CitiMobileChallengeSdk.collections.RetailBan
 
 // using the query method
 RetailBankingPayeeTypeAll.query({
-  
+
 }, {
   data: {
     limit: 10,
@@ -10869,7 +10506,7 @@ RetailBankingPayeeTypeAll.query({
 // using the fetch method
 RetailBankingPayeeTypeAll.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   data: {
     limit: 10,
@@ -10888,7 +10525,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 RetailBankingPayeeTypeAll.query({
-  
+
 }, {
   async: false,
   data: {
@@ -10911,7 +10548,7 @@ var RetailBankingPayeeTypeExactMatch = new CitiMobileChallengeSdk.collections.Re
 
 // using the query method
 RetailBankingPayeeTypeExactMatch.query({
-  
+
 }, {
   data: {
     limit: 10,
@@ -10924,7 +10561,7 @@ RetailBankingPayeeTypeExactMatch.query({
 // using the fetch method
 RetailBankingPayeeTypeExactMatch.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   data: {
     limit: 10,
@@ -10943,7 +10580,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 RetailBankingPayeeTypeExactMatch.query({
-  
+
 }, {
   async: false,
   data: {
@@ -10966,7 +10603,7 @@ var RetailBankingPayeeTypeCount = new CitiMobileChallengeSdk.collections.RetailB
 
 // using the query method
 RetailBankingPayeeTypeCount.query({
-  
+
 }, {
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -10975,7 +10612,7 @@ RetailBankingPayeeTypeCount.query({
 // using the fetch method
 RetailBankingPayeeTypeCount.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -10991,7 +10628,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 RetailBankingPayeeTypeCount.query({
-  
+
 }, {
   async: false,
   success: function(collection, response, options) {...},
@@ -11011,7 +10648,7 @@ var RetailBankingPayeeTypeCountExactMatch = new CitiMobileChallengeSdk.collectio
 
 // using the query method
 RetailBankingPayeeTypeCountExactMatch.query({
-  
+
 }, {
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -11020,7 +10657,7 @@ RetailBankingPayeeTypeCountExactMatch.query({
 // using the fetch method
 RetailBankingPayeeTypeCountExactMatch.fetch({
   query: { // here the query is passed as an attribute on the single options hash
-    
+
   },
   success: function(collection, response, options) {...},
   error: function(collection, response, options) {...}
@@ -11036,7 +10673,7 @@ This action is asynchronous by default, if you would like to execute it synchron
 
 ```javascript
 RetailBankingPayeeTypeCountExactMatch.query({
-  
+
 }, {
   async: false,
   success: function(collection, response, options) {...},
@@ -11048,70 +10685,78 @@ var amount = RetailBankingPayeeTypeCountExactMatch.valueOf();
 
 Refer to [Backbone's Collection fetch method](http://backbonejs.org/#Collection-fetch) documentation for more information.
 
-  
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-    
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ####Value interpolation
 
@@ -11146,6 +10791,990 @@ The next step is, if you would like **all** instances of RetailBankingPayeeType 
 
 ```javascript
 CitiMobileChallengeSdk.models.RetailBankingPayeeType.prototype.interpolationContext = [{foo: bar}, window];
+```
+###RetailBankingRewardsCatalog
+
+####Create
+
+This is an example of how you would create a RetailBankingRewardsCatalog Model.
+
+```javascript
+var exampleModel = new CitiMobileChallengeSdk.models.RetailBankingRewardsCatalog();
+
+exampleModel.save({ "id": "foo" }, {
+  success: function(model, response, options) {
+    // handle save success...
+  },
+  error: function(model, response, options) {
+    // handle error...
+  }
+});
+```
+
+Here we are setting the attribute `id` in the Model to `"foo"` and then saving it. A complete representation of the Model is always sent to the server, regardless of which attributes you set in the save call.
+
+######Async
+
+This action is asynchronous by default, if you would like to execute it synchronously you can do:
+
+```javascript
+exampleModel.save({ "id": "foo" }, {
+  async: false, // execute this request synchronously
+  success: function(model, response, options) {
+    // handle save success...
+  },
+  error: function(model, response, options) {
+    // handle error...
+  }
+});
+```
+
+Refer to [Backbone's Model save method](http://backbonejs.org/#Model-save) documentation for more information.
+
+####Update
+
+Updating a RetailBankingRewardsCatalog Model is very similar to creating one. Updating is done by calling the save method on an already persisted object.
+
+```javascript
+exampleModel.save({ "id": "foo" });
+```
+
+Updating the Model this way will cause a `PUT` request to be triggered, if you would like to send a `PATCH` request instead, then you should call like so:
+
+```javascript
+exampleModel.save({ "id": "foo" }, {patch: true});
+```
+
+Just like in Model creation, even if you are not updating all Model attributes, a complete representation is sent to the server.
+
+######Async
+
+This action is asynchronous by default, if you would like to execute it synchronously you can do:
+
+```javascript
+exampleModel.save({ "id": "foo" }, {async: false});
+```
+
+Refer to [Backbone's Model save method](http://backbonejs.org/#Model-save) documentation for more information.
+
+####Read
+
+Read operations allow you to get a single RetailBankingRewardsCatalog instance by its primary key.
+
+```javascript
+var singleInstance = new CitiMobileChallengeSdk.models.RetailBankingRewardsCatalog({
+  id: 1
+});
+
+singleInstance.fetch({
+  success: function(model, response, options) {
+    // after the model has been fetched from the server...
+  },
+  error: function(model, response, options) {
+    // handle fetch error...
+  }
+});
+```
+
+######Async
+
+This action is asynchronous by default, if you would like to execute it synchronously you can do:
+
+```javascript
+singleInstance.fetch({
+  async: false,
+  success: function(model, response, options) {
+    // after the model has been fetched from the server...
+  },
+  error: function(model, response, options) {
+    // handle fetch error...
+  }
+});
+```
+
+Refer to [Backbone's Model fetch method](http://backbonejs.org/#Model-fetch) documentation for more information.
+
+####Delete
+
+In order to delete a single model from the server you can call either the `delete` or `destroy` methods on a Model. Both methods will have the same outcome.
+
+```javascript
+// using delete
+exampleModel.delete({
+  success: function(model, response, options) {...},
+  error: function(model, response, options) {...}
+});
+
+// using destroy
+exampleModel.destroy({
+  success: function(model, response, options) {...},
+  error: function(model, response, options) {...}
+});
+```
+
+The `success` and `error` callback are optional as with other Backbone CRUD method calls.
+
+######Async
+
+This action is asynchronous by default, if you would like to execute it synchronously you can do:
+
+```javascript
+// using delete
+exampleModel.delete({
+  async: false,
+  success: function(model, response, options) {...},
+  error: function(model, response, options) {...}
+});
+
+// using destroy
+exampleModel.destroy({
+  async: false,
+  success: function(model, response, options) {...},
+  error: function(model, response, options) {...}
+});
+```
+
+Refer to [Backbone's Model destroy method](http://backbonejs.org/#Model-destroy) documentation for more information.
+
+####Query Scopes
+
+The available query scopes for RetailBankingRewardsCatalog objects are:
+
+* RetailBankingRewardsCatalogAll
+* RetailBankingRewardsCatalogExactMatch
+* RetailBankingRewardsCatalogCount
+* RetailBankingRewardsCatalogCountExactMatch
+* RetailBankingRewardsCatalogRewardsCatalog
+
+#####RetailBankingRewardsCatalogAll
+
+Get all results that match the given query. You may execute this query scope by calling the `query` method or the `fetch` method.
+
+```javascript
+var RetailBankingRewardsCatalogAll = new CitiMobileChallengeSdk.collections.RetailBankingRewardsCatalogAll();
+
+// using the query method
+RetailBankingRewardsCatalogAll.query({
+
+}, {
+  data: {
+    limit: 10,
+    offset: 0
+  },
+  success: function(collection, response, options) {...},
+  error: function(collection, response, options) {...}
+});
+
+// using the fetch method
+RetailBankingRewardsCatalogAll.fetch({
+  query: { // here the query is passed as an attribute on the single options hash
+
+  },
+  data: {
+    limit: 10,
+    offset: 0
+  },
+  success: function(collection, response, options) {...},
+  error: function(collection, response, options) {...}
+});
+```
+
+The first object passed represents the field values to match when executing the query. The second object is an options hash, where you can define `success` and `error` callbacks but also a `limit` and `offset` value if you want the query results to be paginated.
+
+######Async
+
+This action is asynchronous by default, if you would like to execute it synchronously you can do:
+
+```javascript
+RetailBankingRewardsCatalogAll.query({
+
+}, {
+  async: false,
+  data: {
+    limit: 10,
+    offset: 0
+  },
+  success: function(collection, response, options) {...},
+  error: function(collection, response, options) {...}
+});
+```
+
+Refer to [Backbone's Collection fetch method](http://backbonejs.org/#Collection-fetch) documentation for more information.
+
+#####RetailBankingRewardsCatalogExactMatch
+
+Get all results that match the given query. You may execute this query scope by calling the `query` method or the `fetch` method.
+
+```javascript
+var RetailBankingRewardsCatalogExactMatch = new CitiMobileChallengeSdk.collections.RetailBankingRewardsCatalogExactMatch();
+
+// using the query method
+RetailBankingRewardsCatalogExactMatch.query({
+
+}, {
+  data: {
+    limit: 10,
+    offset: 0
+  },
+  success: function(collection, response, options) {...},
+  error: function(collection, response, options) {...}
+});
+
+// using the fetch method
+RetailBankingRewardsCatalogExactMatch.fetch({
+  query: { // here the query is passed as an attribute on the single options hash
+
+  },
+  data: {
+    limit: 10,
+    offset: 0
+  },
+  success: function(collection, response, options) {...},
+  error: function(collection, response, options) {...}
+});
+```
+
+The first object passed represents the field values to match when executing the query. The second object is an options hash, where you can define `success` and `error` callbacks but also a `limit` and `offset` value if you want the query results to be paginated.
+
+######Async
+
+This action is asynchronous by default, if you would like to execute it synchronously you can do:
+
+```javascript
+RetailBankingRewardsCatalogExactMatch.query({
+
+}, {
+  async: false,
+  data: {
+    limit: 10,
+    offset: 0
+  },
+  success: function(collection, response, options) {...},
+  error: function(collection, response, options) {...}
+});
+```
+
+Refer to [Backbone's Collection fetch method](http://backbonejs.org/#Collection-fetch) documentation for more information.
+
+#####RetailBankingRewardsCatalogCount
+
+Get the amount of instances that satisfy the given query. You may execute this query scope by calling the `query` method or the `fetch` method.
+
+```javascript
+var RetailBankingRewardsCatalogCount = new CitiMobileChallengeSdk.collections.RetailBankingRewardsCatalogCount();
+
+// using the query method
+RetailBankingRewardsCatalogCount.query({
+
+}, {
+  success: function(collection, response, options) {...},
+  error: function(collection, response, options) {...}
+});
+
+// using the fetch method
+RetailBankingRewardsCatalogCount.fetch({
+  query: { // here the query is passed as an attribute on the single options hash
+
+  },
+  success: function(collection, response, options) {...},
+  error: function(collection, response, options) {...}
+});
+
+// to access the amount
+var amount = RetailBankingRewardsCatalogCount.valueOf();
+```
+
+######Async
+
+This action is asynchronous by default, if you would like to execute it synchronously you can do:
+
+```javascript
+RetailBankingRewardsCatalogCount.query({
+
+}, {
+  async: false,
+  success: function(collection, response, options) {...},
+  error: function(collection, response, options) {...}
+});
+
+var amount = RetailBankingRewardsCatalogCount.valueOf();
+```
+
+Refer to [Backbone's Collection fetch method](http://backbonejs.org/#Collection-fetch) documentation for more information.
+#####RetailBankingRewardsCatalogCountExactMatch
+
+Get the amount of instances that satisfy the given query. You may execute this query scope by calling the `query` method or the `fetch` method.
+
+```javascript
+var RetailBankingRewardsCatalogCountExactMatch = new CitiMobileChallengeSdk.collections.RetailBankingRewardsCatalogCountExactMatch();
+
+// using the query method
+RetailBankingRewardsCatalogCountExactMatch.query({
+
+}, {
+  success: function(collection, response, options) {...},
+  error: function(collection, response, options) {...}
+});
+
+// using the fetch method
+RetailBankingRewardsCatalogCountExactMatch.fetch({
+  query: { // here the query is passed as an attribute on the single options hash
+
+  },
+  success: function(collection, response, options) {...},
+  error: function(collection, response, options) {...}
+});
+
+// to access the amount
+var amount = RetailBankingRewardsCatalogCountExactMatch.valueOf();
+```
+
+######Async
+
+This action is asynchronous by default, if you would like to execute it synchronously you can do:
+
+```javascript
+RetailBankingRewardsCatalogCountExactMatch.query({
+
+}, {
+  async: false,
+  success: function(collection, response, options) {...},
+  error: function(collection, response, options) {...}
+});
+
+var amount = RetailBankingRewardsCatalogCountExactMatch.valueOf();
+```
+
+Refer to [Backbone's Collection fetch method](http://backbonejs.org/#Collection-fetch) documentation for more information.
+#####RetailBankingRewardsCatalogRewardsCatalog
+
+Get all results that match the given query. You may execute this query scope by calling the `query` method or the `fetch` method.
+
+```javascript
+var RetailBankingRewardsCatalogRewardsCatalog = new CitiMobileChallengeSdk.collections.RetailBankingRewardsCatalogRewardsCatalog();
+
+// using the query method
+RetailBankingRewardsCatalogRewardsCatalog.query({
+
+  "item_category": "foo",
+
+}, {
+  data: {
+    limit: 10,
+    offset: 0
+  },
+  success: function(collection, response, options) {...},
+  error: function(collection, response, options) {...}
+});
+
+// using the fetch method
+RetailBankingRewardsCatalogRewardsCatalog.fetch({
+  query: { // here the query is passed as an attribute on the single options hash
+
+    "item_category": "foo",
+
+  },
+  data: {
+    limit: 10,
+    offset: 0
+  },
+  success: function(collection, response, options) {...},
+  error: function(collection, response, options) {...}
+});
+```
+
+The first object passed represents the field values to match when executing the query. The second object is an options hash, where you can define `success` and `error` callbacks but also a `limit` and `offset` value if you want the query results to be paginated.
+
+######Async
+
+This action is asynchronous by default, if you would like to execute it synchronously you can do:
+
+```javascript
+RetailBankingRewardsCatalogRewardsCatalog.query({
+
+  "item_category": "foo",
+
+}, {
+  async: false,
+  data: {
+    limit: 10,
+    offset: 0
+  },
+  success: function(collection, response, options) {...},
+  error: function(collection, response, options) {...}
+});
+```
+
+Refer to [Backbone's Collection fetch method](http://backbonejs.org/#Collection-fetch) documentation for more information.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+####Value interpolation
+
+On DirectToSource Models you can specify certain values of the request being made to use string interpolation, but you also need a way of specifying what the context is going to be during that operation.
+
+The interpolation context can be set in more than one way. If you would like to specify a context to be used for a specific call you would do:
+
+```javascript
+var RetailBankingRewardsCatalogInstance = new CitiMobileChallengeSdk.models.RetailBankingRewardsCatalog();
+RetailBankingRewardsCatalogInstance.save(
+  null, // passing null means we want to save all attributes
+  { // options
+    interpolationContext: [
+      {foo: bar},
+      window
+    ]
+  }
+);
+```
+
+**Note:** the interpolation context is always an *Array* of *Objects*. Those objects will be collapsed into a single Object which will then act as the context, so `[{a: "a", b: "b", c: "c"}, {b: "B", d: "D"}]` will end up as `{a: "a", b: "B", c: "c", d: "D"}`. Note that the Object with the highest index in the Array will overwrite previous ones.
+
+Another way to set the interpolation context is to set it on a RetailBankingRewardsCatalog instance, if you would like that instance to always use the same context you can just set it like this:
+
+```javascript
+RetailBankingRewardsCatalogInstance.interpolationContext = [{foo: bar}, window];
+```
+
+This way you don't have to set it on every call.
+
+The next step is, if you would like **all** instances of RetailBankingRewardsCatalog to use the same context, you can set it in the prototype:
+
+```javascript
+CitiMobileChallengeSdk.models.RetailBankingRewardsCatalog.prototype.interpolationContext = [{foo: bar}, window];
+```
+###RetailBankingRewardsRedemption
+
+####Create
+
+This is an example of how you would create a RetailBankingRewardsRedemption Model.
+
+```javascript
+var exampleModel = new CitiMobileChallengeSdk.models.RetailBankingRewardsRedemption();
+
+exampleModel.save({ "id": "foo" }, {
+  success: function(model, response, options) {
+    // handle save success...
+  },
+  error: function(model, response, options) {
+    // handle error...
+  }
+});
+```
+
+Here we are setting the attribute `id` in the Model to `"foo"` and then saving it. A complete representation of the Model is always sent to the server, regardless of which attributes you set in the save call.
+
+######Async
+
+This action is asynchronous by default, if you would like to execute it synchronously you can do:
+
+```javascript
+exampleModel.save({ "id": "foo" }, {
+  async: false, // execute this request synchronously
+  success: function(model, response, options) {
+    // handle save success...
+  },
+  error: function(model, response, options) {
+    // handle error...
+  }
+});
+```
+
+Refer to [Backbone's Model save method](http://backbonejs.org/#Model-save) documentation for more information.
+
+####Update
+
+Updating a RetailBankingRewardsRedemption Model is very similar to creating one. Updating is done by calling the save method on an already persisted object.
+
+```javascript
+exampleModel.save({ "id": "foo" });
+```
+
+Updating the Model this way will cause a `PUT` request to be triggered, if you would like to send a `PATCH` request instead, then you should call like so:
+
+```javascript
+exampleModel.save({ "id": "foo" }, {patch: true});
+```
+
+Just like in Model creation, even if you are not updating all Model attributes, a complete representation is sent to the server.
+
+######Async
+
+This action is asynchronous by default, if you would like to execute it synchronously you can do:
+
+```javascript
+exampleModel.save({ "id": "foo" }, {async: false});
+```
+
+Refer to [Backbone's Model save method](http://backbonejs.org/#Model-save) documentation for more information.
+
+####Read
+
+Read operations allow you to get a single RetailBankingRewardsRedemption instance by its primary key.
+
+```javascript
+var singleInstance = new CitiMobileChallengeSdk.models.RetailBankingRewardsRedemption({
+  id: 1
+});
+
+singleInstance.fetch({
+  success: function(model, response, options) {
+    // after the model has been fetched from the server...
+  },
+  error: function(model, response, options) {
+    // handle fetch error...
+  }
+});
+```
+
+######Async
+
+This action is asynchronous by default, if you would like to execute it synchronously you can do:
+
+```javascript
+singleInstance.fetch({
+  async: false,
+  success: function(model, response, options) {
+    // after the model has been fetched from the server...
+  },
+  error: function(model, response, options) {
+    // handle fetch error...
+  }
+});
+```
+
+Refer to [Backbone's Model fetch method](http://backbonejs.org/#Model-fetch) documentation for more information.
+
+####Delete
+
+In order to delete a single model from the server you can call either the `delete` or `destroy` methods on a Model. Both methods will have the same outcome.
+
+```javascript
+// using delete
+exampleModel.delete({
+  success: function(model, response, options) {...},
+  error: function(model, response, options) {...}
+});
+
+// using destroy
+exampleModel.destroy({
+  success: function(model, response, options) {...},
+  error: function(model, response, options) {...}
+});
+```
+
+The `success` and `error` callback are optional as with other Backbone CRUD method calls.
+
+######Async
+
+This action is asynchronous by default, if you would like to execute it synchronously you can do:
+
+```javascript
+// using delete
+exampleModel.delete({
+  async: false,
+  success: function(model, response, options) {...},
+  error: function(model, response, options) {...}
+});
+
+// using destroy
+exampleModel.destroy({
+  async: false,
+  success: function(model, response, options) {...},
+  error: function(model, response, options) {...}
+});
+```
+
+Refer to [Backbone's Model destroy method](http://backbonejs.org/#Model-destroy) documentation for more information.
+
+####Query Scopes
+
+The available query scopes for RetailBankingRewardsRedemption objects are:
+
+* RetailBankingRewardsRedemptionAll
+* RetailBankingRewardsRedemptionExactMatch
+* RetailBankingRewardsRedemptionCount
+* RetailBankingRewardsRedemptionCountExactMatch
+
+#####RetailBankingRewardsRedemptionAll
+
+Get all results that match the given query. You may execute this query scope by calling the `query` method or the `fetch` method.
+
+```javascript
+var RetailBankingRewardsRedemptionAll = new CitiMobileChallengeSdk.collections.RetailBankingRewardsRedemptionAll();
+
+// using the query method
+RetailBankingRewardsRedemptionAll.query({
+
+}, {
+  data: {
+    limit: 10,
+    offset: 0
+  },
+  success: function(collection, response, options) {...},
+  error: function(collection, response, options) {...}
+});
+
+// using the fetch method
+RetailBankingRewardsRedemptionAll.fetch({
+  query: { // here the query is passed as an attribute on the single options hash
+
+  },
+  data: {
+    limit: 10,
+    offset: 0
+  },
+  success: function(collection, response, options) {...},
+  error: function(collection, response, options) {...}
+});
+```
+
+The first object passed represents the field values to match when executing the query. The second object is an options hash, where you can define `success` and `error` callbacks but also a `limit` and `offset` value if you want the query results to be paginated.
+
+######Async
+
+This action is asynchronous by default, if you would like to execute it synchronously you can do:
+
+```javascript
+RetailBankingRewardsRedemptionAll.query({
+
+}, {
+  async: false,
+  data: {
+    limit: 10,
+    offset: 0
+  },
+  success: function(collection, response, options) {...},
+  error: function(collection, response, options) {...}
+});
+```
+
+Refer to [Backbone's Collection fetch method](http://backbonejs.org/#Collection-fetch) documentation for more information.
+
+#####RetailBankingRewardsRedemptionExactMatch
+
+Get all results that match the given query. You may execute this query scope by calling the `query` method or the `fetch` method.
+
+```javascript
+var RetailBankingRewardsRedemptionExactMatch = new CitiMobileChallengeSdk.collections.RetailBankingRewardsRedemptionExactMatch();
+
+// using the query method
+RetailBankingRewardsRedemptionExactMatch.query({
+
+}, {
+  data: {
+    limit: 10,
+    offset: 0
+  },
+  success: function(collection, response, options) {...},
+  error: function(collection, response, options) {...}
+});
+
+// using the fetch method
+RetailBankingRewardsRedemptionExactMatch.fetch({
+  query: { // here the query is passed as an attribute on the single options hash
+
+  },
+  data: {
+    limit: 10,
+    offset: 0
+  },
+  success: function(collection, response, options) {...},
+  error: function(collection, response, options) {...}
+});
+```
+
+The first object passed represents the field values to match when executing the query. The second object is an options hash, where you can define `success` and `error` callbacks but also a `limit` and `offset` value if you want the query results to be paginated.
+
+######Async
+
+This action is asynchronous by default, if you would like to execute it synchronously you can do:
+
+```javascript
+RetailBankingRewardsRedemptionExactMatch.query({
+
+}, {
+  async: false,
+  data: {
+    limit: 10,
+    offset: 0
+  },
+  success: function(collection, response, options) {...},
+  error: function(collection, response, options) {...}
+});
+```
+
+Refer to [Backbone's Collection fetch method](http://backbonejs.org/#Collection-fetch) documentation for more information.
+
+#####RetailBankingRewardsRedemptionCount
+
+Get the amount of instances that satisfy the given query. You may execute this query scope by calling the `query` method or the `fetch` method.
+
+```javascript
+var RetailBankingRewardsRedemptionCount = new CitiMobileChallengeSdk.collections.RetailBankingRewardsRedemptionCount();
+
+// using the query method
+RetailBankingRewardsRedemptionCount.query({
+
+}, {
+  success: function(collection, response, options) {...},
+  error: function(collection, response, options) {...}
+});
+
+// using the fetch method
+RetailBankingRewardsRedemptionCount.fetch({
+  query: { // here the query is passed as an attribute on the single options hash
+
+  },
+  success: function(collection, response, options) {...},
+  error: function(collection, response, options) {...}
+});
+
+// to access the amount
+var amount = RetailBankingRewardsRedemptionCount.valueOf();
+```
+
+######Async
+
+This action is asynchronous by default, if you would like to execute it synchronously you can do:
+
+```javascript
+RetailBankingRewardsRedemptionCount.query({
+
+}, {
+  async: false,
+  success: function(collection, response, options) {...},
+  error: function(collection, response, options) {...}
+});
+
+var amount = RetailBankingRewardsRedemptionCount.valueOf();
+```
+
+Refer to [Backbone's Collection fetch method](http://backbonejs.org/#Collection-fetch) documentation for more information.
+#####RetailBankingRewardsRedemptionCountExactMatch
+
+Get the amount of instances that satisfy the given query. You may execute this query scope by calling the `query` method or the `fetch` method.
+
+```javascript
+var RetailBankingRewardsRedemptionCountExactMatch = new CitiMobileChallengeSdk.collections.RetailBankingRewardsRedemptionCountExactMatch();
+
+// using the query method
+RetailBankingRewardsRedemptionCountExactMatch.query({
+
+}, {
+  success: function(collection, response, options) {...},
+  error: function(collection, response, options) {...}
+});
+
+// using the fetch method
+RetailBankingRewardsRedemptionCountExactMatch.fetch({
+  query: { // here the query is passed as an attribute on the single options hash
+
+  },
+  success: function(collection, response, options) {...},
+  error: function(collection, response, options) {...}
+});
+
+// to access the amount
+var amount = RetailBankingRewardsRedemptionCountExactMatch.valueOf();
+```
+
+######Async
+
+This action is asynchronous by default, if you would like to execute it synchronously you can do:
+
+```javascript
+RetailBankingRewardsRedemptionCountExactMatch.query({
+
+}, {
+  async: false,
+  success: function(collection, response, options) {...},
+  error: function(collection, response, options) {...}
+});
+
+var amount = RetailBankingRewardsRedemptionCountExactMatch.valueOf();
+```
+
+Refer to [Backbone's Collection fetch method](http://backbonejs.org/#Collection-fetch) documentation for more information.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+####Value interpolation
+
+On DirectToSource Models you can specify certain values of the request being made to use string interpolation, but you also need a way of specifying what the context is going to be during that operation.
+
+The interpolation context can be set in more than one way. If you would like to specify a context to be used for a specific call you would do:
+
+```javascript
+var RetailBankingRewardsRedemptionInstance = new CitiMobileChallengeSdk.models.RetailBankingRewardsRedemption();
+RetailBankingRewardsRedemptionInstance.save(
+  null, // passing null means we want to save all attributes
+  { // options
+    interpolationContext: [
+      {foo: bar},
+      window
+    ]
+  }
+);
+```
+
+**Note:** the interpolation context is always an *Array* of *Objects*. Those objects will be collapsed into a single Object which will then act as the context, so `[{a: "a", b: "b", c: "c"}, {b: "B", d: "D"}]` will end up as `{a: "a", b: "B", c: "c", d: "D"}`. Note that the Object with the highest index in the Array will overwrite previous ones.
+
+Another way to set the interpolation context is to set it on a RetailBankingRewardsRedemption instance, if you would like that instance to always use the same context you can just set it like this:
+
+```javascript
+RetailBankingRewardsRedemptionInstance.interpolationContext = [{foo: bar}, window];
+```
+
+This way you don't have to set it on every call.
+
+The next step is, if you would like **all** instances of RetailBankingRewardsRedemption to use the same context, you can set it in the prototype:
+
+```javascript
+CitiMobileChallengeSdk.models.RetailBankingRewardsRedemption.prototype.interpolationContext = [{foo: bar}, window];
 ```
 
 ## Development

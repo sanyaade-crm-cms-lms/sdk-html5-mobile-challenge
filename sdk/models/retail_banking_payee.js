@@ -46,7 +46,7 @@ CitiMobileChallengeSdk.models.RetailBankingPayee = (function($class, _Model, Bac
     @property urlRoot
     @type String'
      */
-    urlRoot: "/api/v2/retail_banking_payees",
+    urlRoot: "/api/v5/retail_banking_payees",
 
     /**
     Default values for this model.

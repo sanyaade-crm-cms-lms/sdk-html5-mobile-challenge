@@ -41,7 +41,7 @@ CitiMobileChallengeSdk.collections.CorporatePaymentsCrossBorderFxPaymentFxPaymen
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/corporate_payments_cross_border_fx_payments.json",
+        apiEndpoint: "/api/v5/corporate_payments_cross_border_fx_payments.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are

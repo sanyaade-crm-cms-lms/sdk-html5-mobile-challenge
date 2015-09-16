@@ -46,7 +46,7 @@ CitiMobileChallengeSdk.models.CorporatePaymentsAccount = (function($class, _Mode
     @property urlRoot
     @type String'
      */
-    urlRoot: "/api/v2/corporate_payments_accounts",
+    urlRoot: "/api/v5/corporate_payments_accounts",
 
     /**
     Default values for this model.

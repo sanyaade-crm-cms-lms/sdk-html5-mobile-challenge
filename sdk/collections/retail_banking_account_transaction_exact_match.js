@@ -41,7 +41,7 @@ CitiMobileChallengeSdk.collections.RetailBankingAccountTransactionExactMatch = (
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/retail_banking_account_transactions.json",
+        apiEndpoint: "/api/v5/retail_banking_account_transactions.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are

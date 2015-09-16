@@ -46,7 +46,7 @@ CitiMobileChallengeSdk.models.CapitalMarketsLogin = (function($class, _Model, Ba
     @property urlRoot
     @type String'
      */
-    urlRoot: "/api/v2/capital_markets_logins",
+    urlRoot: "/api/v5/capital_markets_logins",
 
     /**
     Default values for this model.

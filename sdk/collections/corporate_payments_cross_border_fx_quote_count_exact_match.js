@@ -39,7 +39,7 @@ CitiMobileChallengeSdk.collections.CorporatePaymentsCrossBorderFxQuoteCountExact
 	  	@property apiEndpoint
 	  	@type String
 		 */
-		apiEndpoint: "/api/v2/corporate_payments_cross_border_fx_quotes.json",
+		apiEndpoint: "/api/v5/corporate_payments_cross_border_fx_quotes.json",
 
 		/**
 		Name/value pairs included with every server request.  Extra parameters are

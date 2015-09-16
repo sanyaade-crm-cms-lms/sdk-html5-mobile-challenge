@@ -46,7 +46,7 @@ CitiMobileChallengeSdk.models.RetailBankingLocation = (function($class, _Model, 
     @property urlRoot
     @type String'
      */
-    urlRoot: "/api/v2/retail_banking_locations",
+    urlRoot: "/api/v5/retail_banking_locations",
 
     /**
     Default values for this model.

@@ -41,7 +41,7 @@ CitiMobileChallengeSdk.collections.CorporatePaymentsAccountAll = (function($clas
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/corporate_payments_accounts.json",
+        apiEndpoint: "/api/v5/corporate_payments_accounts.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are

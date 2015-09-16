@@ -46,7 +46,7 @@ CitiMobileChallengeSdk.models.CapitalMarketsContentService = (function($class, _
     @property urlRoot
     @type String'
      */
-    urlRoot: "/api/v2/capital_markets_content_services",
+    urlRoot: "/api/v5/capital_markets_content_services",
 
     /**
     Default values for this model.

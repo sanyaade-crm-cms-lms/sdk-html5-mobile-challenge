@@ -1001,6 +1001,87 @@
             "fors": {},
             "namespaces": {}
         },
+        "sdk/collections/retail_banking_rewards_catalog_all.js": {
+            "name": "sdk/collections/retail_banking_rewards_catalog_all.js",
+            "modules": {},
+            "classes": {
+                "RetailBankingRewardsCatalogAll": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "sdk/collections/retail_banking_rewards_catalog_count.js": {
+            "name": "sdk/collections/retail_banking_rewards_catalog_count.js",
+            "modules": {},
+            "classes": {
+                "RetailBankingRewardsCatalogCount": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "sdk/collections/retail_banking_rewards_catalog_count_exact_match.js": {
+            "name": "sdk/collections/retail_banking_rewards_catalog_count_exact_match.js",
+            "modules": {},
+            "classes": {
+                "RetailBankingRewardsCatalogCountExactMatch": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "sdk/collections/retail_banking_rewards_catalog_exact_match.js": {
+            "name": "sdk/collections/retail_banking_rewards_catalog_exact_match.js",
+            "modules": {},
+            "classes": {
+                "RetailBankingRewardsCatalogExactMatch": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "sdk/collections/retail_banking_rewards_catalog_rewards_catalog.js": {
+            "name": "sdk/collections/retail_banking_rewards_catalog_rewards_catalog.js",
+            "modules": {},
+            "classes": {
+                "RetailBankingRewardsCatalogRewardsCatalog": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "sdk/collections/retail_banking_rewards_redemption_all.js": {
+            "name": "sdk/collections/retail_banking_rewards_redemption_all.js",
+            "modules": {},
+            "classes": {
+                "RetailBankingRewardsRedemptionAll": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "sdk/collections/retail_banking_rewards_redemption_count.js": {
+            "name": "sdk/collections/retail_banking_rewards_redemption_count.js",
+            "modules": {},
+            "classes": {
+                "RetailBankingRewardsRedemptionCount": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "sdk/collections/retail_banking_rewards_redemption_count_exact_match.js": {
+            "name": "sdk/collections/retail_banking_rewards_redemption_count_exact_match.js",
+            "modules": {},
+            "classes": {
+                "RetailBankingRewardsRedemptionCountExactMatch": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "sdk/collections/retail_banking_rewards_redemption_exact_match.js": {
+            "name": "sdk/collections/retail_banking_rewards_redemption_exact_match.js",
+            "modules": {},
+            "classes": {
+                "RetailBankingRewardsRedemptionExactMatch": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
         "sdk/lib/jquery/jquery-1.9.1.js": {
             "name": "sdk/lib/jquery/jquery-1.9.1.js",
             "modules": {},
@@ -1231,6 +1312,24 @@
             "modules": {},
             "classes": {
                 "RetailBankingPayeeType": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "sdk/models/retail_banking_rewards_catalog.js": {
+            "name": "sdk/models/retail_banking_rewards_catalog.js",
+            "modules": {},
+            "classes": {
+                "RetailBankingRewardsCatalog": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "sdk/models/retail_banking_rewards_redemption.js": {
+            "name": "sdk/models/retail_banking_rewards_redemption.js",
+            "modules": {},
+            "classes": {
+                "RetailBankingRewardsRedemption": 1
             },
             "fors": {},
             "namespaces": {}
@@ -1522,6 +1621,15 @@
                 "RetailBankingPayeeTypeCount": 1,
                 "RetailBankingPayeeTypeCountExactMatch": 1,
                 "RetailBankingPayeeTypeExactMatch": 1,
+                "RetailBankingRewardsCatalogAll": 1,
+                "RetailBankingRewardsCatalogCount": 1,
+                "RetailBankingRewardsCatalogCountExactMatch": 1,
+                "RetailBankingRewardsCatalogExactMatch": 1,
+                "RetailBankingRewardsCatalogRewardsCatalog": 1,
+                "RetailBankingRewardsRedemptionAll": 1,
+                "RetailBankingRewardsRedemptionCount": 1,
+                "RetailBankingRewardsRedemptionCountExactMatch": 1,
+                "RetailBankingRewardsRedemptionExactMatch": 1,
                 "LargeLocalStorage": 1,
                 "CapitalMarketsActivity": 1,
                 "CapitalMarketsContact": 1,
@@ -1544,11 +1652,13 @@
                 "RetailBankingLocation": 1,
                 "RetailBankingLogin": 1,
                 "RetailBankingPayee": 1,
-                "RetailBankingPayeeType": 1
+                "RetailBankingPayeeType": 1,
+                "RetailBankingRewardsCatalog": 1,
+                "RetailBankingRewardsRedemption": 1
             },
             "fors": {},
             "namespaces": {},
-            "file": "sdk/models/retail_banking_payee_type.js",
+            "file": "sdk/models/retail_banking_rewards_redemption.js",
             "line": 1
         },
         "adapters": {
@@ -1709,14 +1819,23 @@
                 "RetailBankingPayeeTypeAll": 1,
                 "RetailBankingPayeeTypeCount": 1,
                 "RetailBankingPayeeTypeCountExactMatch": 1,
-                "RetailBankingPayeeTypeExactMatch": 1
+                "RetailBankingPayeeTypeExactMatch": 1,
+                "RetailBankingRewardsCatalogAll": 1,
+                "RetailBankingRewardsCatalogCount": 1,
+                "RetailBankingRewardsCatalogCountExactMatch": 1,
+                "RetailBankingRewardsCatalogExactMatch": 1,
+                "RetailBankingRewardsCatalogRewardsCatalog": 1,
+                "RetailBankingRewardsRedemptionAll": 1,
+                "RetailBankingRewardsRedemptionCount": 1,
+                "RetailBankingRewardsRedemptionCountExactMatch": 1,
+                "RetailBankingRewardsRedemptionExactMatch": 1
             },
             "fors": {},
             "is_submodule": 1,
             "namespaces": {},
             "module": "CitiMobileChallengeSdk",
             "namespace": "",
-            "file": "sdk/collections/retail_banking_payee_type_exact_match.js",
+            "file": "sdk/collections/retail_banking_rewards_redemption_exact_match.js",
             "line": 1,
             "description": "CapitalMarketsActivityActivitiesis a scope collection for application `CitiMobileChallengeSdk`.  See\n`AP.collection.ScopeCollection` for more information about scopes.",
             "extends": "AP.collection.ScopeCollection"
@@ -1765,14 +1884,16 @@
                 "RetailBankingLocation": 1,
                 "RetailBankingLogin": 1,
                 "RetailBankingPayee": 1,
-                "RetailBankingPayeeType": 1
+                "RetailBankingPayeeType": 1,
+                "RetailBankingRewardsCatalog": 1,
+                "RetailBankingRewardsRedemption": 1
             },
             "fors": {},
             "is_submodule": 1,
             "namespaces": {},
             "module": "CitiMobileChallengeSdk",
             "namespace": "",
-            "file": "sdk/models/retail_banking_payee_type.js",
+            "file": "sdk/models/retail_banking_rewards_redemption.js",
             "line": 1,
             "description": "CapitalMarketsActivity model for application `CitiMobileChallengeSdk`.  See\n`AP.model.Model` for more information about models.",
             "extends": "AP.model.Model"
@@ -3466,6 +3587,141 @@
             "line": 1,
             "description": "RetailBankingPayeeTypeExactMatchis a scope collection for application `CitiMobileChallengeSdk`.  See\n`AP.collection.ScopeCollection` for more information about scopes."
         },
+        "RetailBankingRewardsCatalogAll": {
+            "name": "RetailBankingRewardsCatalogAll",
+            "shortname": "RetailBankingRewardsCatalogAll",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections",
+            "namespace": "",
+            "file": "sdk/collections/retail_banking_rewards_catalog_all.js",
+            "line": 1,
+            "description": "RetailBankingRewardsCatalogAllis a scope collection for application `CitiMobileChallengeSdk`.  See\n`AP.collection.ScopeCollection` for more information about scopes."
+        },
+        "RetailBankingRewardsCatalogCount": {
+            "name": "RetailBankingRewardsCatalogCount",
+            "shortname": "RetailBankingRewardsCatalogCount",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections",
+            "namespace": "",
+            "file": "sdk/collections/retail_banking_rewards_catalog_count.js",
+            "line": 1,
+            "description": "RetailBankingRewardsCatalogCountis an aggregate collection for application `CitiMobileChallengeSdk`.  See\n`AP.collection.AggregateCollection` to learn about about aggregates."
+        },
+        "RetailBankingRewardsCatalogCountExactMatch": {
+            "name": "RetailBankingRewardsCatalogCountExactMatch",
+            "shortname": "RetailBankingRewardsCatalogCountExactMatch",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections",
+            "namespace": "",
+            "file": "sdk/collections/retail_banking_rewards_catalog_count_exact_match.js",
+            "line": 1,
+            "description": "RetailBankingRewardsCatalogCountExactMatchis an aggregate collection for application `CitiMobileChallengeSdk`.  See\n`AP.collection.AggregateCollection` to learn about about aggregates."
+        },
+        "RetailBankingRewardsCatalogExactMatch": {
+            "name": "RetailBankingRewardsCatalogExactMatch",
+            "shortname": "RetailBankingRewardsCatalogExactMatch",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections",
+            "namespace": "",
+            "file": "sdk/collections/retail_banking_rewards_catalog_exact_match.js",
+            "line": 1,
+            "description": "RetailBankingRewardsCatalogExactMatchis a scope collection for application `CitiMobileChallengeSdk`.  See\n`AP.collection.ScopeCollection` for more information about scopes."
+        },
+        "RetailBankingRewardsCatalogRewardsCatalog": {
+            "name": "RetailBankingRewardsCatalogRewardsCatalog",
+            "shortname": "RetailBankingRewardsCatalogRewardsCatalog",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections",
+            "namespace": "",
+            "file": "sdk/collections/retail_banking_rewards_catalog_rewards_catalog.js",
+            "line": 1,
+            "description": "RetailBankingRewardsCatalogRewardsCatalogis a scope collection for application `CitiMobileChallengeSdk`.  See\n`AP.collection.ScopeCollection` for more information about scopes."
+        },
+        "RetailBankingRewardsRedemptionAll": {
+            "name": "RetailBankingRewardsRedemptionAll",
+            "shortname": "RetailBankingRewardsRedemptionAll",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections",
+            "namespace": "",
+            "file": "sdk/collections/retail_banking_rewards_redemption_all.js",
+            "line": 1,
+            "description": "RetailBankingRewardsRedemptionAllis a scope collection for application `CitiMobileChallengeSdk`.  See\n`AP.collection.ScopeCollection` for more information about scopes."
+        },
+        "RetailBankingRewardsRedemptionCount": {
+            "name": "RetailBankingRewardsRedemptionCount",
+            "shortname": "RetailBankingRewardsRedemptionCount",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections",
+            "namespace": "",
+            "file": "sdk/collections/retail_banking_rewards_redemption_count.js",
+            "line": 1,
+            "description": "RetailBankingRewardsRedemptionCountis an aggregate collection for application `CitiMobileChallengeSdk`.  See\n`AP.collection.AggregateCollection` to learn about about aggregates."
+        },
+        "RetailBankingRewardsRedemptionCountExactMatch": {
+            "name": "RetailBankingRewardsRedemptionCountExactMatch",
+            "shortname": "RetailBankingRewardsRedemptionCountExactMatch",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections",
+            "namespace": "",
+            "file": "sdk/collections/retail_banking_rewards_redemption_count_exact_match.js",
+            "line": 1,
+            "description": "RetailBankingRewardsRedemptionCountExactMatchis an aggregate collection for application `CitiMobileChallengeSdk`.  See\n`AP.collection.AggregateCollection` to learn about about aggregates."
+        },
+        "RetailBankingRewardsRedemptionExactMatch": {
+            "name": "RetailBankingRewardsRedemptionExactMatch",
+            "shortname": "RetailBankingRewardsRedemptionExactMatch",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections",
+            "namespace": "",
+            "file": "sdk/collections/retail_banking_rewards_redemption_exact_match.js",
+            "line": 1,
+            "description": "RetailBankingRewardsRedemptionExactMatchis a scope collection for application `CitiMobileChallengeSdk`.  See\n`AP.collection.ScopeCollection` for more information about scopes."
+        },
         "LargeLocalStorage": {
             "name": "LargeLocalStorage",
             "shortname": "LargeLocalStorage",
@@ -3842,6 +4098,36 @@
             "file": "sdk/models/retail_banking_payee_type.js",
             "line": 1,
             "description": "RetailBankingPayeeType model for application `CitiMobileChallengeSdk`.  See\n`AP.model.Model` for more information about models."
+        },
+        "RetailBankingRewardsCatalog": {
+            "name": "RetailBankingRewardsCatalog",
+            "shortname": "RetailBankingRewardsCatalog",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "models",
+            "namespace": "",
+            "file": "sdk/models/retail_banking_rewards_catalog.js",
+            "line": 1,
+            "description": "RetailBankingRewardsCatalog model for application `CitiMobileChallengeSdk`.  See\n`AP.model.Model` for more information about models."
+        },
+        "RetailBankingRewardsRedemption": {
+            "name": "RetailBankingRewardsRedemption",
+            "shortname": "RetailBankingRewardsRedemption",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "models",
+            "namespace": "",
+            "file": "sdk/models/retail_banking_rewards_redemption.js",
+            "line": 1,
+            "description": "RetailBankingRewardsRedemption model for application `CitiMobileChallengeSdk`.  See\n`AP.model.Model` for more information about models."
         },
         "BelongsTo": {
             "name": "BelongsTo",
@@ -13208,6 +13494,708 @@
             "submodule": "collections"
         },
         {
+            "file": "sdk/collections/retail_banking_rewards_catalog_all.js",
+            "line": 21,
+            "description": "The collection ID may be used to look-up a collection from an\napplication class.",
+            "itemtype": "property",
+            "name": "collectionId",
+            "type": "String",
+            "static": 1,
+            "class": "RetailBankingRewardsCatalogAll",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_catalog_all.js",
+            "line": 31,
+            "description": "The model associated with this collection.  Results returned by server\nrequests for this collection are converted into instances of this model.",
+            "itemtype": "property",
+            "name": "model",
+            "type": "AP.model.Model",
+            "class": "RetailBankingRewardsCatalogAll",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_catalog_all.js",
+            "line": 39,
+            "description": "Server requests for this collection use this URL.",
+            "itemtype": "property",
+            "name": "apiEndpoint",
+            "type": "String",
+            "class": "RetailBankingRewardsCatalogAll",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_catalog_all.js",
+            "line": 46,
+            "description": "Name/value pairs included with every server request.  Extra parameters are\nconverted to URL parameters at request-time.",
+            "itemtype": "property",
+            "name": "extraParams",
+            "type": "Object",
+            "class": "RetailBankingRewardsCatalogAll",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_catalog_all.js",
+            "line": 56,
+            "description": "Array of query field configurations.  Query fields map model field names onto\nURL parameter names.  See `AP.collection.ScopeCollection` to learn more\nabout query fields.",
+            "itemtype": "property",
+            "name": "queryFields",
+            "type": "Array",
+            "class": "RetailBankingRewardsCatalogAll",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_catalog_all.js",
+            "line": 67,
+            "description": "Name of the interface to use. Can be an HttpAdapter or the default connection\nto an Anypresence API.",
+            "itemtype": "property",
+            "name": "storage_interface",
+            "type": "String",
+            "class": "RetailBankingRewardsCatalogAll",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_catalog_all.js",
+            "line": 76,
+            "description": "Adapter configurations for this query scope.\nOnly required for query scopes whose adapter interface is an HttpAdapter.",
+            "itemtype": "property",
+            "name": "adapter_configuration",
+            "type": "Object",
+            "class": "RetailBankingRewardsCatalogAll",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_catalog_count.js",
+            "line": 19,
+            "description": "The collection ID may be used to look-up a collection from an\n\t\t  \tapplication class.",
+            "itemtype": "property",
+            "name": "collectionId",
+            "type": "String",
+            "static": 1,
+            "class": "RetailBankingRewardsCatalogCount",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_catalog_count.js",
+            "line": 29,
+            "description": "The model associated with this collection.  Results returned by server\n  \t\trequests for this collection are converted into instances of this model.",
+            "itemtype": "property",
+            "name": "model",
+            "type": "AP.model.Model",
+            "class": "RetailBankingRewardsCatalogCount",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_catalog_count.js",
+            "line": 37,
+            "description": "Server requests for this collection use this URL.",
+            "itemtype": "property",
+            "name": "apiEndpoint",
+            "type": "String",
+            "class": "RetailBankingRewardsCatalogCount",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_catalog_count.js",
+            "line": 44,
+            "description": "Name/value pairs included with every server request.  Extra parameters are\n\t  \tconverted to URL parameters at request-time.",
+            "itemtype": "property",
+            "name": "extraParams",
+            "type": "Object",
+            "class": "RetailBankingRewardsCatalogCount",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_catalog_count.js",
+            "line": 54,
+            "description": "Array of query field configurations.  Query fields map model field names onto\n\t  \tURL parameter names.  See `AP.collection.ScopeCollection` to learn more\n\t  \tabout query fields.",
+            "itemtype": "property",
+            "name": "queryFields",
+            "type": "Array",
+            "class": "RetailBankingRewardsCatalogCount",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_catalog_count.js",
+            "line": 65,
+            "description": "Name of the interface to use. Can be an HttpAdapter or the default connection\nto an Anypresence API.",
+            "itemtype": "property",
+            "name": "storage_interface",
+            "type": "String",
+            "class": "RetailBankingRewardsCatalogCount",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_catalog_count.js",
+            "line": 74,
+            "description": "Adapter configurations for this query scope.\nOnly required for query scopes whose adapter interface is an HttpAdapter.",
+            "itemtype": "property",
+            "name": "adapter_configuration",
+            "type": "Object",
+            "class": "RetailBankingRewardsCatalogCount",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_catalog_count_exact_match.js",
+            "line": 19,
+            "description": "The collection ID may be used to look-up a collection from an\n\t\t  \tapplication class.",
+            "itemtype": "property",
+            "name": "collectionId",
+            "type": "String",
+            "static": 1,
+            "class": "RetailBankingRewardsCatalogCountExactMatch",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_catalog_count_exact_match.js",
+            "line": 29,
+            "description": "The model associated with this collection.  Results returned by server\n  \t\trequests for this collection are converted into instances of this model.",
+            "itemtype": "property",
+            "name": "model",
+            "type": "AP.model.Model",
+            "class": "RetailBankingRewardsCatalogCountExactMatch",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_catalog_count_exact_match.js",
+            "line": 37,
+            "description": "Server requests for this collection use this URL.",
+            "itemtype": "property",
+            "name": "apiEndpoint",
+            "type": "String",
+            "class": "RetailBankingRewardsCatalogCountExactMatch",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_catalog_count_exact_match.js",
+            "line": 44,
+            "description": "Name/value pairs included with every server request.  Extra parameters are\n\t  \tconverted to URL parameters at request-time.",
+            "itemtype": "property",
+            "name": "extraParams",
+            "type": "Object",
+            "class": "RetailBankingRewardsCatalogCountExactMatch",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_catalog_count_exact_match.js",
+            "line": 54,
+            "description": "Array of query field configurations.  Query fields map model field names onto\n\t  \tURL parameter names.  See `AP.collection.ScopeCollection` to learn more\n\t  \tabout query fields.",
+            "itemtype": "property",
+            "name": "queryFields",
+            "type": "Array",
+            "class": "RetailBankingRewardsCatalogCountExactMatch",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_catalog_count_exact_match.js",
+            "line": 65,
+            "description": "Name of the interface to use. Can be an HttpAdapter or the default connection\nto an Anypresence API.",
+            "itemtype": "property",
+            "name": "storage_interface",
+            "type": "String",
+            "class": "RetailBankingRewardsCatalogCountExactMatch",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_catalog_count_exact_match.js",
+            "line": 74,
+            "description": "Adapter configurations for this query scope.\nOnly required for query scopes whose adapter interface is an HttpAdapter.",
+            "itemtype": "property",
+            "name": "adapter_configuration",
+            "type": "Object",
+            "class": "RetailBankingRewardsCatalogCountExactMatch",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_catalog_exact_match.js",
+            "line": 21,
+            "description": "The collection ID may be used to look-up a collection from an\napplication class.",
+            "itemtype": "property",
+            "name": "collectionId",
+            "type": "String",
+            "static": 1,
+            "class": "RetailBankingRewardsCatalogExactMatch",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_catalog_exact_match.js",
+            "line": 31,
+            "description": "The model associated with this collection.  Results returned by server\nrequests for this collection are converted into instances of this model.",
+            "itemtype": "property",
+            "name": "model",
+            "type": "AP.model.Model",
+            "class": "RetailBankingRewardsCatalogExactMatch",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_catalog_exact_match.js",
+            "line": 39,
+            "description": "Server requests for this collection use this URL.",
+            "itemtype": "property",
+            "name": "apiEndpoint",
+            "type": "String",
+            "class": "RetailBankingRewardsCatalogExactMatch",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_catalog_exact_match.js",
+            "line": 46,
+            "description": "Name/value pairs included with every server request.  Extra parameters are\nconverted to URL parameters at request-time.",
+            "itemtype": "property",
+            "name": "extraParams",
+            "type": "Object",
+            "class": "RetailBankingRewardsCatalogExactMatch",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_catalog_exact_match.js",
+            "line": 56,
+            "description": "Array of query field configurations.  Query fields map model field names onto\nURL parameter names.  See `AP.collection.ScopeCollection` to learn more\nabout query fields.",
+            "itemtype": "property",
+            "name": "queryFields",
+            "type": "Array",
+            "class": "RetailBankingRewardsCatalogExactMatch",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_catalog_exact_match.js",
+            "line": 67,
+            "description": "Name of the interface to use. Can be an HttpAdapter or the default connection\nto an Anypresence API.",
+            "itemtype": "property",
+            "name": "storage_interface",
+            "type": "String",
+            "class": "RetailBankingRewardsCatalogExactMatch",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_catalog_exact_match.js",
+            "line": 76,
+            "description": "Adapter configurations for this query scope.\nOnly required for query scopes whose adapter interface is an HttpAdapter.",
+            "itemtype": "property",
+            "name": "adapter_configuration",
+            "type": "Object",
+            "class": "RetailBankingRewardsCatalogExactMatch",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_catalog_rewards_catalog.js",
+            "line": 21,
+            "description": "The collection ID may be used to look-up a collection from an\napplication class.",
+            "itemtype": "property",
+            "name": "collectionId",
+            "type": "String",
+            "static": 1,
+            "class": "RetailBankingRewardsCatalogRewardsCatalog",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_catalog_rewards_catalog.js",
+            "line": 31,
+            "description": "The model associated with this collection.  Results returned by server\nrequests for this collection are converted into instances of this model.",
+            "itemtype": "property",
+            "name": "model",
+            "type": "AP.model.Model",
+            "class": "RetailBankingRewardsCatalogRewardsCatalog",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_catalog_rewards_catalog.js",
+            "line": 39,
+            "description": "Server requests for this collection use this URL.",
+            "itemtype": "property",
+            "name": "apiEndpoint",
+            "type": "String",
+            "class": "RetailBankingRewardsCatalogRewardsCatalog",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_catalog_rewards_catalog.js",
+            "line": 46,
+            "description": "Name/value pairs included with every server request.  Extra parameters are\nconverted to URL parameters at request-time.",
+            "itemtype": "property",
+            "name": "extraParams",
+            "type": "Object",
+            "class": "RetailBankingRewardsCatalogRewardsCatalog",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_catalog_rewards_catalog.js",
+            "line": 56,
+            "description": "Array of query field configurations.  Query fields map model field names onto\nURL parameter names.  See `AP.collection.ScopeCollection` to learn more\nabout query fields.",
+            "itemtype": "property",
+            "name": "queryFields",
+            "type": "Array",
+            "class": "RetailBankingRewardsCatalogRewardsCatalog",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_catalog_rewards_catalog.js",
+            "line": 72,
+            "description": "Name of the interface to use. Can be an HttpAdapter or the default connection\nto an Anypresence API.",
+            "itemtype": "property",
+            "name": "storage_interface",
+            "type": "String",
+            "class": "RetailBankingRewardsCatalogRewardsCatalog",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_catalog_rewards_catalog.js",
+            "line": 81,
+            "description": "Adapter configurations for this query scope.\nOnly required for query scopes whose adapter interface is an HttpAdapter.",
+            "itemtype": "property",
+            "name": "adapter_configuration",
+            "type": "Object",
+            "class": "RetailBankingRewardsCatalogRewardsCatalog",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_redemption_all.js",
+            "line": 21,
+            "description": "The collection ID may be used to look-up a collection from an\napplication class.",
+            "itemtype": "property",
+            "name": "collectionId",
+            "type": "String",
+            "static": 1,
+            "class": "RetailBankingRewardsRedemptionAll",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_redemption_all.js",
+            "line": 31,
+            "description": "The model associated with this collection.  Results returned by server\nrequests for this collection are converted into instances of this model.",
+            "itemtype": "property",
+            "name": "model",
+            "type": "AP.model.Model",
+            "class": "RetailBankingRewardsRedemptionAll",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_redemption_all.js",
+            "line": 39,
+            "description": "Server requests for this collection use this URL.",
+            "itemtype": "property",
+            "name": "apiEndpoint",
+            "type": "String",
+            "class": "RetailBankingRewardsRedemptionAll",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_redemption_all.js",
+            "line": 46,
+            "description": "Name/value pairs included with every server request.  Extra parameters are\nconverted to URL parameters at request-time.",
+            "itemtype": "property",
+            "name": "extraParams",
+            "type": "Object",
+            "class": "RetailBankingRewardsRedemptionAll",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_redemption_all.js",
+            "line": 56,
+            "description": "Array of query field configurations.  Query fields map model field names onto\nURL parameter names.  See `AP.collection.ScopeCollection` to learn more\nabout query fields.",
+            "itemtype": "property",
+            "name": "queryFields",
+            "type": "Array",
+            "class": "RetailBankingRewardsRedemptionAll",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_redemption_all.js",
+            "line": 67,
+            "description": "Name of the interface to use. Can be an HttpAdapter or the default connection\nto an Anypresence API.",
+            "itemtype": "property",
+            "name": "storage_interface",
+            "type": "String",
+            "class": "RetailBankingRewardsRedemptionAll",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_redemption_all.js",
+            "line": 76,
+            "description": "Adapter configurations for this query scope.\nOnly required for query scopes whose adapter interface is an HttpAdapter.",
+            "itemtype": "property",
+            "name": "adapter_configuration",
+            "type": "Object",
+            "class": "RetailBankingRewardsRedemptionAll",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_redemption_count.js",
+            "line": 19,
+            "description": "The collection ID may be used to look-up a collection from an\n\t\t  \tapplication class.",
+            "itemtype": "property",
+            "name": "collectionId",
+            "type": "String",
+            "static": 1,
+            "class": "RetailBankingRewardsRedemptionCount",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_redemption_count.js",
+            "line": 29,
+            "description": "The model associated with this collection.  Results returned by server\n  \t\trequests for this collection are converted into instances of this model.",
+            "itemtype": "property",
+            "name": "model",
+            "type": "AP.model.Model",
+            "class": "RetailBankingRewardsRedemptionCount",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_redemption_count.js",
+            "line": 37,
+            "description": "Server requests for this collection use this URL.",
+            "itemtype": "property",
+            "name": "apiEndpoint",
+            "type": "String",
+            "class": "RetailBankingRewardsRedemptionCount",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_redemption_count.js",
+            "line": 44,
+            "description": "Name/value pairs included with every server request.  Extra parameters are\n\t  \tconverted to URL parameters at request-time.",
+            "itemtype": "property",
+            "name": "extraParams",
+            "type": "Object",
+            "class": "RetailBankingRewardsRedemptionCount",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_redemption_count.js",
+            "line": 54,
+            "description": "Array of query field configurations.  Query fields map model field names onto\n\t  \tURL parameter names.  See `AP.collection.ScopeCollection` to learn more\n\t  \tabout query fields.",
+            "itemtype": "property",
+            "name": "queryFields",
+            "type": "Array",
+            "class": "RetailBankingRewardsRedemptionCount",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_redemption_count.js",
+            "line": 65,
+            "description": "Name of the interface to use. Can be an HttpAdapter or the default connection\nto an Anypresence API.",
+            "itemtype": "property",
+            "name": "storage_interface",
+            "type": "String",
+            "class": "RetailBankingRewardsRedemptionCount",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_redemption_count.js",
+            "line": 74,
+            "description": "Adapter configurations for this query scope.\nOnly required for query scopes whose adapter interface is an HttpAdapter.",
+            "itemtype": "property",
+            "name": "adapter_configuration",
+            "type": "Object",
+            "class": "RetailBankingRewardsRedemptionCount",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_redemption_count_exact_match.js",
+            "line": 19,
+            "description": "The collection ID may be used to look-up a collection from an\n\t\t  \tapplication class.",
+            "itemtype": "property",
+            "name": "collectionId",
+            "type": "String",
+            "static": 1,
+            "class": "RetailBankingRewardsRedemptionCountExactMatch",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_redemption_count_exact_match.js",
+            "line": 29,
+            "description": "The model associated with this collection.  Results returned by server\n  \t\trequests for this collection are converted into instances of this model.",
+            "itemtype": "property",
+            "name": "model",
+            "type": "AP.model.Model",
+            "class": "RetailBankingRewardsRedemptionCountExactMatch",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_redemption_count_exact_match.js",
+            "line": 37,
+            "description": "Server requests for this collection use this URL.",
+            "itemtype": "property",
+            "name": "apiEndpoint",
+            "type": "String",
+            "class": "RetailBankingRewardsRedemptionCountExactMatch",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_redemption_count_exact_match.js",
+            "line": 44,
+            "description": "Name/value pairs included with every server request.  Extra parameters are\n\t  \tconverted to URL parameters at request-time.",
+            "itemtype": "property",
+            "name": "extraParams",
+            "type": "Object",
+            "class": "RetailBankingRewardsRedemptionCountExactMatch",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_redemption_count_exact_match.js",
+            "line": 54,
+            "description": "Array of query field configurations.  Query fields map model field names onto\n\t  \tURL parameter names.  See `AP.collection.ScopeCollection` to learn more\n\t  \tabout query fields.",
+            "itemtype": "property",
+            "name": "queryFields",
+            "type": "Array",
+            "class": "RetailBankingRewardsRedemptionCountExactMatch",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_redemption_count_exact_match.js",
+            "line": 65,
+            "description": "Name of the interface to use. Can be an HttpAdapter or the default connection\nto an Anypresence API.",
+            "itemtype": "property",
+            "name": "storage_interface",
+            "type": "String",
+            "class": "RetailBankingRewardsRedemptionCountExactMatch",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_redemption_count_exact_match.js",
+            "line": 74,
+            "description": "Adapter configurations for this query scope.\nOnly required for query scopes whose adapter interface is an HttpAdapter.",
+            "itemtype": "property",
+            "name": "adapter_configuration",
+            "type": "Object",
+            "class": "RetailBankingRewardsRedemptionCountExactMatch",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_redemption_exact_match.js",
+            "line": 21,
+            "description": "The collection ID may be used to look-up a collection from an\napplication class.",
+            "itemtype": "property",
+            "name": "collectionId",
+            "type": "String",
+            "static": 1,
+            "class": "RetailBankingRewardsRedemptionExactMatch",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_redemption_exact_match.js",
+            "line": 31,
+            "description": "The model associated with this collection.  Results returned by server\nrequests for this collection are converted into instances of this model.",
+            "itemtype": "property",
+            "name": "model",
+            "type": "AP.model.Model",
+            "class": "RetailBankingRewardsRedemptionExactMatch",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_redemption_exact_match.js",
+            "line": 39,
+            "description": "Server requests for this collection use this URL.",
+            "itemtype": "property",
+            "name": "apiEndpoint",
+            "type": "String",
+            "class": "RetailBankingRewardsRedemptionExactMatch",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_redemption_exact_match.js",
+            "line": 46,
+            "description": "Name/value pairs included with every server request.  Extra parameters are\nconverted to URL parameters at request-time.",
+            "itemtype": "property",
+            "name": "extraParams",
+            "type": "Object",
+            "class": "RetailBankingRewardsRedemptionExactMatch",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_redemption_exact_match.js",
+            "line": 56,
+            "description": "Array of query field configurations.  Query fields map model field names onto\nURL parameter names.  See `AP.collection.ScopeCollection` to learn more\nabout query fields.",
+            "itemtype": "property",
+            "name": "queryFields",
+            "type": "Array",
+            "class": "RetailBankingRewardsRedemptionExactMatch",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_redemption_exact_match.js",
+            "line": 67,
+            "description": "Name of the interface to use. Can be an HttpAdapter or the default connection\nto an Anypresence API.",
+            "itemtype": "property",
+            "name": "storage_interface",
+            "type": "String",
+            "class": "RetailBankingRewardsRedemptionExactMatch",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
+            "file": "sdk/collections/retail_banking_rewards_redemption_exact_match.js",
+            "line": 76,
+            "description": "Adapter configurations for this query scope.\nOnly required for query scopes whose adapter interface is an HttpAdapter.",
+            "itemtype": "property",
+            "name": "adapter_configuration",
+            "type": "Object",
+            "class": "RetailBankingRewardsRedemptionExactMatch",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "collections"
+        },
+        {
             "file": "sdk/lib/jquery/jquery-1.9.1.js",
             "line": 3837,
             "description": "For feature detection",
@@ -17413,6 +18401,250 @@
             "name": "adapter_configuration",
             "type": "Object",
             "class": "RetailBankingPayeeType",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "models"
+        },
+        {
+            "file": "sdk/models/retail_banking_rewards_catalog.js",
+            "line": 21,
+            "description": "The model ID may be used to look-up a model from an application class.",
+            "itemtype": "property",
+            "name": "modelId",
+            "type": "String",
+            "static": 1,
+            "class": "RetailBankingRewardsCatalog",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "models"
+        },
+        {
+            "file": "sdk/models/retail_banking_rewards_catalog.js",
+            "line": 29,
+            "description": "The model name may be used to look-up a model from an application class.",
+            "itemtype": "property",
+            "name": "name",
+            "type": "String",
+            "class": "RetailBankingRewardsCatalog",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "models"
+        },
+        {
+            "file": "sdk/models/retail_banking_rewards_catalog.js",
+            "line": 37,
+            "description": "The model name may be used to look-up a model from an application class.",
+            "itemtype": "property",
+            "name": "name",
+            "type": "String",
+            "class": "RetailBankingRewardsCatalog",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "models"
+        },
+        {
+            "file": "sdk/models/retail_banking_rewards_catalog.js",
+            "line": 44,
+            "description": "Server requests for model instances use this URL.",
+            "itemtype": "property",
+            "name": "urlRoot",
+            "type": "String'",
+            "class": "RetailBankingRewardsCatalog",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "models"
+        },
+        {
+            "file": "sdk/models/retail_banking_rewards_catalog.js",
+            "line": 51,
+            "description": "Default values for this model.",
+            "itemtype": "property",
+            "name": "defaults",
+            "type": "Object",
+            "class": "RetailBankingRewardsCatalog",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "models"
+        },
+        {
+            "file": "sdk/models/retail_banking_rewards_catalog.js",
+            "line": 74,
+            "description": "Array of field definition configurations.  Field definitions describe fields\navailable on this model.",
+            "itemtype": "property",
+            "name": "fieldDefinitions",
+            "type": "Array",
+            "class": "RetailBankingRewardsCatalog",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "models"
+        },
+        {
+            "file": "sdk/models/retail_banking_rewards_catalog.js",
+            "line": 175,
+            "description": "Array of field names.  Auto keys, generally such as `id`, have their values\nfilled automatically by the server.  Non-auto keys are all other fields.",
+            "itemtype": "property",
+            "name": "nonAutoKeyFields",
+            "type": "Array",
+            "class": "RetailBankingRewardsCatalog",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "models"
+        },
+        {
+            "file": "sdk/models/retail_banking_rewards_catalog.js",
+            "line": 185,
+            "description": "Array of relationship definitions.",
+            "itemtype": "property",
+            "name": "relationshipDefinitions",
+            "type": "Array",
+            "class": "RetailBankingRewardsCatalog",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "models"
+        },
+        {
+            "file": "sdk/models/retail_banking_rewards_catalog.js",
+            "line": 196,
+            "description": "Array of validation configurations.  See `AP.model.Model` for more information\nabout validations.",
+            "itemtype": "property",
+            "name": "validations",
+            "type": "Array",
+            "class": "RetailBankingRewardsCatalog",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "models"
+        },
+        {
+            "file": "sdk/models/retail_banking_rewards_catalog.js",
+            "line": 220,
+            "description": "Name of the interface to use. Can be an HttpAdapter or the default connection\nto an Anypresence API.",
+            "itemtype": "property",
+            "name": "storage_interface",
+            "type": "String",
+            "class": "RetailBankingRewardsCatalog",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "models"
+        },
+        {
+            "file": "sdk/models/retail_banking_rewards_catalog.js",
+            "line": 228,
+            "description": "Adapter configurations for create, update, read and delete actions on a model.\nOnly required for models whose adapter interface is an HttpAdapter.",
+            "itemtype": "property",
+            "name": "adapter_configuration",
+            "type": "Object",
+            "class": "RetailBankingRewardsCatalog",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "models"
+        },
+        {
+            "file": "sdk/models/retail_banking_rewards_redemption.js",
+            "line": 21,
+            "description": "The model ID may be used to look-up a model from an application class.",
+            "itemtype": "property",
+            "name": "modelId",
+            "type": "String",
+            "static": 1,
+            "class": "RetailBankingRewardsRedemption",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "models"
+        },
+        {
+            "file": "sdk/models/retail_banking_rewards_redemption.js",
+            "line": 29,
+            "description": "The model name may be used to look-up a model from an application class.",
+            "itemtype": "property",
+            "name": "name",
+            "type": "String",
+            "class": "RetailBankingRewardsRedemption",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "models"
+        },
+        {
+            "file": "sdk/models/retail_banking_rewards_redemption.js",
+            "line": 37,
+            "description": "The model name may be used to look-up a model from an application class.",
+            "itemtype": "property",
+            "name": "name",
+            "type": "String",
+            "class": "RetailBankingRewardsRedemption",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "models"
+        },
+        {
+            "file": "sdk/models/retail_banking_rewards_redemption.js",
+            "line": 44,
+            "description": "Server requests for model instances use this URL.",
+            "itemtype": "property",
+            "name": "urlRoot",
+            "type": "String'",
+            "class": "RetailBankingRewardsRedemption",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "models"
+        },
+        {
+            "file": "sdk/models/retail_banking_rewards_redemption.js",
+            "line": 51,
+            "description": "Default values for this model.",
+            "itemtype": "property",
+            "name": "defaults",
+            "type": "Object",
+            "class": "RetailBankingRewardsRedemption",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "models"
+        },
+        {
+            "file": "sdk/models/retail_banking_rewards_redemption.js",
+            "line": 66,
+            "description": "Array of field definition configurations.  Field definitions describe fields\navailable on this model.",
+            "itemtype": "property",
+            "name": "fieldDefinitions",
+            "type": "Array",
+            "class": "RetailBankingRewardsRedemption",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "models"
+        },
+        {
+            "file": "sdk/models/retail_banking_rewards_redemption.js",
+            "line": 115,
+            "description": "Array of field names.  Auto keys, generally such as `id`, have their values\nfilled automatically by the server.  Non-auto keys are all other fields.",
+            "itemtype": "property",
+            "name": "nonAutoKeyFields",
+            "type": "Array",
+            "class": "RetailBankingRewardsRedemption",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "models"
+        },
+        {
+            "file": "sdk/models/retail_banking_rewards_redemption.js",
+            "line": 125,
+            "description": "Array of relationship definitions.",
+            "itemtype": "property",
+            "name": "relationshipDefinitions",
+            "type": "Array",
+            "class": "RetailBankingRewardsRedemption",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "models"
+        },
+        {
+            "file": "sdk/models/retail_banking_rewards_redemption.js",
+            "line": 136,
+            "description": "Array of validation configurations.  See `AP.model.Model` for more information\nabout validations.",
+            "itemtype": "property",
+            "name": "validations",
+            "type": "Array",
+            "class": "RetailBankingRewardsRedemption",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "models"
+        },
+        {
+            "file": "sdk/models/retail_banking_rewards_redemption.js",
+            "line": 152,
+            "description": "Name of the interface to use. Can be an HttpAdapter or the default connection\nto an Anypresence API.",
+            "itemtype": "property",
+            "name": "storage_interface",
+            "type": "String",
+            "class": "RetailBankingRewardsRedemption",
+            "module": "CitiMobileChallengeSdk",
+            "submodule": "models"
+        },
+        {
+            "file": "sdk/models/retail_banking_rewards_redemption.js",
+            "line": 160,
+            "description": "Adapter configurations for create, update, read and delete actions on a model.\nOnly required for models whose adapter interface is an HttpAdapter.",
+            "itemtype": "property",
+            "name": "adapter_configuration",
+            "type": "Object",
+            "class": "RetailBankingRewardsRedemption",
             "module": "CitiMobileChallengeSdk",
             "submodule": "models"
         },
