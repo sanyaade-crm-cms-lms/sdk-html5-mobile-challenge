@@ -46,7 +46,7 @@ CitiMobileChallengeSdk.models.CorporatePaymentsBeneficiary = (function($class, _
     @property urlRoot
     @type String'
      */
-    urlRoot: "/api/v2/corporate_payments_beneficiaries",
+    urlRoot: "/api/v5/corporate_payments_beneficiaries",
 
     /**
     Default values for this model.

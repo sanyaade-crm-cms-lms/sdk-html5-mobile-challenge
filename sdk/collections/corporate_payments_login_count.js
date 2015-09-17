@@ -39,7 +39,7 @@ CitiMobileChallengeSdk.collections.CorporatePaymentsLoginCount = (function($clas
 	  	@property apiEndpoint
 	  	@type String
 		 */
-		apiEndpoint: "/api/v2/corporate_payments_logins.json",
+		apiEndpoint: "/api/v5/corporate_payments_logins.json",
 
 		/**
 		Name/value pairs included with every server request.  Extra parameters are

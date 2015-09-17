@@ -39,7 +39,7 @@ CitiMobileChallengeSdk.collections.CorporatePaymentsBeneficiaryCountExactMatch =
 	  	@property apiEndpoint
 	  	@type String
 		 */
-		apiEndpoint: "/api/v2/corporate_payments_beneficiaries.json",
+		apiEndpoint: "/api/v5/corporate_payments_beneficiaries.json",
 
 		/**
 		Name/value pairs included with every server request.  Extra parameters are

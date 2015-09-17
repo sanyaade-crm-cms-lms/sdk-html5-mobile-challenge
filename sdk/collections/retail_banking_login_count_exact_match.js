@@ -39,7 +39,7 @@ CitiMobileChallengeSdk.collections.RetailBankingLoginCountExactMatch = (function
 	  	@property apiEndpoint
 	  	@type String
 		 */
-		apiEndpoint: "/api/v2/retail_banking_logins.json",
+		apiEndpoint: "/api/v5/retail_banking_logins.json",
 
 		/**
 		Name/value pairs included with every server request.  Extra parameters are

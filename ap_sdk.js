@@ -4947,7 +4947,7 @@ CitiMobileChallengeSdk.models.CapitalMarketsActivity = (function($class, _Model,
     @property urlRoot
     @type String'
      */
-    urlRoot: "/api/v2/capital_markets_activities",
+    urlRoot: "/api/v5/capital_markets_activities",
 
     /**
     Default values for this model.
@@ -5898,7 +5898,7 @@ CitiMobileChallengeSdk.models.CapitalMarketsContact = (function($class, _Model, 
     @property urlRoot
     @type String'
      */
-    urlRoot: "/api/v2/capital_markets_contacts",
+    urlRoot: "/api/v5/capital_markets_contacts",
 
     /**
     Default values for this model.
@@ -7092,7 +7092,7 @@ CitiMobileChallengeSdk.models.CapitalMarketsContentService = (function($class, _
     @property urlRoot
     @type String'
      */
-    urlRoot: "/api/v2/capital_markets_content_services",
+    urlRoot: "/api/v5/capital_markets_content_services",
 
     /**
     Default values for this model.
@@ -12093,7 +12093,7 @@ CitiMobileChallengeSdk.models.CapitalMarketsLogin = (function($class, _Model, Ba
     @property urlRoot
     @type String'
      */
-    urlRoot: "/api/v2/capital_markets_logins",
+    urlRoot: "/api/v5/capital_markets_logins",
 
     /**
     Default values for this model.
@@ -12542,7 +12542,7 @@ CitiMobileChallengeSdk.models.CapitalMarketsOrder = (function($class, _Model, Ba
     @property urlRoot
     @type String'
      */
-    urlRoot: "/api/v2/capital_markets_orders",
+    urlRoot: "/api/v5/capital_markets_orders",
 
     /**
     Default values for this model.
@@ -13367,7 +13367,7 @@ CitiMobileChallengeSdk.models.CapitalMarketsRevenue = (function($class, _Model, 
     @property urlRoot
     @type String'
      */
-    urlRoot: "/api/v2/capital_markets_revenues",
+    urlRoot: "/api/v5/capital_markets_revenues",
 
     /**
     Default values for this model.
@@ -14480,7 +14480,7 @@ CitiMobileChallengeSdk.models.CorporatePaymentsAccount = (function($class, _Mode
     @property urlRoot
     @type String'
      */
-    urlRoot: "/api/v2/corporate_payments_accounts",
+    urlRoot: "/api/v5/corporate_payments_accounts",
 
     /**
     Default values for this model.
@@ -15254,7 +15254,7 @@ CitiMobileChallengeSdk.models.CorporatePaymentsBeneficiary = (function($class, _
     @property urlRoot
     @type String'
      */
-    urlRoot: "/api/v2/corporate_payments_beneficiaries",
+    urlRoot: "/api/v5/corporate_payments_beneficiaries",
 
     /**
     Default values for this model.
@@ -16393,7 +16393,7 @@ CitiMobileChallengeSdk.models.CorporatePaymentsCrossBorderFxBooking = (function(
     @property urlRoot
     @type String'
      */
-    urlRoot: "/api/v2/corporate_payments_cross_border_fx_bookings",
+    urlRoot: "/api/v5/corporate_payments_cross_border_fx_bookings",
 
     /**
     Default values for this model.
@@ -16834,7 +16834,7 @@ CitiMobileChallengeSdk.models.CorporatePaymentsCrossBorderFxPayment = (function(
     @property urlRoot
     @type String'
      */
-    urlRoot: "/api/v2/corporate_payments_cross_border_fx_payments",
+    urlRoot: "/api/v5/corporate_payments_cross_border_fx_payments",
 
     /**
     Default values for this model.
@@ -18444,7 +18444,7 @@ CitiMobileChallengeSdk.models.CorporatePaymentsCrossBorderFxQuote = (function($c
     @property urlRoot
     @type String'
      */
-    urlRoot: "/api/v2/corporate_payments_cross_border_fx_quotes",
+    urlRoot: "/api/v5/corporate_payments_cross_border_fx_quotes",
 
     /**
     Default values for this model.
@@ -19323,7 +19323,7 @@ CitiMobileChallengeSdk.models.CorporatePaymentsLogin = (function($class, _Model,
     @property urlRoot
     @type String'
      */
-    urlRoot: "/api/v2/corporate_payments_logins",
+    urlRoot: "/api/v5/corporate_payments_logins",
 
     /**
     Default values for this model.
@@ -19774,7 +19774,7 @@ CitiMobileChallengeSdk.models.CorporatePaymentsPayment = (function($class, _Mode
     @property urlRoot
     @type String'
      */
-    urlRoot: "/api/v2/corporate_payments_payments",
+    urlRoot: "/api/v5/corporate_payments_payments",
 
     /**
     Default values for this model.
@@ -21221,7 +21221,7 @@ CitiMobileChallengeSdk.models.RetailBankingAccount = (function($class, _Model, B
     @property urlRoot
     @type String'
      */
-    urlRoot: "/api/v2/retail_banking_accounts",
+    urlRoot: "/api/v5/retail_banking_accounts",
 
     /**
     Default values for this model.
@@ -22538,7 +22538,7 @@ CitiMobileChallengeSdk.models.RetailBankingAccountBalance = (function($class, _M
     @property urlRoot
     @type String'
      */
-    urlRoot: "/api/v2/retail_banking_account_balances",
+    urlRoot: "/api/v5/retail_banking_account_balances",
 
     /**
     Default values for this model.
@@ -23084,7 +23084,7 @@ CitiMobileChallengeSdk.models.RetailBankingAccountFundTransfer = (function($clas
     @property urlRoot
     @type String'
      */
-    urlRoot: "/api/v2/retail_banking_account_fund_transfers",
+    urlRoot: "/api/v5/retail_banking_account_fund_transfers",
 
     /**
     Default values for this model.
@@ -24262,7 +24262,7 @@ CitiMobileChallengeSdk.models.RetailBankingAccountTransaction = (function($class
     @property urlRoot
     @type String'
      */
-    urlRoot: "/api/v2/retail_banking_account_transactions",
+    urlRoot: "/api/v5/retail_banking_account_transactions",
 
     /**
     Default values for this model.
@@ -25456,7 +25456,7 @@ CitiMobileChallengeSdk.models.RetailBankingForeignCurrency = (function($class, _
     @property urlRoot
     @type String'
      */
-    urlRoot: "/api/v2/retail_banking_foreign_currencies",
+    urlRoot: "/api/v5/retail_banking_foreign_currencies",
 
     /**
     Default values for this model.
@@ -26002,7 +26002,7 @@ CitiMobileChallengeSdk.models.RetailBankingLocation = (function($class, _Model, 
     @property urlRoot
     @type String'
      */
-    urlRoot: "/api/v2/retail_banking_locations",
+    urlRoot: "/api/v5/retail_banking_locations",
 
     /**
     Default values for this model.
@@ -27358,7 +27358,7 @@ CitiMobileChallengeSdk.models.RetailBankingLogin = (function($class, _Model, Bac
     @property urlRoot
     @type String'
      */
-    urlRoot: "/api/v2/retail_banking_logins",
+    urlRoot: "/api/v5/retail_banking_logins",
 
     /**
     Default values for this model.
@@ -27955,7 +27955,7 @@ CitiMobileChallengeSdk.models.RetailBankingPayee = (function($class, _Model, Bac
     @property urlRoot
     @type String'
      */
-    urlRoot: "/api/v2/retail_banking_payees",
+    urlRoot: "/api/v5/retail_banking_payees",
 
     /**
     Default values for this model.
@@ -29068,7 +29068,7 @@ CitiMobileChallengeSdk.models.RetailBankingPayeeType = (function($class, _Model,
     @property urlRoot
     @type String'
      */
-    urlRoot: "/api/v2/retail_banking_payee_types",
+    urlRoot: "/api/v5/retail_banking_payee_types",
 
     /**
     Default values for this model.
@@ -29405,6 +29405,1266 @@ CitiMobileChallengeSdk.models.RetailBankingPayeeType = (function($class, _Model,
 })(AP.utility.createClass, AP.model.Model, Backbone);
 
 /**
+RetailBankingRewardsCatalog model for application `CitiMobileChallengeSdk`.  See
+`AP.model.Model` for more information about models.
+
+@module CitiMobileChallengeSdk
+@submodule models
+@class RetailBankingRewardsCatalog
+@extends AP.model.Model
+ */
+CitiMobileChallengeSdk.models.RetailBankingRewardsCatalog = (function($class, _Model, Backbone) {
+
+  var RetailBankingRewardsCatalog = $class({
+
+    extends: _Model,
+
+    _constructor: function RetailBankingRewardsCatalog() {
+      CitiMobileChallengeSdk.models.RetailBankingRewardsCatalog._super.constructor.apply(this, arguments);
+    },
+
+    static: {
+      /**
+      The model ID may be used to look-up a model from an application class.
+      @property modelId
+      @type String
+      @static
+       */
+      modelId: "",
+
+      /**
+      The model name may be used to look-up a model from an application class.
+      @property name
+      @type String
+       */
+      name: "RetailBankingRewardsCatalog"
+    },
+
+    /**
+    The model name may be used to look-up a model from an application class.
+    @property name
+    @type String
+     */
+    name: "RetailBankingRewardsCatalog",
+
+    /**
+    Server requests for model instances use this URL.
+    @property urlRoot
+    @type String'
+     */
+    urlRoot: "/api/v5/retail_banking_rewards_catalogs",
+
+    /**
+    Default values for this model.
+    @property defaults
+    @type Object
+    */
+    defaults: {
+      
+      "id": null,
+      
+      "item_category": null,
+      
+      "item_code": null,
+      
+      "item_description": null,
+      
+      "item_name": null,
+      
+      "point_required": null,
+      
+      "points_available": null,
+      
+    },
+
+    /**
+    Array of field definition configurations.  Field definitions describe fields
+    available on this model.
+    @property fieldDefinitions
+    @type Array
+     */
+    fieldDefinitions: [
+    
+      {
+      // TODO where is the field ID?
+      //id: 
+      name: "id",
+      label: "id",
+      
+      
+      type: "integer",
+      required: false,
+      file_url: false,
+      file_type: "Image",
+      },
+    
+      {
+      // TODO where is the field ID?
+      //id: 
+      name: "item_category",
+      label: "item_category",
+      
+      
+      type: "string",
+      required: false,
+      file_url: false,
+      file_type: "Image",
+      },
+    
+      {
+      // TODO where is the field ID?
+      //id: 
+      name: "item_code",
+      label: "item_code",
+      
+      
+      type: "string",
+      required: false,
+      file_url: false,
+      file_type: "Image",
+      },
+    
+      {
+      // TODO where is the field ID?
+      //id: 
+      name: "item_description",
+      label: "item_description",
+      
+      
+      type: "string",
+      required: false,
+      file_url: false,
+      file_type: "Image",
+      },
+    
+      {
+      // TODO where is the field ID?
+      //id: 
+      name: "item_name",
+      label: "item_name",
+      
+      
+      type: "string",
+      required: false,
+      file_url: false,
+      file_type: "Image",
+      },
+    
+      {
+      // TODO where is the field ID?
+      //id: 
+      name: "point_required",
+      label: "point_required",
+      
+      
+      type: "integer",
+      required: false,
+      file_url: false,
+      file_type: "Image",
+      },
+    
+      {
+      // TODO where is the field ID?
+      //id: 
+      name: "points_available",
+      label: "points_available",
+      
+      
+      type: "integer",
+      required: false,
+      file_url: false,
+      file_type: "Image",
+      },
+    
+    ],
+
+    /**
+    Array of field names.  Auto keys, generally such as `id`, have their values
+    filled automatically by the server.  Non-auto keys are all other fields.
+    @property nonAutoKeyFields
+    @type Array
+     */
+    nonAutoKeyFields: [
+      
+    ],
+
+    /**
+    Array of relationship definitions.
+    @property relationshipDefinitions
+    @type Array
+     */
+    relationshipDefinitions: [
+      
+      
+      
+    ],
+
+    /**
+    Array of validation configurations.  See `AP.model.Model` for more information
+    about validations.
+    @property validations
+    @type Array
+     */
+    validations: [
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    ],
+
+    /**
+    Name of the interface to use. Can be an HttpAdapter or the default connection
+    to an Anypresence API.
+    @property storage_interface
+    @type String
+    */
+    storage_interface: "RetailBanking",
+
+    /**
+    Adapter configurations for create, update, read and delete actions on a model.
+    Only required for models whose adapter interface is an HttpAdapter.
+    @property adapter_configuration
+    @type Object
+    */
+    adapter_configuration: {
+
+      
+      create: {
+        request_field_level_mappings: [
+          
+            {
+              type: "RequestFieldLevelMapping",
+              remote_field_name: "points_available",
+              field_definition: {
+                name: "points_available"
+              }
+            },
+          
+            {
+              type: "RequestFieldLevelMapping",
+              remote_field_name: "point_required",
+              field_definition: {
+                name: "point_required"
+              }
+            },
+          
+            {
+              type: "RequestFieldLevelMapping",
+              remote_field_name: "item_name",
+              field_definition: {
+                name: "item_name"
+              }
+            },
+          
+            {
+              type: "RequestFieldLevelMapping",
+              remote_field_name: "item_description",
+              field_definition: {
+                name: "item_description"
+              }
+            },
+          
+            {
+              type: "RequestFieldLevelMapping",
+              remote_field_name: "item_code",
+              field_definition: {
+                name: "item_code"
+              }
+            },
+          
+            {
+              type: "RequestFieldLevelMapping",
+              remote_field_name: "item_category",
+              field_definition: {
+                name: "item_category"
+              }
+            },
+          
+            {
+              type: "RequestFieldLevelMapping",
+              remote_field_name: "id",
+              field_definition: {
+                name: "id"
+              }
+            },
+          
+        ],
+        response_field_level_mappings: [
+          
+            {
+              type: "ResponseFieldLevelMapping",
+              remote_field_name: "points_available",
+              field_definition: {
+                name: "points_available"
+              }
+            },
+          
+            {
+              type: "ResponseFieldLevelMapping",
+              remote_field_name: "point_required",
+              field_definition: {
+                name: "point_required"
+              }
+            },
+          
+            {
+              type: "ResponseFieldLevelMapping",
+              remote_field_name: "item_name",
+              field_definition: {
+                name: "item_name"
+              }
+            },
+          
+            {
+              type: "ResponseFieldLevelMapping",
+              remote_field_name: "item_description",
+              field_definition: {
+                name: "item_description"
+              }
+            },
+          
+            {
+              type: "ResponseFieldLevelMapping",
+              remote_field_name: "item_code",
+              field_definition: {
+                name: "item_code"
+              }
+            },
+          
+            {
+              type: "ResponseFieldLevelMapping",
+              remote_field_name: "item_category",
+              field_definition: {
+                name: "item_category"
+              }
+            },
+          
+            {
+              type: "ResponseFieldLevelMapping",
+              remote_field_name: "id",
+              field_definition: {
+                name: "id"
+              }
+            },
+          
+        ],
+        http_verb: "POST",
+        path_selector : "$",
+        incremental_path : "",
+        body_format : "json",
+        object_name_mapping : "",
+        body_payload_template : "",
+        action : "create",
+        incremental_headers: [
+          
+        ],
+        incremental_url_parameters: [
+          
+        ]
+      },
+      
+
+      
+      update: {
+        request_field_level_mappings: [
+          
+            {
+              type: "RequestFieldLevelMapping",
+              remote_field_name: "points_available",
+              field_definition: {
+                name: "points_available"
+              }
+            },
+          
+            {
+              type: "RequestFieldLevelMapping",
+              remote_field_name: "point_required",
+              field_definition: {
+                name: "point_required"
+              }
+            },
+          
+            {
+              type: "RequestFieldLevelMapping",
+              remote_field_name: "item_name",
+              field_definition: {
+                name: "item_name"
+              }
+            },
+          
+            {
+              type: "RequestFieldLevelMapping",
+              remote_field_name: "item_description",
+              field_definition: {
+                name: "item_description"
+              }
+            },
+          
+            {
+              type: "RequestFieldLevelMapping",
+              remote_field_name: "item_code",
+              field_definition: {
+                name: "item_code"
+              }
+            },
+          
+            {
+              type: "RequestFieldLevelMapping",
+              remote_field_name: "item_category",
+              field_definition: {
+                name: "item_category"
+              }
+            },
+          
+            {
+              type: "RequestFieldLevelMapping",
+              remote_field_name: "id",
+              field_definition: {
+                name: "id"
+              }
+            },
+          
+        ],
+        response_field_level_mappings: [
+          
+            {
+              type: "ResponseFieldLevelMapping",
+              remote_field_name: "points_available",
+              field_definition: {
+                name: "points_available"
+              }
+            },
+          
+            {
+              type: "ResponseFieldLevelMapping",
+              remote_field_name: "point_required",
+              field_definition: {
+                name: "point_required"
+              }
+            },
+          
+            {
+              type: "ResponseFieldLevelMapping",
+              remote_field_name: "item_name",
+              field_definition: {
+                name: "item_name"
+              }
+            },
+          
+            {
+              type: "ResponseFieldLevelMapping",
+              remote_field_name: "item_description",
+              field_definition: {
+                name: "item_description"
+              }
+            },
+          
+            {
+              type: "ResponseFieldLevelMapping",
+              remote_field_name: "item_code",
+              field_definition: {
+                name: "item_code"
+              }
+            },
+          
+            {
+              type: "ResponseFieldLevelMapping",
+              remote_field_name: "item_category",
+              field_definition: {
+                name: "item_category"
+              }
+            },
+          
+            {
+              type: "ResponseFieldLevelMapping",
+              remote_field_name: "id",
+              field_definition: {
+                name: "id"
+              }
+            },
+          
+        ],
+        http_verb: "PUT",
+        path_selector : "$",
+        incremental_path : "",
+        body_format : "json",
+        object_name_mapping : "",
+        body_payload_template : "",
+        action : "update",
+        incremental_headers: [
+          
+        ],
+        incremental_url_parameters: [
+          
+        ]
+      },
+      
+
+      
+      read: {
+        request_field_level_mappings: [
+          
+            {
+              type: "RequestFieldLevelMapping",
+              remote_field_name: "points_available",
+              field_definition: {
+                name: "points_available"
+              }
+            },
+          
+            {
+              type: "RequestFieldLevelMapping",
+              remote_field_name: "point_required",
+              field_definition: {
+                name: "point_required"
+              }
+            },
+          
+            {
+              type: "RequestFieldLevelMapping",
+              remote_field_name: "item_name",
+              field_definition: {
+                name: "item_name"
+              }
+            },
+          
+            {
+              type: "RequestFieldLevelMapping",
+              remote_field_name: "item_description",
+              field_definition: {
+                name: "item_description"
+              }
+            },
+          
+            {
+              type: "RequestFieldLevelMapping",
+              remote_field_name: "item_code",
+              field_definition: {
+                name: "item_code"
+              }
+            },
+          
+            {
+              type: "RequestFieldLevelMapping",
+              remote_field_name: "item_category",
+              field_definition: {
+                name: "item_category"
+              }
+            },
+          
+            {
+              type: "RequestFieldLevelMapping",
+              remote_field_name: "id",
+              field_definition: {
+                name: "id"
+              }
+            },
+          
+        ],
+        response_field_level_mappings: [
+          
+            {
+              type: "ResponseFieldLevelMapping",
+              remote_field_name: "points_available",
+              field_definition: {
+                name: "points_available"
+              }
+            },
+          
+            {
+              type: "ResponseFieldLevelMapping",
+              remote_field_name: "point_required",
+              field_definition: {
+                name: "point_required"
+              }
+            },
+          
+            {
+              type: "ResponseFieldLevelMapping",
+              remote_field_name: "item_name",
+              field_definition: {
+                name: "item_name"
+              }
+            },
+          
+            {
+              type: "ResponseFieldLevelMapping",
+              remote_field_name: "item_description",
+              field_definition: {
+                name: "item_description"
+              }
+            },
+          
+            {
+              type: "ResponseFieldLevelMapping",
+              remote_field_name: "item_code",
+              field_definition: {
+                name: "item_code"
+              }
+            },
+          
+            {
+              type: "ResponseFieldLevelMapping",
+              remote_field_name: "item_category",
+              field_definition: {
+                name: "item_category"
+              }
+            },
+          
+            {
+              type: "ResponseFieldLevelMapping",
+              remote_field_name: "id",
+              field_definition: {
+                name: "id"
+              }
+            },
+          
+        ],
+        http_verb: "GET",
+        path_selector : "$",
+        incremental_path : "",
+        body_format : "json",
+        object_name_mapping : "",
+        body_payload_template : "",
+        action : "read",
+        incremental_headers: [
+          
+        ],
+        incremental_url_parameters: [
+          
+        ]
+      },
+      
+
+      
+      delete: {
+        request_field_level_mappings: [
+          
+            {
+              type: "RequestFieldLevelMapping",
+              remote_field_name: "points_available",
+              field_definition: {
+                name: "points_available"
+              }
+            },
+          
+            {
+              type: "RequestFieldLevelMapping",
+              remote_field_name: "point_required",
+              field_definition: {
+                name: "point_required"
+              }
+            },
+          
+            {
+              type: "RequestFieldLevelMapping",
+              remote_field_name: "item_name",
+              field_definition: {
+                name: "item_name"
+              }
+            },
+          
+            {
+              type: "RequestFieldLevelMapping",
+              remote_field_name: "item_description",
+              field_definition: {
+                name: "item_description"
+              }
+            },
+          
+            {
+              type: "RequestFieldLevelMapping",
+              remote_field_name: "item_code",
+              field_definition: {
+                name: "item_code"
+              }
+            },
+          
+            {
+              type: "RequestFieldLevelMapping",
+              remote_field_name: "item_category",
+              field_definition: {
+                name: "item_category"
+              }
+            },
+          
+            {
+              type: "RequestFieldLevelMapping",
+              remote_field_name: "id",
+              field_definition: {
+                name: "id"
+              }
+            },
+          
+        ],
+        response_field_level_mappings: [
+          
+            {
+              type: "ResponseFieldLevelMapping",
+              remote_field_name: "points_available",
+              field_definition: {
+                name: "points_available"
+              }
+            },
+          
+            {
+              type: "ResponseFieldLevelMapping",
+              remote_field_name: "point_required",
+              field_definition: {
+                name: "point_required"
+              }
+            },
+          
+            {
+              type: "ResponseFieldLevelMapping",
+              remote_field_name: "item_name",
+              field_definition: {
+                name: "item_name"
+              }
+            },
+          
+            {
+              type: "ResponseFieldLevelMapping",
+              remote_field_name: "item_description",
+              field_definition: {
+                name: "item_description"
+              }
+            },
+          
+            {
+              type: "ResponseFieldLevelMapping",
+              remote_field_name: "item_code",
+              field_definition: {
+                name: "item_code"
+              }
+            },
+          
+            {
+              type: "ResponseFieldLevelMapping",
+              remote_field_name: "item_category",
+              field_definition: {
+                name: "item_category"
+              }
+            },
+          
+            {
+              type: "ResponseFieldLevelMapping",
+              remote_field_name: "id",
+              field_definition: {
+                name: "id"
+              }
+            },
+          
+        ],
+        http_verb: "DELETE",
+        path_selector : "",
+        incremental_path : "",
+        body_format : "json",
+        object_name_mapping : "",
+        body_payload_template : "",
+        action : "delete",
+        incremental_headers: [
+          
+        ],
+        incremental_url_parameters: [
+          
+        ]
+      },
+      
+    }
+
+  });
+
+  // mixin Backbone events on the model class
+  _.extend(RetailBankingRewardsCatalog, Backbone.Events);
+
+  return RetailBankingRewardsCatalog;
+
+})(AP.utility.createClass, AP.model.Model, Backbone);
+
+/**
+RetailBankingRewardsRedemption model for application `CitiMobileChallengeSdk`.  See
+`AP.model.Model` for more information about models.
+
+@module CitiMobileChallengeSdk
+@submodule models
+@class RetailBankingRewardsRedemption
+@extends AP.model.Model
+ */
+CitiMobileChallengeSdk.models.RetailBankingRewardsRedemption = (function($class, _Model, Backbone) {
+
+  var RetailBankingRewardsRedemption = $class({
+
+    extends: _Model,
+
+    _constructor: function RetailBankingRewardsRedemption() {
+      CitiMobileChallengeSdk.models.RetailBankingRewardsRedemption._super.constructor.apply(this, arguments);
+    },
+
+    static: {
+      /**
+      The model ID may be used to look-up a model from an application class.
+      @property modelId
+      @type String
+      @static
+       */
+      modelId: "",
+
+      /**
+      The model name may be used to look-up a model from an application class.
+      @property name
+      @type String
+       */
+      name: "RetailBankingRewardsRedemption"
+    },
+
+    /**
+    The model name may be used to look-up a model from an application class.
+    @property name
+    @type String
+     */
+    name: "RetailBankingRewardsRedemption",
+
+    /**
+    Server requests for model instances use this URL.
+    @property urlRoot
+    @type String'
+     */
+    urlRoot: "/api/v5/retail_banking_rewards_redemptions",
+
+    /**
+    Default values for this model.
+    @property defaults
+    @type Object
+    */
+    defaults: {
+      
+      "id": null,
+      
+      "points_available": null,
+      
+      "redemption_details": null,
+      
+    },
+
+    /**
+    Array of field definition configurations.  Field definitions describe fields
+    available on this model.
+    @property fieldDefinitions
+    @type Array
+     */
+    fieldDefinitions: [
+    
+      {
+      // TODO where is the field ID?
+      //id: 
+      name: "id",
+      label: "id",
+      
+      
+      type: "integer",
+      required: false,
+      file_url: false,
+      file_type: "Image",
+      },
+    
+      {
+      // TODO where is the field ID?
+      //id: 
+      name: "points_available",
+      label: "points_available",
+      
+      
+      type: "integer",
+      required: false,
+      file_url: false,
+      file_type: "Image",
+      },
+    
+      {
+      // TODO where is the field ID?
+      //id: 
+      name: "redemption_details",
+      label: "redemption_details",
+      
+      
+      type: "array",
+      required: false,
+      file_url: false,
+      file_type: "Image",
+      },
+    
+    ],
+
+    /**
+    Array of field names.  Auto keys, generally such as `id`, have their values
+    filled automatically by the server.  Non-auto keys are all other fields.
+    @property nonAutoKeyFields
+    @type Array
+     */
+    nonAutoKeyFields: [
+      
+    ],
+
+    /**
+    Array of relationship definitions.
+    @property relationshipDefinitions
+    @type Array
+     */
+    relationshipDefinitions: [
+      
+      
+      
+    ],
+
+    /**
+    Array of validation configurations.  See `AP.model.Model` for more information
+    about validations.
+    @property validations
+    @type Array
+     */
+    validations: [
+      
+      
+      
+      
+      
+      
+      
+    ],
+
+    /**
+    Name of the interface to use. Can be an HttpAdapter or the default connection
+    to an Anypresence API.
+    @property storage_interface
+    @type String
+    */
+    storage_interface: "RetailBanking",
+
+    /**
+    Adapter configurations for create, update, read and delete actions on a model.
+    Only required for models whose adapter interface is an HttpAdapter.
+    @property adapter_configuration
+    @type Object
+    */
+    adapter_configuration: {
+
+      
+      create: {
+        request_field_level_mappings: [
+          
+            {
+              type: "RequestFieldLevelMapping",
+              remote_field_name: "redemption_details",
+              field_definition: {
+                name: "redemption_details"
+              }
+            },
+          
+        ],
+        response_field_level_mappings: [
+          
+            {
+              type: "ResponseFieldLevelMapping",
+              remote_field_name: "redemption_details",
+              field_definition: {
+                name: "redemption_details"
+              }
+            },
+          
+            {
+              type: "ResponseFieldLevelMapping",
+              remote_field_name: "points_available",
+              field_definition: {
+                name: "points_available"
+              }
+            },
+          
+        ],
+        http_verb: "POST",
+        path_selector : "$",
+        incremental_path : "/rewards/redemption",
+        body_format : "json",
+        object_name_mapping : "",
+        body_payload_template : "",
+        action : "create",
+        incremental_headers: [
+          
+        ],
+        incremental_url_parameters: [
+          
+            {
+              name: "state",
+              value: "{{query.query.state}}"
+            },
+          
+            {
+              name: "email",
+              value: "{{query.query.email}}"
+            },
+          
+            {
+              name: "address_line1",
+              value: "{{query.query.address_line1}}"
+            },
+          
+            {
+              name: "address_line2",
+              value: "{{query.query.address_line2}}"
+            },
+          
+            {
+              name: "country",
+              value: "{{query.query.country}}"
+            },
+          
+            {
+              name: "zipcode",
+              value: "{{query.query.zipcode}}"
+            },
+          
+        ]
+      },
+      
+
+      
+      update: {
+        request_field_level_mappings: [
+          
+            {
+              type: "RequestFieldLevelMapping",
+              remote_field_name: "redemption_details",
+              field_definition: {
+                name: "redemption_details"
+              }
+            },
+          
+            {
+              type: "RequestFieldLevelMapping",
+              remote_field_name: "points_available",
+              field_definition: {
+                name: "points_available"
+              }
+            },
+          
+            {
+              type: "RequestFieldLevelMapping",
+              remote_field_name: "id",
+              field_definition: {
+                name: "id"
+              }
+            },
+          
+        ],
+        response_field_level_mappings: [
+          
+            {
+              type: "ResponseFieldLevelMapping",
+              remote_field_name: "redemption_details",
+              field_definition: {
+                name: "redemption_details"
+              }
+            },
+          
+            {
+              type: "ResponseFieldLevelMapping",
+              remote_field_name: "points_available",
+              field_definition: {
+                name: "points_available"
+              }
+            },
+          
+            {
+              type: "ResponseFieldLevelMapping",
+              remote_field_name: "id",
+              field_definition: {
+                name: "id"
+              }
+            },
+          
+        ],
+        http_verb: "PUT",
+        path_selector : "$",
+        incremental_path : "",
+        body_format : "json",
+        object_name_mapping : "",
+        body_payload_template : "",
+        action : "update",
+        incremental_headers: [
+          
+        ],
+        incremental_url_parameters: [
+          
+        ]
+      },
+      
+
+      
+      read: {
+        request_field_level_mappings: [
+          
+            {
+              type: "RequestFieldLevelMapping",
+              remote_field_name: "redemption_details",
+              field_definition: {
+                name: "redemption_details"
+              }
+            },
+          
+            {
+              type: "RequestFieldLevelMapping",
+              remote_field_name: "points_available",
+              field_definition: {
+                name: "points_available"
+              }
+            },
+          
+            {
+              type: "RequestFieldLevelMapping",
+              remote_field_name: "id",
+              field_definition: {
+                name: "id"
+              }
+            },
+          
+        ],
+        response_field_level_mappings: [
+          
+            {
+              type: "ResponseFieldLevelMapping",
+              remote_field_name: "redemption_details",
+              field_definition: {
+                name: "redemption_details"
+              }
+            },
+          
+            {
+              type: "ResponseFieldLevelMapping",
+              remote_field_name: "points_available",
+              field_definition: {
+                name: "points_available"
+              }
+            },
+          
+            {
+              type: "ResponseFieldLevelMapping",
+              remote_field_name: "id",
+              field_definition: {
+                name: "id"
+              }
+            },
+          
+        ],
+        http_verb: "GET",
+        path_selector : "$",
+        incremental_path : "",
+        body_format : "json",
+        object_name_mapping : "",
+        body_payload_template : "",
+        action : "read",
+        incremental_headers: [
+          
+        ],
+        incremental_url_parameters: [
+          
+        ]
+      },
+      
+
+      
+      delete: {
+        request_field_level_mappings: [
+          
+            {
+              type: "RequestFieldLevelMapping",
+              remote_field_name: "redemption_details",
+              field_definition: {
+                name: "redemption_details"
+              }
+            },
+          
+            {
+              type: "RequestFieldLevelMapping",
+              remote_field_name: "points_available",
+              field_definition: {
+                name: "points_available"
+              }
+            },
+          
+            {
+              type: "RequestFieldLevelMapping",
+              remote_field_name: "id",
+              field_definition: {
+                name: "id"
+              }
+            },
+          
+        ],
+        response_field_level_mappings: [
+          
+            {
+              type: "ResponseFieldLevelMapping",
+              remote_field_name: "redemption_details",
+              field_definition: {
+                name: "redemption_details"
+              }
+            },
+          
+            {
+              type: "ResponseFieldLevelMapping",
+              remote_field_name: "points_available",
+              field_definition: {
+                name: "points_available"
+              }
+            },
+          
+            {
+              type: "ResponseFieldLevelMapping",
+              remote_field_name: "id",
+              field_definition: {
+                name: "id"
+              }
+            },
+          
+        ],
+        http_verb: "DELETE",
+        path_selector : "",
+        incremental_path : "",
+        body_format : "json",
+        object_name_mapping : "",
+        body_payload_template : "",
+        action : "delete",
+        incremental_headers: [
+          
+        ],
+        incremental_url_parameters: [
+          
+        ]
+      },
+      
+    }
+
+  });
+
+  // mixin Backbone events on the model class
+  _.extend(RetailBankingRewardsRedemption, Backbone.Events);
+
+  return RetailBankingRewardsRedemption;
+
+})(AP.utility.createClass, AP.model.Model, Backbone);
+
+/**
 CapitalMarketsActivityActivitiesis a scope collection for application `CitiMobileChallengeSdk`.  See
 `AP.collection.ScopeCollection` for more information about scopes.
 
@@ -29447,7 +30707,7 @@ CitiMobileChallengeSdk.collections.CapitalMarketsActivityActivities = (function(
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/capital_markets_activities.json",
+        apiEndpoint: "/api/v5/capital_markets_activities.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -29641,7 +30901,7 @@ CitiMobileChallengeSdk.collections.CapitalMarketsActivityAll = (function($class,
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/capital_markets_activities.json",
+        apiEndpoint: "/api/v5/capital_markets_activities.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -29895,7 +31155,7 @@ CitiMobileChallengeSdk.collections.CapitalMarketsActivityCount = (function($clas
 	  	@property apiEndpoint
 	  	@type String
 		 */
-		apiEndpoint: "/api/v2/capital_markets_activities.json",
+		apiEndpoint: "/api/v5/capital_markets_activities.json",
 
 		/**
 		Name/value pairs included with every server request.  Extra parameters are
@@ -30149,7 +31409,7 @@ CitiMobileChallengeSdk.collections.CapitalMarketsActivityCountExactMatch = (func
 	  	@property apiEndpoint
 	  	@type String
 		 */
-		apiEndpoint: "/api/v2/capital_markets_activities.json",
+		apiEndpoint: "/api/v5/capital_markets_activities.json",
 
 		/**
 		Name/value pairs included with every server request.  Extra parameters are
@@ -30405,7 +31665,7 @@ CitiMobileChallengeSdk.collections.CapitalMarketsActivityExactMatch = (function(
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/capital_markets_activities.json",
+        apiEndpoint: "/api/v5/capital_markets_activities.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -30661,7 +31921,7 @@ CitiMobileChallengeSdk.collections.CapitalMarketsContactAll = (function($class, 
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/capital_markets_contacts.json",
+        apiEndpoint: "/api/v5/capital_markets_contacts.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -30965,7 +32225,7 @@ CitiMobileChallengeSdk.collections.CapitalMarketsContactContacts = (function($cl
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/capital_markets_contacts.json",
+        apiEndpoint: "/api/v5/capital_markets_contacts.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -31191,7 +32451,7 @@ CitiMobileChallengeSdk.collections.CapitalMarketsContactCount = (function($class
 	  	@property apiEndpoint
 	  	@type String
 		 */
-		apiEndpoint: "/api/v2/capital_markets_contacts.json",
+		apiEndpoint: "/api/v5/capital_markets_contacts.json",
 
 		/**
 		Name/value pairs included with every server request.  Extra parameters are
@@ -31493,7 +32753,7 @@ CitiMobileChallengeSdk.collections.CapitalMarketsContactCountExactMatch = (funct
 	  	@property apiEndpoint
 	  	@type String
 		 */
-		apiEndpoint: "/api/v2/capital_markets_contacts.json",
+		apiEndpoint: "/api/v5/capital_markets_contacts.json",
 
 		/**
 		Name/value pairs included with every server request.  Extra parameters are
@@ -31797,7 +33057,7 @@ CitiMobileChallengeSdk.collections.CapitalMarketsContactExactMatch = (function($
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/capital_markets_contacts.json",
+        apiEndpoint: "/api/v5/capital_markets_contacts.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -32101,7 +33361,7 @@ CitiMobileChallengeSdk.collections.CapitalMarketsContentServiceAll = (function($
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/capital_markets_content_services.json",
+        apiEndpoint: "/api/v5/capital_markets_content_services.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -33157,7 +34417,7 @@ CitiMobileChallengeSdk.collections.CapitalMarketsContentServiceContentServices =
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/capital_markets_content_services.json",
+        apiEndpoint: "/api/v5/capital_markets_content_services.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -33749,7 +35009,7 @@ CitiMobileChallengeSdk.collections.CapitalMarketsContentServiceCount = (function
 	  	@property apiEndpoint
 	  	@type String
 		 */
-		apiEndpoint: "/api/v2/capital_markets_content_services.json",
+		apiEndpoint: "/api/v5/capital_markets_content_services.json",
 
 		/**
 		Name/value pairs included with every server request.  Extra parameters are
@@ -34803,7 +36063,7 @@ CitiMobileChallengeSdk.collections.CapitalMarketsContentServiceCountExactMatch =
 	  	@property apiEndpoint
 	  	@type String
 		 */
-		apiEndpoint: "/api/v2/capital_markets_content_services.json",
+		apiEndpoint: "/api/v5/capital_markets_content_services.json",
 
 		/**
 		Name/value pairs included with every server request.  Extra parameters are
@@ -35859,7 +37119,7 @@ CitiMobileChallengeSdk.collections.CapitalMarketsContentServiceExactMatch = (fun
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/capital_markets_content_services.json",
+        apiEndpoint: "/api/v5/capital_markets_content_services.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -36915,7 +38175,7 @@ CitiMobileChallengeSdk.collections.CapitalMarketsLoginAll = (function($class, _S
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/capital_markets_logins.json",
+        apiEndpoint: "/api/v5/capital_markets_logins.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -37073,7 +38333,7 @@ CitiMobileChallengeSdk.collections.CapitalMarketsLoginCount = (function($class, 
 	  	@property apiEndpoint
 	  	@type String
 		 */
-		apiEndpoint: "/api/v2/capital_markets_logins.json",
+		apiEndpoint: "/api/v5/capital_markets_logins.json",
 
 		/**
 		Name/value pairs included with every server request.  Extra parameters are
@@ -37231,7 +38491,7 @@ CitiMobileChallengeSdk.collections.CapitalMarketsLoginCountExactMatch = (functio
 	  	@property apiEndpoint
 	  	@type String
 		 */
-		apiEndpoint: "/api/v2/capital_markets_logins.json",
+		apiEndpoint: "/api/v5/capital_markets_logins.json",
 
 		/**
 		Name/value pairs included with every server request.  Extra parameters are
@@ -37391,7 +38651,7 @@ CitiMobileChallengeSdk.collections.CapitalMarketsLoginExactMatch = (function($cl
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/capital_markets_logins.json",
+        apiEndpoint: "/api/v5/capital_markets_logins.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -37551,7 +38811,7 @@ CitiMobileChallengeSdk.collections.CapitalMarketsOrderAll = (function($class, _S
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/capital_markets_orders.json",
+        apiEndpoint: "/api/v5/capital_markets_orders.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -37837,7 +39097,7 @@ CitiMobileChallengeSdk.collections.CapitalMarketsOrderCount = (function($class, 
 	  	@property apiEndpoint
 	  	@type String
 		 */
-		apiEndpoint: "/api/v2/capital_markets_orders.json",
+		apiEndpoint: "/api/v5/capital_markets_orders.json",
 
 		/**
 		Name/value pairs included with every server request.  Extra parameters are
@@ -38123,7 +39383,7 @@ CitiMobileChallengeSdk.collections.CapitalMarketsOrderCountExactMatch = (functio
 	  	@property apiEndpoint
 	  	@type String
 		 */
-		apiEndpoint: "/api/v2/capital_markets_orders.json",
+		apiEndpoint: "/api/v5/capital_markets_orders.json",
 
 		/**
 		Name/value pairs included with every server request.  Extra parameters are
@@ -38411,7 +39671,7 @@ CitiMobileChallengeSdk.collections.CapitalMarketsOrderExactMatch = (function($cl
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/capital_markets_orders.json",
+        apiEndpoint: "/api/v5/capital_markets_orders.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -38699,7 +39959,7 @@ CitiMobileChallengeSdk.collections.CapitalMarketsRevenueAll = (function($class, 
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/capital_markets_revenues.json",
+        apiEndpoint: "/api/v5/capital_markets_revenues.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -38985,7 +40245,7 @@ CitiMobileChallengeSdk.collections.CapitalMarketsRevenueCount = (function($class
 	  	@property apiEndpoint
 	  	@type String
 		 */
-		apiEndpoint: "/api/v2/capital_markets_revenues.json",
+		apiEndpoint: "/api/v5/capital_markets_revenues.json",
 
 		/**
 		Name/value pairs included with every server request.  Extra parameters are
@@ -39271,7 +40531,7 @@ CitiMobileChallengeSdk.collections.CapitalMarketsRevenueCountExactMatch = (funct
 	  	@property apiEndpoint
 	  	@type String
 		 */
-		apiEndpoint: "/api/v2/capital_markets_revenues.json",
+		apiEndpoint: "/api/v5/capital_markets_revenues.json",
 
 		/**
 		Name/value pairs included with every server request.  Extra parameters are
@@ -39559,7 +40819,7 @@ CitiMobileChallengeSdk.collections.CapitalMarketsRevenueExactMatch = (function($
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/capital_markets_revenues.json",
+        apiEndpoint: "/api/v5/capital_markets_revenues.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -39847,7 +41107,7 @@ CitiMobileChallengeSdk.collections.CapitalMarketsRevenueRevenues = (function($cl
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/capital_markets_revenues.json",
+        apiEndpoint: "/api/v5/capital_markets_revenues.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -40067,7 +41327,7 @@ CitiMobileChallengeSdk.collections.CorporatePaymentsAccountAll = (function($clas
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/corporate_payments_accounts.json",
+        apiEndpoint: "/api/v5/corporate_payments_accounts.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -40241,7 +41501,7 @@ CitiMobileChallengeSdk.collections.CorporatePaymentsAccountCount = (function($cl
 	  	@property apiEndpoint
 	  	@type String
 		 */
-		apiEndpoint: "/api/v2/corporate_payments_accounts.json",
+		apiEndpoint: "/api/v5/corporate_payments_accounts.json",
 
 		/**
 		Name/value pairs included with every server request.  Extra parameters are
@@ -40479,7 +41739,7 @@ CitiMobileChallengeSdk.collections.CorporatePaymentsAccountCountExactMatch = (fu
 	  	@property apiEndpoint
 	  	@type String
 		 */
-		apiEndpoint: "/api/v2/corporate_payments_accounts.json",
+		apiEndpoint: "/api/v5/corporate_payments_accounts.json",
 
 		/**
 		Name/value pairs included with every server request.  Extra parameters are
@@ -40719,7 +41979,7 @@ CitiMobileChallengeSdk.collections.CorporatePaymentsAccountExactMatch = (functio
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/corporate_payments_accounts.json",
+        apiEndpoint: "/api/v5/corporate_payments_accounts.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -40959,7 +42219,7 @@ CitiMobileChallengeSdk.collections.CorporatePaymentsBeneficiaryAll = (function($
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/corporate_payments_beneficiaries.json",
+        apiEndpoint: "/api/v5/corporate_payments_beneficiaries.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -41277,7 +42537,7 @@ CitiMobileChallengeSdk.collections.CorporatePaymentsBeneficiaryCount = (function
 	  	@property apiEndpoint
 	  	@type String
 		 */
-		apiEndpoint: "/api/v2/corporate_payments_beneficiaries.json",
+		apiEndpoint: "/api/v5/corporate_payments_beneficiaries.json",
 
 		/**
 		Name/value pairs included with every server request.  Extra parameters are
@@ -41595,7 +42855,7 @@ CitiMobileChallengeSdk.collections.CorporatePaymentsBeneficiaryCountExactMatch =
 	  	@property apiEndpoint
 	  	@type String
 		 */
-		apiEndpoint: "/api/v2/corporate_payments_beneficiaries.json",
+		apiEndpoint: "/api/v5/corporate_payments_beneficiaries.json",
 
 		/**
 		Name/value pairs included with every server request.  Extra parameters are
@@ -41915,7 +43175,7 @@ CitiMobileChallengeSdk.collections.CorporatePaymentsBeneficiaryExactMatch = (fun
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/corporate_payments_beneficiaries.json",
+        apiEndpoint: "/api/v5/corporate_payments_beneficiaries.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -42235,7 +43495,7 @@ CitiMobileChallengeSdk.collections.CorporatePaymentsCrossBorderFxBookingAll = (f
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/corporate_payments_cross_border_fx_bookings.json",
+        apiEndpoint: "/api/v5/corporate_payments_cross_border_fx_bookings.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -42393,7 +43653,7 @@ CitiMobileChallengeSdk.collections.CorporatePaymentsCrossBorderFxBookingCount = 
 	  	@property apiEndpoint
 	  	@type String
 		 */
-		apiEndpoint: "/api/v2/corporate_payments_cross_border_fx_bookings.json",
+		apiEndpoint: "/api/v5/corporate_payments_cross_border_fx_bookings.json",
 
 		/**
 		Name/value pairs included with every server request.  Extra parameters are
@@ -42551,7 +43811,7 @@ CitiMobileChallengeSdk.collections.CorporatePaymentsCrossBorderFxBookingCountExa
 	  	@property apiEndpoint
 	  	@type String
 		 */
-		apiEndpoint: "/api/v2/corporate_payments_cross_border_fx_bookings.json",
+		apiEndpoint: "/api/v5/corporate_payments_cross_border_fx_bookings.json",
 
 		/**
 		Name/value pairs included with every server request.  Extra parameters are
@@ -42711,7 +43971,7 @@ CitiMobileChallengeSdk.collections.CorporatePaymentsCrossBorderFxBookingExactMat
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/corporate_payments_cross_border_fx_bookings.json",
+        apiEndpoint: "/api/v5/corporate_payments_cross_border_fx_bookings.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -42871,7 +44131,7 @@ CitiMobileChallengeSdk.collections.CorporatePaymentsCrossBorderFxPaymentAll = (f
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/corporate_payments_cross_border_fx_payments.json",
+        apiEndpoint: "/api/v5/corporate_payments_cross_border_fx_payments.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -43301,7 +44561,7 @@ CitiMobileChallengeSdk.collections.CorporatePaymentsCrossBorderFxPaymentCount = 
 	  	@property apiEndpoint
 	  	@type String
 		 */
-		apiEndpoint: "/api/v2/corporate_payments_cross_border_fx_payments.json",
+		apiEndpoint: "/api/v5/corporate_payments_cross_border_fx_payments.json",
 
 		/**
 		Name/value pairs included with every server request.  Extra parameters are
@@ -43731,7 +44991,7 @@ CitiMobileChallengeSdk.collections.CorporatePaymentsCrossBorderFxPaymentCountExa
 	  	@property apiEndpoint
 	  	@type String
 		 */
-		apiEndpoint: "/api/v2/corporate_payments_cross_border_fx_payments.json",
+		apiEndpoint: "/api/v5/corporate_payments_cross_border_fx_payments.json",
 
 		/**
 		Name/value pairs included with every server request.  Extra parameters are
@@ -44163,7 +45423,7 @@ CitiMobileChallengeSdk.collections.CorporatePaymentsCrossBorderFxPaymentExactMat
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/corporate_payments_cross_border_fx_payments.json",
+        apiEndpoint: "/api/v5/corporate_payments_cross_border_fx_payments.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -44595,7 +45855,7 @@ CitiMobileChallengeSdk.collections.CorporatePaymentsCrossBorderFxPaymentFxPaymen
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/corporate_payments_cross_border_fx_payments.json",
+        apiEndpoint: "/api/v5/corporate_payments_cross_border_fx_payments.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -44925,7 +46185,7 @@ CitiMobileChallengeSdk.collections.CorporatePaymentsCrossBorderFxQuoteAll = (fun
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/corporate_payments_cross_border_fx_quotes.json",
+        apiEndpoint: "/api/v5/corporate_payments_cross_border_fx_quotes.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -45179,7 +46439,7 @@ CitiMobileChallengeSdk.collections.CorporatePaymentsCrossBorderFxQuoteCount = (f
 	  	@property apiEndpoint
 	  	@type String
 		 */
-		apiEndpoint: "/api/v2/corporate_payments_cross_border_fx_quotes.json",
+		apiEndpoint: "/api/v5/corporate_payments_cross_border_fx_quotes.json",
 
 		/**
 		Name/value pairs included with every server request.  Extra parameters are
@@ -45433,7 +46693,7 @@ CitiMobileChallengeSdk.collections.CorporatePaymentsCrossBorderFxQuoteCountExact
 	  	@property apiEndpoint
 	  	@type String
 		 */
-		apiEndpoint: "/api/v2/corporate_payments_cross_border_fx_quotes.json",
+		apiEndpoint: "/api/v5/corporate_payments_cross_border_fx_quotes.json",
 
 		/**
 		Name/value pairs included with every server request.  Extra parameters are
@@ -45689,7 +46949,7 @@ CitiMobileChallengeSdk.collections.CorporatePaymentsCrossBorderFxQuoteExactMatch
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/corporate_payments_cross_border_fx_quotes.json",
+        apiEndpoint: "/api/v5/corporate_payments_cross_border_fx_quotes.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -45945,7 +47205,7 @@ CitiMobileChallengeSdk.collections.CorporatePaymentsLoginAll = (function($class,
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/corporate_payments_logins.json",
+        apiEndpoint: "/api/v5/corporate_payments_logins.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -46103,7 +47363,7 @@ CitiMobileChallengeSdk.collections.CorporatePaymentsLoginCount = (function($clas
 	  	@property apiEndpoint
 	  	@type String
 		 */
-		apiEndpoint: "/api/v2/corporate_payments_logins.json",
+		apiEndpoint: "/api/v5/corporate_payments_logins.json",
 
 		/**
 		Name/value pairs included with every server request.  Extra parameters are
@@ -46261,7 +47521,7 @@ CitiMobileChallengeSdk.collections.CorporatePaymentsLoginCountExactMatch = (func
 	  	@property apiEndpoint
 	  	@type String
 		 */
-		apiEndpoint: "/api/v2/corporate_payments_logins.json",
+		apiEndpoint: "/api/v5/corporate_payments_logins.json",
 
 		/**
 		Name/value pairs included with every server request.  Extra parameters are
@@ -46421,7 +47681,7 @@ CitiMobileChallengeSdk.collections.CorporatePaymentsLoginExactMatch = (function(
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/corporate_payments_logins.json",
+        apiEndpoint: "/api/v5/corporate_payments_logins.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -46581,7 +47841,7 @@ CitiMobileChallengeSdk.collections.CorporatePaymentsPaymentAll = (function($clas
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/corporate_payments_payments.json",
+        apiEndpoint: "/api/v5/corporate_payments_payments.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -46827,7 +48087,7 @@ CitiMobileChallengeSdk.collections.CorporatePaymentsPaymentCount = (function($cl
 	  	@property apiEndpoint
 	  	@type String
 		 */
-		apiEndpoint: "/api/v2/corporate_payments_payments.json",
+		apiEndpoint: "/api/v5/corporate_payments_payments.json",
 
 		/**
 		Name/value pairs included with every server request.  Extra parameters are
@@ -47209,7 +48469,7 @@ CitiMobileChallengeSdk.collections.CorporatePaymentsPaymentCountExactMatch = (fu
 	  	@property apiEndpoint
 	  	@type String
 		 */
-		apiEndpoint: "/api/v2/corporate_payments_payments.json",
+		apiEndpoint: "/api/v5/corporate_payments_payments.json",
 
 		/**
 		Name/value pairs included with every server request.  Extra parameters are
@@ -47593,7 +48853,7 @@ CitiMobileChallengeSdk.collections.CorporatePaymentsPaymentExactMatch = (functio
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/corporate_payments_payments.json",
+        apiEndpoint: "/api/v5/corporate_payments_payments.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -47977,7 +49237,7 @@ CitiMobileChallengeSdk.collections.RetailBankingAccountAll = (function($class, _
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/retail_banking_accounts.json",
+        apiEndpoint: "/api/v5/retail_banking_accounts.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -48209,7 +49469,7 @@ CitiMobileChallengeSdk.collections.RetailBankingAccountBalanceAll = (function($c
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/retail_banking_account_balances.json",
+        apiEndpoint: "/api/v5/retail_banking_account_balances.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -48351,7 +49611,7 @@ CitiMobileChallengeSdk.collections.RetailBankingAccountBalanceCount = (function(
 	  	@property apiEndpoint
 	  	@type String
 		 */
-		apiEndpoint: "/api/v2/retail_banking_account_balances.json",
+		apiEndpoint: "/api/v5/retail_banking_account_balances.json",
 
 		/**
 		Name/value pairs included with every server request.  Extra parameters are
@@ -48525,7 +49785,7 @@ CitiMobileChallengeSdk.collections.RetailBankingAccountBalanceCountExactMatch = 
 	  	@property apiEndpoint
 	  	@type String
 		 */
-		apiEndpoint: "/api/v2/retail_banking_account_balances.json",
+		apiEndpoint: "/api/v5/retail_banking_account_balances.json",
 
 		/**
 		Name/value pairs included with every server request.  Extra parameters are
@@ -48701,7 +49961,7 @@ CitiMobileChallengeSdk.collections.RetailBankingAccountBalanceExactMatch = (func
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/retail_banking_account_balances.json",
+        apiEndpoint: "/api/v5/retail_banking_account_balances.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -48875,7 +50135,7 @@ CitiMobileChallengeSdk.collections.RetailBankingAccountCount = (function($class,
 	  	@property apiEndpoint
 	  	@type String
 		 */
-		apiEndpoint: "/api/v2/retail_banking_accounts.json",
+		apiEndpoint: "/api/v5/retail_banking_accounts.json",
 
 		/**
 		Name/value pairs included with every server request.  Extra parameters are
@@ -49225,7 +50485,7 @@ CitiMobileChallengeSdk.collections.RetailBankingAccountCountExactMatch = (functi
 	  	@property apiEndpoint
 	  	@type String
 		 */
-		apiEndpoint: "/api/v2/retail_banking_accounts.json",
+		apiEndpoint: "/api/v5/retail_banking_accounts.json",
 
 		/**
 		Name/value pairs included with every server request.  Extra parameters are
@@ -49577,7 +50837,7 @@ CitiMobileChallengeSdk.collections.RetailBankingAccountExactMatch = (function($c
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/retail_banking_accounts.json",
+        apiEndpoint: "/api/v5/retail_banking_accounts.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -49929,7 +51189,7 @@ CitiMobileChallengeSdk.collections.RetailBankingAccountFundTransferAll = (functi
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/retail_banking_account_fund_transfers.json",
+        apiEndpoint: "/api/v5/retail_banking_account_fund_transfers.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -50231,7 +51491,7 @@ CitiMobileChallengeSdk.collections.RetailBankingAccountFundTransferCount = (func
 	  	@property apiEndpoint
 	  	@type String
 		 */
-		apiEndpoint: "/api/v2/retail_banking_account_fund_transfers.json",
+		apiEndpoint: "/api/v5/retail_banking_account_fund_transfers.json",
 
 		/**
 		Name/value pairs included with every server request.  Extra parameters are
@@ -50533,7 +51793,7 @@ CitiMobileChallengeSdk.collections.RetailBankingAccountFundTransferCountExactMat
 	  	@property apiEndpoint
 	  	@type String
 		 */
-		apiEndpoint: "/api/v2/retail_banking_account_fund_transfers.json",
+		apiEndpoint: "/api/v5/retail_banking_account_fund_transfers.json",
 
 		/**
 		Name/value pairs included with every server request.  Extra parameters are
@@ -50837,7 +52097,7 @@ CitiMobileChallengeSdk.collections.RetailBankingAccountFundTransferExactMatch = 
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/retail_banking_account_fund_transfers.json",
+        apiEndpoint: "/api/v5/retail_banking_account_fund_transfers.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -51141,7 +52401,7 @@ CitiMobileChallengeSdk.collections.RetailBankingAccountTransactionAll = (functio
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/retail_banking_account_transactions.json",
+        apiEndpoint: "/api/v5/retail_banking_account_transactions.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -51347,7 +52607,7 @@ CitiMobileChallengeSdk.collections.RetailBankingAccountTransactionCount = (funct
 	  	@property apiEndpoint
 	  	@type String
 		 */
-		apiEndpoint: "/api/v2/retail_banking_account_transactions.json",
+		apiEndpoint: "/api/v5/retail_banking_account_transactions.json",
 
 		/**
 		Name/value pairs included with every server request.  Extra parameters are
@@ -51649,7 +52909,7 @@ CitiMobileChallengeSdk.collections.RetailBankingAccountTransactionCountExactMatc
 	  	@property apiEndpoint
 	  	@type String
 		 */
-		apiEndpoint: "/api/v2/retail_banking_account_transactions.json",
+		apiEndpoint: "/api/v5/retail_banking_account_transactions.json",
 
 		/**
 		Name/value pairs included with every server request.  Extra parameters are
@@ -51953,7 +53213,7 @@ CitiMobileChallengeSdk.collections.RetailBankingAccountTransactionExactMatch = (
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/retail_banking_account_transactions.json",
+        apiEndpoint: "/api/v5/retail_banking_account_transactions.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -52257,7 +53517,7 @@ CitiMobileChallengeSdk.collections.RetailBankingForeignCurrencyAll = (function($
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/retail_banking_foreign_currencies.json",
+        apiEndpoint: "/api/v5/retail_banking_foreign_currencies.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -52431,7 +53691,7 @@ CitiMobileChallengeSdk.collections.RetailBankingForeignCurrencyCount = (function
 	  	@property apiEndpoint
 	  	@type String
 		 */
-		apiEndpoint: "/api/v2/retail_banking_foreign_currencies.json",
+		apiEndpoint: "/api/v5/retail_banking_foreign_currencies.json",
 
 		/**
 		Name/value pairs included with every server request.  Extra parameters are
@@ -52605,7 +53865,7 @@ CitiMobileChallengeSdk.collections.RetailBankingForeignCurrencyCountExactMatch =
 	  	@property apiEndpoint
 	  	@type String
 		 */
-		apiEndpoint: "/api/v2/retail_banking_foreign_currencies.json",
+		apiEndpoint: "/api/v5/retail_banking_foreign_currencies.json",
 
 		/**
 		Name/value pairs included with every server request.  Extra parameters are
@@ -52781,7 +54041,7 @@ CitiMobileChallengeSdk.collections.RetailBankingForeignCurrencyExactMatch = (fun
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/retail_banking_foreign_currencies.json",
+        apiEndpoint: "/api/v5/retail_banking_foreign_currencies.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -52957,7 +54217,7 @@ CitiMobileChallengeSdk.collections.RetailBankingForeignCurrencyForeignCurrency =
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/retail_banking_foreign_currencies.json",
+        apiEndpoint: "/api/v5/retail_banking_foreign_currencies.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -53121,7 +54381,7 @@ CitiMobileChallengeSdk.collections.RetailBankingLocationAll = (function($class, 
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/retail_banking_locations.json",
+        apiEndpoint: "/api/v5/retail_banking_locations.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -53455,7 +54715,7 @@ CitiMobileChallengeSdk.collections.RetailBankingLocationCount = (function($class
 	  	@property apiEndpoint
 	  	@type String
 		 */
-		apiEndpoint: "/api/v2/retail_banking_locations.json",
+		apiEndpoint: "/api/v5/retail_banking_locations.json",
 
 		/**
 		Name/value pairs included with every server request.  Extra parameters are
@@ -53789,7 +55049,7 @@ CitiMobileChallengeSdk.collections.RetailBankingLocationCountExactMatch = (funct
 	  	@property apiEndpoint
 	  	@type String
 		 */
-		apiEndpoint: "/api/v2/retail_banking_locations.json",
+		apiEndpoint: "/api/v5/retail_banking_locations.json",
 
 		/**
 		Name/value pairs included with every server request.  Extra parameters are
@@ -54125,7 +55385,7 @@ CitiMobileChallengeSdk.collections.RetailBankingLocationExactMatch = (function($
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/retail_banking_locations.json",
+        apiEndpoint: "/api/v5/retail_banking_locations.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -54461,7 +55721,7 @@ CitiMobileChallengeSdk.collections.RetailBankingLocationLocations = (function($c
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/retail_banking_locations.json",
+        apiEndpoint: "/api/v5/retail_banking_locations.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -54775,7 +56035,7 @@ CitiMobileChallengeSdk.collections.RetailBankingLoginAll = (function($class, _Sc
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/retail_banking_logins.json",
+        apiEndpoint: "/api/v5/retail_banking_logins.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -54965,7 +56225,7 @@ CitiMobileChallengeSdk.collections.RetailBankingLoginCount = (function($class, _
 	  	@property apiEndpoint
 	  	@type String
 		 */
-		apiEndpoint: "/api/v2/retail_banking_logins.json",
+		apiEndpoint: "/api/v5/retail_banking_logins.json",
 
 		/**
 		Name/value pairs included with every server request.  Extra parameters are
@@ -55155,7 +56415,7 @@ CitiMobileChallengeSdk.collections.RetailBankingLoginCountExactMatch = (function
 	  	@property apiEndpoint
 	  	@type String
 		 */
-		apiEndpoint: "/api/v2/retail_banking_logins.json",
+		apiEndpoint: "/api/v5/retail_banking_logins.json",
 
 		/**
 		Name/value pairs included with every server request.  Extra parameters are
@@ -55347,7 +56607,7 @@ CitiMobileChallengeSdk.collections.RetailBankingLoginExactMatch = (function($cla
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/retail_banking_logins.json",
+        apiEndpoint: "/api/v5/retail_banking_logins.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -55539,7 +56799,7 @@ CitiMobileChallengeSdk.collections.RetailBankingPayeeAll = (function($class, _Sc
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/retail_banking_payees.json",
+        apiEndpoint: "/api/v5/retail_banking_payees.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -55737,7 +56997,7 @@ CitiMobileChallengeSdk.collections.RetailBankingPayeeCount = (function($class, _
 	  	@property apiEndpoint
 	  	@type String
 		 */
-		apiEndpoint: "/api/v2/retail_banking_payees.json",
+		apiEndpoint: "/api/v5/retail_banking_payees.json",
 
 		/**
 		Name/value pairs included with every server request.  Extra parameters are
@@ -56023,7 +57283,7 @@ CitiMobileChallengeSdk.collections.RetailBankingPayeeCountExactMatch = (function
 	  	@property apiEndpoint
 	  	@type String
 		 */
-		apiEndpoint: "/api/v2/retail_banking_payees.json",
+		apiEndpoint: "/api/v5/retail_banking_payees.json",
 
 		/**
 		Name/value pairs included with every server request.  Extra parameters are
@@ -56311,7 +57571,7 @@ CitiMobileChallengeSdk.collections.RetailBankingPayeeExactMatch = (function($cla
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/retail_banking_payees.json",
+        apiEndpoint: "/api/v5/retail_banking_payees.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -56599,7 +57859,7 @@ CitiMobileChallengeSdk.collections.RetailBankingPayeeTypeAll = (function($class,
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/retail_banking_payee_types.json",
+        apiEndpoint: "/api/v5/retail_banking_payee_types.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -56725,7 +57985,7 @@ CitiMobileChallengeSdk.collections.RetailBankingPayeeTypeCount = (function($clas
 	  	@property apiEndpoint
 	  	@type String
 		 */
-		apiEndpoint: "/api/v2/retail_banking_payee_types.json",
+		apiEndpoint: "/api/v5/retail_banking_payee_types.json",
 
 		/**
 		Name/value pairs included with every server request.  Extra parameters are
@@ -56867,7 +58127,7 @@ CitiMobileChallengeSdk.collections.RetailBankingPayeeTypeCountExactMatch = (func
 	  	@property apiEndpoint
 	  	@type String
 		 */
-		apiEndpoint: "/api/v2/retail_banking_payee_types.json",
+		apiEndpoint: "/api/v5/retail_banking_payee_types.json",
 
 		/**
 		Name/value pairs included with every server request.  Extra parameters are
@@ -57011,7 +58271,7 @@ CitiMobileChallengeSdk.collections.RetailBankingPayeeTypeExactMatch = (function(
         @property apiEndpoint
         @type String
          */
-        apiEndpoint: "/api/v2/retail_banking_payee_types.json",
+        apiEndpoint: "/api/v5/retail_banking_payee_types.json",
 
         /**
         Name/value pairs included with every server request.  Extra parameters are
@@ -57109,6 +58369,1712 @@ CitiMobileChallengeSdk.collections.RetailBankingPayeeTypeExactMatch = (function(
 	});
 
 	return RetailBankingPayeeTypeExactMatch;
+
+})(AP.utility.createClass, AP.collection.ScopeCollection);
+
+/**
+RetailBankingRewardsCatalogAllis a scope collection for application `CitiMobileChallengeSdk`.  See
+`AP.collection.ScopeCollection` for more information about scopes.
+
+@module CitiMobileChallengeSdk
+@submodule collections
+@class RetailBankingRewardsCatalogAll
+@extends AP.collection.ScopeCollection
+ */
+CitiMobileChallengeSdk.collections.RetailBankingRewardsCatalogAll = (function($class, _ScopeCollection) {
+
+	var RetailBankingRewardsCatalogAll = $class({
+
+		extends: _ScopeCollection,
+
+        _constructor: function RetailBankingRewardsCatalogAll() {
+            CitiMobileChallengeSdk.collections.RetailBankingRewardsCatalogAll._super.constructor.apply(this, arguments);
+        },
+
+        static: {
+          /**
+          The collection ID may be used to look-up a collection from an
+          application class.
+          @property collectionId
+          @type String
+          @static
+           */
+          collectionId: ""
+        },
+
+        /**
+        The model associated with this collection.  Results returned by server
+        requests for this collection are converted into instances of this model.
+        @property model
+        @type AP.model.Model
+         */
+        model: CitiMobileChallengeSdk.models.RetailBankingRewardsCatalog,
+
+        /**
+        Server requests for this collection use this URL.
+        @property apiEndpoint
+        @type String
+         */
+        apiEndpoint: "/api/v5/retail_banking_rewards_catalogs.json",
+
+        /**
+        Name/value pairs included with every server request.  Extra parameters are
+        converted to URL parameters at request-time.
+        @property extraParams
+        @type Object
+         */
+        extraParams: {
+          scope: "all"
+        },
+
+        /**
+        Array of query field configurations.  Query fields map model field names onto
+        URL parameter names.  See `AP.collection.ScopeCollection` to learn more
+        about query fields.
+        @property queryFields
+        @type Array
+         */
+        queryFields: [
+          
+        ],
+
+				/**
+		    Name of the interface to use. Can be an HttpAdapter or the default connection
+		    to an Anypresence API.
+		    @property storage_interface
+		    @type String
+		    */
+		    storage_interface: "RetailBanking",
+
+				
+				/**
+		    Adapter configurations for this query scope.
+		    Only required for query scopes whose adapter interface is an HttpAdapter.
+		    @property adapter_configuration
+		    @type Object
+		    */
+				adapter_configuration: {
+					request_field_level_mappings: [
+	          
+	            {
+	              type: "RequestFieldLevelMapping",
+	              remote_field_name: "points_available",
+	              field_definition: {
+	                name: "points_available"
+	              }
+	            },
+	          
+	            {
+	              type: "RequestFieldLevelMapping",
+	              remote_field_name: "point_required",
+	              field_definition: {
+	                name: "point_required"
+	              }
+	            },
+	          
+	            {
+	              type: "RequestFieldLevelMapping",
+	              remote_field_name: "item_name",
+	              field_definition: {
+	                name: "item_name"
+	              }
+	            },
+	          
+	            {
+	              type: "RequestFieldLevelMapping",
+	              remote_field_name: "item_description",
+	              field_definition: {
+	                name: "item_description"
+	              }
+	            },
+	          
+	            {
+	              type: "RequestFieldLevelMapping",
+	              remote_field_name: "item_code",
+	              field_definition: {
+	                name: "item_code"
+	              }
+	            },
+	          
+	            {
+	              type: "RequestFieldLevelMapping",
+	              remote_field_name: "item_category",
+	              field_definition: {
+	                name: "item_category"
+	              }
+	            },
+	          
+	            {
+	              type: "RequestFieldLevelMapping",
+	              remote_field_name: "id",
+	              field_definition: {
+	                name: "id"
+	              }
+	            },
+	          
+	        ],
+	        response_field_level_mappings: [
+	          
+	            {
+	              type: "ResponseFieldLevelMapping",
+	              remote_field_name: "points_available",
+	              field_definition: {
+	                name: "points_available"
+	              }
+	            },
+	          
+	            {
+	              type: "ResponseFieldLevelMapping",
+	              remote_field_name: "point_required",
+	              field_definition: {
+	                name: "point_required"
+	              }
+	            },
+	          
+	            {
+	              type: "ResponseFieldLevelMapping",
+	              remote_field_name: "item_name",
+	              field_definition: {
+	                name: "item_name"
+	              }
+	            },
+	          
+	            {
+	              type: "ResponseFieldLevelMapping",
+	              remote_field_name: "item_description",
+	              field_definition: {
+	                name: "item_description"
+	              }
+	            },
+	          
+	            {
+	              type: "ResponseFieldLevelMapping",
+	              remote_field_name: "item_code",
+	              field_definition: {
+	                name: "item_code"
+	              }
+	            },
+	          
+	            {
+	              type: "ResponseFieldLevelMapping",
+	              remote_field_name: "item_category",
+	              field_definition: {
+	                name: "item_category"
+	              }
+	            },
+	          
+	            {
+	              type: "ResponseFieldLevelMapping",
+	              remote_field_name: "id",
+	              field_definition: {
+	                name: "id"
+	              }
+	            },
+	          
+	        ],
+	        http_verb: "GET",
+	        path_selector : "$.*",
+	        incremental_path : "",
+	        body_format : "json",
+	        object_name_mapping : "",
+	        body_payload_template : "",
+	        action : "all",
+					limit : "limit",
+          offset : "limit",
+	        incremental_headers: [
+	          
+	        ],
+	        incremental_url_parameters: [
+	          
+	        ]
+				}
+				
+
+	});
+
+	return RetailBankingRewardsCatalogAll;
+
+})(AP.utility.createClass, AP.collection.ScopeCollection);
+
+/**
+RetailBankingRewardsCatalogCountis an aggregate collection for application `CitiMobileChallengeSdk`.  See
+`AP.collection.AggregateCollection` to learn about about aggregates.
+@module CitiMobileChallengeSdk
+@submodule collections
+@class RetailBankingRewardsCatalogCount
+@extends AP.collection.AggregateCollection
+ */
+CitiMobileChallengeSdk.collections.RetailBankingRewardsCatalogCount = (function($class, _AggregateCollection) {
+
+	var RetailBankingRewardsCatalogCount = $class({
+		extends: _AggregateCollection,
+
+		_constructor: function RetailBankingRewardsCatalogCount() {
+			CitiMobileChallengeSdk.collections.RetailBankingRewardsCatalogCount._super.constructor.apply(this, arguments);
+		},
+
+		static: {
+			/**
+			The collection ID may be used to look-up a collection from an
+		  	application class.
+		  	@property collectionId
+		  	@type String
+		  	@static
+			 */
+			collectionId: ""
+		},
+
+		/**
+		The model associated with this collection.  Results returned by server
+  		requests for this collection are converted into instances of this model.
+  		@property model
+  		@type AP.model.Model
+		 */
+		model: CitiMobileChallengeSdk.models.RetailBankingRewardsCatalog,
+
+		/**
+		Server requests for this collection use this URL.
+	  	@property apiEndpoint
+	  	@type String
+		 */
+		apiEndpoint: "/api/v5/retail_banking_rewards_catalogs.json",
+
+		/**
+		Name/value pairs included with every server request.  Extra parameters are
+	  	converted to URL parameters at request-time.
+	  	@property extraParams
+	  	@type Object
+		 */
+		extraParams: {
+			scope: "count"
+		},
+
+		/**
+		Array of query field configurations.  Query fields map model field names onto
+	  	URL parameter names.  See `AP.collection.ScopeCollection` to learn more
+	  	about query fields.
+	  	@property queryFields
+	  	@type Array
+		 */
+		queryFields: [
+			
+		],
+
+		/**
+		Name of the interface to use. Can be an HttpAdapter or the default connection
+		to an Anypresence API.
+		@property storage_interface
+		@type String
+		*/
+		storage_interface: "RetailBanking",
+
+		
+		/**
+		Adapter configurations for this query scope.
+		Only required for query scopes whose adapter interface is an HttpAdapter.
+		@property adapter_configuration
+		@type Object
+		*/
+		adapter_configuration: {
+			request_field_level_mappings: [
+				
+					{
+						type: "RequestFieldLevelMapping",
+						remote_field_name: "points_available",
+						field_definition: {
+							name: "points_available"
+						}
+					},
+				
+					{
+						type: "RequestFieldLevelMapping",
+						remote_field_name: "point_required",
+						field_definition: {
+							name: "point_required"
+						}
+					},
+				
+					{
+						type: "RequestFieldLevelMapping",
+						remote_field_name: "item_name",
+						field_definition: {
+							name: "item_name"
+						}
+					},
+				
+					{
+						type: "RequestFieldLevelMapping",
+						remote_field_name: "item_description",
+						field_definition: {
+							name: "item_description"
+						}
+					},
+				
+					{
+						type: "RequestFieldLevelMapping",
+						remote_field_name: "item_code",
+						field_definition: {
+							name: "item_code"
+						}
+					},
+				
+					{
+						type: "RequestFieldLevelMapping",
+						remote_field_name: "item_category",
+						field_definition: {
+							name: "item_category"
+						}
+					},
+				
+					{
+						type: "RequestFieldLevelMapping",
+						remote_field_name: "id",
+						field_definition: {
+							name: "id"
+						}
+					},
+				
+			],
+			response_field_level_mappings: [
+				
+					{
+						type: "ResponseFieldLevelMapping",
+						remote_field_name: "points_available",
+						field_definition: {
+							name: "points_available"
+						}
+					},
+				
+					{
+						type: "ResponseFieldLevelMapping",
+						remote_field_name: "point_required",
+						field_definition: {
+							name: "point_required"
+						}
+					},
+				
+					{
+						type: "ResponseFieldLevelMapping",
+						remote_field_name: "item_name",
+						field_definition: {
+							name: "item_name"
+						}
+					},
+				
+					{
+						type: "ResponseFieldLevelMapping",
+						remote_field_name: "item_description",
+						field_definition: {
+							name: "item_description"
+						}
+					},
+				
+					{
+						type: "ResponseFieldLevelMapping",
+						remote_field_name: "item_code",
+						field_definition: {
+							name: "item_code"
+						}
+					},
+				
+					{
+						type: "ResponseFieldLevelMapping",
+						remote_field_name: "item_category",
+						field_definition: {
+							name: "item_category"
+						}
+					},
+				
+					{
+						type: "ResponseFieldLevelMapping",
+						remote_field_name: "id",
+						field_definition: {
+							name: "id"
+						}
+					},
+				
+			],
+			http_verb: "GET",
+			path_selector : "$",
+			incremental_path : "",
+			body_format : "json",
+			object_name_mapping : "",
+			body_payload_template : "",
+			action : "count",
+			limit : "limit",
+			offset : "limit",
+			incremental_headers: [
+				
+			],
+			incremental_url_parameters: [
+				
+			]
+		}
+		
+
+	});
+
+	return RetailBankingRewardsCatalogCount;
+
+})(AP.utility.createClass, AP.collection.AggregateCollection);
+
+/**
+RetailBankingRewardsCatalogCountExactMatchis an aggregate collection for application `CitiMobileChallengeSdk`.  See
+`AP.collection.AggregateCollection` to learn about about aggregates.
+@module CitiMobileChallengeSdk
+@submodule collections
+@class RetailBankingRewardsCatalogCountExactMatch
+@extends AP.collection.AggregateCollection
+ */
+CitiMobileChallengeSdk.collections.RetailBankingRewardsCatalogCountExactMatch = (function($class, _AggregateCollection) {
+
+	var RetailBankingRewardsCatalogCountExactMatch = $class({
+		extends: _AggregateCollection,
+
+		_constructor: function RetailBankingRewardsCatalogCountExactMatch() {
+			CitiMobileChallengeSdk.collections.RetailBankingRewardsCatalogCountExactMatch._super.constructor.apply(this, arguments);
+		},
+
+		static: {
+			/**
+			The collection ID may be used to look-up a collection from an
+		  	application class.
+		  	@property collectionId
+		  	@type String
+		  	@static
+			 */
+			collectionId: ""
+		},
+
+		/**
+		The model associated with this collection.  Results returned by server
+  		requests for this collection are converted into instances of this model.
+  		@property model
+  		@type AP.model.Model
+		 */
+		model: CitiMobileChallengeSdk.models.RetailBankingRewardsCatalog,
+
+		/**
+		Server requests for this collection use this URL.
+	  	@property apiEndpoint
+	  	@type String
+		 */
+		apiEndpoint: "/api/v5/retail_banking_rewards_catalogs.json",
+
+		/**
+		Name/value pairs included with every server request.  Extra parameters are
+	  	converted to URL parameters at request-time.
+	  	@property extraParams
+	  	@type Object
+		 */
+		extraParams: {
+			scope: "count_exact_match"
+		},
+
+		/**
+		Array of query field configurations.  Query fields map model field names onto
+	  	URL parameter names.  See `AP.collection.ScopeCollection` to learn more
+	  	about query fields.
+	  	@property queryFields
+	  	@type Array
+		 */
+		queryFields: [
+			
+		],
+
+		/**
+		Name of the interface to use. Can be an HttpAdapter or the default connection
+		to an Anypresence API.
+		@property storage_interface
+		@type String
+		*/
+		storage_interface: "RetailBanking",
+
+		
+		/**
+		Adapter configurations for this query scope.
+		Only required for query scopes whose adapter interface is an HttpAdapter.
+		@property adapter_configuration
+		@type Object
+		*/
+		adapter_configuration: {
+			request_field_level_mappings: [
+				
+					{
+						type: "RequestFieldLevelMapping",
+						remote_field_name: "points_available",
+						field_definition: {
+							name: "points_available"
+						}
+					},
+				
+					{
+						type: "RequestFieldLevelMapping",
+						remote_field_name: "point_required",
+						field_definition: {
+							name: "point_required"
+						}
+					},
+				
+					{
+						type: "RequestFieldLevelMapping",
+						remote_field_name: "item_name",
+						field_definition: {
+							name: "item_name"
+						}
+					},
+				
+					{
+						type: "RequestFieldLevelMapping",
+						remote_field_name: "item_description",
+						field_definition: {
+							name: "item_description"
+						}
+					},
+				
+					{
+						type: "RequestFieldLevelMapping",
+						remote_field_name: "item_code",
+						field_definition: {
+							name: "item_code"
+						}
+					},
+				
+					{
+						type: "RequestFieldLevelMapping",
+						remote_field_name: "item_category",
+						field_definition: {
+							name: "item_category"
+						}
+					},
+				
+					{
+						type: "RequestFieldLevelMapping",
+						remote_field_name: "id",
+						field_definition: {
+							name: "id"
+						}
+					},
+				
+			],
+			response_field_level_mappings: [
+				
+					{
+						type: "ResponseFieldLevelMapping",
+						remote_field_name: "points_available",
+						field_definition: {
+							name: "points_available"
+						}
+					},
+				
+					{
+						type: "ResponseFieldLevelMapping",
+						remote_field_name: "point_required",
+						field_definition: {
+							name: "point_required"
+						}
+					},
+				
+					{
+						type: "ResponseFieldLevelMapping",
+						remote_field_name: "item_name",
+						field_definition: {
+							name: "item_name"
+						}
+					},
+				
+					{
+						type: "ResponseFieldLevelMapping",
+						remote_field_name: "item_description",
+						field_definition: {
+							name: "item_description"
+						}
+					},
+				
+					{
+						type: "ResponseFieldLevelMapping",
+						remote_field_name: "item_code",
+						field_definition: {
+							name: "item_code"
+						}
+					},
+				
+					{
+						type: "ResponseFieldLevelMapping",
+						remote_field_name: "item_category",
+						field_definition: {
+							name: "item_category"
+						}
+					},
+				
+					{
+						type: "ResponseFieldLevelMapping",
+						remote_field_name: "id",
+						field_definition: {
+							name: "id"
+						}
+					},
+				
+			],
+			http_verb: "GET",
+			path_selector : "$",
+			incremental_path : "",
+			body_format : "json",
+			object_name_mapping : "",
+			body_payload_template : "",
+			action : "count_exact_match",
+			limit : "limit",
+			offset : "limit",
+			incremental_headers: [
+				
+			],
+			incremental_url_parameters: [
+				
+			]
+		}
+		
+
+	});
+
+	return RetailBankingRewardsCatalogCountExactMatch;
+
+})(AP.utility.createClass, AP.collection.AggregateCollection);
+
+/**
+RetailBankingRewardsCatalogExactMatchis a scope collection for application `CitiMobileChallengeSdk`.  See
+`AP.collection.ScopeCollection` for more information about scopes.
+
+@module CitiMobileChallengeSdk
+@submodule collections
+@class RetailBankingRewardsCatalogExactMatch
+@extends AP.collection.ScopeCollection
+ */
+CitiMobileChallengeSdk.collections.RetailBankingRewardsCatalogExactMatch = (function($class, _ScopeCollection) {
+
+	var RetailBankingRewardsCatalogExactMatch = $class({
+
+		extends: _ScopeCollection,
+
+        _constructor: function RetailBankingRewardsCatalogExactMatch() {
+            CitiMobileChallengeSdk.collections.RetailBankingRewardsCatalogExactMatch._super.constructor.apply(this, arguments);
+        },
+
+        static: {
+          /**
+          The collection ID may be used to look-up a collection from an
+          application class.
+          @property collectionId
+          @type String
+          @static
+           */
+          collectionId: ""
+        },
+
+        /**
+        The model associated with this collection.  Results returned by server
+        requests for this collection are converted into instances of this model.
+        @property model
+        @type AP.model.Model
+         */
+        model: CitiMobileChallengeSdk.models.RetailBankingRewardsCatalog,
+
+        /**
+        Server requests for this collection use this URL.
+        @property apiEndpoint
+        @type String
+         */
+        apiEndpoint: "/api/v5/retail_banking_rewards_catalogs.json",
+
+        /**
+        Name/value pairs included with every server request.  Extra parameters are
+        converted to URL parameters at request-time.
+        @property extraParams
+        @type Object
+         */
+        extraParams: {
+          scope: "exact_match"
+        },
+
+        /**
+        Array of query field configurations.  Query fields map model field names onto
+        URL parameter names.  See `AP.collection.ScopeCollection` to learn more
+        about query fields.
+        @property queryFields
+        @type Array
+         */
+        queryFields: [
+          
+        ],
+
+				/**
+		    Name of the interface to use. Can be an HttpAdapter or the default connection
+		    to an Anypresence API.
+		    @property storage_interface
+		    @type String
+		    */
+		    storage_interface: "RetailBanking",
+
+				
+				/**
+		    Adapter configurations for this query scope.
+		    Only required for query scopes whose adapter interface is an HttpAdapter.
+		    @property adapter_configuration
+		    @type Object
+		    */
+				adapter_configuration: {
+					request_field_level_mappings: [
+	          
+	            {
+	              type: "RequestFieldLevelMapping",
+	              remote_field_name: "points_available",
+	              field_definition: {
+	                name: "points_available"
+	              }
+	            },
+	          
+	            {
+	              type: "RequestFieldLevelMapping",
+	              remote_field_name: "point_required",
+	              field_definition: {
+	                name: "point_required"
+	              }
+	            },
+	          
+	            {
+	              type: "RequestFieldLevelMapping",
+	              remote_field_name: "item_name",
+	              field_definition: {
+	                name: "item_name"
+	              }
+	            },
+	          
+	            {
+	              type: "RequestFieldLevelMapping",
+	              remote_field_name: "item_description",
+	              field_definition: {
+	                name: "item_description"
+	              }
+	            },
+	          
+	            {
+	              type: "RequestFieldLevelMapping",
+	              remote_field_name: "item_code",
+	              field_definition: {
+	                name: "item_code"
+	              }
+	            },
+	          
+	            {
+	              type: "RequestFieldLevelMapping",
+	              remote_field_name: "item_category",
+	              field_definition: {
+	                name: "item_category"
+	              }
+	            },
+	          
+	            {
+	              type: "RequestFieldLevelMapping",
+	              remote_field_name: "id",
+	              field_definition: {
+	                name: "id"
+	              }
+	            },
+	          
+	        ],
+	        response_field_level_mappings: [
+	          
+	            {
+	              type: "ResponseFieldLevelMapping",
+	              remote_field_name: "points_available",
+	              field_definition: {
+	                name: "points_available"
+	              }
+	            },
+	          
+	            {
+	              type: "ResponseFieldLevelMapping",
+	              remote_field_name: "point_required",
+	              field_definition: {
+	                name: "point_required"
+	              }
+	            },
+	          
+	            {
+	              type: "ResponseFieldLevelMapping",
+	              remote_field_name: "item_name",
+	              field_definition: {
+	                name: "item_name"
+	              }
+	            },
+	          
+	            {
+	              type: "ResponseFieldLevelMapping",
+	              remote_field_name: "item_description",
+	              field_definition: {
+	                name: "item_description"
+	              }
+	            },
+	          
+	            {
+	              type: "ResponseFieldLevelMapping",
+	              remote_field_name: "item_code",
+	              field_definition: {
+	                name: "item_code"
+	              }
+	            },
+	          
+	            {
+	              type: "ResponseFieldLevelMapping",
+	              remote_field_name: "item_category",
+	              field_definition: {
+	                name: "item_category"
+	              }
+	            },
+	          
+	            {
+	              type: "ResponseFieldLevelMapping",
+	              remote_field_name: "id",
+	              field_definition: {
+	                name: "id"
+	              }
+	            },
+	          
+	        ],
+	        http_verb: "GET",
+	        path_selector : "$.*",
+	        incremental_path : "",
+	        body_format : "json",
+	        object_name_mapping : "",
+	        body_payload_template : "",
+	        action : "exact_match",
+					limit : "limit",
+          offset : "limit",
+	        incremental_headers: [
+	          
+	        ],
+	        incremental_url_parameters: [
+	          
+	        ]
+				}
+				
+
+	});
+
+	return RetailBankingRewardsCatalogExactMatch;
+
+})(AP.utility.createClass, AP.collection.ScopeCollection);
+
+/**
+RetailBankingRewardsCatalogRewardsCatalogis a scope collection for application `CitiMobileChallengeSdk`.  See
+`AP.collection.ScopeCollection` for more information about scopes.
+
+@module CitiMobileChallengeSdk
+@submodule collections
+@class RetailBankingRewardsCatalogRewardsCatalog
+@extends AP.collection.ScopeCollection
+ */
+CitiMobileChallengeSdk.collections.RetailBankingRewardsCatalogRewardsCatalog = (function($class, _ScopeCollection) {
+
+	var RetailBankingRewardsCatalogRewardsCatalog = $class({
+
+		extends: _ScopeCollection,
+
+        _constructor: function RetailBankingRewardsCatalogRewardsCatalog() {
+            CitiMobileChallengeSdk.collections.RetailBankingRewardsCatalogRewardsCatalog._super.constructor.apply(this, arguments);
+        },
+
+        static: {
+          /**
+          The collection ID may be used to look-up a collection from an
+          application class.
+          @property collectionId
+          @type String
+          @static
+           */
+          collectionId: ""
+        },
+
+        /**
+        The model associated with this collection.  Results returned by server
+        requests for this collection are converted into instances of this model.
+        @property model
+        @type AP.model.Model
+         */
+        model: CitiMobileChallengeSdk.models.RetailBankingRewardsCatalog,
+
+        /**
+        Server requests for this collection use this URL.
+        @property apiEndpoint
+        @type String
+         */
+        apiEndpoint: "/api/v5/retail_banking_rewards_catalogs.json",
+
+        /**
+        Name/value pairs included with every server request.  Extra parameters are
+        converted to URL parameters at request-time.
+        @property extraParams
+        @type Object
+         */
+        extraParams: {
+          scope: "rewards_catalog"
+        },
+
+        /**
+        Array of query field configurations.  Query fields map model field names onto
+        URL parameter names.  See `AP.collection.ScopeCollection` to learn more
+        about query fields.
+        @property queryFields
+        @type Array
+         */
+        queryFields: [
+          
+          {
+            fieldName: "item_category",
+            paramName: "item_category",
+          },
+          
+        ],
+
+				/**
+		    Name of the interface to use. Can be an HttpAdapter or the default connection
+		    to an Anypresence API.
+		    @property storage_interface
+		    @type String
+		    */
+		    storage_interface: "RetailBanking",
+
+				
+				/**
+		    Adapter configurations for this query scope.
+		    Only required for query scopes whose adapter interface is an HttpAdapter.
+		    @property adapter_configuration
+		    @type Object
+		    */
+				adapter_configuration: {
+					request_field_level_mappings: [
+	          
+	        ],
+	        response_field_level_mappings: [
+	          
+	            {
+	              type: "ResponseFieldLevelMapping",
+	              remote_field_name: "points_available",
+	              field_definition: {
+	                name: "points_available"
+	              }
+	            },
+	          
+	            {
+	              type: "ResponseFieldLevelMapping",
+	              remote_field_name: "point_required",
+	              field_definition: {
+	                name: "point_required"
+	              }
+	            },
+	          
+	            {
+	              type: "ResponseFieldLevelMapping",
+	              remote_field_name: "item_name",
+	              field_definition: {
+	                name: "item_name"
+	              }
+	            },
+	          
+	            {
+	              type: "ResponseFieldLevelMapping",
+	              remote_field_name: "item_description",
+	              field_definition: {
+	                name: "item_description"
+	              }
+	            },
+	          
+	            {
+	              type: "ResponseFieldLevelMapping",
+	              remote_field_name: "item_code",
+	              field_definition: {
+	                name: "item_code"
+	              }
+	            },
+	          
+	            {
+	              type: "ResponseFieldLevelMapping",
+	              remote_field_name: "item_category",
+	              field_definition: {
+	                name: "item_category"
+	              }
+	            },
+	          
+	            {
+	              type: "ResponseFieldLevelMapping",
+	              remote_field_name: "item_code",
+	              field_definition: {
+	                name: "id"
+	              }
+	            },
+	          
+	        ],
+	        http_verb: "GET",
+	        path_selector : "$.*",
+	        incremental_path : "/rewards/catalog",
+	        body_format : "json",
+	        object_name_mapping : "",
+	        body_payload_template : "",
+	        action : "rewards_catalog",
+					limit : "limit",
+          offset : "limit",
+	        incremental_headers: [
+	          
+	        ],
+	        incremental_url_parameters: [
+	          
+	            {
+	              name: "item_category",
+	              value: "{{query.query.item_category}}"
+	            },
+	          
+	        ]
+				}
+				
+
+	});
+
+	return RetailBankingRewardsCatalogRewardsCatalog;
+
+})(AP.utility.createClass, AP.collection.ScopeCollection);
+
+/**
+RetailBankingRewardsRedemptionAllis a scope collection for application `CitiMobileChallengeSdk`.  See
+`AP.collection.ScopeCollection` for more information about scopes.
+
+@module CitiMobileChallengeSdk
+@submodule collections
+@class RetailBankingRewardsRedemptionAll
+@extends AP.collection.ScopeCollection
+ */
+CitiMobileChallengeSdk.collections.RetailBankingRewardsRedemptionAll = (function($class, _ScopeCollection) {
+
+	var RetailBankingRewardsRedemptionAll = $class({
+
+		extends: _ScopeCollection,
+
+        _constructor: function RetailBankingRewardsRedemptionAll() {
+            CitiMobileChallengeSdk.collections.RetailBankingRewardsRedemptionAll._super.constructor.apply(this, arguments);
+        },
+
+        static: {
+          /**
+          The collection ID may be used to look-up a collection from an
+          application class.
+          @property collectionId
+          @type String
+          @static
+           */
+          collectionId: ""
+        },
+
+        /**
+        The model associated with this collection.  Results returned by server
+        requests for this collection are converted into instances of this model.
+        @property model
+        @type AP.model.Model
+         */
+        model: CitiMobileChallengeSdk.models.RetailBankingRewardsRedemption,
+
+        /**
+        Server requests for this collection use this URL.
+        @property apiEndpoint
+        @type String
+         */
+        apiEndpoint: "/api/v5/retail_banking_rewards_redemptions.json",
+
+        /**
+        Name/value pairs included with every server request.  Extra parameters are
+        converted to URL parameters at request-time.
+        @property extraParams
+        @type Object
+         */
+        extraParams: {
+          scope: "all"
+        },
+
+        /**
+        Array of query field configurations.  Query fields map model field names onto
+        URL parameter names.  See `AP.collection.ScopeCollection` to learn more
+        about query fields.
+        @property queryFields
+        @type Array
+         */
+        queryFields: [
+          
+        ],
+
+				/**
+		    Name of the interface to use. Can be an HttpAdapter or the default connection
+		    to an Anypresence API.
+		    @property storage_interface
+		    @type String
+		    */
+		    storage_interface: "RetailBanking",
+
+				
+				/**
+		    Adapter configurations for this query scope.
+		    Only required for query scopes whose adapter interface is an HttpAdapter.
+		    @property adapter_configuration
+		    @type Object
+		    */
+				adapter_configuration: {
+					request_field_level_mappings: [
+	          
+	            {
+	              type: "RequestFieldLevelMapping",
+	              remote_field_name: "redemption_details",
+	              field_definition: {
+	                name: "redemption_details"
+	              }
+	            },
+	          
+	            {
+	              type: "RequestFieldLevelMapping",
+	              remote_field_name: "points_available",
+	              field_definition: {
+	                name: "points_available"
+	              }
+	            },
+	          
+	            {
+	              type: "RequestFieldLevelMapping",
+	              remote_field_name: "id",
+	              field_definition: {
+	                name: "id"
+	              }
+	            },
+	          
+	        ],
+	        response_field_level_mappings: [
+	          
+	            {
+	              type: "ResponseFieldLevelMapping",
+	              remote_field_name: "redemption_details",
+	              field_definition: {
+	                name: "redemption_details"
+	              }
+	            },
+	          
+	            {
+	              type: "ResponseFieldLevelMapping",
+	              remote_field_name: "points_available",
+	              field_definition: {
+	                name: "points_available"
+	              }
+	            },
+	          
+	            {
+	              type: "ResponseFieldLevelMapping",
+	              remote_field_name: "id",
+	              field_definition: {
+	                name: "id"
+	              }
+	            },
+	          
+	        ],
+	        http_verb: "GET",
+	        path_selector : "$.*",
+	        incremental_path : "",
+	        body_format : "json",
+	        object_name_mapping : "",
+	        body_payload_template : "",
+	        action : "all",
+					limit : "limit",
+          offset : "limit",
+	        incremental_headers: [
+	          
+	        ],
+	        incremental_url_parameters: [
+	          
+	        ]
+				}
+				
+
+	});
+
+	return RetailBankingRewardsRedemptionAll;
+
+})(AP.utility.createClass, AP.collection.ScopeCollection);
+
+/**
+RetailBankingRewardsRedemptionCountis an aggregate collection for application `CitiMobileChallengeSdk`.  See
+`AP.collection.AggregateCollection` to learn about about aggregates.
+@module CitiMobileChallengeSdk
+@submodule collections
+@class RetailBankingRewardsRedemptionCount
+@extends AP.collection.AggregateCollection
+ */
+CitiMobileChallengeSdk.collections.RetailBankingRewardsRedemptionCount = (function($class, _AggregateCollection) {
+
+	var RetailBankingRewardsRedemptionCount = $class({
+		extends: _AggregateCollection,
+
+		_constructor: function RetailBankingRewardsRedemptionCount() {
+			CitiMobileChallengeSdk.collections.RetailBankingRewardsRedemptionCount._super.constructor.apply(this, arguments);
+		},
+
+		static: {
+			/**
+			The collection ID may be used to look-up a collection from an
+		  	application class.
+		  	@property collectionId
+		  	@type String
+		  	@static
+			 */
+			collectionId: ""
+		},
+
+		/**
+		The model associated with this collection.  Results returned by server
+  		requests for this collection are converted into instances of this model.
+  		@property model
+  		@type AP.model.Model
+		 */
+		model: CitiMobileChallengeSdk.models.RetailBankingRewardsRedemption,
+
+		/**
+		Server requests for this collection use this URL.
+	  	@property apiEndpoint
+	  	@type String
+		 */
+		apiEndpoint: "/api/v5/retail_banking_rewards_redemptions.json",
+
+		/**
+		Name/value pairs included with every server request.  Extra parameters are
+	  	converted to URL parameters at request-time.
+	  	@property extraParams
+	  	@type Object
+		 */
+		extraParams: {
+			scope: "count"
+		},
+
+		/**
+		Array of query field configurations.  Query fields map model field names onto
+	  	URL parameter names.  See `AP.collection.ScopeCollection` to learn more
+	  	about query fields.
+	  	@property queryFields
+	  	@type Array
+		 */
+		queryFields: [
+			
+		],
+
+		/**
+		Name of the interface to use. Can be an HttpAdapter or the default connection
+		to an Anypresence API.
+		@property storage_interface
+		@type String
+		*/
+		storage_interface: "RetailBanking",
+
+		
+		/**
+		Adapter configurations for this query scope.
+		Only required for query scopes whose adapter interface is an HttpAdapter.
+		@property adapter_configuration
+		@type Object
+		*/
+		adapter_configuration: {
+			request_field_level_mappings: [
+				
+					{
+						type: "RequestFieldLevelMapping",
+						remote_field_name: "redemption_details",
+						field_definition: {
+							name: "redemption_details"
+						}
+					},
+				
+					{
+						type: "RequestFieldLevelMapping",
+						remote_field_name: "points_available",
+						field_definition: {
+							name: "points_available"
+						}
+					},
+				
+					{
+						type: "RequestFieldLevelMapping",
+						remote_field_name: "id",
+						field_definition: {
+							name: "id"
+						}
+					},
+				
+			],
+			response_field_level_mappings: [
+				
+					{
+						type: "ResponseFieldLevelMapping",
+						remote_field_name: "redemption_details",
+						field_definition: {
+							name: "redemption_details"
+						}
+					},
+				
+					{
+						type: "ResponseFieldLevelMapping",
+						remote_field_name: "points_available",
+						field_definition: {
+							name: "points_available"
+						}
+					},
+				
+					{
+						type: "ResponseFieldLevelMapping",
+						remote_field_name: "id",
+						field_definition: {
+							name: "id"
+						}
+					},
+				
+			],
+			http_verb: "GET",
+			path_selector : "$",
+			incremental_path : "",
+			body_format : "json",
+			object_name_mapping : "",
+			body_payload_template : "",
+			action : "count",
+			limit : "limit",
+			offset : "limit",
+			incremental_headers: [
+				
+			],
+			incremental_url_parameters: [
+				
+			]
+		}
+		
+
+	});
+
+	return RetailBankingRewardsRedemptionCount;
+
+})(AP.utility.createClass, AP.collection.AggregateCollection);
+
+/**
+RetailBankingRewardsRedemptionCountExactMatchis an aggregate collection for application `CitiMobileChallengeSdk`.  See
+`AP.collection.AggregateCollection` to learn about about aggregates.
+@module CitiMobileChallengeSdk
+@submodule collections
+@class RetailBankingRewardsRedemptionCountExactMatch
+@extends AP.collection.AggregateCollection
+ */
+CitiMobileChallengeSdk.collections.RetailBankingRewardsRedemptionCountExactMatch = (function($class, _AggregateCollection) {
+
+	var RetailBankingRewardsRedemptionCountExactMatch = $class({
+		extends: _AggregateCollection,
+
+		_constructor: function RetailBankingRewardsRedemptionCountExactMatch() {
+			CitiMobileChallengeSdk.collections.RetailBankingRewardsRedemptionCountExactMatch._super.constructor.apply(this, arguments);
+		},
+
+		static: {
+			/**
+			The collection ID may be used to look-up a collection from an
+		  	application class.
+		  	@property collectionId
+		  	@type String
+		  	@static
+			 */
+			collectionId: ""
+		},
+
+		/**
+		The model associated with this collection.  Results returned by server
+  		requests for this collection are converted into instances of this model.
+  		@property model
+  		@type AP.model.Model
+		 */
+		model: CitiMobileChallengeSdk.models.RetailBankingRewardsRedemption,
+
+		/**
+		Server requests for this collection use this URL.
+	  	@property apiEndpoint
+	  	@type String
+		 */
+		apiEndpoint: "/api/v5/retail_banking_rewards_redemptions.json",
+
+		/**
+		Name/value pairs included with every server request.  Extra parameters are
+	  	converted to URL parameters at request-time.
+	  	@property extraParams
+	  	@type Object
+		 */
+		extraParams: {
+			scope: "count_exact_match"
+		},
+
+		/**
+		Array of query field configurations.  Query fields map model field names onto
+	  	URL parameter names.  See `AP.collection.ScopeCollection` to learn more
+	  	about query fields.
+	  	@property queryFields
+	  	@type Array
+		 */
+		queryFields: [
+			
+		],
+
+		/**
+		Name of the interface to use. Can be an HttpAdapter or the default connection
+		to an Anypresence API.
+		@property storage_interface
+		@type String
+		*/
+		storage_interface: "RetailBanking",
+
+		
+		/**
+		Adapter configurations for this query scope.
+		Only required for query scopes whose adapter interface is an HttpAdapter.
+		@property adapter_configuration
+		@type Object
+		*/
+		adapter_configuration: {
+			request_field_level_mappings: [
+				
+					{
+						type: "RequestFieldLevelMapping",
+						remote_field_name: "redemption_details",
+						field_definition: {
+							name: "redemption_details"
+						}
+					},
+				
+					{
+						type: "RequestFieldLevelMapping",
+						remote_field_name: "points_available",
+						field_definition: {
+							name: "points_available"
+						}
+					},
+				
+					{
+						type: "RequestFieldLevelMapping",
+						remote_field_name: "id",
+						field_definition: {
+							name: "id"
+						}
+					},
+				
+			],
+			response_field_level_mappings: [
+				
+					{
+						type: "ResponseFieldLevelMapping",
+						remote_field_name: "redemption_details",
+						field_definition: {
+							name: "redemption_details"
+						}
+					},
+				
+					{
+						type: "ResponseFieldLevelMapping",
+						remote_field_name: "points_available",
+						field_definition: {
+							name: "points_available"
+						}
+					},
+				
+					{
+						type: "ResponseFieldLevelMapping",
+						remote_field_name: "id",
+						field_definition: {
+							name: "id"
+						}
+					},
+				
+			],
+			http_verb: "GET",
+			path_selector : "$",
+			incremental_path : "",
+			body_format : "json",
+			object_name_mapping : "",
+			body_payload_template : "",
+			action : "count_exact_match",
+			limit : "limit",
+			offset : "limit",
+			incremental_headers: [
+				
+			],
+			incremental_url_parameters: [
+				
+			]
+		}
+		
+
+	});
+
+	return RetailBankingRewardsRedemptionCountExactMatch;
+
+})(AP.utility.createClass, AP.collection.AggregateCollection);
+
+/**
+RetailBankingRewardsRedemptionExactMatchis a scope collection for application `CitiMobileChallengeSdk`.  See
+`AP.collection.ScopeCollection` for more information about scopes.
+
+@module CitiMobileChallengeSdk
+@submodule collections
+@class RetailBankingRewardsRedemptionExactMatch
+@extends AP.collection.ScopeCollection
+ */
+CitiMobileChallengeSdk.collections.RetailBankingRewardsRedemptionExactMatch = (function($class, _ScopeCollection) {
+
+	var RetailBankingRewardsRedemptionExactMatch = $class({
+
+		extends: _ScopeCollection,
+
+        _constructor: function RetailBankingRewardsRedemptionExactMatch() {
+            CitiMobileChallengeSdk.collections.RetailBankingRewardsRedemptionExactMatch._super.constructor.apply(this, arguments);
+        },
+
+        static: {
+          /**
+          The collection ID may be used to look-up a collection from an
+          application class.
+          @property collectionId
+          @type String
+          @static
+           */
+          collectionId: ""
+        },
+
+        /**
+        The model associated with this collection.  Results returned by server
+        requests for this collection are converted into instances of this model.
+        @property model
+        @type AP.model.Model
+         */
+        model: CitiMobileChallengeSdk.models.RetailBankingRewardsRedemption,
+
+        /**
+        Server requests for this collection use this URL.
+        @property apiEndpoint
+        @type String
+         */
+        apiEndpoint: "/api/v5/retail_banking_rewards_redemptions.json",
+
+        /**
+        Name/value pairs included with every server request.  Extra parameters are
+        converted to URL parameters at request-time.
+        @property extraParams
+        @type Object
+         */
+        extraParams: {
+          scope: "exact_match"
+        },
+
+        /**
+        Array of query field configurations.  Query fields map model field names onto
+        URL parameter names.  See `AP.collection.ScopeCollection` to learn more
+        about query fields.
+        @property queryFields
+        @type Array
+         */
+        queryFields: [
+          
+        ],
+
+				/**
+		    Name of the interface to use. Can be an HttpAdapter or the default connection
+		    to an Anypresence API.
+		    @property storage_interface
+		    @type String
+		    */
+		    storage_interface: "RetailBanking",
+
+				
+				/**
+		    Adapter configurations for this query scope.
+		    Only required for query scopes whose adapter interface is an HttpAdapter.
+		    @property adapter_configuration
+		    @type Object
+		    */
+				adapter_configuration: {
+					request_field_level_mappings: [
+	          
+	            {
+	              type: "RequestFieldLevelMapping",
+	              remote_field_name: "redemption_details",
+	              field_definition: {
+	                name: "redemption_details"
+	              }
+	            },
+	          
+	            {
+	              type: "RequestFieldLevelMapping",
+	              remote_field_name: "points_available",
+	              field_definition: {
+	                name: "points_available"
+	              }
+	            },
+	          
+	            {
+	              type: "RequestFieldLevelMapping",
+	              remote_field_name: "id",
+	              field_definition: {
+	                name: "id"
+	              }
+	            },
+	          
+	        ],
+	        response_field_level_mappings: [
+	          
+	            {
+	              type: "ResponseFieldLevelMapping",
+	              remote_field_name: "redemption_details",
+	              field_definition: {
+	                name: "redemption_details"
+	              }
+	            },
+	          
+	            {
+	              type: "ResponseFieldLevelMapping",
+	              remote_field_name: "points_available",
+	              field_definition: {
+	                name: "points_available"
+	              }
+	            },
+	          
+	            {
+	              type: "ResponseFieldLevelMapping",
+	              remote_field_name: "id",
+	              field_definition: {
+	                name: "id"
+	              }
+	            },
+	          
+	        ],
+	        http_verb: "GET",
+	        path_selector : "$.*",
+	        incremental_path : "",
+	        body_format : "json",
+	        object_name_mapping : "",
+	        body_payload_template : "",
+	        action : "exact_match",
+					limit : "limit",
+          offset : "limit",
+	        incremental_headers: [
+	          
+	        ],
+	        incremental_url_parameters: [
+	          
+	        ]
+				}
+				
+
+	});
+
+	return RetailBankingRewardsRedemptionExactMatch;
 
 })(AP.utility.createClass, AP.collection.ScopeCollection);
 

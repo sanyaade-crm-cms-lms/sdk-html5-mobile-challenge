@@ -46,7 +46,7 @@ CitiMobileChallengeSdk.models.CapitalMarketsOrder = (function($class, _Model, Ba
     @property urlRoot
     @type String'
      */
-    urlRoot: "/api/v2/capital_markets_orders",
+    urlRoot: "/api/v5/capital_markets_orders",
 
     /**
     Default values for this model.

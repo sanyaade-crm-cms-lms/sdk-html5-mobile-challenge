@@ -46,7 +46,7 @@ CitiMobileChallengeSdk.models.CorporatePaymentsCrossBorderFxBooking = (function(
     @property urlRoot
     @type String'
      */
-    urlRoot: "/api/v2/corporate_payments_cross_border_fx_bookings",
+    urlRoot: "/api/v5/corporate_payments_cross_border_fx_bookings",
 
     /**
     Default values for this model.

@@ -46,7 +46,7 @@ CitiMobileChallengeSdk.models.CapitalMarketsContact = (function($class, _Model, 
     @property urlRoot
     @type String'
      */
-    urlRoot: "/api/v2/capital_markets_contacts",
+    urlRoot: "/api/v5/capital_markets_contacts",
 
     /**
     Default values for this model.

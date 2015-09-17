@@ -46,7 +46,7 @@ CitiMobileChallengeSdk.models.RetailBankingForeignCurrency = (function($class, _
     @property urlRoot
     @type String'
      */
-    urlRoot: "/api/v2/retail_banking_foreign_currencies",
+    urlRoot: "/api/v5/retail_banking_foreign_currencies",
 
     /**
     Default values for this model.

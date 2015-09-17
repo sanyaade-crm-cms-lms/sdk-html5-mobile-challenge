@@ -39,7 +39,7 @@ CitiMobileChallengeSdk.collections.CapitalMarketsContentServiceCountExactMatch =
 	  	@property apiEndpoint
 	  	@type String
 		 */
-		apiEndpoint: "/api/v2/capital_markets_content_services.json",
+		apiEndpoint: "/api/v5/capital_markets_content_services.json",
 
 		/**
 		Name/value pairs included with every server request.  Extra parameters are

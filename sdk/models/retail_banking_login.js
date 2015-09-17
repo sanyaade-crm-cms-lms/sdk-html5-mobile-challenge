@@ -46,7 +46,7 @@ CitiMobileChallengeSdk.models.RetailBankingLogin = (function($class, _Model, Bac
     @property urlRoot
     @type String'
      */
-    urlRoot: "/api/v2/retail_banking_logins",
+    urlRoot: "/api/v5/retail_banking_logins",
 
     /**
     Default values for this model.

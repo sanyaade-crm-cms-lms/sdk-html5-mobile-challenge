@@ -46,7 +46,7 @@ CitiMobileChallengeSdk.models.RetailBankingAccountFundTransfer = (function($clas
     @property urlRoot
     @type String'
      */
-    urlRoot: "/api/v2/retail_banking_account_fund_transfers",
+    urlRoot: "/api/v5/retail_banking_account_fund_transfers",
 
     /**
     Default values for this model.
