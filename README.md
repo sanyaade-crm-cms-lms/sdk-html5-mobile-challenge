@@ -16,7 +16,7 @@ This is the JQuery SDK library for CitiMobileChallenge. This SDK is based on **J
 	- [Setup](#setup)
 	- [Using local caching](#using-local-caching)
 	- [Models](#models)
-	
+
 		- [RetailBankingLogin](#retailbankinglogin)
 			- [Create](#create-19)
 			- [Value interpolation](#value-interpolation-19)
@@ -78,7 +78,7 @@ This is the JQuery SDK library for CitiMobileChallenge. This SDK is based on **J
 			- [Create](#create-6)
 			- [Query Scopes](#query-scopes-6)
 	    	- [CorporatePaymentsAccountAll](#corporatepaymentsaccountall)
-	    - [Update](#update-6)
+			- [Update](#update-6)
 			- [Read](#read-6)
 			- [Value interpolation](#value-interpolation-6)
 
@@ -106,8 +106,8 @@ This is the JQuery SDK library for CitiMobileChallenge. This SDK is based on **J
 		- [CorporatePaymentsCrossBorderFxPayment](#corporatepaymentscrossborderfxpayment)
 			- [Create](#create-9)
 			- [Query Scopes](#query-scopes-9)
-	    	- [CorporatePaymentsCrossBorderFxPaymentFxPayments](#corporatepaymentscrossborderfxpaymentfxpayments)
-	    - [Read](#read-9)
+			-	[CorporatePaymentsCrossBorderFxPaymentFxPayments](#corporatepaymentscrossborderfxpaymentfxpayments)
+			- [Read](#read-9)
 			- [Value interpolation](#value-interpolation-9)
 
 		- [CapitalMarketsLogin](#capitalmarketslogin)
@@ -122,23 +122,23 @@ This is the JQuery SDK library for CitiMobileChallenge. This SDK is based on **J
 
 		- [CapitalMarketsRevenue](#capitalmarketsrevenue)
 			- [Query Scopes](#query-scopes-5)
-	    	- [CapitalMarketsRevenueRevenues](#capitalmarketsrevenuerevenues)
-	  	- [Value interpolation](#value-interpolation-5)
+				- [CapitalMarketsRevenueRevenues](#capitalmarketsrevenuerevenues)
+			- [Value interpolation](#value-interpolation-5)
 
 		- [CapitalMarketsActivity](#capitalmarketsactivity)
 			- [Query Scopes](#query-scopes)
-    		- [CapitalMarketsActivityActivities](#capitalmarketsactivityactivities)
-    	- [Value interpolation](#value-interpolation)
+				- [CapitalMarketsActivityActivities](#capitalmarketsactivityactivities)
+			- [Value interpolation](#value-interpolation)
 
 		- [CapitalMarketsContact](#capitalmarketscontact)
 			- [Query Scopes](#query-scopes-1)
-    		- [CapitalMarketsContactContacts](#capitalmarketscontactcontacts)
-    	- [Value interpolation](#value-interpolation-1)
+				- [CapitalMarketsContactContacts](#capitalmarketscontactcontacts)
+			- [Value interpolation](#value-interpolation-1)
 
 		- [CapitalMarketsContentService](#capitalmarketscontentservice)
 			- [Query Scopes](#query-scopes-2)
-    		- [CapitalMarketsContentServiceContentServices](#capitalmarketscontentservicecontentservices)
-    	- [Value interpolation](#value-interpolation-2)
+				- [CapitalMarketsContentServiceContentServices](#capitalmarketscontentservicecontentservices)
+			- [Value interpolation](#value-interpolation-2)
 
 		- [Development](#development)
 		 	- [Developing with Grunt](#developing-with-grunt)
