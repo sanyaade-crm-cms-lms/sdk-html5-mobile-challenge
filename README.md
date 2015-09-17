@@ -15,6 +15,8 @@ sendAuthentication = function (xhr) {
   xhr.setRequestHeader('Authorization', ("Bearer ".concat("mytoken"));
 }
 
+And so for a fetch make sure to include:
+
 fetch({
   beforeSend: sendAuthentication
 });
