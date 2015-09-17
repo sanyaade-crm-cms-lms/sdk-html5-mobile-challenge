@@ -6,6 +6,20 @@ This is the JQuery SDK library for CitiMobileChallenge. This SDK is based on **J
 
 ## Table of Contents
 
+### Authentication for Citi Mobile Challenge
+```
+An 'Authorization' header bearer token must be passed on every subsequent call after the login call.
+Example:
+
+sendAuthentication = function (xhr) {
+  xhr.setRequestHeader('Authorization', ("Bearer ".concat("mytoken"));
+}
+
+fetch({
+  beforeSend: sendAuthentication
+});
+ ```
+
 <!-- TOC depth:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [CitiMobileChallengeSdk](#citimobilechallengesdk)
